@@ -1,0 +1,61 @@
+﻿---
+title: 'Lync Server 2013: синхронизация пароля учетной записи проверки подлинности Kerberos с IIS'
+TOCTitle: Синхронизация пароля учетной записи проверки подлинности Kerberos с IIS
+ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
+ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398107(v=OCS.15)
+ms:contentKeyID: 49308817
+ms.date: 05/19/2016
+mtps_version: v=OCS.15
+ms.translationtype: HT
+---
+
+# Синхронизация пароля учетной записи проверки подлинности Kerberos с IIS в Lync Server 2013
+
+ 
+
+_**Дата изменения раздела:** 2010-11-08_
+
+Чтобы успешно выполнить данную процедуру, необходимо войти в систему с учетной записью пользователя, являющегося членом группы RTCUniversalServerAdmins.
+
+На сайте серверы переднего плана, серверы Standard Edition и директора могут использовать учетную запись проверки подлинности Kerberos для обработки запросов на проверку подлинности для службы служб. Эта процедура определяет местонахождение каждого сервера, на котором выполняется служба служб на сайте с назначенной учетной записью Kerberos, и обновляет параметры конфигурации Службы IIS для использования учетной записи Kerberos. Для получения дополнительных сведений см. [Установка пароля учетной записи Kerberos для проверки подлинности на сервере в Lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).
+
+## Порядок задания и настройки пароля учетной записи проверки подлинности Kerberos
+
+1.  Войдите в систему исходного компьютера (например, fe01.contoso.com) в качестве члена группы RTCUniversalServerAdmins.
+
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+
+3.  В командной строке Командная консоль Lync Server выполните следующие две команды:
+    
+        Set-CsKerberosAccountPassword -FromComputer SourceComputer -ToComputer DestinationComputer
+    
+    Например:
+    
+        Set-CsKerberosAccountPassword -FromComputer fe01.contoso.com -ToComputer dir01.contoso.com
+    
+    <table>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>Имена исходного и конечного компьютеров должны быть полными доменными именами (FQDN) сервера. Имя FQDN пула можно использовать только в том случае, если имя пула совпадает с именем компьютера, который используется в качестве исходного или конечного компьютера.</td>
+    </tr>
+    </tbody>
+    </table>
+    
+    <table>
+    <thead>
+    <tr class="header">
+    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>После внесения любых изменений в систему проверку подлинности Kerberos (например, после добавления или удаления учетной записи) необходимо выполнить <strong>Enable-CsTopology</strong> в командной строке Командная консоль Lync Server.</td>
+    </tr>
+    </tbody>
+    </table>
+

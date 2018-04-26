@@ -1,0 +1,32 @@
+﻿---
+title: Администрирование серверов после миграции
+TOCTitle: Администрирование серверов после миграции
+ms:assetid: 7b08f048-c951-4050-b77c-0fff351620e7
+ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205023(v=OCS.15)
+ms:contentKeyID: 49310280
+ms.date: 05/19/2016
+mtps_version: v=OCS.15
+ms.translationtype: HT
+---
+
+# Администрирование серверов после миграции
+
+ 
+
+_**Дата изменения раздела:** 2012-09-29_
+
+В целом, следует использовать средство администрирования, соответствующее версии сервера, которой требуется управлять. Вы не можете установить средства администрирования Lync Server 2010 и Lync Server 2013 на одном компьютере. Кроме того, панель управления Lync Server 2013 не устанавливается автоматически на каждом сервере. Чтобы установить управления Lync Server 2013, выполните процедуру, описанную в разделе [Установка средств администрирования Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md) документации по развертыванию.
+
+<table>
+<thead>
+<tr class="header">
+<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>После развертывания пилотного пула Lync Server 2013 вы не сможете использовать построитель топологий Lync Server 2010 или управления Lync Server 2010 для управления ресурсами Lync Server 2013. Вы должны использовать Lync Server 2013 для управления ресурсами Lync Server 2013 и Lync Server 2010.</td>
+</tr>
+</tbody>
+</table>
+
