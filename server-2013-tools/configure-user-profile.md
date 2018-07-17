@@ -21,7 +21,7 @@ The tools included in the Lync Server 2013 Stress and Performance Tool package e
 
 To configure user profiles, run the Lync Server 2013 Load Configuration Tool (UserProfileGenerator.exe) and fill out each of the tabs. UserProfileGenerator.exe generates a directory for each of the client computers that you need to run the simulation. Each client directory also comes with a script to start all of the instances of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe).
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > The user-specific values specified in UserProfileGenerator must match the values specified in the Lync Server 2013 User Creation Tool (UserProvisioningTool) for the pool.
 
 
@@ -139,7 +139,7 @@ Use the **Mobility** tab to configure all of the mobility-related scenarios.
 
 2.  In **Presence and P2P Instant Messaging\\Audio**, select the appropriate value for **Load Level** to enable Mobility Scenario simulation.
 
-> [NOTE]
+> [!NOTE]
 > Each of the scenarios has an <strong>Advanced</strong> button located next to it. These buttons allow access to values specific to each scenario that will change the behavior of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool) and enable customization. For each of the Reach scenarios, if the <strong>Load Level</strong> is <strong>Custom</strong>, then the value specified in the <strong>ConversationsPerHour</strong> field is used instead of the default.
 
 
