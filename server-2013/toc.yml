@@ -2603,136 +2603,136 @@
         - name: Командлеты, которым не требуется область или идентификатор
           href: cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity.md
     - name: Lync Online
-      href: working-with-skype-for-business-online.md
+      href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
       items:
       - name: Использование Windows PowerShell для управления Lync Online
-        href: skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md
+        href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         items:
         - name: Введение в Windows PowerShell и Lync Online
-          href: an-introduction-to-windows-powershell-and-skype-for-business-online.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           items:
           - name: Командлеты, параметры и значения параметров Windows PowerShell
-            href: windows-powershell-cmdlets-parameters-and-parameter-values-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Работа с параметрами
-            href: working-with-parameters-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Параметры и свойства
-            href: parameters-vs-properties-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Обязательные и необязательные параметры
-            href: mandatory-and-optional-parameters-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Использование командлетов Lync Online в сочетании с другими командлетами Windows PowerShell
-            href: combining-skype-for-business-online-cmdlets-with-other-windows-powershell-cmdlets-in.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Дополнительные сведения об использовании Windows PowerShell
-            href: more-help-for-using-windows-powershell-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Настройка компьютера для управления Lync Online
-          href: configuring-your-computer-for-skype-for-business-online-management.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           items:
           - name: Загрузка и установка модуля соединителя с Lync Online
-            href: downloading-and-installing-the-skype-for-business-online-connector-module.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Загрузка и установка помощника по входу в Microsoft Online Services
-            href: downloading-and-installing-the-microsoft-online-services-sign-in-assistant-for-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Загрузка и установка Windows PowerShell 3.0
-            href: downloading-and-installing-windows-powershell-3-0-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Подключение к Lync Online с использованием Windows PowerShell
-          href: connecting-to-skype-for-business-online-by-using-windows-powershell.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Автоматическое подключение к Lync Online при каждом запуске Windows PowerShell
-          href: automatically-connecting-to-skype-for-business-online-whenever-you-start-windows-powershell.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Управление средами Lync Online и Microsoft Exchange из одного удаленного сеанса Windows PowerShell
-          href: managing-skype-for-business-online-and-microsoft-exchange-from-the-same-remote-windows-powershell-session.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Командлеты Lync Online
-          href: the-skype-for-business-online-cmdlets.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           items:
           - name: Управление клиентами Lync Online
-            href: managing-skype-for-business-online-tenants.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Управление свойствами пользователей и учетных записей
-            href: managing-users-and-user-account-properties-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Управление политиками
-            href: managing-policies-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Управление клиентом Lync
-            href: managing-the-skype-for-business-client-from-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Управление единой системой обмена сообщениями Exchange и размещенной голосовой почтой
-            href: managing-exchange-unified-messaging-and-hosted-voice-mail-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Управление взаимодействием с внешними пользователями и организациями
-            href: managing-communications-in-skype-for-business-online-with-outside-users-and-organizations.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Управление встречами и конференциями Lync Online
-            href: managing-skype-for-business-online-meetings-and-conferences.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Управление сотовыми телефонами и мобильными устройствами
-            href: managing-cell-phones-and-mobile-devices-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: 'Краткий справочник: использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Lync Online'
-          href: quick-reference-using-windows-powershell-to-do-common-skype-for-business-online-management-tasks.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           items:
           - name: Получение сведений обо всех пользователях Lync Online
-            href: return-information-about-all-your-skype-for-business-online-users.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Получение сведений об определенном пользователе
-            href: return-information-for-a-specific-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Получение определенных сведений об отдельных пользователях
-            href: return-specific-information-for-specific-users-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Возврат отфильтрованного списка пользователей
-            href: return-a-filtered-list-of-users-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Возврат сведений о поставщиках услуг аудиоконференций
-            href: return-information-about-your-audio-conferencing-providers-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Возврат сведений о поставщиках услуг аудиоконференций, назначенных пользователю
-            href: return-information-about-the-audio-conferencing-providers-assigned-to-a-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Назначение пользователю поставщика аудиоконференций
-            href: assign-an-audio-conferencing-provider-to-a-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Удаление поставщика услуг аудиоконференций, ранее назначенного пользователю
-            href: remove-an-audio-conferencing-provider-previously-assigned-to-a-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Возврат списка политик уровня пользователя
-            href: return-a-list-of-per-user-policies-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Назначение пользователю политики уровня пользователя
-            href: assign-a-per-user-policy-to-a-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Отмена индивидуальной политики, ранее назначенной пользователю
-            href: unassign-a-per-user-policy-previously-assigned-to-a-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Включение и отключение push-уведомлений на телефоны iPhone и Windows Phone
-            href: enable-disable-push-notification-to-iphones-and-windows-phones-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Получение сведений о клиенте Lync Online
-            href: get-information-about-your-skype-for-business-online-tenant.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Разрешение федерации со всеми доменами
-            href: allow-federation-in-skype-for-business-online-with-all-domains.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Просмотр доменов в списке разрешенных доменов
-            href: view-the-domains-on-your-allowed-domains-list-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Просмотр списка заблокированных доменов
-            href: view-the-domains-on-your-blocked-domains-list-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Добавление домена в список разрешенных доменов
-            href: add-a-domain-to-the-allowed-domains-list-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Добавление домена в список блокируемых доменов
-            href: add-a-domain-to-the-blocked-domains-list-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Удаление домена из списка разрешенных доменов
-            href: remove-a-domain-from-the-allowed-domains-list-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Удаление домена из списка заблокированных доменов
-            href: remove-a-domain-from-the-blocked-domains-list-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Включение и отключение федерации с общедоступными службами обмена мгновенными сообщениями
-            href: enable-disable-federation-with-public-im-providers-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Включение и отключение федерации с определенной общедоступной службой обмена мгновенными сообщениями
-            href: enable-disable-a-specified-public-im-provider-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Запрет автоматического допуска анонимных пользователей на собрания
-            href: prevent-anonymous-users-from-automatically-being-admitted-to-a-meeting-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Включение и отключение записи конференции
-            href: enable-disable-conference-recording-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Использование Windows PowerShell в среде гибридного развертывания
-          href: using-windows-powershell-in-a-hybrid-deployment-with-skype-for-business-online.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Диагностика и устранение проблем с подключением в Lync Online
-          href: diagnosing-and-resolving-connection-problems-with-skype-for-business-online.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           items:
           - name: Ошибка импорта модуля из-за политики выполнения Windows PowerShell
-            href: import-module-error-in-skype-for-business-online-caused-by-windows-powershell-execution-policy.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Ошибка импорта модуля из-за неправильной версии Windows PowerShell
-            href: import-module-error-in-skype-for-business-online-caused-by-incorrect-version-of-windows-powershell.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Не удается подключиться к серверу Live ID
-            href: skype-for-business-online-failed-to-connect-to-live-id-server.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Не удается загрузить модуль Live ID
-            href: skype-for-business-online-failed-to-load-live-id-module.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Ошибка входа пользователя в систему
-            href: logon-failed-for-the-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: У пользователя нет разрешений на управление этим клиентом
-            href: the-user-does-not-have-permission-to-manage-this-tenant-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Возможность подключения к клиенту отключена
-            href: ability-to-connect-to-tenant-has-been-disabled-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Превышено максимальное число одновременно работающих оболочек для этого пользователя
-            href: the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Превышено максимальное количество одновременно запущенных оболочек для этого клиента
-            href: the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Командлеты Lync Online для создания отчетов и веб-служба REST
-          href: the-skype-for-business-online-reporting-cmdlets-and-rest-web-service.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
   - name: Миграция
     href: migration.md
     items:
@@ -4505,7 +4505,7 @@
           - name: Проблемы с тестом топологии
             href: lync-server-2013-issues-with-the-topology-test.md
     - name: Feature management
-      href: this-topic-is-no-longer-available.md
+      href: dn720327(v=ocs.15).md
   - name: Справочник схем
     href: lync-server-2013-schema-reference.md
     items:
@@ -4838,7 +4838,5 @@
         href: lync-server-2013-changes-made-by-grant-cssetuppermission.md
       - name: Изменения, вносимые командлетом Grant-CsOUPermission в Lync Server 2013
         href: lync-server-2013-changes-made-by-grant-csoupermission.md
-  - name: Командная консоль Lync Server
-    href: /powershell/skype/intro?view=skype-ps
   - name: Глоссарий
     href: lync-server-2013-glossary.md
