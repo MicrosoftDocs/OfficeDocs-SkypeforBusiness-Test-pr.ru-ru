@@ -105,7 +105,7 @@ _**Дата изменения раздела:** 2013-02-22_
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения см. в разделе справки о командлете [Grant-CsPersistentChatPolicy](grant-cspersistentchatpolicy.md).
+Дополнительные сведения см. в разделе справки о командлете [Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy).
 
 ## См. также
 

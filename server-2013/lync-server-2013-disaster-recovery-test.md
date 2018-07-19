@@ -97,7 +97,7 @@ _**Дата изменения раздела:** 2015-01-26_
 
 #### Другие ресурсы
 
-[Import-CsConfiguration](import-csconfiguration.md)  
+[Import-CsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsConfiguration)  
 [Резервное копирование и восстановление Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)  
 [Управление аварийным восстановлением, высокой доступностью и службой резервного копирования Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
 

@@ -55,5 +55,5 @@ Move-CsUser : HostedMigration fault: Error=(510), Description=(Клиентск�
 
 #### Другие ресурсы
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

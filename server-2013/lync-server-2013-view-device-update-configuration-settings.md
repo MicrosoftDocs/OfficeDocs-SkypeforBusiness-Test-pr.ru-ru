@@ -50,5 +50,5 @@ _**Дата изменения раздела:** 2016-12-08_
         LogFlushInterval       : 00:05:00
         LogCleanUpTimeOfDay    :
 
-Подробнее о этом командлете см. в разделе справки [Get-CsDeviceUpdateConfiguration](get-csdeviceupdateconfiguration.md).
+Подробнее о этом командлете см. в разделе справки [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateConfiguration).
 

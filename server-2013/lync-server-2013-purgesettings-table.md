@@ -19,7 +19,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
     Get-CsCdrConfiguration
 
-Администраторы должны использовать таблицу PurgeSettings как предназначенную только для чтения: изменения параметров очистки регистрации вызовов должны делаться только с помощью командлетов [New-CsCdrConfiguration](new-cscdrconfiguration.md) и [Set-CsCdrConfiguration](set-cscdrconfiguration.md).
+Администраторы должны использовать таблицу PurgeSettings как предназначенную только для чтения: изменения параметров очистки регистрации вызовов должны делаться только с помощью командлетов [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration) и [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration).
 
 Эта таблица была введена в Microsoft Lync Server 2013.
 

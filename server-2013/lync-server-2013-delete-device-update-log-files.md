@@ -59,5 +59,5 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Get-CsService -WebServer | Foreach-Object {Clear-CsDeviceUpdateLog -Identity $_.Identity -DaysBack 10}
 
-Дополнительные сведения см. в разделе справки по командлету [Clear-CsDeviceUpdateLog](clear-csdeviceupdatelog.md).
+Дополнительные сведения см. в разделе справки по командлету [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateLog).
 

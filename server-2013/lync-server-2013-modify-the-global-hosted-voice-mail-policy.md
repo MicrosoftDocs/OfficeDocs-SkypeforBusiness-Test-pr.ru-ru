@@ -15,17 +15,17 @@ ms.translationtype: HT
 
 _**Дата изменения раздела:** 2012-09-24_
 
-*Глобальная* размещенная политика голосовой почты устанавливается вместе с Lync Server 2013. Вы можете изменить ее в соответствии со своими требованиями, но переименование или удаление этой политики невозможно. Чтобы изменить глобальную политику, можно использовать командлет Set-CsHostedVoicemailPolicy для присвоения параметрам соответствующих значений для конкретного развертывания.
+*Глобальная* размещенная политика голосовой почты устанавливается вместе с Lync Server 2013. Вы можете изменить ее в соответствии со своими требованиями, но переименование или удаление этой политики невозможно. Чтобы изменить глобальную политику, можно использовать командлет set-cshostedvoicemailpolicy для присвоения параметрам соответствующих значений для конкретного развертывания.
 
-Более подробные сведения о командлете [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md) см. в документации Командная консоль Lync Server.
+Более подробные сведения о командлете [set-cshostedvoicemailpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy) см. в документации Командная консоль Lync Server.
 
 ## Изменение глобальной размещенной политики голосовой почты
 
 1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  Выполните командлет Set-CsHostedVoicemailPolicy, чтобы задать параметры глобальной политики для среды. Например, выполните:
+2.  Выполните командлет set-cshostedvoicemailpolicy, чтобы задать параметры глобальной политики для среды. Например, выполните:
     
-        Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
+        set-cshostedvoicemailpolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     
     Поскольку эта команда не определяет параметр Identity для политики, командной строки Windows PowerShell задает следующие значения в глобальной размещенной политике голосовой почты:
     
@@ -48,5 +48,5 @@ _**Дата изменения раздела:** 2012-09-24_
     
         $a = Get-CsHostedVoicemailPolicy
         $a.Organization += ",corp3.litwareinc.com"
-        Set-CsHostedVoicemailPolicy -Organization $a.Organization
+        set-cshostedvoicemailpolicy -Organization $a.Organization
 

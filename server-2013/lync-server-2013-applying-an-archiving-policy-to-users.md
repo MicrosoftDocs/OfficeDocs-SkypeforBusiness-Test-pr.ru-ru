@@ -84,7 +84,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Подробные сведения см. в документации по командлету [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Подробные сведения см. в документации по командлету [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## См. также
 

@@ -63,7 +63,7 @@ _**Дата изменения раздела:** 2013-02-23_
         BWPolicyProfileID :
         LocationPolicy    :
 
-Дополнительные сведения см. в разделе справки для командлета [Get-CsNetworkSite](get-csnetworksite.md).
+Дополнительные сведения см. в разделе справки для командлета [Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite).
 
 ## См. также
 

@@ -111,7 +111,7 @@ _**Дата изменения раздела:** 2013-02-22_
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения см. в разделе [Grant-CsPinPolicy](grant-cspinpolicy.md).
+Дополнительные сведения см. в разделе [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy).
 
 ## См. также
 

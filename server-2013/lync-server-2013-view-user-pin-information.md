@@ -96,7 +96,7 @@ _**Дата изменения раздела:** 2013-02-23_
         LastPinChangeTime : 9/25/2012 1:35:03 PM
         PinExpirationTime :
 
-Дополнительные сведения см. в разделе справки по командлету [Get-CsConferenceDisclaimer](get-csconferencedisclaimer.md).
+Дополнительные сведения см. в разделе справки по командлету [Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer).
 
 ## См. также
 

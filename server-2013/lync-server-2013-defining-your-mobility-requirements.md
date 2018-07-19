@@ -171,7 +171,7 @@ _**Дата изменения раздела:** 2015-03-09_
     </tbody>
     </table>
     
-    Описание доступных для настройки параметров политики и процедуры управления политиками см. в разделах [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) и [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md).
+    Описание доступных для настройки параметров политики и процедуры управления политиками см. в разделах [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy) и [Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy).
 
   - **Требуется ли предоставить пользователям, которые не включены для корпоративной голосовой связи, возможность присоединения к конференциям щелчком мыши?**
     

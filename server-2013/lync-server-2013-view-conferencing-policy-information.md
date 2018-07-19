@@ -82,5 +82,5 @@ _**Дата изменения раздела:** 2013-02-23_
         TotalReceiveVideoBitRateKb                : 6000
         EnableMultiViewJoin                       : True
 
-Дополнительные сведения см. в разделе справки о командлете [Get-CsConferencingPolicy](get-csconferencingpolicy.md).
+Дополнительные сведения см. в разделе справки о командлете [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy).
 

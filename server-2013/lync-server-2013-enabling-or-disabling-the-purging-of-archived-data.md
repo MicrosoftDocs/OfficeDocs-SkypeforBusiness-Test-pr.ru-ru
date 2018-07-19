@@ -72,7 +72,7 @@ _**Дата изменения раздела:** 2013-02-23_
 
 ## Включение очистки только для экспортированных данных архивации
 
-  - Если нужно очищать только записи архивации, экспортированные в файл данных (с помощью командлета [Export-CsArchivingData](export-csarchivingdata.md)), необходимо установить для свойства PurgeExportedArchivesOnly значение True ($True). Пример:
+  - Если нужно очищать только записи архивации, экспортированные в файл данных (с помощью командлета [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)), необходимо установить для свойства PurgeExportedArchivesOnly значение True ($True). Пример:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
@@ -84,7 +84,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-Дополнительные сведения, в том числе от дополнительных параметрах очистки данных архивации, см. в разделе справки для командлета [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+Дополнительные сведения, в том числе от дополнительных параметрах очистки данных архивации, см. в разделе справки для командлета [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
 ## См. также
 

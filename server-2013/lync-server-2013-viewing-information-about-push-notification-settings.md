@@ -43,7 +43,7 @@ Push-уведомления в форме индикаторов событий,
         EnableApplePushNotificationService     : False
         EnableMicrosoftPushNotificationService : False
 
-Дополнительные сведения см. в разделе справки для командлета [Get-CsPushNotificationConfiguration](get-cspushnotificationconfiguration.md).
+Дополнительные сведения см. в разделе справки для командлета [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPushNotificationConfiguration).
 
 ## См. также
 

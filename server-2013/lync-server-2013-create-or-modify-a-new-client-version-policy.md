@@ -49,7 +49,7 @@ _**Дата изменения раздела:** 2013-02-23_
 
 ## Создание или изменение политик версий клиентов с помощью командлетов Windows PowerShell
 
-Вы можете создавать политики версий клиентов с помощью командлета **New-CsClientVersionPolicy**, а также изменять их с помощью командлета **Set-CsClientVersionPolicy**. Для выполнения этих командлетов может использоваться командная консоль Lync Server 2013 или удаленный сеанс Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Вы можете создавать политики версий клиентов с помощью командлета **New-CsClientVersionPolicy**, а также изменять их с помощью командлета **set-csclientversionpolicy**. Для выполнения этих командлетов может использоваться командная консоль Lync Server 2013 или удаленный сеанс Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## Создание новой политики версий клиентов на уровне сайта
 
@@ -63,5 +63,5 @@ _**Дата изменения раздела:** 2013-02-23_
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
-Дополнительные сведения см. в разделе справки для командлетов [New-CsClientVersionPolicy](new-csclientversionpolicy.md) и [Set-CsClientVersionPolicy](set-csclientversionpolicy.md).
+Дополнительные сведения см. в разделе справки для командлетов [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) и [set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
 

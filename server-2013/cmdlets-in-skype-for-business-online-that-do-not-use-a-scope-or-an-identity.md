@@ -19,9 +19,9 @@ _**Дата изменения раздела:** 2015-06-22_
 
   - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
-  - [New-CsEdgeAllowList](new-csedgeallowlist.md)
+  - [New-CsEdgeAllowList](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowList)
 
-  - [New-CsEdgeDomainPattern](new-csedgedomainpattern.md)
+  - [New-CsEdgeDomainPattern](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeDomainPattern)
 
 Обратите внимание, что командлеты **New-CsEdgeAllowList** и **New-CsEdgeDomainPattern** требуют использования параметра Domain. Пример:
 

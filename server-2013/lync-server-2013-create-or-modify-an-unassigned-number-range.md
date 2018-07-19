@@ -150,7 +150,7 @@ _**Дата изменения раздела:** 2012-11-01_
 
 #### Другие ресурсы
 
-[New-CsUnassignedNumber](new-csunassignednumber.md)  
+[New-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUnassignedNumber)  
 [Set-CsUnassignedNumber](set-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

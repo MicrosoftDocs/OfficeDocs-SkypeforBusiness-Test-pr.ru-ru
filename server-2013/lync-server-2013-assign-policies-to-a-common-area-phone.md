@@ -36,5 +36,5 @@ _**Дата изменения раздела:** 2013-02-20_
 
 #### Другие ресурсы
 
-[Get-CsCommonAreaPhone](get-cscommonareaphone.md)
+[Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)
 

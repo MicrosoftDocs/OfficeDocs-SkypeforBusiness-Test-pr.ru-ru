@@ -63,5 +63,5 @@ _**Дата изменения раздела:** 2015-03-09_
 
 [Настройка сертификатов пограничного сервера для Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
 [Request-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate)  
-[Set-CsCertificate](set-cscertificate.md)
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

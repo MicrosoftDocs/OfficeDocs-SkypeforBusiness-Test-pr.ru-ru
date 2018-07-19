@@ -99,5 +99,5 @@ _**Дата изменения раздела:** 2012-05-25_
 #### Другие ресурсы
 
 [Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)  
-[Set-CsCertificate](set-cscertificate.md)
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

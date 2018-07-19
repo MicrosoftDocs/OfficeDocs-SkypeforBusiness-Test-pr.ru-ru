@@ -56,7 +56,7 @@ _**Дата изменения раздела:** 2013-02-22_
         Identity : Global
         Usage    : {Internal, Local, Long Distance}
 
-Подробнее см. [Get-CsPstnUsage](get-cspstnusage.md).
+Подробнее см. [Get-CsPstnUsage](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPstnUsage).
 
 ## См. также
 

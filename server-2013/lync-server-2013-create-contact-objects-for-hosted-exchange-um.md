@@ -21,9 +21,9 @@ _**Дата изменения раздела:** 2012-09-24_
 
 Дополнительные сведения о настройке контактных объектов см. в документации Командная консоль Lync Server по следующим командлетам:
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
 <table>
 <thead>

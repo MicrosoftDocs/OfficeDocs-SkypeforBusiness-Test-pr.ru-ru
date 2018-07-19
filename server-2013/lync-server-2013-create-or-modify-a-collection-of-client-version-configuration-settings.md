@@ -67,5 +67,5 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration  -Enabled $False
 
-Дополнительные сведения см. в разделе справки для командлетов [New-CsClientVersionConfiguration](new-csclientversionconfiguration.md) и [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md).
+Дополнительные сведения см. в разделе справки для командлетов [New-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionConfiguration) и [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
 

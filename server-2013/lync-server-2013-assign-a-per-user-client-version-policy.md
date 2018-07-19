@@ -111,7 +111,7 @@ _**Дата изменения раздела:** 2013-02-22_
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения см. в разделе справки для командлета [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md).
+Дополнительные сведения см. в разделе справки для командлета [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy).
 
 ## См. также
 

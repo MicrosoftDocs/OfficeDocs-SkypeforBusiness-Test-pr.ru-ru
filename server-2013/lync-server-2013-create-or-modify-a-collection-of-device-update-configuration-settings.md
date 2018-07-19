@@ -52,5 +52,5 @@ _**Дата изменения раздела:** 2016-12-08_
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00" -LogFlushInterval "00:30:00"
 
-Дополнительные сведения об изменении имеющихся параметров конфигурации устройства см. в разделе справки по командлету [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md). Дополнительные сведения о создании коллекций параметров конфигурации см. в разделе справки по командлету [New-CsDeviceUpdateConfiguration](new-csdeviceupdateconfiguration.md).
+Дополнительные сведения об изменении имеющихся параметров конфигурации устройства см. в разделе справки по командлету [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration). Дополнительные сведения о создании коллекций параметров конфигурации см. в разделе справки по командлету [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsDeviceUpdateConfiguration).
 

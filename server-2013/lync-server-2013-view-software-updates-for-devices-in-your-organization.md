@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Дата изменения раздела:** 2016-12-08_
 
-В Lync Server 2013 служба обновления устройств используется для просмотра и управления обновлениями ПО для устройств организации. Эти обновления доступны в виде файлов .cab на веб-сайте службы поддержки Майкрософт по адресу [http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0x419). После загрузки файла .cab запустите командлет **Import-CSdeviceUpdate** для импорта правил обновления устройств из файла .cab. Дополнительные сведения о командлете **Import-CSdeviceUpdate** см. в разделе [Import-CsDeviceUpdate](import-csdeviceupdate.md) в документации Командная консоль Lync Server.
+В Lync Server 2013 служба обновления устройств используется для просмотра и управления обновлениями ПО для устройств организации. Эти обновления доступны в виде файлов .cab на веб-сайте службы поддержки Майкрософт по адресу [http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0x419). После загрузки файла .cab запустите командлет **Import-CSdeviceUpdate** для импорта правил обновления устройств из файла .cab. Дополнительные сведения о командлете **Import-CSdeviceUpdate** см. в разделе [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate) в документации Командная консоль Lync Server.
 
 
 > [!TIP]

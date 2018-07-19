@@ -67,7 +67,7 @@ Microsoft Lync Server 2013 позволяет хранить голосовые 
     
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-При наличии второго пользователя, для которого разрешена работа с единой системой обмена сообщениями, можно использовать командлет [Test-CsExUMVoiceMail](test-csexumvoicemail.md) для проверки возможности для второго пользователя оставлять сообщения голосовой почты первому пользователю.
+При наличии второго пользователя, для которого разрешена работа с единой системой обмена сообщениями, можно использовать командлет [Test-CsExUMVoiceMail](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMVoiceMail) для проверки возможности для второго пользователя оставлять сообщения голосовой почты первому пользователю.
 
     $credential = Get-Credential "litwareinc\pilar"
     

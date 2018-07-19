@@ -113,5 +113,5 @@ _**Дата изменения раздела:** 2013-02-22_
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения см. в разделе справки по командлету [Grant-CsLocationPolicy](grant-cslocationpolicy.md).
+Дополнительные сведения см. в разделе справки по командлету [Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy).
 

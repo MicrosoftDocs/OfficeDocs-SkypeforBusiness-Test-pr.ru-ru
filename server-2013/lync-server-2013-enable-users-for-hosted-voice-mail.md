@@ -19,7 +19,7 @@ _**Дата изменения раздела:** 2012-09-24_
 
 Подробные сведения см. в разделе [Управление пользователями размещенной системы Exchange в Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) документации по планированию.
 
-Более подробные сведения о командлете [Set-CsUser](set-csuser.md) см. в документации Командная консоль Lync Server.
+Более подробные сведения о командлете [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser) см. в документации Командная консоль Lync Server.
 
 <table>
 <thead>

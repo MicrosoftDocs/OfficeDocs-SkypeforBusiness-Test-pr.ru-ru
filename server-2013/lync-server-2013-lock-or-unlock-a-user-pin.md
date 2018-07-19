@@ -99,5 +99,5 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Unlock-CsClientPin -Identity "Ken Myer"
 
-Дополнительные сведения см. в разделе справки по командлетам [Lock-CsClientPin](lock-csclientpin.md) и [Unlock-CsClientPin](unlock-csclientpin.md).
+Дополнительные сведения см. в разделе справки по командлетам [Lock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Lock-CsClientPin) и [Unlock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Unlock-CsClientPin).
 

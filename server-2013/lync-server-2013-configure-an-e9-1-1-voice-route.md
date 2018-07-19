@@ -25,7 +25,7 @@ _**Дата изменения раздела:** 2012-09-17_
 </thead>
 <tbody>
 <tr class="odd">
-<td>Чтобы включить информацию о местоположении в приглашение E9-1-1 INVITE, необходимо настроить магистральный канал SIP, который служит для подключения к поставщику службы E9-1-1 для маршрутизации экстренных вызовов через шлюз. Для этого установите для флага EnablePIDFLOSupport в командлете <strong>Set-CsTrunkConfiguration</strong> значение True. Значение по умолчанию для EnablePIDFLOSupport — False. Пример: <code>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</code><br />
+<td>Чтобы включить информацию о местоположении в приглашение E9-1-1 INVITE, необходимо настроить магистральный канал SIP, который служит для подключения к поставщику службы E9-1-1 для маршрутизации экстренных вызовов через шлюз. Для этого установите для флага EnablePIDFLOSupport в командлете <strong>set-cstrunkconfiguration</strong> значение True. Значение по умолчанию для EnablePIDFLOSupport — False. Пример: <code>set-cstrunkconfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</code><br />
 Не требуется включать получение местоположений для резервных шлюзов ТСОП и шлюзов ELIN.</td>
 </tr>
 </tbody>

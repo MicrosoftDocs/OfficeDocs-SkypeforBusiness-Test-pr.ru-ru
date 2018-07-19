@@ -188,7 +188,7 @@ _**Дата изменения раздела:** 2013-02-21_
     
 
     > [!TIP]
-    > Вместо запуска построителя топологий вы можете воспользоваться командлетом <STRONG>Install-CsDatabase</STRONG> для создания каждой из баз данных и командлетом <STRONG>Install-CsMirrorDatabase</STRONG> для настройки зеркального отображения. Дополнительные сведения см. в статьях <A href="install-csdatabase.md">Install-CsDatabase</A> и <A href="install-csmirrordatabase.md">Install-CsMirrorDatabase</A>.
+    > Вместо запуска построителя топологий вы можете воспользоваться командлетом <STRONG>Install-CsDatabase</STRONG> для создания каждой из баз данных и командлетом <STRONG>Install-CsMirrorDatabase</STRONG> для настройки зеркального отображения. Дополнительные сведения см. в статьях <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</A> и <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>.
 
 
 

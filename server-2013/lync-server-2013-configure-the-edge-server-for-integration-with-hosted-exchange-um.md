@@ -27,7 +27,7 @@ _**Дата изменения раздела:** 2015-01-23_
 
   - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
-  - [New-CsHostingProvider](new-cshostingprovider.md)
+  - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
 <table>
 <thead>
@@ -112,5 +112,5 @@ _**Дата изменения раздела:** 2015-01-23_
 
 #### Другие ресурсы
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

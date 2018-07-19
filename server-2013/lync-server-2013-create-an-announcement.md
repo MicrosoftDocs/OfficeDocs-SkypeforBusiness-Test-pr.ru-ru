@@ -61,13 +61,13 @@ _**Дата изменения раздела:** 2012-11-01_
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    Дополнительные сведения об этих командлетах и список кодов языков, используемых в параметре **TextToSpeechPrompt**, см. справку по командлету [New-CsAnnouncement](new-csannouncement.md).
+    Дополнительные сведения об этих командлетах и список кодов языков, используемых в параметре **TextToSpeechPrompt**, см. справку по командлету [New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement).
 
 ## См. также
 
 #### Другие ресурсы
 
-[Import-CsAnnouncementFile](import-csannouncementfile.md)  
-[New-CsAnnouncement](new-csannouncement.md)  
+[Import-CsAnnouncementFile](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsAnnouncementFile)  
+[New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement)  
 [Настройка таблицы неназначенных номеров в Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)
 

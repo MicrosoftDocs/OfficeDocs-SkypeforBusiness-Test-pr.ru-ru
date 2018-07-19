@@ -19,5 +19,5 @@ _**Дата изменения раздела:** 2012-11-01_
 
 ## Содержание
 
-  - [Этапы сертифицирования AV и OAuth с использованием -Roll in Set-CsCertificate в Lync Server 2013](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)
+  - [Этапы сертифицирования AV и OAuth с использованием -Roll in Set-CsCertificate в Lync Server 2013](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

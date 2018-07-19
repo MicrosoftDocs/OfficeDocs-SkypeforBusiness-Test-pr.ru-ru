@@ -150,7 +150,7 @@ Lync Server 2013 сохраняет данные конференц-связи �
     
       - Если в вашем развертывании используется сочетание Lync Server 2013 и Lync Server 2010 или Office Communications Server 2007 R2, выполните следующий командлет для каждого пула Lync Server 2013 в топологии.
         
-            new-csAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            new-csaddressbookconfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  Дождитесь окончания репликации CMS на все пулы.
 

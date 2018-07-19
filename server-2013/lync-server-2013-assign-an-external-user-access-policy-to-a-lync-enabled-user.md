@@ -81,5 +81,5 @@ _**Дата изменения раздела:** 2013-02-22_
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения см. в разделе справки с описанием командлета [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md).
+Дополнительные сведения см. в разделе справки с описанием командлета [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy).
 

@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Дата изменения раздела:** 2013-02-23_
 
-Данные, заархивированные в архивных базах данных, недоступны для поиска или чтения, но можно использовать командлет Export-CsArchivingData для извлечения записей из базы данных и их сохранения в виде файла EML (Outlook Electronic Mail). Для получения дополнительных сведений об экспорте архивных данных см. [Export-CsArchivingData](export-csarchivingdata.md) в документации по операциям.
+Данные, заархивированные в архивных базах данных, недоступны для поиска или чтения, но можно использовать командлет Export-CsArchivingData для извлечения записей из базы данных и их сохранения в виде файла EML (Outlook Electronic Mail). Для получения дополнительных сведений об экспорте архивных данных см. [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData) в документации по операциям.
 
 Если активирована интеграция сервера Microsoft Exchange, данные архивируются в хранилищах Exchange 2013. Данные, заархивированные в Exchange 2013, доступны для поиска и обнаружения. Более подробные сведения о поддержке интегрированного общения для Exchange 2013 и Lync Server 2013 см. в [Поддержка интеграции Exchange Server и SharePoint в Lync Server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) документации по наличию поддержки. Более подробные сведения о доступе к данным, заархивированным в Exchange, см. в документации по Exchange 2013.
 
@@ -35,7 +35,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.litwareinc.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@litwareinc.com"
 
-Дополнительные сведения см. в разделе справки по командлету [Export-CsArchivingData](export-csarchivingdata.md).
+Дополнительные сведения см. в разделе справки по командлету [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData).
 
 ## См. также
 
@@ -45,6 +45,6 @@ _**Дата изменения раздела:** 2013-02-23_
 
 #### Другие ресурсы
 
-[Export-CsArchivingData](export-csarchivingdata.md)  
+[Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)  
 [Управление архивированием Lync Server 2013](lync-server-2013-managing-archiving.md)
 

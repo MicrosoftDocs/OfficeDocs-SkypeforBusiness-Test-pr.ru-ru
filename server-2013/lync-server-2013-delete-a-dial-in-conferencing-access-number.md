@@ -51,5 +51,5 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 
-Дополнительные сведения см. в разделе справки по командлету [Remove-CsDialInConferencingAccessNumber](remove-csdialinconferencingaccessnumber.md).
+Дополнительные сведения см. в разделе справки по командлету [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDialInConferencingAccessNumber).
 

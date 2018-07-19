@@ -43,7 +43,7 @@ _**Дата изменения раздела:** 2012-11-01_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Дополнительные сведения о других параметрах см. в статьях <a href="get-csannouncement.md">Get-CsAnnouncement</a> и <a href="remove-csannouncement.md">Remove-CsAnnouncement</a>.</td>
+    <td>Дополнительные сведения о других параметрах см. в статьях <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -57,6 +57,6 @@ _**Дата изменения раздела:** 2012-11-01_
 
 #### Другие ресурсы
 
-[Remove-CsAnnouncement](remove-csannouncement.md)  
-[Get-CsAnnouncement](get-csannouncement.md)
+[Remove-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement)  
+[Get-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement)
 

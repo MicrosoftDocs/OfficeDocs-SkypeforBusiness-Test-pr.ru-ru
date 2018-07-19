@@ -105,7 +105,7 @@ _**Дата изменения раздела:** 2013-02-22_
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения см. в разделе [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md).
+Дополнительные сведения см. в разделе [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy).
 
 ## См. также
 

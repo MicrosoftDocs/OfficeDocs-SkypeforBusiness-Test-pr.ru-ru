@@ -53,7 +53,7 @@ _**Дата изменения раздела:** 2013-02-20_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Дополнительные сведения о других параметрах см. в разделе <a href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</a>.</td>
+    <td>Дополнительные сведения о других параметрах см. в разделе <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -67,6 +67,6 @@ _**Дата изменения раздела:** 2013-02-20_
 
 #### Другие ресурсы
 
-[Remove-CsCallParkOrbit](remove-cscallparkorbit.md)  
-[Get-CsCallParkOrbit](get-cscallparkorbit.md)
+[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)
 

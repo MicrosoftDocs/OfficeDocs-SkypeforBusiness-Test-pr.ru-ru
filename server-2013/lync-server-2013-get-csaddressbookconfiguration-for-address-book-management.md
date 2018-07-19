@@ -37,5 +37,5 @@ _**Дата изменения раздела:** 2012-11-01_
 
 #### Другие ресурсы
 
-[Get-CsAddressBookConfiguration](get-csaddressbookconfiguration.md)
+[Get-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAddressBookConfiguration)
 

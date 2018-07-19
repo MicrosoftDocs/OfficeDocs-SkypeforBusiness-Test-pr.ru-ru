@@ -49,7 +49,7 @@ _**Дата изменения раздела:** 2013-02-22_
 
 7.  В диалоговом окне **Свойства** нажмите кнопку **ОК** .
 
-Чтобы убедиться, что роль управления доступом на основе ролей была назначена, используйте командлет [Get-CsAdminRoleAssignment](get-csadminroleassignment.md), передавая в него SamAccountName (имя для входа Active Directory) пользователя. Например, запустите следующую команду из командной консоли Командная консоль Lync Server:
+Чтобы убедиться, что роль управления доступом на основе ролей была назначена, используйте командлет [Get-CsAdminRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdminRoleAssignment), передавая в него SamAccountName (имя для входа Active Directory) пользователя. Например, запустите следующую команду из командной консоли Командная консоль Lync Server:
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 

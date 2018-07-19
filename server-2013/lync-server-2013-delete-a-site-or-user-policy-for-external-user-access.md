@@ -51,5 +51,5 @@ _**Дата изменения раздела:** 2013-02-22_
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
-Дополнительные сведения см. в разделе справки с описанием командлета [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md).
+Дополнительные сведения см. в разделе справки с описанием командлета [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy).
 

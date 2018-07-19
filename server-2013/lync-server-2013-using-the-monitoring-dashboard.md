@@ -23,7 +23,7 @@ _**Дата изменения раздела:** 2014-02-05_
 
   - Итоги за месяц и итоговые значения тенденций за последние шесть месяцев (только для системы).
 
-Обратите внимание, что для получения URL-адреса, используемого для обращения к Отчетам о мониторинге Lync Server 2013, можно выполнить командлет [Get-CsReportingConfiguration](get-csreportingconfiguration.md):
+Обратите внимание, что для получения URL-адреса, используемого для обращения к Отчетам о мониторинге Lync Server 2013, можно выполнить командлет [Get-CsReportingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsReportingConfiguration):
 
     Get-CsReportingConfiguration
 

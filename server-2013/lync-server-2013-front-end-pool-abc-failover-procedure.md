@@ -33,7 +33,7 @@ _**Дата изменения раздела:** 2014-05-22_
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
-    После этого мы рекомендуем переместить центральный сервер управления из пула Б в другой имеющийся связанный пул для повышения уровня устойчивости. Дополнительные сведения см. в статье [Move-CsManagementServer](move-csmanagementserver.md)..
+    После этого мы рекомендуем переместить центральный сервер управления из пула Б в другой имеющийся связанный пул для повышения уровня устойчивости. Дополнительные сведения см. в статье [Move-CsManagementServer](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsManagementServer)..
 
 3.  Если пул А содержит центральный сервер управления, импортируйте конфигурацию LIS из пула А в базу данных LIS пула Б (Lis.mdf). Это сработает только в том случае, если вы регулярно выполняли резервное копирование данных LIS. Чтобы импортировать конфигурацию LIS, запустите следующие командлеты:
     

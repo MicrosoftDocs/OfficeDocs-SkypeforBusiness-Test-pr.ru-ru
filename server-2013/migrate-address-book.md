@@ -91,7 +91,7 @@ _**Дата изменения раздела:** 2012-10-09_
     
       - Если в вашем развертывании используется сочетание Lync Server 2013 и Lync Server 2010 или Office Communications Server 2007 R2, выполните следующий командлет для каждого пула Lync Server 2013 в топологии.
         
-            New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            new-csaddressbookconfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  Дождитесь, пока репликация управления будет выполнена во всех пулах.
 

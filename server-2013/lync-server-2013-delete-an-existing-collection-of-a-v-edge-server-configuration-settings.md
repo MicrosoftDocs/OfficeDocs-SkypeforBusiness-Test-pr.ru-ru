@@ -21,7 +21,7 @@ _**Дата изменения раздела:** 2012-11-01_
 
 Однако коллекции пользовательских параметров, созданных на уровне сайта или службы, могут быть удалены с помощью командлета Remove-CsAVEdgeConfiguration. Если удалить параметры сайта, пограничные серверы звука и видео в этом сайте будут управляться глобальными параметрами. Если удалить параметры уровня службы, соответствующий сервер будет управляться параметрами своего сайта, если таковые существуют, или глобальными параметрами, если параметры сайта отсутствуют.
 
-Дополнительные сведения см. в разделе справки по командлету [Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md).
+Дополнительные сведения см. в разделе справки по командлету [Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration).
 
 ## Сброс глобальной коллекции
 
@@ -51,5 +51,5 @@ _**Дата изменения раздела:** 2012-11-01_
 #### Другие ресурсы
 
 [Пограничные серверы аудио- и видеоданных](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md)
+[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration)
 

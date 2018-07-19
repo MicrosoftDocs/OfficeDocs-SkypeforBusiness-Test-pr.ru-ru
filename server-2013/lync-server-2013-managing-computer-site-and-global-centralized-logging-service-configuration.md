@@ -40,7 +40,7 @@ _**Дата изменения раздела:** 2014-02-04_
 </table>
 
 
-Область одного компьютера можно определить при выполнении команд [Search-CsClsLogging](search-csclslogging.md), [Show-CsClsLogging](show-csclslogging.md), [Start-CsClsLogging](start-csclslogging.md), [Stop-CsClsLogging](stop-csclslogging.md), [Sync-CsClsLogging](sync-csclslogging.md) и [Update-CsClsLogging](update-csclslogging.md) с помощью параметра –Computers. Параметр –Computers принимает разделенный запятой список полных доменных имен для целевого компьютера.
+Область одного компьютера можно определить при выполнении команд [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) и [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) с помощью параметра –Computers. Параметр –Computers принимает разделенный запятой список полных доменных имен для целевого компьютера.
 
 
 > [!TIP]
@@ -58,7 +58,7 @@ _**Дата изменения раздела:** 2014-02-04_
 </thead>
 <tbody>
 <tr class="odd">
-<td>Показанные команды могут содержать параметры и концепции, описанные в других разделах. Команды в примерах предназначены для демонстрации использования параметра <strong>–Identity</strong> для определения области, а другие параметры включены для полноты и для указания области. Дополнительные сведения о командлетах <strong>Set-CsClsConfiguration</strong> см. в описании командлета <a href="set-csclsconfiguration.md">Set-CsClsConfiguration</a> в документации по применению.</td>
+<td>Показанные команды могут содержать параметры и концепции, описанные в других разделах. Команды в примерах предназначены для демонстрации использования параметра <strong>–Identity</strong> для определения области, а другие параметры включены для полноты и для указания области. Дополнительные сведения о командлетах <strong>Set-CsClsConfiguration</strong> см. в описании командлета <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</a> в документации по применению.</td>
 </tr>
 </tbody>
 </table>
@@ -160,7 +160,7 @@ _**Дата изменения раздела:** 2014-02-04_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Командлет New-CsClsConfiguration предоставляет доступ к большому количеству необязательных параметров конфигурации. Дополнительные сведения о параметрах конфигурации см. в описании командлета <a href="get-csclsconfiguration.md">Get-CsClsConfiguration</a> и в разделе <a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Понимание параметров конфигурации службы централизованного ведения журналов</a>.</td>
+    <td>Командлет New-CsClsConfiguration предоставляет доступ к большому количеству необязательных параметров конфигурации. Дополнительные сведения о параметрах конфигурации см. в описании командлета <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</a> и в разделе <a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Понимание параметров конфигурации службы централизованного ведения журналов</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -208,8 +208,8 @@ _**Дата изменения раздела:** 2014-02-04_
 #### Другие ресурсы
 
 [Управление параметрами конфигурации службы централизованного ведения журналов с помощью PowerShell](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
-[Set-CsClsConfiguration](set-csclsconfiguration.md)  
-[Get-CsClsConfiguration](get-csclsconfiguration.md)  
-[New-CsClsConfiguration](new-csclsconfiguration.md)  
-[Remove-CsClsConfiguration](remove-csclsconfiguration.md)
+[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
+[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)  
+[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
+[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)
 

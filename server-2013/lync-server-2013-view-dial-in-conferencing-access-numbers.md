@@ -54,5 +54,5 @@ _**Дата изменения раздела:** 2013-02-23_
         HostingProvider    :
         Regions            : {US}
 
-Дополнительные сведения см. в разделе справки по командлету [Get-CsDialInConferencingAccessNumber](get-csdialinconferencingaccessnumber.md).
+Дополнительные сведения см. в разделе справки по командлету [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingAccessNumber).
 
