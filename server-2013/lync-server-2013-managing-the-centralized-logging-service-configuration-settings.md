@@ -55,5 +55,5 @@ _**Дата изменения раздела:** 2012-11-01_
 #### Концепции
 
 [Обзор службы централизованного ведения журналов](lync-server-2013-overview-of-the-centralized-logging-service.md)  
-[Командлеты централизованного ведения журналов](lync-server-2013-centralized-logging-cmdlets.md)
+[Командлеты централизованного ведения журналов](https://docs.microsoft.com/en-us/powershell/module/skype/)
 
