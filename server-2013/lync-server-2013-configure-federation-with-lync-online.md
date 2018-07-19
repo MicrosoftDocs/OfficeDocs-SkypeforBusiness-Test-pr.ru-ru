@@ -49,7 +49,7 @@ Move-CsUser : HostedMigration fault: Error=(510), Description=(Клиентск�
 
 Дополнительные сведения о запуске удаленного сеанса PowerShell в Skype для бизнеса Online см. в статье [Подключение к Lync Online с использованием Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-Дополнительные сведения об использовании модуля Skype для бизнеса Online PowerShell см. в статье [Использование Windows PowerShell для управления Lync Online](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md).
+Дополнительные сведения об использовании модуля Skype для бизнеса Online PowerShell см. в статье [Использование Windows PowerShell для управления Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 ## См. также
 

@@ -93,7 +93,7 @@ _**Дата изменения раздела:** 2015-01-26_
 #### Концепции
 
 [Планирование высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[Командлеты резервного копирования и высокой доступности](lync-server-2013-backup-and-high-availability-cmdlets.md)  
+[Командлеты резервного копирования и высокой доступности](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)  
 
 #### Другие ресурсы
 

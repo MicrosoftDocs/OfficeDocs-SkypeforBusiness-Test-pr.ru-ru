@@ -59,7 +59,7 @@ _**Дата изменения раздела:** 2012-11-01_
 
 #### Концепции
 
-[Командлеты контроля допуска звонков](lync-server-2013-call-admission-control-cmdlets.md)  
+[Командлеты контроля допуска звонков](https://docs.microsoft.com/en-us/powershell/module/skype/)  
 
 #### Другие ресурсы
 

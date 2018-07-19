@@ -23,7 +23,7 @@ _**Дата изменения раздела:** 2012-11-01_
 
 ## Связанные разделы
 
-[Командлеты доверенных приложений](lync-server-2013-trusted-applications-cmdlets.md)
+[Командлеты доверенных приложений](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)
 
 ## См. также
 
