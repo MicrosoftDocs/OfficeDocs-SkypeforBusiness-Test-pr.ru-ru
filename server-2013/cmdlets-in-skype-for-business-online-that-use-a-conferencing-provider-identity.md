@@ -32,5 +32,5 @@ _**Дата изменения раздела:** 2015-06-22_
 #### Концепции
 
 [Удостоверения, области и клиенты](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Командлеты Lync Online](the-skype-for-business-online-cmdlets.md)
+[Командлеты Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
