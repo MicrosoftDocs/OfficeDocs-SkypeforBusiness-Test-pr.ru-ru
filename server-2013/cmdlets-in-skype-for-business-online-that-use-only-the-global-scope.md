@@ -32,11 +32,11 @@ _**Дата изменения раздела:** 2015-06-22_
 
 Следующие командлеты работают только на глобальном уровне:
 
-  - [Get-CsImFilterConfiguration](get-csimfilterconfiguration.md)
+  - [Get-CsImFilterConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsImFilterConfiguration)
 
   - [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md)
 
-  - [Get-CsPrivacyConfiguration](get-csprivacyconfiguration.md)
+  - [Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)
 
   - [Get-CsTenantFederationConfiguration](get-cstenantfederationconfiguration.md)
 
@@ -50,7 +50,7 @@ _**Дата изменения раздела:** 2015-06-22_
 
   - [Set-CsMeetingConfiguration](set-csmeetingconfiguration.md)
 
-  - [Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)
+  - [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
 
 Обратите внимание, что командлет **Remove-CsVoicePolicy** в некотором роде аномален. Во-первых, он не требует включения параметра Identity:
 

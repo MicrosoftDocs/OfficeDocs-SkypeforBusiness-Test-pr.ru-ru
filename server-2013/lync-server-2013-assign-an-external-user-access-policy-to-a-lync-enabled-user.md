@@ -71,7 +71,7 @@ _**Дата изменения раздела:** 2013-02-22_
 
 ## Назначение политики внешнего доступа на уровне пользователя для нескольких пользователей
 
-  - Эта команда назначает политику внешнего доступа на уровне пользователя USAExternalAccessPolicy всем пользователям с учетными записями в подразделении UnitedStates в Active Directory. Дополнительные сведения о параметре OU, используемом в этой команде, см. в документации для командлета [Get-CsUser](get-csuser.md).
+  - Эта команда назначает политику внешнего доступа на уровне пользователя USAExternalAccessPolicy всем пользователям с учетными записями в подразделении UnitedStates в Active Directory. Дополнительные сведения о параметре OU, используемом в этой команде, см. в документации для командлета [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 

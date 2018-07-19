@@ -35,11 +35,11 @@ _**Дата изменения раздела:** 2015-06-22_
 
 Удостоверение пользователя принимают следующие командлеты:
 
-  - [Disable-CsMeetingRoom](disable-csmeetingroom.md)
+  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
 
   - [Enable-CsMeetingRoom](enable-csmeetingroom.md)
 
-  - [Get-CsExUmContact](get-csexumcontact.md)
+  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
 
   - [Get-CsMeetingRoom](get-csmeetingroom.md)
 
@@ -57,7 +57,7 @@ _**Дата изменения раздела:** 2015-06-22_
 
   - [Set-CsMeetingRoom](set-csmeetingroom.md)
 
-  - [Set-CsUserAcp](set-csuseracp.md)
+  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
 Обратите внимание, что указывать параметр Identity пользователя при вызове одного из командлетов **Get-Cs** не обязательно. Если он не указан, командлеты возвращают все экземпляры указанного элемента. Например, следующая команда возвращает информацию обо всех пользователях с включенной поддержкой Skype для бизнеса Online:
 

@@ -25,7 +25,7 @@ _**Дата изменения раздела:** 2015-01-23_
 
 Подробные сведения см. в документации командной консоли Командная консоль Lync Server для следующих командлетов:
 
-  - [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
+  - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
   - [New-CsHostingProvider](new-cshostingprovider.md)
 

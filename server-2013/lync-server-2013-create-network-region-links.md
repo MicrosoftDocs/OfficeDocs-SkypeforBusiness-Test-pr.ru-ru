@@ -19,7 +19,7 @@ _**Дата изменения раздела:** 2012-10-19_
 
 Дополнительные сведения о работе со связями между областями сети см. в описании следующих командлетов в документации Командная консоль Lync Server:
 
-  - [New-CsNetworkRegionLink](new-csnetworkregionlink.md)
+  - [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)
 
   - [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)
 

@@ -57,7 +57,7 @@ _**Дата изменения раздела:** 2012-11-01_
 
 #### Другие ресурсы
 
-[New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)  
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 [Set-CsNetworkInterRegionRoute](set-csnetworkinterregionroute.md)  
 [Remove-CsNetworkInterRegionRoute](remove-csnetworkinterregionroute.md)  
 [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)

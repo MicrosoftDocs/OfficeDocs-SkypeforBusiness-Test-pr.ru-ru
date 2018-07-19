@@ -21,5 +21,5 @@ _**Дата изменения раздела:** 2013-03-22_
 
     Set-CsPrivacyConfiguration -DisplayPublishedPhotoDefault $False
 
-Дополнительные сведения об этом командлете см. в разделе, посвященном командлету [Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md), документации Командная консоль Lync Server.
+Дополнительные сведения об этом командлете см. в разделе, посвященном командлету [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration), документации Командная консоль Lync Server.
 

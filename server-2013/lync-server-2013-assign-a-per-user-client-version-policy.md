@@ -101,7 +101,7 @@ _**Дата изменения раздела:** 2013-02-22_
 
 ## Назначение индивидуальной политики версий клиента нескольким пользователям
 
-  - Данная команда назначает индивидуальную политику версий клиента RedmondClientVersionPolicy всем пользователям, которым в данный момент назначена политика голосовой связи RedmondVoicePolicy. Дополнительные сведения об используемом в команде параметре Filter см. в документации по командлету [Get-CsUser](get-csuser.md).
+  - Данная команда назначает индивидуальную политику версий клиента RedmondClientVersionPolicy всем пользователям, которым в данный момент назначена политика голосовой связи RedmondVoicePolicy. Дополнительные сведения об используемом в команде параметре Filter см. в документации по командлету [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 

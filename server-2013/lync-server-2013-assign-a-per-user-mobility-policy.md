@@ -95,7 +95,7 @@ _**Дата изменения раздела:** 2013-02-22_
 
 ## Назначение индивидуальной политики мобильности нескольким пользователям
 
-  - Следующая команда назначает индивидуальную политику мобильности RedmondMobilityPolicy всем пользователям, которым в настоящее время назначена политика NorthAmericaMobilityPolicy. Для получения сведений о параметре Filter, который используется в этой команде, см. [Get-CsUser](get-csuser.md).
+  - Следующая команда назначает индивидуальную политику мобильности RedmondMobilityPolicy всем пользователям, которым в настоящее время назначена политика NorthAmericaMobilityPolicy. Для получения сведений о параметре Filter, который используется в этой команде, см. [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 

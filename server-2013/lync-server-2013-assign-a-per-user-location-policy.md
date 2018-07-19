@@ -103,7 +103,7 @@ _**Дата изменения раздела:** 2013-02-22_
 
 ## Назначение политики расположения для отдельных пользователей нескольким пользователям
 
-  - Эта команда назначает политику расположения AccountingDepartmentLocationPolicy всем пользователям, работающим в бухгалтерии (Accounting). Дополнительные сведения о параметре LdapFilter, который используется в команде, см. в документации по командлету [Get-CsUser](get-csuser.md).
+  - Эта команда назначает политику расположения AccountingDepartmentLocationPolicy всем пользователям, работающим в бухгалтерии (Accounting). Дополнительные сведения о параметре LdapFilter, который используется в команде, см. в документации по командлету [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 

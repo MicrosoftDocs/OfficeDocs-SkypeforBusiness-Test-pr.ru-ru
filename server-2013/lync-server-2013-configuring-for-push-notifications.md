@@ -147,6 +147,6 @@ Push-уведомления в форме эмблем, значков или о
 
 #### Другие ресурсы
 
-[Test-CsFederatedPartner](test-csfederatedpartner.md)  
+[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)  
 [Test-CsMcxPushNotification](test-csmcxpushnotification.md)
 

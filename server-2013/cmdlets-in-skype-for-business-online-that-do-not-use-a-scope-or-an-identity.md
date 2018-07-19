@@ -17,7 +17,7 @@ _**Дата изменения раздела:** 2015-06-22_
 
 В командлетах, используемых для изменения списков разрешенных и заблокированных доменов (которые определяют, с какими внешними организациями вашим пользователям разрешено обмениваться данными), не используются параметры области и удостоверения. Командлет **New-CsEdgeAllowAllKnownDomains** вообще не имеет параметров. К командлетам, с которыми не используются параметры области и удостоверения, относятся следующие командлеты:
 
-  - [New-CsEdgeAllowAllKnownDomains](new-csedgeallowallknowndomains.md)
+  - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
   - [New-CsEdgeAllowList](new-csedgeallowlist.md)
 

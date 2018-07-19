@@ -37,5 +37,5 @@ _**Дата изменения раздела:** 2012-11-01_
 
 #### Другие ресурсы
 
-[New-CsClientPolicy](new-csclientpolicy.md)
+[New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy)
 

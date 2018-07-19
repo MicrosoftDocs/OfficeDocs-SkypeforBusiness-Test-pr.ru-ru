@@ -61,7 +61,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Approve-CsDeviceUpdateRule
 
-Для получения дополнительных сведений см. раздел справки по командлету [Approve-CsDeviceUpdateRule](approve-csdeviceupdaterule.md).
+Для получения дополнительных сведений см. раздел справки по командлету [Approve-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Approve-CsDeviceUpdateRule).
 
 ## См. также
 

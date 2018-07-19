@@ -33,7 +33,7 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - [Invoke-CsUcsRollback](invoke-csucsrollback.md)
 
-  - [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md)
+  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore)
 
   -   
     [Disable-CsUser](disable-csuser.md)
@@ -42,7 +42,7 @@ _**Дата изменения раздела:** 2016-12-08_
     [Enable-CsUser](enable-csuser.md)
 
   -   
-    [Get-CsUser](get-csuser.md)
+    [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)
 
   -   
     [Move-CsUser](move-csuser.md)
@@ -57,7 +57,7 @@ _**Дата изменения раздела:** 2016-12-08_
     [Remove-CsUserAcp](remove-csuseracp.md)
 
   -   
-    [Set-CsUserAcp](set-csuseracp.md)
+    [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
   -   
     [Test-CsAudioConferencingProvider](test-csaudioconferencingprovider.md)

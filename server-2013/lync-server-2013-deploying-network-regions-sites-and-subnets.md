@@ -85,7 +85,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
-Дополнительные сведения см. в разделе [New-CsNetworkSubnet](new-csnetworksubnet.md).
+Дополнительные сведения см. в разделе [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet).
 
 В этом примере демонстрируется назначение подсетей сети сайтам с помощью приведенной ниже таблицы и команды Windows PowerShell. Для простоты таблица содержит только параметры, связанные с маршрутизацией на основе положения.
 

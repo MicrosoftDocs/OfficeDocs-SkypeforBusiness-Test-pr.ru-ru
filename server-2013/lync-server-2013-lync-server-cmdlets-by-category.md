@@ -69,7 +69,7 @@ Microsoft Lync Server 2013 содержит почти 550 командлето�
 <td><p><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Командлеты сервера сохраняемого сеанса беседы</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Командлеты федерации и внешнего доступа в Lync Server 2013</a></p></td>
+<td><p><a href="https://docs.microsoft.com/en-us/powershell/module/skype/">Командлеты федерации и внешнего доступа в Lync Server 2013</a></p></td>
 <td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">Командлеты централизованного ведения журналов</a></p></td>
 </tr>
 <tr class="even">

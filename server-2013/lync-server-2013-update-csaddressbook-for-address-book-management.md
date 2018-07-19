@@ -47,5 +47,5 @@ _**Дата изменения раздела:** 2012-11-01_
 
 #### Другие ресурсы
 
-[Update-CsAddressBook](update-csaddressbook.md)
+[Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook)
 

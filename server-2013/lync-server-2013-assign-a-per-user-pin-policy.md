@@ -101,7 +101,7 @@ _**Дата изменения раздела:** 2013-02-22_
 
 ## Назначение индивидуальной политики ПИН-кодов нескольким пользователям
 
-  - Следующая команда назначает индивидуальную политику ПИН-кодов RedmondUsersPinPolicy всем пользователям, которые работают на сайте Redmond. Для получения сведений о параметре LdapFilter, который используется в этой команде, см. [Get-CsUser](get-csuser.md).
+  - Следующая команда назначает индивидуальную политику ПИН-кодов RedmondUsersPinPolicy всем пользователям, которые работают на сайте Redmond. Для получения сведений о параметре LdapFilter, который используется в этой команде, см. [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 

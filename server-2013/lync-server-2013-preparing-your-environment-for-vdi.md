@@ -17,7 +17,7 @@ _**Дата изменения раздела:** 2013-02-22_
 
 Чтобы подготовить среду для подключаемого модуля инфраструктуры виртуальных рабочих столов (VDI) для Lync, администратор должен выполнить следующие действия.
 
-1.  На сервере Lync Server 2013 присвоить параметру EnableMediaRedirection значение TRUE для всех пользователей инфраструктуры виртуальных рабочих столов. Дополнительные сведения см. в разделах справки по командлетам [New-CsClientPolicy](new-csclientpolicy.md) и [Set-CsClientPolicy](set-csclientpolicy.md).
+1.  На сервере Lync Server 2013 присвоить параметру EnableMediaRedirection значение TRUE для всех пользователей инфраструктуры виртуальных рабочих столов. Дополнительные сведения см. в разделах справки по командлетам [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) и [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
 
 2.  На компьютере центра обработки данных установить клиент Lync 2013 на все виртуальные машины.
 

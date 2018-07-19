@@ -43,7 +43,7 @@ _**Дата изменения раздела:** 2016-12-08_
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-В Lync Server партнерские приложения настраиваются с помощью командлета [New-CsPartnerApplication](new-cspartnerapplication.md). Помимо указания URI метаданных необходимо задать в качестве уровня доверия приложения "полный доступ"; это позволит серверу Exchange представлять как самого себя, так и любого полномочного пользователя в области. Например:
+В Lync Server партнерские приложения настраиваются с помощью командлета [New-CsPartnerApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPartnerApplication). Помимо указания URI метаданных необходимо задать в качестве уровня доверия приложения "полный доступ"; это позволит серверу Exchange представлять как самого себя, так и любого полномочного пользователя в области. Например:
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 

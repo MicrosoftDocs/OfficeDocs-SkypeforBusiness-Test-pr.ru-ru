@@ -96,7 +96,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
 #### Другие ресурсы
 
-[New-CsCpsConfiguration](new-cscpsconfiguration.md)  
+[New-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCpsConfiguration)  
 [Set-CsCpsConfiguration](set-cscpsconfiguration.md)  
-[Get-CsSite](get-cssite.md)
+[Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)
 

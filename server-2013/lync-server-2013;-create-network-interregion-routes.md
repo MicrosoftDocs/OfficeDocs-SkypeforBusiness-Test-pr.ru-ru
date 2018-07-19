@@ -21,7 +21,7 @@ _**Дата изменения раздела:** 2012-10-20_
 
 Для получения дополнительных сведений о работе с маршрутами между регионами сети см. документацию Командная консоль Lync Server для следующих командлетов:
 
-  - [New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)
+  - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
   - [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)
 

@@ -106,7 +106,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
 
-Дополнительные сведения см. в разделе справки по командлету [Set-CsArchivingPolicy](set-csarchivingpolicy.md).
+Дополнительные сведения см. в разделе справки по командлету [Set-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingPolicy).
 
 ## См. также
 

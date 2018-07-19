@@ -29,7 +29,7 @@ _**Дата изменения раздела:** 2012-11-01_
     
     В этом примере создается новая связь между сетевыми узлами с именем Reno\_Portland, которая устанавливает ограничения пропускной способности между сетевыми узлами Reno и Portland. Перед выполнением этой команды уже должны существовать эти сетевые узлы и профиль политики пропускной способности.
 
-Подробное описание параметров см. в описании командлета [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) в документации по командной консоли Командная консоль Lync Server. Чтобы получить список профилей политик пропускной способности, которые можно применять к связи между сетевыми узлами, вызовите командлет **Get-CsNetworkBandwidthPolicyProfile**. Подробные сведения см. в описании командлета [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md) в документации по командной консоли Командная консоль Lync Server.
+Подробное описание параметров см. в описании командлета [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) в документации по командной консоли Командная консоль Lync Server. Чтобы получить список профилей политик пропускной способности, которые можно применять к связи между сетевыми узлами, вызовите командлет **Get-CsNetworkBandwidthPolicyProfile**. Подробные сведения см. в описании командлета [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) в документации по командной консоли Командная консоль Lync Server.
 
 ## Изменение связи между сетевыми узлами
 
@@ -67,5 +67,5 @@ _**Дата изменения раздела:** 2012-11-01_
 [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)  
 [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)  
 [Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)  
-[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 

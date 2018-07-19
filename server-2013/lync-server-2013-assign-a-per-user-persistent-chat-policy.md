@@ -95,7 +95,7 @@ _**Дата изменения раздела:** 2013-02-22_
 
 ## Назначение политики сохраняемого чата нескольким пользователям
 
-  - Эта команда назначает политику сохраняемого чата на уровне пользователя RedmondUsersPersistentChatPolicy всем пользователям, которые работают в ИТ-отделе. Дополнительные сведения о параметре LdapFilter, используемом в этой команде, см. в документации для командлета [Get-CsUser](get-csuser.md).
+  - Эта команда назначает политику сохраняемого чата на уровне пользователя RedmondUsersPersistentChatPolicy всем пользователям, которые работают в ИТ-отделе. Дополнительные сведения о параметре LdapFilter, используемом в этой команде, см. в документации для командлета [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 

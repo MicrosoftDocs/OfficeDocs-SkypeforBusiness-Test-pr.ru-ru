@@ -61,7 +61,7 @@ Microsoft Lync Server 2013 позволяет хранить голосовые 
 
 В предыдущей команде параметр Extensions представляет добавочный номер телефона для пользователя. В этом примере добавочный номер пользователя — 100.
 
-После активации почтового ящика пользователь kenmyer@litwareinc.com сможет использовать единую систему обмена сообщениями Exchange. Для проверки возможности подключения пользователя к единой системе обмена сообщениями Exchange можно выполнить командлет [Test-CsExUMConnectivity](test-csexumconnectivity.md) в Командная консоль Lync Server:
+После активации почтового ящика пользователь kenmyer@litwareinc.com сможет использовать единую систему обмена сообщениями Exchange. Для проверки возможности подключения пользователя к единой системе обмена сообщениями Exchange можно выполнить командлет [Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity) в Командная консоль Lync Server:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

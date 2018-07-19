@@ -61,7 +61,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration -MinPhonePinLength 7
 
-Дополнительные сведения см. в разделе [Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md).
+Дополнительные сведения см. в разделе [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration).
 
 ## См. также
 

@@ -53,7 +53,7 @@ _**Дата изменения раздела:** 2015-03-09_
     
         Get-CsWebServiceConfiguration
 
-3.  Выполните следующую команду, установив для параметров значения «True» или «False» в зависимости от предпочтений (подробные сведения о параметрах этого командлета см. [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md) в документации командная консоль Lync Server 2013):
+3.  Выполните следующую команду, установив для параметров значения «True» или «False» в зависимости от предпочтений (подробные сведения о параметрах этого командлета см. [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration) в документации командная консоль Lync Server 2013):
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 
@@ -61,5 +61,5 @@ _**Дата изменения раздела:** 2015-03-09_
 
 #### Другие ресурсы
 
-[Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)
 

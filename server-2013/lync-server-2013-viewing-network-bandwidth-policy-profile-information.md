@@ -49,7 +49,7 @@ _**Дата изменения раздела:** 2013-02-23_
         BWPolicyProfileID : RedmondBandwidthPolicy
         Description       :
 
-Дополнительные сведения см. в разделе справки о командлете [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md).
+Дополнительные сведения см. в разделе справки о командлете [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
 
 ## См. также
 

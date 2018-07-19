@@ -31,5 +31,5 @@ _**Дата изменения раздела:** 2015-01-26_
 
 #### Другие ресурсы
 
-[Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
+[Get-CsManagementStoreReplicationStatus](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsManagementStoreReplicationStatus)
 
