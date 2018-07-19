@@ -21,7 +21,7 @@ Lync Server предоставляет ряд командлетов коман�
 
 ## Содержание
 
-  - [Командлет New-CsAddressBookConfiguration для управления адресной книгой](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
+  - [Командлет new-csaddressbookconfiguration для управления адресной книгой](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
 
   - [Командлет Set-CsAddressBookConfiguration для управления адресной книгой](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
@@ -41,7 +41,7 @@ Lync Server предоставляет ряд командлетов коман�
 
   - [Командлет Get-CsService для управления адресной книгой](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [Командлет New-CsWebServiceConfiguration для управления адресной книгой](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
+  - [Командлет new-cswebserviceconfiguration для управления адресной книгой](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
 
   - [Командлет Get-CsWebServiceConfiguration для управления адресной книгой](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 

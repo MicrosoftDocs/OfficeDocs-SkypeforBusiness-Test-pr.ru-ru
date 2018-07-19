@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Дата изменения раздела:** 2015-06-22_
 
-Чтобы запросить информацию обо всех поставщиках услуг аудиоконференций, с которыми есть договор у вашей организации, достаточно вызвать командлет [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md) без параметров:
+Чтобы запросить информацию обо всех поставщиках услуг аудиоконференций, с которыми есть договор у вашей организации, достаточно вызвать командлет [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider) без параметров:
 
     Get-CsAudioConferencingProvider
 
@@ -25,12 +25,12 @@ _**Дата изменения раздела:** 2015-06-22_
 
 Есть лишь один командлет Skype для бизнеса Online, принимающий в качестве параметра идентификатор поставщика услуг аудиоконференций:
 
-  - [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md)
+  - [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider)
 
 ## См. также
 
 #### Концепции
 
 [Удостоверения, области и клиенты](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Командлеты Lync Online](the-skype-for-business-online-cmdlets.md)
+[Командлеты Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

@@ -57,7 +57,7 @@ URL-адрес, задаваемый для параметра **HostedMigration
 
 ## Перемещение пользователей в Lync Online
 
-Несколько пользователей можно переместить, выполнив командлет [Get-CsUser](get-csuser.md) с параметром –Filter для выбора пользователей с конкретным свойством, назначенным учетным записям пользователей, например RegistrarPool. Затем возвращенных пользователей можно передать командлету [Move-CsUser](move-csuser.md), как показано ниже.
+Несколько пользователей можно переместить, выполнив командлет [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) с параметром –Filter для выбора пользователей с конкретным свойством, назначенным учетным записям пользователей, например RegistrarPool. Затем возвращенных пользователей можно передать командлету [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser), как показано ниже.
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 

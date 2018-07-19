@@ -43,13 +43,13 @@ _**Дата изменения раздела:** 2016-12-08_
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-В Lync Server партнерские приложения настраиваются с помощью командлета [New-CsPartnerApplication](new-cspartnerapplication.md). Помимо указания URI метаданных необходимо задать в качестве уровня доверия приложения "полный доступ"; это позволит серверу Exchange представлять как самого себя, так и любого полномочного пользователя в области. Например:
+В Lync Server партнерские приложения настраиваются с помощью командлета [New-CsPartnerApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPartnerApplication). Помимо указания URI метаданных необходимо задать в качестве уровня доверия приложения "полный доступ"; это позволит серверу Exchange представлять как самого себя, так и любого полномочного пользователя в области. Например:
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 
 Партнерское приложение также можно создать путем копирования и изменения кода скрипта, который находится в документации по проверке подлинности "сервер-сервер" для Lync Server 2013. Дополнительные сведения см. в статье [Управление проверкой подлинности между серверами (OAuth) и партнерскими приложениями в Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md).
 
-Успешная настройка партнерских приложений для Lync Server и Exchange означает, что проверка подлинности "сервер-сервер" между этими продуктами также настроена. Lync Server 2013 включает командлет Windows PowerShell[Test-CsExStorageConnectivity](test-csexstorageconnectivity.md), который позволяет проверить правильность настройки проверки подлинности "сервер-сервер" и возможность подключения службы хранилища Lync Server к Exchange 2013. Этот командлет подключается к почтовому ящику пользователя Exchange 2013, записывает элемент в папку журнала бесед, а затем (необязательно) удаляет этот элемент.
+Успешная настройка партнерских приложений для Lync Server и Exchange означает, что проверка подлинности "сервер-сервер" между этими продуктами также настроена. Lync Server 2013 включает командлет Windows PowerShell[Test-CsExStorageConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExStorageConnectivity), который позволяет проверить правильность настройки проверки подлинности "сервер-сервер" и возможность подключения службы хранилища Lync Server к Exchange 2013. Этот командлет подключается к почтовому ящику пользователя Exchange 2013, записывает элемент в папку журнала бесед, а затем (необязательно) удаляет этот элемент.
 
 Для проверки интеграции Lync Server 2013 и Exchange 2013 выполните команду, подобную приведенной ниже, из Командная консоль Lync Server.
 

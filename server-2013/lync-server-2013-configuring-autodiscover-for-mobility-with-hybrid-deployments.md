@@ -43,6 +43,6 @@ _**Дата изменения раздела:** 2014-06-18_
 
 #### Другие ресурсы
 
-[Get-CsHostingProvider](get-cshostingprovider.md)  
-[Set-CsHostingProvider](set-cshostingprovider.md)
+[Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
+[Set-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostingProvider)
 

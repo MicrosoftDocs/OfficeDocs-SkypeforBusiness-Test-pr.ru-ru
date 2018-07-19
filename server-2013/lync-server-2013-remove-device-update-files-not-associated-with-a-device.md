@@ -39,5 +39,5 @@ _**Дата изменения раздела:** 2013-02-20_
     
         Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
 
-Дополнительные сведения см. в разделе справки по командлету [Clear-CsDeviceUpdateFile](clear-csdeviceupdatefile.md).
+Дополнительные сведения см. в разделе справки по командлету [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateFile).
 

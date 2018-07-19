@@ -67,7 +67,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
 
-Дополнительные сведения см. в разделе справки для командлета [Set-CsCdrConfiguration](set-cscdrconfiguration.md).
+Дополнительные сведения см. в разделе справки для командлета [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration).
 
 ## См. также
 

@@ -61,9 +61,9 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Для управления порядком хранения содержимого собраний можно использовать следующие параметры:
 
-  - Параметром **ContentGracePeriod**, находящимся по адресу [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md), устанавливается продолжительность хранения содержимого веб-конференций на сервере после окончания собрания.
+  - Параметром **ContentGracePeriod**, находящимся по адресу [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration), устанавливается продолжительность хранения содержимого веб-конференций на сервере после окончания собрания.
 
-  - Параметром **MaxContentStorageMb**, находящимся по адресу [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md), задается максимальный объем файлового пространства, разрешенный для хранения содержимого во время одного собрания.
+  - Параметром **MaxContentStorageMb**, находящимся по адресу [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration), задается максимальный объем файлового пространства, разрешенный для хранения содержимого во время одного собрания.
 
 Параметром **MaxUploadFileSizeMb** не ограничивается настройка выгрузки файлов для Lync Web App. Предел на размер выгружаемого файла для Lync Web App устанавливается равным приблизительно 30 МБ и управляется файлом web.config служб IIS: /DataCollabWeb/Int\[Ext\]/Handler/web.config. Чтобы настроить предельный размер выгружаемого файла для Lync Web App, обновите `maxRequestLength` и `maxAllowedContentLength` в файле web.config, как показано ниже.
 

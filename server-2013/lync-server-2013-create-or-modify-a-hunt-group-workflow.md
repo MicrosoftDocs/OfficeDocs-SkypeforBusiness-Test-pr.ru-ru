@@ -89,7 +89,7 @@ _**Дата изменения раздела:** 2013-09-11_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Глобальная внешняя политика применяется к &quot;Группа ответа&quot;. Вы можете настроить глобальную политику для федерации группы ответа с помощью панели управления Lync Server или командлета <strong>Set-CsExternalAccessPolicy</strong> для установки значения «True» для параметра EnableOutsideAccess. Помните, что настройки глобальной политики применяются ко всем пользователям, если им не назначена политика на уровне сайта или пользователя. Поэтому перед изменением этого параметра для групп ответа убедитесь, что параметр федерации удовлетворяет требованиям организации. Для получения сведений о применении политик для пользователей см. <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Управление политикой внешнего доступа в Lync Server 2013</a>. Для получения сведений о параметре федерации см. <a href="set-csexternalaccesspolicy.md">Set-CsExternalAccessPolicy</a>.</td>
+    <td>Глобальная внешняя политика применяется к &quot;Группа ответа&quot;. Вы можете настроить глобальную политику для федерации группы ответа с помощью панели управления Lync Server или командлета <strong>Set-CsExternalAccessPolicy</strong> для установки значения «True» для параметра EnableOutsideAccess. Помните, что настройки глобальной политики применяются ко всем пользователям, если им не назначена политика на уровне сайта или пользователя. Поэтому перед изменением этого параметра для групп ответа убедитесь, что параметр федерации удовлетворяет требованиям организации. Для получения сведений о применении политик для пользователей см. <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Управление политикой внешнего доступа в Lync Server 2013</a>. Для получения сведений о параметре федерации см. <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -431,7 +431,7 @@ _**Дата изменения раздела:** 2013-09-11_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом <strong>Import-CsRgsAudioFile</strong>. Дополнительные сведения см. в разделе <a href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</a>.</td>
+    <td>Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом <strong>Import-CsRgsAudioFile</strong>. Дополнительные сведения см. в разделе <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -441,7 +441,7 @@ _**Дата изменения раздела:** 2013-09-11_
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    Для получения более подробных сведений о создании очереди см. [New-CsRgsQueue](new-csrgsqueue.md).
+    Для получения более подробных сведений о создании очереди см. [New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue).
 
 5.  Определите действие по умолчанию, которое будет выполняться при открытии рабочего процесса в рабочие часы, и сохраните его в качестве переменной. В командной строке выполните команду:
     
@@ -466,7 +466,7 @@ _**Дата изменения раздела:** 2013-09-11_
 
 6.  Если необходимо определить рабочие и выходные дни, следует создать их перед созданием или изменением рабочего процесса. Подробные сведения см. в документах [Определение рабочих часов для группы ответа в Lync Server 2013 (необязательно)](lync-server-2013-optional-define-response-group-business-hours.md) и [(Необязательно) определение набора праздников группы ответа в Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md).
 
-7.  Если требуется подсказка для вызовов, полученных в нерабочее время или в праздники, используйте командлет **New-CsRgsPrompt** для определения подсказки и воспользуйтесь командлетом **New-CsRgsCallAction**, чтобы определить действие, которое необходимо выполнить после появления подсказки. Подробные сведения см. в документах [New-CsRgsPrompt](new-csrgsprompt.md) и [New-CsRgsCallAction](new-csrgscallaction.md).
+7.  Если требуется подсказка для вызовов, полученных в нерабочее время или в праздники, используйте командлет **New-CsRgsPrompt** для определения подсказки и воспользуйтесь командлетом **New-CsRgsCallAction**, чтобы определить действие, которое необходимо выполнить после появления подсказки. Подробные сведения см. в документах [New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt) и [New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction).
 
 8.  Получите имя службы для группы ответа Lync Server и назначьте его переменной. В командной строке выполните следующую команду:
     
@@ -501,7 +501,7 @@ _**Дата изменения раздела:** 2013-09-11_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Подробные сведения о других необязательных параметрах см. в документах <a href="new-csrgsworkflow.md">New-CsRgsWorkflow</a> и <a href="set-csrgsworkflow.md">Set-CsRgsWorkflow</a></td>
+    <td>Подробные сведения о других необязательных параметрах см. в документах <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</a></td>
     </tr>
     </tbody>
     </table>
@@ -519,8 +519,8 @@ _**Дата изменения раздела:** 2013-09-11_
 
 #### Другие ресурсы
 
-[New-CsRgsWorkflow](new-csrgsworkflow.md)  
-[Set-CsRgsWorkflow](set-csrgsworkflow.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)
+[New-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow)  
+[Set-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)
 

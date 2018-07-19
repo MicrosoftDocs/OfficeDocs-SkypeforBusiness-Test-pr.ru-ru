@@ -79,5 +79,5 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Get-CsUCPhoneConfiguration | Where-Object {$_.EnforcePhoneLock -eq $False} | Remove-CsUCPhoneConfiguration
 
-Дополнительные сведения см. в разделе [Remove-CsUCPhoneConfiguration](remove-csucphoneconfiguration.md).
+Дополнительные сведения см. в разделе [Remove-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUCPhoneConfiguration).
 

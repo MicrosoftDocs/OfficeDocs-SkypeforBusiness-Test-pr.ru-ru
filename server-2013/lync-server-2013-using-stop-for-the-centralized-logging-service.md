@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Дата изменения раздела:** 2012-11-01_
 
-Остановить текущий работающий сеанс ведения журнала можно с помощью командлета Stop-CsClsLogging. Обычно ситуации, когда нужно остановить сеанс ведения журнала, возникают достаточно редко. Например, поиск в журналах и изменение конфигураций можно выполнять без обязательной предварительной остановки ведения журнала. Если выполняются два сценария, например AlwaysOn и UserReplicator, и нужно собирать сведения, связанные с проверкой подлинности (сценарий Authentication), понадобится остановить один из других сценариев (на глобальном уровне, уровне сайта, пула или компьютера), прежде чем можно будет запустить сценарий Authentication. Подробные сведения см. в статье [Stop-CsClsLogging](stop-csclslogging.md).
+Остановить текущий работающий сеанс ведения журнала можно с помощью командлета Stop-CsClsLogging. Обычно ситуации, когда нужно остановить сеанс ведения журнала, возникают достаточно редко. Например, поиск в журналах и изменение конфигураций можно выполнять без обязательной предварительной остановки ведения журнала. Если выполняются два сценария, например AlwaysOn и UserReplicator, и нужно собирать сведения, связанные с проверкой подлинности (сценарий Authentication), понадобится остановить один из других сценариев (на глобальном уровне, уровне сайта, пула или компьютера), прежде чем можно будет запустить сценарий Authentication. Подробные сведения см. в статье [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging).
 
 <table>
 <thead>
@@ -50,7 +50,7 @@ _**Дата изменения раздела:** 2012-11-01_
     
     ![Консоль Windows PowerShell после вызова Show-CsCl](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Консоль Windows PowerShell после вызова Show-CsCl")
     
-    Результатом выполнения Show-CsClsLogging являются сводные данные обо всех выполняемых сценариях и областях их выполнения. Подробные сведения см. в статье [Show-CsClsLogging](show-csclslogging.md).
+    Результатом выполнения Show-CsClsLogging являются сводные данные обо всех выполняемых сценариях и областях их выполнения. Подробные сведения см. в статье [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging).
 
 3.  Чтобы остановить выполняемый в данный момент сеанс ведения журнала, введите:
     
@@ -70,7 +70,7 @@ _**Дата изменения раздела:** 2012-11-01_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Журналы, созданные в течение останавливаемого сеанса ведения журнала с помощью сценария UserReplicator, не удаляются. Журналы остаются доступными для выполнения поиска с помощью команды Search-CsClsLogging. Подробные сведения см. в статье <a href="search-csclslogging.md">Search-CsClsLogging</a>.</td>
+    <td>Журналы, созданные в течение останавливаемого сеанса ведения журнала с помощью сценария UserReplicator, не удаляются. Журналы остаются доступными для выполнения поиска с помощью команды Search-CsClsLogging. Подробные сведения см. в статье <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging">Search-CsClsLogging</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -90,7 +90,7 @@ _**Дата изменения раздела:** 2012-11-01_
 
 #### Другие ресурсы
 
-[Show-CsClsLogging](show-csclslogging.md)  
-[Start-CsClsLogging](start-csclslogging.md)  
-[Stop-CsClsLogging](stop-csclslogging.md)
+[Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging)  
+[Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging)  
+[Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging)
 

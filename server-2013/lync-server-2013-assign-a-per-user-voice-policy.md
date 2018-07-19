@@ -73,7 +73,7 @@ _**Дата изменения раздела:** 2013-02-22_
 
 ## Назначение политики голосовой связи уровня пользователя нескольким пользователям
 
-  - Эта команда назначает политику голосовой связи уровня пользователя с именем FinanceVoicePolicy всем пользователям с учетными записями подразделения Finance в Active Directory. Дополнительные сведения о параметре OU, используемом в этой команде, см. в документации по командлету [Get-CsUser](get-csuser.md).
+  - Эта команда назначает политику голосовой связи уровня пользователя с именем FinanceVoicePolicy всем пользователям с учетными записями подразделения Finance в Active Directory. Дополнительные сведения о параметре OU, используемом в этой команде, см. в документации по командлету [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -83,7 +83,7 @@ _**Дата изменения раздела:** 2013-02-22_
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения см. в разделе справки по командлету [Grant-CsVoicePolicy](grant-csvoicepolicy.md).
+Дополнительные сведения см. в разделе справки по командлету [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy).
 
 ## См. также
 

@@ -60,7 +60,7 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="even">
 <td><p>Уровень поддержки шифрования</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Указывает уровень поддержки для защиты трафика медиаданных между сервером-посредником и шлюзом ТСОП, IP-PBX или пограничным контроллером сеансов на стороне поставщика службы. Для случаев обхода медиаданных это значение должно быть совместимо с параметром EncryptionLevel в настройке медиаданных. Настройка медиаданных задается с помощью командлетов <a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> и <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a>.</p>
+<td><p>Указывает уровень поддержки для защиты трафика медиаданных между сервером-посредником и шлюзом ТСОП, IP-PBX или пограничным контроллером сеансов на стороне поставщика службы. Для случаев обхода медиаданных это значение должно быть совместимо с параметром EncryptionLevel в настройке медиаданных. Настройка медиаданных задается с помощью командлетов <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
 <p>Допускаются следующие значения:</p>
 <ul>
 <li><p>Требуется: должно использоваться шифрование SRTP.</p></li>
@@ -153,7 +153,7 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td>Командлеты CsTrunkConfiguration Lync Server поддерживают дополнительные свойства, не отображаемые в панели управления Lync Server. Дополнительные сведения см. в разделе справки по командлету <a href="new-cstrunkconfiguration.md">New-CsTrunkConfiguration</a>.</td>
+<td>Командлеты CsTrunkConfiguration Lync Server поддерживают дополнительные свойства, не отображаемые в панели управления Lync Server. Дополнительные сведения см. в разделе справки по командлету <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</a>.</td>
 </tr>
 </tbody>
 </table>

@@ -49,7 +49,7 @@ _**Дата изменения раздела:** 2013-02-23_
         Voice8021p           : 0
         LoggingLevel         : Off
 
-Дополнительные сведения см. в разделе [Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md).
+Дополнительные сведения см. в разделе [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration).
 
 ## См. также
 

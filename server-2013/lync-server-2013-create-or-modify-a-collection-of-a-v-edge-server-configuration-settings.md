@@ -25,7 +25,7 @@ _**Дата изменения раздела:** 2012-11-01_
 
   - Параметры глобального уровня будут использоваться, только если отсутствуют параметры служб, настроенные на отдельном сервере, а также отсутствуют параметры сайта, в котором расположен тот или иной сервер.
 
-Любой из параметров может быть изменен с помощью командлета Set-CsAVEdgeConfiguration. Дополнительные сведения см. в разделах справки по командлетам [New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md) и [Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md).
+Любой из параметров может быть изменен с помощью командлета Set-CsAVEdgeConfiguration. Дополнительные сведения см. в разделах справки по командлетам [New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration) и [Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration).
 
 ## Создание новых параметров конфигурации пограничной службы звука и видео на уровне сайта
 
@@ -61,6 +61,6 @@ _**Дата изменения раздела:** 2012-11-01_
 #### Другие ресурсы
 
 [Пограничные серверы аудио- и видеоданных](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md)  
-[Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md)
+[New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration)  
+[Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration)
 

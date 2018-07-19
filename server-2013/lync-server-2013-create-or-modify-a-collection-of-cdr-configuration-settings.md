@@ -19,7 +19,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
 При установке Microsoft Lync Server 2013 создается одна глобальная коллекция параметров конфигурации CDR. Администраторы также могут создавать особые параметры на уровне сайта. Если такие параметры на уровне сайта используются, то они имеют преимущество перед глобальными параметрами. Например, если создаются параметры для сайта Redmond на уровне сайта, то эти параметры (а не глобальные параметры) будут использоваться для управления CDR на сайте Redmond.
 
-Параметры конфигурации CDR можно создавать с помощью панели управления Lync Server или с помощью командлета [New-CsCdrConfiguration](new-cscdrconfiguration.md). Существующие параметры можно изменять с помощью панели управления Lync Server или командлета [Set-CsCdrConfiguration](set-cscdrconfiguration.md). Если для создания или изменения параметров используется панель управления Lync Server, то будут доступны следующие параметры.
+Параметры конфигурации CDR можно создавать с помощью панели управления Lync Server или с помощью командлета [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration). Существующие параметры можно изменять с помощью панели управления Lync Server или командлета [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration). Если для создания или изменения параметров используется панель управления Lync Server, то будут доступны следующие параметры.
 
 
 <table>
@@ -73,7 +73,7 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td>В командлетах New-CsCdrConfiguration и Set-CsCdrConfiguration имеются дополнительные параметры, недоступные в панели управления Lync Server. Дополнительные сведения см. в разделах справки <a href="new-cscdrconfiguration.md">New-CsCdrConfiguration</a> и <a href="set-cscdrconfiguration.md">Set-CsCdrConfiguration</a>.</td>
+<td>В командлетах New-CsCdrConfiguration и Set-CsCdrConfiguration имеются дополнительные параметры, недоступные в панели управления Lync Server. Дополнительные сведения см. в разделах справки <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -119,5 +119,5 @@ _**Дата изменения раздела:** 2015-03-09_
     
         New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
 
-Дополнительные сведения см. в разделе справки для командлета [New-CsCdrConfiguration](new-cscdrconfiguration.md).
+Дополнительные сведения см. в разделе справки для командлета [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration).
 

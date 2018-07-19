@@ -19,7 +19,7 @@ _**Дата изменения раздела:** 2015-06-22_
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-К счастью, не требуется вводить идентификатор клиента (например, bf19b7db-6960-41e5-a139-2aa373474354) каждый раз при выполнении одного из этих командлетов. Вместо этого можно получить идентификатор клиента с помощью командлета [Get-CsTenant](get-cstenant.md), сохранить его в переменной, а затем использовать эту переменную при вызове любого другого командлета. Например:
+К счастью, не требуется вводить идентификатор клиента (например, bf19b7db-6960-41e5-a139-2aa373474354) каждый раз при выполнении одного из этих командлетов. Вместо этого можно получить идентификатор клиента с помощью командлета [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant), сохранить его в переменной, а затем использовать эту переменную при вызове любого другого командлета. Например:
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
@@ -34,17 +34,17 @@ _**Дата изменения раздела:** 2015-06-22_
 
 Указанные далее командлеты принимают идентификатор клиента. Однако в данном случае этот параметр является необязательным и при вызове командлета вводить его не требуется. Вместо этого Windows PowerShell самостоятельно введет значение идентификатора клиента на основе данных клиента Skype для бизнеса Online, к которому вы подключены в настоящий момент.
 
-  - [Get-CsTenant](get-cstenant.md)
+  - [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant)
 
-  - [Set-CsTenantFederationConfiguration](set-cstenantfederationconfiguration.md)
+  - [Set-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantFederationConfiguration)
 
-  - [Set-CsTenantHybridConfiguration](set-cstenanthybridconfiguration.md)
+  - [Set-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTenantHybridConfiguration)
 
-  - [Get-CsTenantFederationConfiguration](get-cstenantfederationconfiguration.md)
+  - [Get-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantFederationConfiguration)
 
-  - [Get-CsTenantHybridConfiguration](get-cstenanthybridconfiguration.md)
+  - [Get-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantHybridConfiguration)
 
-  - [Get-CsTenantLicensingConfiguration](get-cstenantlicensingconfiguration.md)
+  - [Get-CsTenantLicensingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantLicensingConfiguration)
 
 Например командлет **Get-CsTenantFederationConfiguration** можно вызвать с помощью следующей команды:
 
@@ -59,5 +59,5 @@ _**Дата изменения раздела:** 2015-06-22_
 #### Концепции
 
 [Удостоверения, области и клиенты](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Командлеты Lync Online](the-skype-for-business-online-cmdlets.md)
+[Командлеты Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

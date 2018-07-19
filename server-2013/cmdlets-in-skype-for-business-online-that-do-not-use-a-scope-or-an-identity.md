@@ -17,11 +17,11 @@ _**Дата изменения раздела:** 2015-06-22_
 
 В командлетах, используемых для изменения списков разрешенных и заблокированных доменов (которые определяют, с какими внешними организациями вашим пользователям разрешено обмениваться данными), не используются параметры области и удостоверения. Командлет **New-CsEdgeAllowAllKnownDomains** вообще не имеет параметров. К командлетам, с которыми не используются параметры области и удостоверения, относятся следующие командлеты:
 
-  - [New-CsEdgeAllowAllKnownDomains](new-csedgeallowallknowndomains.md)
+  - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
-  - [New-CsEdgeAllowList](new-csedgeallowlist.md)
+  - [New-CsEdgeAllowList](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowList)
 
-  - [New-CsEdgeDomainPattern](new-csedgedomainpattern.md)
+  - [New-CsEdgeDomainPattern](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeDomainPattern)
 
 Обратите внимание, что командлеты **New-CsEdgeAllowList** и **New-CsEdgeDomainPattern** требуют использования параметра Domain. Пример:
 
@@ -32,5 +32,5 @@ _**Дата изменения раздела:** 2015-06-22_
 #### Концепции
 
 [Удостоверения, области и клиенты](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Командлеты Lync Online](the-skype-for-business-online-cmdlets.md)
+[Командлеты Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

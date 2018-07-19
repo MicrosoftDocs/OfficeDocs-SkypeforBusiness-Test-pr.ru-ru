@@ -69,7 +69,7 @@ _**Дата изменения раздела:** 2013-02-22_
 
 ## Назначение абонентской группы на уровне пользователей нескольким пользователям
 
-  - Эта команда назначает абонентскую группу на уровне пользователей RedmondDialPlan всем пользователям, работающим в городе Редмонд (Redmond). Дополнительные сведения о параметре LdapFilter, используемом в этой команде, см. в документации для командлета [Get-CsUser](get-csuser.md).
+  - Эта команда назначает абонентскую группу на уровне пользователей RedmondDialPlan всем пользователям, работающим в городе Редмонд (Redmond). Дополнительные сведения о параметре LdapFilter, используемом в этой команде, см. в документации для командлета [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
 
@@ -79,7 +79,7 @@ _**Дата изменения раздела:** 2013-02-22_
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения см. в разделе справки для командлета [Grant-CsDialPlan](grant-csdialplan.md).
+Дополнительные сведения см. в разделе справки для командлета [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan).
 
 ## См. также
 

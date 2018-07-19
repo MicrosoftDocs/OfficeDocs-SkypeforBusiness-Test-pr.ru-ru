@@ -49,7 +49,7 @@ _**Дата изменения раздела:** 2012-06-19_
 
   - [Изменения, внесенные в ходе подготовки домена в Lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Изменения, сделанные Grant-CsSetupPermission в Lync Server 2013](lync-server-2013-changes-made-by-grant-cssetuppermission.md)
+  - [Изменения, сделанные Grant-CsSetupPermission в Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Изменения, вносимые командлетом Grant-CsOUPermission в Lync Server 2013](lync-server-2013-changes-made-by-grant-csoupermission.md)
+  - [Изменения, вносимые командлетом Grant-CsOUPermission в Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission)
 

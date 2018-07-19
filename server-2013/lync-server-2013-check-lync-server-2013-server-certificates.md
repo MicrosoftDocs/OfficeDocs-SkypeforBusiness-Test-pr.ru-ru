@@ -130,5 +130,5 @@ Dialin.fabrikam.com
 
 #### Другие ресурсы
 
-[Get-CsCertificate](get-cscertificate.md)
+[Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)
 

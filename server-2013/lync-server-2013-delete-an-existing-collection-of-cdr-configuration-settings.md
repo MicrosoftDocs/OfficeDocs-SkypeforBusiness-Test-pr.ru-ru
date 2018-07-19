@@ -21,7 +21,7 @@ _**Дата изменения раздела:** 2013-02-23_
 
 Обратите внимание, что глобальные параметры также можно "удалить", однако на самом деле они не удаляются. Вместо этого все свойства в этой коллекции сбрасываются на значения по умолчанию. Например, в коллекции параметров конфигурации CDR по умолчанию очистка включена. Предположим, что глобальная коллекция изменена и очистка отключена. Если удалить глобальные параметры, все свойства будут сброшены на значения по умолчанию и очистка снова будет включена.
 
-Для удаления параметров конфигурации CDR можно использовать панельуправления Lync Server или командлет [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Для удаления параметров конфигурации CDR можно использовать панельуправления Lync Server или командлет [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 
 ## Удаление параметров конфигурации CDR с помощью панели управления Lync Server
 
@@ -55,5 +55,5 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
 
-Дополнительные сведения см. в разделе справки по командлету [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Дополнительные сведения см. в разделе справки по командлету [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 

@@ -75,14 +75,14 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="even">
 <td><p>Протестируйте развертывание среды для мобильной работы для Lync 2010 Mobile с помощью службы Mcx Mobility Service</p></td>
 <td><p>Запустите <strong>Test-CsMcxP2PIM</strong>, чтобы протестировать отправку мгновенного сообщения от одного пользователя другому.</p>
-<p>Полный список параметров см. в описании <a href="test-csmcxp2pim.md">Test-CsMcxP2PIM</a> в документации по командлетам командной консоли Командная консоль Lync Server.</p></td>
+<p>Полный список параметров см. в описании <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a> в документации по командлетам командной консоли Командная консоль Lync Server.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Проверка развертывания среды для мобильной работы в Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Протестируйте развертывание среды для мобильной работы для клиентов Lync 2013 Mobile с помощью веб-компонентов UCWA</p></td>
 <td><p>Используйте командлет <strong>Test-CsUcwaConference</strong> для тестирования и проверки того, что предварительно определенные тестовые пользователи или пара реальных пользователей могут воспользоваться UCWA для создания конференции и участия в ней.</p>
-<p>Полный список параметров см. в описании <a href="test-csucwaconference.md">Test-CsUcwaConference</a> в документации по командлетам командной консоли Командная консоль Lync Server.</p></td>
+<p>Полный список параметров см. в описании <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a> в документации по командлетам командной консоли Командная консоль Lync Server.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Проверка развертывания среды для мобильной работы в Lync Server 2013</a></p></td>
 </tr>

@@ -83,5 +83,5 @@ _**Дата изменения раздела:** 2012-09-26_
 
 3.  Для политик конференц-связи, поддерживающих анонимных участников, должны быть заданы следующие параметры: в панели управления Lync Server 2013 должен быть установлен флажок **Разрешить участникам приглашать анонимных пользователей** , а для атрибута **AllowAnonymousParticipantsInMeetings** при отображении выходных данных командлета **Get-CsConferencingPolicy** в Командная консоль Lync Server должно быть указано значение **True** .
 
-4.  Сведения о настройке политики конференц-связи с помощью Командная консоль Lync Server см. в разделе [Set-CsConferencingPolicy](set-csconferencingpolicy.md) документации по командной консоли Lync Server.
+4.  Сведения о настройке политики конференц-связи с помощью Командная консоль Lync Server см. в разделе [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingPolicy) документации по командной консоли Lync Server.
 

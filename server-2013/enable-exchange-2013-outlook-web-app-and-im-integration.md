@@ -25,13 +25,13 @@ _**Дата изменения раздела:** 2012-10-19_
     
         Get-CsSite
     
-    Это вернет siteID для siteName, имени сайта, в котором следует создать пул. Подробные сведения см. в разделе [Get-CsSite](get-cssite.md) документации по командная консоль Lync Server 2013.
+    Это вернет siteID для siteName, имени сайта, в котором следует создать пул. Подробные сведения см. в разделе [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) документации по командная консоль Lync Server 2013.
 
 3.  выполнить следующий командлет:
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    Подробные сведения см. в описании командлета [New-CsTrustedApplicationPool](new-cstrustedapplicationpool.md) в документации по командной консоли командная консоль Lync Server 2013.
+    Подробные сведения см. в описании командлета [New-CsTrustedApplicationPool](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplicationPool) в документации по командной консоли командная консоль Lync Server 2013.
     
     Полное доменное имя Exchange Server должно быть настроено в сертификате Exchange OWA как имя субъекта или альтернативное имя субъекта (SAN).
     
@@ -69,7 +69,7 @@ _**Дата изменения раздела:** 2012-10-19_
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     
-    Подробные сведения см. в разделе [New-CsTrustedApplication](new-cstrustedapplication.md) документации по командная консоль Lync Server 2013.
+    Подробные сведения см. в разделе [New-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplication) документации по командная консоль Lync Server 2013.
 
 3.  Запустите **Enable-CsTopology** .
 

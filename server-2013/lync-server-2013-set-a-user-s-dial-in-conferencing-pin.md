@@ -110,7 +110,7 @@ _**Дата изменения раздела:** 2014-06-10_
     
         Set-CsClientPin -Identity "Ken Myer" -Pin 121989
 
-Дополнительные сведения см. в разделе справки с описанием командлета [Set-CsClientPin](set-csclientpin.md).
+Дополнительные сведения см. в разделе справки с описанием командлета [Set-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPin).
 
 ## См. также
 

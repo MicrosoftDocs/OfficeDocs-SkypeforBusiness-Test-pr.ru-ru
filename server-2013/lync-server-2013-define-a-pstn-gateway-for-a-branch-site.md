@@ -68,7 +68,7 @@ _**Дата изменения раздела:** 2012-09-21_
 
 
 > [!TIP]
-> Для изменения свойств шлюза ТСОП используйте командлет <STRONG>Set-CsPstnGateway</STRONG>. Подробные сведения см. в разделе <A href="set-cspstngateway.md">Set-CsPstnGateway</A> в справке по Командная консоль Lync Server.
+> Для изменения свойств шлюза ТСОП используйте командлет <STRONG>Set-CsPstnGateway</STRONG>. Подробные сведения см. в разделе <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A> в справке по Командная консоль Lync Server.
 
 
 

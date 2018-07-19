@@ -68,5 +68,5 @@ _**Дата изменения раздела:** 2013-02-22_
         ForwardPAI                                : False
         EnableFastFailoverTimer                   : True
 
-Дополнительные сведения см. в разделе справки о командлете [Get-CsTrunkConfiguration](get-cstrunkconfiguration.md).
+Дополнительные сведения см. в разделе справки о командлете [Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration).
 

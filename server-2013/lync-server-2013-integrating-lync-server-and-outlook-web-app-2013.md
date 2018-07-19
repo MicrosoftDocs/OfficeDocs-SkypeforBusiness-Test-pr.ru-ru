@@ -41,7 +41,7 @@ Lync Server 2013 может выполнять автообнаружение л
 </thead>
 <tbody>
 <tr class="odd">
-<td>Все это вызвано тем фактом, что топология Lync Server будет иметь две записи для одного компьютера: запись автообнаружения и запись, добавленная вручную. Чтобы устранить данную проблему и восстановить работоспособность Outlook Web App, удалите доверенный пул и записи доверенных приложений для этого сервера с помощью Windows PowerShell. Дополнительные сведения см. в разделах справки по командлетам <a href="remove-cstrustedapplicationpool.md">Remove-CsTrustedApplicationPool</a> и <a href="remove-cstrustedapplication.md">Remove-CsTrustedApplication</a>.</td>
+<td>Все это вызвано тем фактом, что топология Lync Server будет иметь две записи для одного компьютера: запись автообнаружения и запись, добавленная вручную. Чтобы устранить данную проблему и восстановить работоспособность Outlook Web App, удалите доверенный пул и записи доверенных приложений для этого сервера с помощью Windows PowerShell. Дополнительные сведения см. в разделах справки по командлетам <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</a>.</td>
 </tr>
 </tbody>
 </table>

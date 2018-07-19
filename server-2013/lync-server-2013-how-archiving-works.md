@@ -157,9 +157,9 @@ Lync Server также не архивирует беседы сохраняем
 
 В командная консоль Lync Server 2013 можно использовать командлеты для реализации параметров, недоступных в панели управления Lync Server 2013. К ним относятся следующие параметры:
 
-  - **Архивация повторяющихся сообщений**. Дополнительные сведения см. в статьях [New-CsArchivingConfiguration](new-csarchivingconfiguration.md) и [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md) в документации по использованию.
+  - **Архивация повторяющихся сообщений**. Дополнительные сведения см. в статьях [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) и [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) в документации по использованию.
 
-  - **Экспорт архивированных данных**. Дополнительные сведения см. в разделе [Export-CsArchivingData](export-csarchivingdata.md)
+  - **Экспорт архивированных данных**. Дополнительные сведения см. в разделе [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)
 
 ## Как получить доступ к архивированным данным?
 

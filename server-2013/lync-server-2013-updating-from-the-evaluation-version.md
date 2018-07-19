@@ -43,7 +43,7 @@ _**Дата изменения раздела:** 2012-06-20_
 
     Get-CsServerVersion
 
-Командлет [Get-CsServerVersion](get-csserverversion.md) проанализирует локальный компьютер и выдаст одно из следующих сообщений.
+Командлет [Get-CsServerVersion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsServerVersion) проанализирует локальный компьютер и выдаст одно из следующих сообщений.
 
   - На компьютере установлен ключ многократной установки Lync Server, поэтому обновление не требуется.
 

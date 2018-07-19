@@ -61,7 +61,7 @@ _**Дата изменения раздела:** 2013-02-23_
         NetworkSiteID : Redmond
         SubnetID      : 172.11.15.0
 
-Дополнительные сведения см. в разделе справки по командлету [Get-CsNetworkSubnet](get-csnetworksubnet.md).
+Дополнительные сведения см. в разделе справки по командлету [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet).
 
 ## См. также
 

@@ -92,7 +92,7 @@ _**Дата изменения раздела:** 2016-12-08_
 
 5.  Используйте командлет **Grant-CSClientPolicy** для назначения этой новой политики пользователям.
 
-Дополнительные сведения см. в разделах [New-CsClientPolicy](new-csclientpolicy.md) и [Grant-CsClientPolicy](grant-csclientpolicy.md) в документации Командная консоль Lync Server.
+Дополнительные сведения см. в разделах [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) и [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy) в документации Командная консоль Lync Server.
 
 <table>
 <colgroup>

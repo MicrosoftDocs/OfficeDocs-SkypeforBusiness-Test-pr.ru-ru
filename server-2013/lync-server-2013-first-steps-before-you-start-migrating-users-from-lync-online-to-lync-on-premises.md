@@ -33,9 +33,9 @@ _**Дата изменения раздела:** 2016-12-08_
     
         Import-PSSession $CSSession -AllowClobber
     
-    Дополнительные сведения о запуске удаленного сеанса PowerShell в Skype для бизнеса Online см. в статье [Подключение к Lync Online с использованием Windows PowerShell](connecting-to-skype-for-business-online-by-using-windows-powershell.md).
+    Дополнительные сведения о запуске удаленного сеанса PowerShell в Skype для бизнеса Online см. в статье [Подключение к Lync Online с использованием Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     
-    Дополнительные сведения об использовании модуля Skype для бизнеса Online PowerShell см. в статье [Использование Windows PowerShell для управления Lync Online](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md).
+    Дополнительные сведения об использовании модуля Skype для бизнеса Online PowerShell см. в статье [Использование Windows PowerShell для управления Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
   - Lync Online должен быть настроен для общедоступного адресного пространства SIP. Для этого сначала запустите удаленный сеанс Powershell с Lync Online. Затем выполните следующий командлет:
     

@@ -147,7 +147,7 @@ _**Дата изменения раздела:** 2013-02-23_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом <strong>Import-CsRgsAudioFile</strong>. Дополнительные сведения см. в разделе <a href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</a>.</td>
+    <td>Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом <strong>Import-CsRgsAudioFile</strong>. Дополнительные сведения см. в разделе <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -165,7 +165,7 @@ _**Дата изменения раздела:** 2013-02-23_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Дополнительные сведения о возможных действиях и их синтаксисе см. в справке по командлету <a href="new-csrgscallaction.md">New-CsRgsCallAction</a>.</td>
+    <td>Дополнительные сведения о возможных действиях и их синтаксисе см. в справке по командлету <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -190,7 +190,7 @@ _**Дата изменения раздела:** 2013-02-23_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом <strong>Import-CsRgsAudioFile</strong>. Дополнительные сведения см. в разделе <a href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</a>.</td>
+    <td>Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом <strong>Import-CsRgsAudioFile</strong>. Дополнительные сведения см. в разделе <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -208,7 +208,7 @@ _**Дата изменения раздела:** 2013-02-23_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Дополнительные сведения о возможных действиях и их синтаксисе см. в справке по командлету <a href="new-csrgscallaction.md">New-CsRgsCallAction</a>.</td>
+    <td>Дополнительные сведения о возможных действиях и их синтаксисе см. в справке по командлету <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -233,7 +233,7 @@ _**Дата изменения раздела:** 2013-02-23_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Дополнительные сведения о создании группы агентов см. в разделе <a href="new-csrgsagentgroup.md">New-CsRgsAgentGroup</a></td>
+    <td>Дополнительные сведения о создании группы агентов см. в разделе <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</a></td>
     </tr>
     </tbody>
     </table>
@@ -255,11 +255,11 @@ _**Дата изменения раздела:** 2013-02-23_
 
 #### Другие ресурсы
 
-[New-CsRgsQueue](new-csrgsqueue.md)  
-[Set-CsRgsQueue](set-csrgsqueue.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)  
-[Get-CsRgsQueue](get-csrgsqueue.md)  
-[Import-CsRgsAudioFile](import-csrgsaudiofile.md)  
-[Remove-CsRgsQueue](remove-csrgsqueue.md)
+[New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue)  
+[Set-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsQueue)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)  
+[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[Remove-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsRgsQueue)
 

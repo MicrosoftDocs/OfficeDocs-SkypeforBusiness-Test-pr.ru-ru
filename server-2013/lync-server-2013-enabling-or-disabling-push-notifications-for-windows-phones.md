@@ -61,7 +61,7 @@ Push-уведомления в форме эмблем, значков или п
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $False
 
-Дополнительные сведения см. в разделе справки по командлету [Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md).
+Дополнительные сведения см. в разделе справки по командлету [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPushNotificationConfiguration).
 
 ## См. также
 

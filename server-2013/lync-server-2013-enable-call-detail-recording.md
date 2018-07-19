@@ -79,7 +79,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration "site:Redmond" -EnableCDR $True
 
-Дополнительные сведения см. в разделе справки по командлету [Set-CsCdrConfiguration](set-cscdrconfiguration.md).
+Дополнительные сведения см. в разделе справки по командлету [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration).
 
 ## См. также
 

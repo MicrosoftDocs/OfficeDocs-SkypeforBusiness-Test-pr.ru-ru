@@ -65,7 +65,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
 
-Дополнительные сведения см. в разделе [Set-CsQoEConfiguration](set-csqoeconfiguration.md).
+Дополнительные сведения см. в разделе [Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration).
 
 ## См. также
 

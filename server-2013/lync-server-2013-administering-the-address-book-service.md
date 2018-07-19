@@ -278,7 +278,7 @@ _**Дата изменения раздела:** 2016-12-08_
 </thead>
 <tbody>
 <tr class="odd">
-<td>Дополнительные сведения о фильтрации адресной книги см. в разделе <a href="lync-server-2013-address-book-server-cmdlets.md">Командлеты сервера адресной книги</a> и <a href="http://go.microsoft.com/fwlink/?linkid=330430">Фильтрация адресной книги Lync 2013</a></td>
+<td>Дополнительные сведения о фильтрации адресной книги см. в разделе <a href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Командлеты сервера адресной книги</a> и <a href="http://go.microsoft.com/fwlink/?linkid=330430">Фильтрация адресной книги Lync 2013</a></td>
 </tr>
 </tbody>
 </table>

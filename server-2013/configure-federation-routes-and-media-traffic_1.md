@@ -248,7 +248,7 @@ _**Дата изменения раздела:** 2016-12-08_
     
         Set-CsAccessEdgeConfiguration
     
-    Дополнительные сведения об этих командлетах см. в следующих разделах: [Get-CsAccessEdgeConfiguration](get-csaccessedgeconfiguration.md) и [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md).
+    Дополнительные сведения об этих командлетах см. в следующих разделах: [Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAccessEdgeConfiguration) и [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration).
 
 4.  Дождитесь завершеня репликации, перед тем как переводить пограничные серверы Lync Server 2013 в оперативный режим и тестировать федерацию и внешний доступ.
 

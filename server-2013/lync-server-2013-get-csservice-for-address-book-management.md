@@ -125,5 +125,5 @@ PoolFqdn : pool01.contoso.net
 
 #### Другие ресурсы
 
-[Get-CsService](get-csservice.md)
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)
 

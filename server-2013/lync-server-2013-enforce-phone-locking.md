@@ -59,7 +59,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration  -EnforcePhoneLock $True
 
-Дополнительные сведения см. в разделе справки по командлету [Set-CsUCPhoneConfiguration](set-csucphoneconfiguration.md).
+Дополнительные сведения см. в разделе справки по командлету [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUCPhoneConfiguration).
 
 ## См. также
 

@@ -25,5 +25,5 @@ _**Дата изменения раздела:** 2012-09-26_
 
   - доменные права на создание контактных объектов в указанном контейнере подразделения (OU).
 
-Сведения об использовании командлета **Get-CsExumContact** см. в разделе [Get-CsExUmContact](get-csexumcontact.md) документации по Командная консоль Lync Server.
+Сведения об использовании командлета **Get-CsExumContact** см. в разделе [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact) документации по Командная консоль Lync Server.
 

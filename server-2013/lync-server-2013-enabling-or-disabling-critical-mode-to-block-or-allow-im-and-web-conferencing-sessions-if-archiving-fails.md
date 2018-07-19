@@ -68,7 +68,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 
-Дополнительные сведения см. в разделе справки для командлета [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+Дополнительные сведения см. в разделе справки для командлета [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
 ## См. также
 

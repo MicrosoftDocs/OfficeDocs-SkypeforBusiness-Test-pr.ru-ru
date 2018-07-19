@@ -45,7 +45,7 @@ _**Дата изменения раздела:** 2012-11-05_
 </thead>
 <tbody>
 <tr class="odd">
-<td>Начиная с Lync Server 2013, для назначения промежуточных сертификатов проверки подлинности аудио/видео до наступления времени истечения срока действия текущего сертификата требуется проведение дополнительного планирования. Вместо одного сертификата с несколькими назначениями для внешнего пограничного интерфейса вам потребуется два сертификата – один, назначенный пограничной службе доступа и веб-конференций, и один для пограничной службы аудио- и видеоконференций. Дополнительные сведения см. в разделе <a href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md">Этапы сертифицирования AV и OAuth с использованием -Roll in Set-CsCertificate в Lync Server 2013</a></td>
+<td>Начиная с Lync Server 2013, для назначения промежуточных сертификатов проверки подлинности аудио/видео до наступления времени истечения срока действия текущего сертификата требуется проведение дополнительного планирования. Вместо одного сертификата с несколькими назначениями для внешнего пограничного интерфейса вам потребуется два сертификата – один, назначенный пограничной службе доступа и веб-конференций, и один для пограничной службы аудио- и видеоконференций. Дополнительные сведения см. в разделе <a href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate">Этапы сертифицирования AV и OAuth с использованием -Roll in Set-CsCertificate в Lync Server 2013</a></td>
 </tr>
 </tbody>
 </table>
@@ -95,7 +95,7 @@ _**Дата изменения раздела:** 2012-11-05_
 
 #### Задачи
 
-[Этапы сертифицирования AV и OAuth с использованием -Roll in Set-CsCertificate в Lync Server 2013](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)  
+[Этапы сертифицирования AV и OAuth с использованием -Roll in Set-CsCertificate в Lync Server 2013](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
 
 #### Концепции
 

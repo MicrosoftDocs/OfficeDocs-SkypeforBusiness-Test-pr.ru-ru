@@ -108,7 +108,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 
-Дополнительные сведения см. в разделе справки по командлету [New-CsArchivingPolicy](new-csarchivingpolicy.md).
+Дополнительные сведения см. в разделе справки по командлету [New-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingPolicy).
 
 ## См. также
 

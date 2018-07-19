@@ -30,11 +30,11 @@ _**Дата изменения раздела:** 2013-02-20_
     
         Get-CsCommonAreaPhone | Grant-CsVoicePolicy  -PolicyName "RedmondVoicePolicy"
 
-Дополнительные сведения см. в разделах справки по командлету [Grant-CsVoicePolicy](grant-csvoicepolicy.md).
+Дополнительные сведения см. в разделах справки по командлету [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy).
 
 ## См. также
 
 #### Другие ресурсы
 
-[Get-CsCommonAreaPhone](get-cscommonareaphone.md)
+[Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)
 

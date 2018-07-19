@@ -67,5 +67,5 @@ _**Дата изменения раздела:** 2013-02-23_
     
         New-CsTestDevice -Identity "site:Redmond/WindowsPhone" -IdentifierType "SerialNumber" -Identifier "01ABC5419JKR55T"
 
-Для получения дополнительной информации см. раздел справки по командлету [New-CsTestDevice](new-cstestdevice.md).
+Для получения дополнительной информации см. раздел справки по командлету [New-CsTestDevice](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTestDevice).
 

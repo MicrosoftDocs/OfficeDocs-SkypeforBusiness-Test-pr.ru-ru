@@ -49,5 +49,5 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Get-CsClientVersionPolicy | Where-Object {$_.Rules -notmatch "UserAgent=WPLync" | Remove-CsClientVersionPolicy
 
-Для получения дополнительных сведений см. раздел справки по командлету [Remove-CsClientVersionPolicy](remove-csclientversionpolicy.md).
+Для получения дополнительных сведений см. раздел справки по командлету [Remove-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClientVersionPolicy).
 

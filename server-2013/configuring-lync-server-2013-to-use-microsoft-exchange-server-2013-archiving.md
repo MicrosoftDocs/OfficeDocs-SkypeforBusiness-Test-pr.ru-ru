@@ -25,7 +25,7 @@ Microsoft Lync Server 2013 предоставляет администратор
 </thead>
 <tbody>
 <tr class="odd">
-<td>Для отключения архивации бесед Lync полностью также необходимо отключить журнал бесед Lync. Дополнительные сведения см. в следующих разделах: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Управление архивацией внутренних и внешних коммуникаций в Lync Server 2013</a>, <a href="new-csclientpolicy.md">New-CsClientPolicy</a> и <a href="set-csclientpolicy.md">Set-CsClientPolicy</a>.</td>
+<td>Для отключения архивации бесед Lync полностью также необходимо отключить журнал бесед Lync. Дополнительные сведения см. в следующих разделах: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Управление архивацией внутренних и внешних коммуникаций в Lync Server 2013</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</a>.</td>
 </tr>
 </tbody>
 </table>

@@ -61,13 +61,13 @@ Microsoft Lync Server 2013 позволяет хранить голосовые 
 
 В предыдущей команде параметр Extensions представляет добавочный номер телефона для пользователя. В этом примере добавочный номер пользователя — 100.
 
-После активации почтового ящика пользователь kenmyer@litwareinc.com сможет использовать единую систему обмена сообщениями Exchange. Для проверки возможности подключения пользователя к единой системе обмена сообщениями Exchange можно выполнить командлет [Test-CsExUMConnectivity](test-csexumconnectivity.md) в Командная консоль Lync Server:
+После активации почтового ящика пользователь kenmyer@litwareinc.com сможет использовать единую систему обмена сообщениями Exchange. Для проверки возможности подключения пользователя к единой системе обмена сообщениями Exchange можно выполнить командлет [Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity) в Командная консоль Lync Server:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-При наличии второго пользователя, для которого разрешена работа с единой системой обмена сообщениями, можно использовать командлет [Test-CsExUMVoiceMail](test-csexumvoicemail.md) для проверки возможности для второго пользователя оставлять сообщения голосовой почты первому пользователю.
+При наличии второго пользователя, для которого разрешена работа с единой системой обмена сообщениями, можно использовать командлет [Test-CsExUMVoiceMail](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMVoiceMail) для проверки возможности для второго пользователя оставлять сообщения голосовой почты первому пользователю.
 
     $credential = Get-Credential "litwareinc\pilar"
     

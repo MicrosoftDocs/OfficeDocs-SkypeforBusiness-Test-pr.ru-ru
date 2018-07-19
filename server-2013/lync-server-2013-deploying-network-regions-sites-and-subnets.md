@@ -29,7 +29,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
     New-CsNetworkRegion -NetworkRegionID <region ID> -CentralSite <site ID>
 
-Дополнительные сведения см. в разделе [New-CsNetworkRegion](new-csnetworkregion.md).
+Дополнительные сведения см. в разделе [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion).
 
 В этом примере область 1 (Индия) определяется с помощью приведнной ниже команды Windows PowerShell.
 
@@ -42,7 +42,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
     New-CsNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 
-Дополнительные сведения см. в разделе [New-CsNetworkSite](new-csnetworksite.md).
+Дополнительные сведения см. в разделе [New-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSite).
 
 В этом примере демонстрируется создание сайтов сети с помощью приведенной ниже таблицы и команды Lync ServerWindows PowerShell. Для простоты таблица содержит только параметры, связанные с маршрутизацией на основе положения.
 
@@ -85,7 +85,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
-Дополнительные сведения см. в разделе [New-CsNetworkSubnet](new-csnetworksubnet.md).
+Дополнительные сведения см. в разделе [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet).
 
 В этом примере демонстрируется назначение подсетей сети сайтам с помощью приведенной ниже таблицы и команды Windows PowerShell. Для простоты таблица содержит только параметры, связанные с маршрутизацией на основе положения.
 

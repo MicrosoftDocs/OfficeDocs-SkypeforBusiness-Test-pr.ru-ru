@@ -101,7 +101,7 @@ _**Дата изменения раздела:** 2013-02-22_
 
 ## Назначение нескольким пользователям политики архивации на уровне пользователей
 
-  - Этот командлет назначает индивидуальную политику архивации RedmondArchivingPolicy всем пользователям, имеющим учетные записи, размещенные в пуле регистратора (Registrar) atl-cs-001.litwareinc.com. Дополнительные сведения о параметре Filter, используемом в этой команде см. в документации по командлету [Get-CsUser](get-csuser.md).
+  - Этот командлет назначает индивидуальную политику архивации RedmondArchivingPolicy всем пользователям, имеющим учетные записи, размещенные в пуле регистратора (Registrar) atl-cs-001.litwareinc.com. Дополнительные сведения о параметре Filter, используемом в этой команде см. в документации по командлету [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -111,7 +111,7 @@ _**Дата изменения раздела:** 2013-02-22_
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения см. в разделе справки по командлету [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Дополнительные сведения см. в разделе справки по командлету [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## См. также
 

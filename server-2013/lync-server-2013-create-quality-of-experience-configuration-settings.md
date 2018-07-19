@@ -19,7 +19,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
 При установке Microsoft Lync Server 2013 создается отдельная глобальная коллекция параметров конфигурации качества взаимодействия. Администраторы также имеют возможность создания пользовательских параметров на уровне сайта. При использовании эти параметров уровня сайта имеют приоритет над глобальными параметрами. Например, если созданы параметры уровня сайта для сайта Redmond, именно эти, а не глобальные параметры будут использоваться для управления качеством взаимодействия в сайте Redmond.
 
-Параметры конфигурации качества взаимодействия могут быть созданы с помощью панели управления Lync Server или командлета [New-CsQoEConfiguration](new-csqoeconfiguration.md). При использовании панели управления Lync Server для создания новых параметров становятся доступными следующие параметры:
+Параметры конфигурации качества взаимодействия могут быть созданы с помощью панели управления Lync Server или командлета [New-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration). При использовании панели управления Lync Server для создания новых параметров становятся доступными следующие параметры:
 
 
 <table>
@@ -68,7 +68,7 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td>Командлет New-CsQoEConfiguration включает дополнительные параметры, недоступны в панели управления Lync Server. Дополнительные сведения см. в разделе справки <a href="new-csqoeconfiguration.md">New-CsQoEConfiguration</a>.</td>
+<td>Командлет New-CsQoEConfiguration включает дополнительные параметры, недоступны в панели управления Lync Server. Дополнительные сведения см. в разделе справки <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -118,5 +118,5 @@ _**Дата изменения раздела:** 2015-03-09_
     
         New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
 
-Дополнительные сведения см. в разделе справки по командлету [New-CsQoEConfiguration](new-csqoeconfiguration.md).
+Дополнительные сведения см. в разделе справки по командлету [New-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration).
 
