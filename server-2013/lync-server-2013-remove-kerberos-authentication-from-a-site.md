@@ -41,15 +41,21 @@ _**Дата изменения раздела:** 2012-01-16_
 
 3.  В командной строке выполните следующие две команды:
     
-        Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
-    
+    ```
+            Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
+    ```
+    ```
         Enable-CsTopology
-    
+    ```
+
     Например:
     
+    ```
         Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
-    
+    ```
+    ```
         Enable-CsTopology
+    ```
     
     <table>
     <thead>

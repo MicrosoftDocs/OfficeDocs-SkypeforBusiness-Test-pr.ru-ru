@@ -40,9 +40,12 @@ _**Дата изменения раздела:** 2016-12-08_
     
       - В своем локальном развертывании в Командная консоль Lync Server введите следующие командлеты, чтобы создать поставщик услуг размещения для Lync Online:
         
-            Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-        
+    ```
+                Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+    ```
+    ```    
             New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+    ```
 
 2.  Убедитесь, что на локальных пограничных серверах есть цепочка сертификатов, позволяющая подключаться к Lync Online (см. в таблице ниже). Эту цепочку можно загрузить отсюда: [https://corp.sts.microsoft.com/Onboard/ADFS\_Onboarding\_Pack/corp\_sts\_certs.zip](https://corp.sts.microsoft.com/onboard/adfs_onboarding_pack/corp_sts_certs.zip) .
     

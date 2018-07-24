@@ -77,9 +77,12 @@ _**Дата изменения раздела:** 2012-09-22_
 
 4.  Чтобы сохранить созданный маршрут в управления, выполните один из следующих командлетов:
     
-        Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
-    
+    ```
+            Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
+    ```
+    ```
         Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+    ```
 
 ## См. также
 

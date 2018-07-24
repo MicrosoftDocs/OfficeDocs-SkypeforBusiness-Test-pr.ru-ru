@@ -37,10 +37,13 @@ _**Дата изменения раздела:** 2012-10-04_
 
 2.  В командной строке введите следующую команду:
     
-        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-    
+    ```
+          New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+    ```
+    ```  
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
-    
+    ```
+
     <table>
     <thead>
     <tr class="header">

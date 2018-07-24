@@ -81,11 +81,15 @@ _**Дата изменения раздела:** 2013-07-11_
 
 1.  В командной строке Командная консоль Lync Server создайте новую конфигурацию прокси-сервера для каждого пограничного пула, корпоративного пула и сервера Standard Edition Lync Server 2013 с накопительным пакетом обновлений за июль 2013 г., для которых будет включена пассивная проверка подлинности, с помощью следующих команд:
     
+```
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-    
+```
+```    
         New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+```
+
 
 2.  Убедитесь, что все остальные типы проверки подлинности прокси-сервера успешно отключены, выполнив следующую команду:
     

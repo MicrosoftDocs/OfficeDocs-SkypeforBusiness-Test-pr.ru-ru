@@ -39,10 +39,13 @@ _**Дата изменения раздела:** 2014-12-12_
 
 2.  В командной строке введите следующие команды:
     
+    ```
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
-    
+    ```
+    ```    
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
-    
+    ```
+
     <table>
     <thead>
     <tr class="header">

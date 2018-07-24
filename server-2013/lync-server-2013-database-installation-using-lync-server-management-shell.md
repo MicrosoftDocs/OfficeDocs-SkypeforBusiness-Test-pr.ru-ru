@@ -65,12 +65,14 @@ _**Дата изменения раздела:** 2016-12-08_
 
 3.  Используйте командлет **Install-CsDatabase** для установки управления.
     
+    ```
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
         -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
         -Report <path to report file>
-    
+    ```
+    ```    
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
-    
+    ```    
 
     > [!TIP]
     > Параметр Report является необязательным, но он полезен в том случае, если вы документируете процесс установки.
@@ -109,12 +111,14 @@ _**Дата изменения раздела:** 2016-12-08_
 
 4.  Используйте командлет **Install-CsDatabase** для установки баз данных, настроенных топологий.
     
-        Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
+    ```
+            Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
          -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
-    
+    ```
+    ```
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
         -Report "C:\Logs\InstallDatabases.html"
-    
+    ```
 
     > [!TIP]
     > Параметр Report является необязательным, но он полезен в том случае, если вы документируете процесс установки.
