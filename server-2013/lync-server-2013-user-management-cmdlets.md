@@ -21,11 +21,9 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Большинство применяемых к пользователям и их учетным записям задач управления можно выполнить из панели управления Lync Server. Основными исключениями являются командлеты, связанные с поставщиками аудиоконференций. Задачи управления пользователями можно выполнять с помощью командлетов из командной консоли Командная консоль Lync Server или из скрипта. Используя скрипты, можно автоматизировать определенные задачи. Далее приводится список командлетов, имеющих прямое отношение к управлению пользователями и учетными записями пользователей.
 
-  -   
-    [Get-CsAdContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdContact)
+   [Get-CsAdContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdContact)
 
-  -   
-    [Get-CsAdUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdUser)
+   [Get-CsAdUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdUser)
 
   - [Get-CsClientAccessLicense](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientAccessLicense)
 
@@ -35,35 +33,25 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore)
 
-  -   
-    [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)
+   [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)
 
-  -   
-    [Enable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsUser)
+   [Enable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsUser)
 
-  -   
-    [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)
+   [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)
 
-  -   
-    [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)
+   [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)
 
-  -   
-    [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser)
+   [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser)
 
-  -   
-    [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
+   [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
 
-  -   
-    [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
+   [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
 
-  -   
-    [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
+   [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
-  -   
-    [Test-CsAudioConferencingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAudioConferencingProvider)
+   [Test-CsAudioConferencingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAudioConferencingProvider)
 
-  -   
-    [Get-CsUserPoolInfo](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserPoolInfo)
+   [Get-CsUserPoolInfo](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserPoolInfo)
 
   - [Get-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserServicesPolicy)
 

@@ -19,14 +19,11 @@ _**Дата изменения раздела:** 2016-12-08_
 
 ## Содержание
 
-  -   
-    [Поддержка программного обеспечения клиента Lync в Lync Server 2013](lync-server-2013-lync-client-software-support.md)
+   [Поддержка программного обеспечения клиента Lync в Lync Server 2013](lync-server-2013-lync-client-software-support.md)
 
-  -   
-    [Поддержка подключения к общедоступным службам обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+   [Поддержка подключения к общедоступным службам обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
 
-  -   
-    [Отображение фотографий пользователей в Lync](how-user-photos-are-displayed-in-lync.md)
+   [Отображение фотографий пользователей в Lync](how-user-photos-are-displayed-in-lync.md)
 
 > [!note]  
 > Lync Phone Edition работает с сервером Lync Server 2013 точно так же, как с Lync Server 2010. Сведения о поддержке программного обеспечения для устройств см. в соответствующих статьях по Lync Server 2010 в библиотеке TechNet:<ul>

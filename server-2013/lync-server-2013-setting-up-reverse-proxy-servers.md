@@ -62,28 +62,21 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Для успешного развертывания Forefront Threat Management Gateway 2010 в качестве обратного прокси-сервера вам необходимо установить и настроить сервер, используя необходимые условия и требования к оборудованию, определенные в документации по Forefront Threat Management Gateway 2010. Прежде чем продолжить изучите следующие разделы для получения сведений о правильной настройке оборудования и установке Forefront Threat Management Gateway 2010 на сервере.
 
-  -   
-    [Forefront Threat Management Gateway (TMG) 2010](http://technet.microsoft.com/ru-ru/library/ff355324.aspx)
+   [Forefront Threat Management Gateway (TMG) 2010](http://technet.microsoft.com/ru-ru/library/ff355324.aspx)
 
-  -   
-    [Рекомендации по оборудованию Forefront TMG 2010](http://go.microsoft.com/fwlink/?linkid=291293)
+   [Рекомендации по оборудованию Forefront TMG 2010](http://go.microsoft.com/fwlink/?linkid=291293)
 
 Для успешного развертывания маршрутизации запросов приложений IIS в качестве обратного прокси-сервера изучите следующие разделы, посвященные настройке оборудования и требуемого программного обеспечения.
 
-  -   
-    Сведения об установке IIS на сервере Windows Server 2008 или Windows Server 2008 R2 см. в разделе [Установка IIS 7 на Windows Server 2008 или Windows Server 2008 R2](http://go.microsoft.com/fwlink/?linkid=291296)
+   Сведения об установке IIS на сервере Windows Server 2008 или Windows Server 2008 R2 см. в разделе [Установка IIS 7 на Windows Server 2008 или Windows Server 2008 R2](http://go.microsoft.com/fwlink/?linkid=291296)
 
-  -   
-    Сведения об установке IIS на сервере Windows Server 2012 см. в разделе [Установка IIS 8 на Windows Server 2012](http://go.microsoft.com/fwlink/?linkid=291297)
+   Сведения об установке IIS на сервере Windows Server 2012 см. в разделе [Установка IIS 8 на Windows Server 2012](http://go.microsoft.com/fwlink/?linkid=291297)
 
-  -   
-    Сведения об установке IIS на сервере Windows Server 2012 R2 см. в разделе [Установка IIS 8.5 на Windows Server 2012 R2](http://go.microsoft.com/fwlink/?linkid=330687)
+   Сведения об установке IIS на сервере Windows Server 2012 R2 см. в разделе [Установка IIS 8.5 на Windows Server 2012 R2](http://go.microsoft.com/fwlink/?linkid=330687)
 
-  -   
-    Для загрузки расширения маршрутизации запросов приложений для IIS следуйте инструкциям, содержащимся в документе [Загрузка маршрутизации запросов приложений версии 2.5](http://go.microsoft.com/fwlink/?linkid=291298)
+   Для загрузки расширения маршрутизации запросов приложений для IIS следуйте инструкциям, содержащимся в документе [Загрузка маршрутизации запросов приложений версии 2.5](http://go.microsoft.com/fwlink/?linkid=291298)
 
-  -   
-    Для установки маршрутизации запросов приложений следуйте инструкциям, содержащимся в статье [Установка маршрутизации запросов приложений версии 2](http://go.microsoft.com/fwlink/?linkid=291299)
+   Для установки маршрутизации запросов приложений следуйте инструкциям, содержащимся в статье [Установка маршрутизации запросов приложений версии 2](http://go.microsoft.com/fwlink/?linkid=291299)
     
     > [!note]  
     > Последние опубликованные инструкции предназначены для маршрутизации запросов приложений версии 2.0. При установке расширения можно пользоваться обеими версиями.

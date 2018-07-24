@@ -57,15 +57,13 @@ _**Дата изменения раздела:** 2013-10-28_
 
   - Определение требований для обнаружения федеративного домена.
     
-      -   
-        Для ручной настройки федерации необходимо иметь полное доменное имя (FQDN) сервер партнера, а также доменное имя или сетевое доменное имя, которое вводится в поля панели управления Lync Server, **Федерация и внешний доступ**, **Федеративные домены SIP**. Создайте **новую** политику или **измените** существующую политику, чтобы разрешить или заблокировать домены по полному доменному имени.
+       Для ручной настройки федерации необходимо иметь полное доменное имя (FQDN) сервер партнера, а также доменное имя или сетевое доменное имя, которое вводится в поля панели управления Lync Server, **Федерация и внешний доступ**, **Федеративные домены SIP**. Создайте **новую** политику или **измените** существующую политику, чтобы разрешить или заблокировать домены по полному доменному имени.
         
         > [!warning]  
         > Ручная настройка сервер федеративного партнера может привести к сбою, если партнер изменит IP-адрес своего сервера сервер.        
         > [!note]  
         > Для <strong>Новых федеративных доменов SIP</strong> необходимо предоставить <strong>Доменное имя (или полное доменное имя)</strong> для Microsoft Lync Online, Microsoft Office 365. Для Microsoft Lync Server 2013, Lync Server 2010 и Office Communications Server необходимо также предоставить <strong>Пограничную службу доступа (полное доменное имя)</strong>    
-      -   
-        Для федерации с обнаруженным партнером, где партнеры могут обнаруживать ваш сервер сервер, создается запись SRV во внешней службе доменных имен (DNS) — \_sipfederationtls.\_tcp.contoso.com, — которая указывает на порт 5061 и А-запись узла вашего сервера сервер
+       Для федерации с обнаруженным партнером, где партнеры могут обнаруживать ваш сервер сервер, создается запись SRV во внешней службе доменных имен (DNS) — \_sipfederationtls.\_tcp.contoso.com, — которая указывает на порт 5061 и А-запись узла вашего сервера сервер
         
         > [!important]  
         > Если вы поддерживаете клиентов Microsoft Lync Mobile либо на Windows Phone либо на Apple iPhone, iPad или другом устройстве Apple и используете службу служба push-уведомлений или службу служба push-уведомлений, то должны планировать записи SRV _sipfederationtls._tcp. <em>&lt;домен_SIP&gt;</em> для каждого домена SIP, в котором имеются клиенты Lync Mobile. Android и Nokia Symbian Lync Mobile не используют push-уведомления, и к ним это требование не относится.
@@ -125,14 +123,11 @@ _**Дата изменения раздела:** 2013-10-28_
 
 В следующих статьях даны определения сертификатов, портов брандмауэров и DNS-записей для поддерживаемых типов сценариев федерации.
 
-  -   
-    [Сводка по сертификации: протокол SIP, федерация XMPP и Public Instant Messaging](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+   [Сводка по сертификации: протокол SIP, федерация XMPP и Public Instant Messaging](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
-  -   
-    [Сводка по портам: протокол SIP, федерация XMPP и Public Instant Messaging](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+   [Сводка по портам: протокол SIP, федерация XMPP и Public Instant Messaging](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
-  -   
-    [Сводка по DNS: протокол SIP, федерация XMPP и Public Instant Messaging](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+   [Сводка по DNS: протокол SIP, федерация XMPP и Public Instant Messaging](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 ## См. также
 

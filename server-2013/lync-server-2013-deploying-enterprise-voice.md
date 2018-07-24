@@ -51,41 +51,29 @@ _**Дата изменения раздела:** 2012-10-03_
 
 ## Содержание
 
-  -   
-    [Необходимые условия для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-enterprise-voice-prerequisites.md)
+   [Необходимые условия для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-enterprise-voice-prerequisites.md)
 
-  -   
-    [Развертывание серверов-посредников и определение одноранговых узлов в Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)
+   [Развертывание серверов-посредников и определение одноранговых узлов в Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)
 
-  -   
-    [Конфигурация магистралей в Lync Server 2013](lync-server-2013-configuring-trunks.md)
+   [Конфигурация магистралей в Lync Server 2013](lync-server-2013-configuring-trunks.md)
 
-  -   
-    [Настройка абонентских групп в Lync Server 2013](lync-server-2013-configuring-dial-plans.md)
+   [Настройка абонентских групп в Lync Server 2013](lync-server-2013-configuring-dial-plans.md)
 
-  -   
-    [Настройка политик голосовой связи, записей использования ТСОП и маршрутов голосовых вызовов в Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+   [Настройка политик голосовой связи, записей использования ТСОП и маршрутов голосовых вызовов в Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
 
-  -   
-    [Экспорт и импорт конфигурации маршрутизации голосовой связи в Lync Server 2013](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
+   [Экспорт и импорт конфигурации маршрутизации голосовой связи в Lync Server 2013](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
 
-  -   
-    [Тестирование голосовой маршрутизации в Lync Server 2013](lync-server-2013-test-voice-routing.md)
+   [Тестирование голосовой маршрутизации в Lync Server 2013](lync-server-2013-test-voice-routing.md)
 
-  -   
-    [Публикация ожидающих изменений в конфигурации маршрутизации голосовой связи в Lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
+   [Публикация ожидающих изменений в конфигурации маршрутизации голосовой связи в Lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
 
-  -   
-    [Развертывание локальной единой системы обмена сообщениями Exchange для предоставления голосовой почты Lync Server 2013](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)
+   [Развертывание локальной единой системы обмена сообщениями Exchange для предоставления голосовой почты Lync Server 2013](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)
 
-  -   
-    [Предоставление пользователям Lync Server 2013 голосовой почты в размещенной единой системе обмена сообщениями Exchange](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)
+   [Предоставление пользователям Lync Server 2013 голосовой почты в размещенной единой системе обмена сообщениями Exchange](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)
 
-  -   
-    [Настройка интеграции локальной Lync Server 2013 с Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md)
+   [Настройка интеграции локальной Lync Server 2013 с Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md)
 
-  -   
-    [Развертывание расширенных функций корпоративной голосовой связи в Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+   [Развертывание расширенных функций корпоративной голосовой связи в Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
     
       - [О сетевых областях, сайтах и подсетях в Lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
     
@@ -101,8 +89,7 @@ _**Дата изменения раздела:** 2012-10-03_
     
       - [Настройка обхода сервера-посредника в Lync Server 2013](lync-server-2013-configure-media-bypass.md)
 
-  -   
-    [Включение пользователей для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
+   [Включение пользователей для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
 
 ## См. также
 
