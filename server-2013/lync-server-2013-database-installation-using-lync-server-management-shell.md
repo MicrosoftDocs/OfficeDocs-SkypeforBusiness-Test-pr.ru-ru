@@ -17,35 +17,13 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Разделение ролей и обязанностей между администраторами сервера и администраторами SQL Server может привести к задержкам в реализации. Lync Server 2013 использует управление доступом на основе ролей (RBAC) для устранения этих сложностей. В некоторых случаях администратор SQL Server должен управлять установкой баз данных на сервере, основанном на SQL Server, за пределами системы управления доступом на основе ролей. командная консоль Lync Server 2013 предоставляет администратору SQL Server способ запуска командлетов Windows PowerShell, разработанных для настройки баз данных с использованием правильных файлов данных и файлов журналов. Дополнительные сведения см. в разделе [Разрешения на развертывание для SQL Server в Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Следующая процедура предполагает, что установлены минимум следующие приложения: Lync Server 2013 OCSCore.msi, SQL Server Native Client (sqlncli.msi) Microsoft SQL Server 2012 Management Objects, типы CLR для Microsoft SQL Server 2012 и Microsoft SQL Server 2012 ADOMD.NET. Файл OCSCore.msi расположен на установочном носителе в папке \Setup\AMD64\Setup. Остальные компоненты расположены в папке \Setup\amd64. Кроме того, должна быть успешно выполнена подготовка Active Directory к Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Следующая процедура предполагает, что установлены минимум следующие приложения: Lync Server 2013 OCSCore.msi, SQL Server Native Client (sqlncli.msi) Microsoft SQL Server 2012 Management Objects, типы CLR для Microsoft SQL Server 2012 и Microsoft SQL Server 2012 ADOMD.NET. Файл OCSCore.msi расположен на установочном носителе в папке \Setup\AMD64\Setup. Остальные компоненты расположены в папке \Setup\amd64. Кроме того, должна быть успешно выполнена подготовка Active Directory к Lync Server 2013.
 
 **Install-CsDatabase** – это командлет Windows PowerShell, используемый для установки баз данных. Командлет **Install-CsDatabase** имеет большое число параметров, из которых здесь обсуждается только небольшая часть. Дополнительные сведения о возможных параметрах см. в документации командная консоль Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Чтобы избежать снижения производительности и возможных простоев, для обозначения серверов на основе SQL Server всегда используйте полные доменные имена (FQDN). Избегайте использования ссылок, содержащих только имя узла. Например, используйте sqlbe01.contoso.net, но избегайте применения SQLBE01.</td>
-</tr>
-</tbody>
-</table>
-
+> [!warning]  
+> Чтобы избежать снижения производительности и возможных простоев, для обозначения серверов на основе SQL Server всегда используйте полные доменные имена (FQDN). Избегайте использования ссылок, содержащих только имя узла. Например, используйте sqlbe01.contoso.net, но избегайте применения SQLBE01.
 
 Для установки баз данных командлет **Install-CsDatabase** использует три основных метода, размещающих базы данных в подготовленный сервер на основе SQL Server:
 
@@ -65,14 +43,12 @@ _**Дата изменения раздела:** 2016-12-08_
 
 3.  Используйте командлет **Install-CsDatabase** для установки управления.
     
-    ```
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
         -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
         -Report <path to report file>
-    ```
-    ```    
+    
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
-    ```    
+    
 
     > [!TIP]
     > Параметр Report является необязательным, но он полезен в том случае, если вы документируете процесс установки.
@@ -93,32 +69,19 @@ _**Дата изменения раздела:** 2016-12-08_
 
 2.  На любом компьютере войдите с учетными данными администратора, чтобы создать базы данных на сервере SQL Server. См. раздел [Разрешения на развертывание для SQL Server в Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Чтобы настраивать базы данных на основе SQL Server, убедитесь, что учетная запись администратора SQL Server, используемая для выполнения описываемых здесь действий, является членом группы системных администраторов (или аналогичной группы) на сервере с SQL Server, имеющем роль управления. Это особенно важно для поиска дополнительных пулов Lync Server 2013, которым требуется установка или настройка базы данных SQL Server. Например, предположим, что разворачивается второй пул (pool02), но роль управления размещается в пуле pool01. Группа системных администраторов SQL Server (или аналогичная группа) должна иметь разрешения на обе базы данных на основе SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Чтобы настраивать базы данных на основе SQL Server, убедитесь, что учетная запись администратора SQL Server, используемая для выполнения описываемых здесь действий, является членом группы системных администраторов (или аналогичной группы) на сервере с SQL Server, имеющем роль управления. Это особенно важно для поиска дополнительных пулов Lync Server 2013, которым требуется установка или настройка базы данных SQL Server. Например, предположим, что разворачивается второй пул (pool02), но роль управления размещается в пуле pool01. Группа системных администраторов SQL Server (или аналогичная группа) должна иметь разрешения на обе базы данных на основе SQL Server.
 
 3.  Откройте командная консоль Lync Server 2013, если она еще не открыта.
 
 4.  Используйте командлет **Install-CsDatabase** для установки баз данных, настроенных топологий.
     
-    ```
-            Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
+        Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
          -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
-    ```
-    ```
+    
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
         -Report "C:\Logs\InstallDatabases.html"
-    ```
+    
 
     > [!TIP]
     > Параметр Report является необязательным, но он полезен в том случае, если вы документируете процесс установки.
@@ -133,19 +96,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 2.  На любом компьютере войдите с учетными данными администратора, чтобы создать базы данных на сервере SQL Server. См. раздел [Разрешения на развертывание для SQL Server в Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Чтобы настраивать базы данных на основе SQL Server, убедитесь, что учетная запись администратора SQL Server, используемая для выполнения описываемых здесь действий, является членом группы системных администраторов (или аналогичной группы) на сервере с SQL Server, имеющем роль управления. Это особенно важно для поиска дополнительных пулов Lync Server, которым требуется установка или настройка базы данных SQL Server. Например, предположим, что разворачивается второй пул (pool02), но роль управления размещается в пуле pool01. Группа системных администраторов SQL Server (или аналогичная группа) должна иметь разрешения на обе базы данных на основе SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Чтобы настраивать базы данных на основе SQL Server, убедитесь, что учетная запись администратора SQL Server, используемая для выполнения описываемых здесь действий, является членом группы системных администраторов (или аналогичной группы) на сервере с SQL Server, имеющем роль управления. Это особенно важно для поиска дополнительных пулов Lync Server, которым требуется установка или настройка базы данных SQL Server. Например, предположим, что разворачивается второй пул (pool02), но роль управления размещается в пуле pool01. Группа системных администраторов SQL Server (или аналогичная группа) должна иметь разрешения на обе базы данных на основе SQL Server.
 
 3.  Откройте командную консоль Командная консоль Lync Server, если она еще не открыта.
 

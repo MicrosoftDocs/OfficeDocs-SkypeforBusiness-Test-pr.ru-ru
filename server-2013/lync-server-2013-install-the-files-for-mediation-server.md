@@ -21,19 +21,8 @@ _**Дата изменения раздела:** 2012-08-06_
 
 На этом сайте, если вы уже развернули Серверы-посредники с совместным размещением в переднего плана или Сервер Standard Edition, вы можете пропустить этот раздел и перейти к разделу [Конфигурация магистралей в Lync Server 2013](lync-server-2013-configuring-trunks.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>В данном разделе предполагается, что вы уже определили и опубликовали автономный пул серверов-посредников, как описано в статьях <a href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Определение сервера-посредника в построителе топологий в Lync Server 2013</a> и <a href="lync-server-2013-publish-the-topology.md">Публикация топологии в Lync Server 2013</a> в документации по развертыванию, и убедились, что компьютеры в серверов-посредников соответствуют требованиям, описанным в статьях <a href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Необходимое программное обеспечение для корпоративной голосовой связи в Lync Server 2013</a> и <a href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Необходимые условия для обеспечения безопасности и настройки корпоративной голосовой связи в Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> В данном разделе предполагается, что вы уже определили и опубликовали автономный пул серверов-посредников, как описано в статьях <a href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Определение сервера-посредника в построителе топологий в Lync Server 2013</a> и <a href="lync-server-2013-publish-the-topology.md">Публикация топологии в Lync Server 2013</a> в документации по развертыванию, и убедились, что компьютеры в серверов-посредников соответствуют требованиям, описанным в статьях <a href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Необходимое программное обеспечение для корпоративной голосовой связи в Lync Server 2013</a> и <a href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Необходимые условия для обеспечения безопасности и настройки корпоративной голосовой связи в Lync Server 2013</a>.
 
 ## Установка файлов для автономного пула серверов-посредников
 

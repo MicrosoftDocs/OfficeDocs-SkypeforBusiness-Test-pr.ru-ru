@@ -17,19 +17,8 @@ _**Дата изменения раздела:** 2013-02-20_
 
 Переместите устройство для конференц-связи из одного пула регистратора в другой с помощью командлета **move-csmeetingroom**. Для выполнения этого командлета может использоваться командная консоль Lync Server 2013 или удаленный сеанс Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
 
 
 ## Перемещение устройства для конференц-связи в новый пул регистратора

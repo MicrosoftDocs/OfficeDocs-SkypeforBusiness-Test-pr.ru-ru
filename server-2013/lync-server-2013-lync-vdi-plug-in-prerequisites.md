@@ -17,25 +17,13 @@ _**Дата изменения раздела:** 2017-03-07_
 
 В среде инфраструктуры виртуальных рабочих столов (VDI) виртуальные машины и локальные компьютеры пользователей должны соответствовать требованиям, указанным в этом разделе.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Обратитесь к поставщику решений виртуализации для получения сведений об установке и развертывании виртуализованной среды. Дополнительные сведения о развертывании виртуализованной среды на основе Hyper-V и служб удаленных рабочих столов см. в следующих статьях библиотеки Microsoft TechNet:
-<ul>
-<li><p>о Hyper-V по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=247514" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247514</a></p></li>
-<li><p>о службах удаленных рабочих столов в Windows Server 2008 R2 по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=247513" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247513</a></p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Обратитесь к поставщику решений виртуализации для получения сведений об установке и развертывании виртуализованной среды. Дополнительные сведения о развертывании виртуализованной среды на основе Hyper-V и служб удаленных рабочих столов см. в следующих статьях библиотеки Microsoft TechNet:<ul>
+> 
+> <li><p>о Hyper-V по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=247514" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247514</a></p></li>
+> 
+> 
+> <li><p>о службах удаленных рабочих столов в Windows Server 2008 R2 по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=247513" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247513</a></p></li></ul>
 
 
 Ниже приведены требования для виртуальных машин, выполняемых на компьютере центра обработки данных:

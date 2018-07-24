@@ -61,12 +61,7 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Уровень поддержки шифрования</p></td>
 <td><p>SRTPMode</p></td>
 <td><p>Указывает уровень поддержки для защиты трафика медиаданных между сервером-посредником и шлюзом ТСОП, IP-PBX или пограничным контроллером сеансов на стороне поставщика службы. Для случаев обхода медиаданных это значение должно быть совместимо с параметром EncryptionLevel в настройке медиаданных. Настройка медиаданных задается с помощью командлетов <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
-<p>Допускаются следующие значения:</p>
-<ul>
-<li><p>Требуется: должно использоваться шифрование SRTP.</p></li>
-<li><p>Необязательно: SRTP будет использоваться, если поддерживается шлюзом.</p></li>
-<li><p>Не поддерживается: шифрование SRTP не поддерживается и поэтому не будет использоваться.</p></li>
-</ul>
+<p>Допускаются следующие значения:</p><ul><li><p>Требуется: должно использоваться шифрование SRTP.</p></li><li><p>Необязательно: SRTP будет использоваться, если поддерживается шлюзом.</p></li><li><p>Не поддерживается: шифрование SRTP не поддерживается и поэтому не будет использоваться.</p></li></ul>
 <p>Параметр SRTPMode используется, только в случае, если шлюз настроен на использование протокола TLS. Если шлюз настроен на использование в качестве транспорта протокола TCP, для параметра SRTPMode внутренним образом задается значение Not Supported.</p></td>
 </tr>
 <tr class="odd">
@@ -145,19 +140,8 @@ _**Дата изменения раздела:** 2015-03-09_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Командлеты CsTrunkConfiguration Lync Server поддерживают дополнительные свойства, не отображаемые в панели управления Lync Server. Дополнительные сведения см. в разделе справки по командлету <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Командлеты CsTrunkConfiguration Lync Server поддерживают дополнительные свойства, не отображаемые в панели управления Lync Server. Дополнительные сведения см. в разделе справки по командлету <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</a>.
 
 ## Создание новых параметров конфигурации магистральной линии с помощью панели управления Lync Server
 

@@ -15,19 +15,8 @@ ms.translationtype: HT
 
 _**Дата изменения раздела:** 2016-12-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Подробнее о требованиях к оборудованию см. в статье <a href="lync-server-2013-server-hardware-platforms.md">Аппаратные серверные платформы для Lync Server 2013</a> (Аппаратные серверные платформы).</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Подробнее о требованиях к оборудованию см. в статье <a href="lync-server-2013-server-hardware-platforms.md">Аппаратные серверные платформы для Lync Server 2013</a> (Аппаратные серверные платформы).
 
 К серверам Standard Edition и Enterprise Edition применяются одинаковые требования к программному обеспечению.
 
@@ -35,19 +24,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 ## Установка операционной системы
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для Lync Server 2013 доступна только 64-разрядная версия, для которой требуется 64-разрядное оборудование и 64-разрядная версия операционной системы Windows Server. 32-разрядный выпуск Lync Server 2013 недоступен.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Для Lync Server 2013 доступна только 64-разрядная версия, для которой требуется 64-разрядное оборудование и 64-разрядная версия операционной системы Windows Server. 32-разрядный выпуск Lync Server 2013 недоступен.
 
 Серверы Standard Edition и Enterprise Edition могут использовать любой из следующих операционных систем:
 
@@ -59,19 +37,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Установите операционную систему на сервер Standard Edition или сервер переднего плана Enterprise Edition. Установите все обновления, чтобы обновить операционную систему до последней версии в соответствии со стандартами организации. Дополнительные сведения о требованиях см. в разделе [Поддержка сервера и средств в операционной системе в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) документации по поддержке.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для работы Lync Server 2013 на Windows Server 2012 R2 может потребоваться изменение значения ключа реестра в Windows Server. Это изменение также может быть необходимым для правильной работы сертификатов и регистрации клиентов в для обеспечения связи в филиалах. Дополнительные сведения см. в статье <a href="http://support.microsoft.com/kb/2901554" class="uri">http://support.microsoft.com/kb/2901554</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Для работы Lync Server 2013 на Windows Server 2012 R2 может потребоваться изменение значения ключа реестра в Windows Server. Это изменение также может быть необходимым для правильной работы сертификатов и регистрации клиентов в для обеспечения связи в филиалах. Дополнительные сведения см. в статье <a href="http://support.microsoft.com/kb/2901554" class="uri">http://support.microsoft.com/kb/2901554</a>.
 
 ## Дополнительное программное обеспечение для Lync Server 2013
 
@@ -87,19 +54,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Для Lync Server 2013 необходимо установить Windows PowerShell 3.0 на каждом компьютере, который будет участвовать в топологии Lync Server. Дополнительные сведения об установке Windows PowerShell 3.0 см. в разделе [Установка Windows PowerShell 3.0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>На Windows Server 2008 R2 с пакетом обновлений 1 (SP1) нельзя установить командной строки Windows PowerShell 3.0 перед установкой Microsoft .NET Framework 4.5.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> На Windows Server 2008 R2 с пакетом обновлений 1 (SP1) нельзя установить командной строки Windows PowerShell 3.0 перед установкой Microsoft .NET Framework 4.5.
 
 ## Платформа Microsoft .NET Framework 4.5.
 

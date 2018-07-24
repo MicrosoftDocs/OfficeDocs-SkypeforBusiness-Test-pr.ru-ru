@@ -141,19 +141,8 @@ _**Дата изменения раздела:** 2015-03-09_
 
   
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Чтобы отключить протокол VoIP для клиентов Lync Mobile 2013, назначьте политику мобильности с отключением параметра IP-аудио и видео для всех пользователей с включенной поддержкой функции &quot;Маршрутизация на основе расположения&quot;. Дополнительные сведения о политике мобильности см. в статье <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Чтобы отключить протокол VoIP для клиентов Lync Mobile 2013, назначьте политику мобильности с отключением параметра IP-аудио и видео для всех пользователей с включенной поддержкой функции &quot;Маршрутизация на основе расположения&quot;. Дополнительные сведения о политике мобильности см. в статье <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</a>.
 
 ## См. также
 

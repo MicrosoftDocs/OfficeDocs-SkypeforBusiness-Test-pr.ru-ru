@@ -35,12 +35,9 @@ _**Дата изменения раздела:** 2012-10-19_
 
 2.  Запустите командлет New-CsNetworkRegionLink, чтобы создать связи между областями и примените соответствующие профили политики пропускной способности. Например, выполните командлет:
     
-  ```
-          New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
-  ```
-  ```  
+        New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
+    
         New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
-  ```
 
 ## Создание связей между областями с помощью панели управления Lync Server
 
@@ -60,19 +57,8 @@ _**Дата изменения раздела:** 2012-10-19_
 
 8.  Кроме того, можно щелкнуть элемент **Bandwidth policy** (Политика пропускной способности), а затем выбрать профиль политики пропускной способности, который требуется применить к связи между областями сети.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Применять политику пропускной способности следует только в том случае, если для связи между областями сети имеются ограничения полосы пропускания и требуется использовать CAC для управления трафиком среды по этому каналу.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Применять политику пропускной способности следует только в том случае, если для связи между областями сети имеются ограничения полосы пропускания и требуется использовать CAC для управления трафиком среды по этому каналу.
 
 9.  Нажмите кнопку **Зафиксировать**.
 

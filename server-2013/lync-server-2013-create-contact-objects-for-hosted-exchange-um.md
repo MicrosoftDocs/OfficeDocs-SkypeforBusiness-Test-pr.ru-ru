@@ -25,19 +25,8 @@ _**Дата изменения раздела:** 2012-09-24_
 
   - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Перед включением контактных объектов Lync Server 2013 для размещенной единой системы обмена сообщениями Exchange необходимо развернуть политику маршрутизации размещенной голосовой почты, применяемую к ним. Дополнительные сведения см. в разделе <a href="lync-server-2013-hosted-voice-mail-policies.md">Политики размещенной голосовой почты в Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Перед включением контактных объектов Lync Server 2013 для размещенной единой системы обмена сообщениями Exchange необходимо развернуть политику маршрутизации размещенной голосовой почты, применяемую к ним. Дополнительные сведения см. в разделе <a href="lync-server-2013-hosted-voice-mail-policies.md">Политики размещенной голосовой почты в Lync Server 2013</a>.
 
 ## Создание контактных объектов автосекретаря или абонентского доступа для размещенной единой системы обмена сообщениями Exchange
 
@@ -45,12 +34,9 @@ _**Дата изменения раздела:** 2012-09-24_
 
 2.  Чтобы создать любой контактный объект, необходимо выполнить командлет New-CsExUmContact. Например, для создания контактного объекта автосекретаря и абонентского доступа выполните следующие командлеты:
     
-    ```
-            New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
-    ```
-    ```
+        New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
+    
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
-    ```
     
     В этих примерах используются следующие параметры:
     
@@ -58,19 +44,8 @@ _**Дата изменения раздела:** 2012-09-24_
     
       - **RegistrarPool** указывает полное доменное имя пула, в котором выполняется служба регистратора.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Контактные объекты единой системы обмена сообщениями Exchange не могут перемещаться в пулы, которые являются частью развертываний Lync Server 2013, использующих версии до Lync Server 2013.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!note]  
+        > Контактные объекты единой системы обмена сообщениями Exchange не могут перемещаться в пулы, которые являются частью развертываний Lync Server 2013, использующих версии до Lync Server 2013.    
       - **OU** задает подразделение Active Directory, в котором будет находиться данный контактный объект.
     
       - **DisplayNumber** указывает номер телефона контактного объекта. Номер телефона для каждого контактного объекта должен быть уникальным.

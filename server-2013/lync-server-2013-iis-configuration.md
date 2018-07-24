@@ -19,19 +19,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Перед настройкой и установкой переднего плана для Lync Server 2013, Standard Edition или первого переднего плана в пуле необходимо установить и настроить роль сервера и служб для Службы IIS.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Если требуется установить службы IIS и все веб-службы не на системном диске, вы можете изменить путь установки файлов Lync Server 2013 в диалоговом окне программы установки при первичной установке средств администрирования Lync Server 2013. Средства администрирования устанавливаются перед установкой служб IIS. Если вы выбрали вышеуказанный путь установки файлов, включая OCSCore.msi, то остальные файлы Lync Server 2013 также будут установлены на этом диске. Дополнительные сведения см. в разделе <a href="lync-server-2013-install-lync-server-administrative-tools.md">Установка средств администрирования Lync Server 2013</a>. Дополнительные сведения об изменении расположения папки INETPUB, развертываемой диспетчером сервера Windows при установке служб IIS, см. на веб-странице <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Если требуется установить службы IIS и все веб-службы не на системном диске, вы можете изменить путь установки файлов Lync Server 2013 в диалоговом окне программы установки при первичной установке средств администрирования Lync Server 2013. Средства администрирования устанавливаются перед установкой служб IIS. Если вы выбрали вышеуказанный путь установки файлов, включая OCSCore.msi, то остальные файлы Lync Server 2013 также будут установлены на этом диске. Дополнительные сведения см. в разделе <a href="lync-server-2013-install-lync-server-administrative-tools.md">Установка средств администрирования Lync Server 2013</a>. Дополнительные сведения об изменении расположения папки INETPUB, развертываемой диспетчером сервера Windows при установке служб IIS, см. на веб-странице <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.
 
 В следующей таблице перечислены требуемые службы роли IIS 7.5.
 
@@ -129,35 +118,13 @@ _**Дата изменения раздела:** 2016-12-08_
 
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Анонимная проверка подлинности устанавливается по умолчанию при установке роли сервера IIS. Вы можете управлять анонимной проверкой подлинности после установки служб IIS. Дополнительные сведения см. в разделе &quot;Включение анонимной проверки подлинности (IIS 7)&quot; <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Анонимная проверка подлинности устанавливается по умолчанию при установке роли сервера IIS. Вы можете управлять анонимной проверкой подлинности после установки служб IIS. Дополнительные сведения см. в разделе &quot;Включение анонимной проверки подлинности (IIS 7)&quot; <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>.
 
 В следующей таблице перечислены требуемые службы роли IIS 8.0 и IIS 8.5 для Windows Server 2012 и Windows Server 2012 R2.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для Windows Server 2012 и Windows Server 2012 R2 командлет Add-WindowsFeature заменен на Install-WindowsFeature. Подробные сведения см. в статье <a href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Для Windows Server 2012 и Windows Server 2012 R2 командлет Add-WindowsFeature заменен на Install-WindowsFeature. Подробные сведения см. в статье <a href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</a>.
 
 ### Службы роли IIS 8.0 и IIS 8.5
 
@@ -335,19 +302,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>В Windows Server 2012 появился параметр –Source, который определяет расположение исходного носителя Windows Server 2012. В качестве носителя можно указать DVD-дисковод (например, D:\Sources\Sxs) или сетевую папку, в которую скопированы файлы носителя (например, \\fileserver\windows2012\sources\Sxs).</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> В Windows Server 2012 появился параметр –Source, который определяет расположение исходного носителя Windows Server 2012. В качестве носителя можно указать DVD-дисковод (например, D:\Sources\Sxs) или сетевую папку, в которую скопированы файлы носителя (например, \\fileserver\windows2012\sources\Sxs).
 
 ## См. также
 

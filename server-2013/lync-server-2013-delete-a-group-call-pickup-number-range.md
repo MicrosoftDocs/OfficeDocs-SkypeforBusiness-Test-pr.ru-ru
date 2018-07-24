@@ -31,19 +31,8 @@ _**Дата изменения раздела:** 2013-01-30_
     
         Remove-CsCallParkOrbit -Identity "Redmond call pickup"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Подробные сведения о дополнительных параметрах см. в статье <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Подробные сведения о дополнительных параметрах см. в статье <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
 
 ## См. также
 

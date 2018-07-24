@@ -19,19 +19,8 @@ _**Дата изменения раздела:** 2013-02-23_
 
 Затем можно удалить правило обновления устройства, используя управления Lync Server или Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Чтобы удалить правило, которое вы уже утвердили (то есть развернутое), восстановите его. Дополнительные сведения см. в статье <a href="lync-server-2013-restore-a-device-update-rule.md">Восстановление правила обновления устройства</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Чтобы удалить правило, которое вы уже утвердили (то есть развернутое), восстановите его. Дополнительные сведения см. в статье <a href="lync-server-2013-restore-a-device-update-rule.md">Восстановление правила обновления устройства</a>.
 
 ## Сброс правила обновления устройства управления Lync Server
 
@@ -61,19 +50,8 @@ _**Дата изменения раздела:** 2013-02-23_
 
 Правила обновления устройства также можно сбросить с помощью Windows PowerShell и командлета **Reset-CsDeviceUpdateRule**. Этот командлет можно запустить из командная консоль Lync Server 2013 или из удаленного сеанса Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
 
 ## Сброс определенного правила обновления устройства на сервере
 

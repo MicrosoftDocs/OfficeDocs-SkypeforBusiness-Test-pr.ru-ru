@@ -45,19 +45,8 @@ _**Дата изменения раздела:** 2012-10-22_
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Имени переменной не должен предшествовать символ $. Например, используйте имя переменной RegistrationTest, а не $RegistrationTest.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Имени переменной не должен предшествовать символ $. Например, используйте имя переменной RegistrationTest, а не $RegistrationTest.
 
 Предыдущая команда выводит содержимое, аналогичное следующему:
 
@@ -79,16 +68,5 @@ _**Дата изменения раздела:** 2012-10-22_
 
 Искусственные транзакции, запускаемые из System Center Operations Manager, будут автоматически генерировать эти файлы журнала в случае сбоев. Однако эти журналы не будут созданы, если сбой выполнения произойдет до того, как Windows PowerShell загрузит и запустит искусственную транзакцию.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>По умолчанию Lync Server 2013 сохраняет файлы журнала в папке. Для обеспечения простого и быстрого доступа к этим журналам необходимо открыть общий доступ к этой папке (например, \\atl-watcher-001.litwareinc.com\WatcherNode.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> По умолчанию Lync Server 2013 сохраняет файлы журнала в папке. Для обеспечения простого и быстрого доступа к этим журналам необходимо открыть общий доступ к этой папке (например, \\atl-watcher-001.litwareinc.com\WatcherNode.

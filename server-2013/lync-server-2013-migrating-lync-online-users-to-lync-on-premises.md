@@ -15,20 +15,8 @@ ms.translationtype: HT
 
 _**Дата изменения раздела:** 2016-12-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Эти действия необходимы только для переноса учетных записей пользователей, которые изначально были включены для Lync в Lync Online, до локального развертывания Lync. О перемещении пользователей, которые изначально были включены для локального развертывания Lync, а затем перенесены в Lync Online, см. в разделе <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Администрирование пользователей в гибридном развертывании Lync Server 2013</a>.<br />
-Кроме того, у всех перемещаемых пользователей должны быть учетные записи в локальной службе каталогов Active Directory.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Эти действия необходимы только для переноса учетных записей пользователей, которые изначально были включены для Lync в Lync Online, до локального развертывания Lync. О перемещении пользователей, которые изначально были включены для локального развертывания Lync, а затем перенесены в Lync Online, см. в разделе <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Администрирование пользователей в гибридном развертывании Lync Server 2013</a>.<br />Кроме того, у всех перемещаемых пользователей должны быть учетные записи в локальной службе каталогов Active Directory.
 
 ## Перенос в локальное развертывание Lync учетных записей пользователей, изначально включенных в Lync Online
 
@@ -40,12 +28,9 @@ _**Дата изменения раздела:** 2016-12-08_
     
       - В своем локальном развертывании в Командная консоль Lync Server введите следующие командлеты, чтобы создать поставщик услуг размещения для Lync Online:
         
-    ```
-                Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-    ```
-    ```    
+            Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+        
             New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
-    ```
 
 2.  Убедитесь, что на локальных пограничных серверах есть цепочка сертификатов, позволяющая подключаться к Lync Online (см. в таблице ниже). Эту цепочку можно загрузить отсюда: [https://corp.sts.microsoft.com/Onboard/ADFS\_Onboarding\_Pack/corp\_sts\_certs.zip](https://corp.sts.microsoft.com/onboard/adfs_onboarding_pack/corp_sts_certs.zip) .
     
@@ -142,19 +127,8 @@ _**Дата изменения раздела:** 2016-12-08_
         
         `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>По умолчанию максимальный размер файлов журналов транзакций базы данных rtcxds — 16 ГБ. Этого может быть недостаточно для одновременного перемещения большого количества пользователей, особенно если включено зеркальное отображение. Чтобы обойти это ограничение, можно увеличить размер файлов или регулярно создавать резервные копии файлов журналов. Дополнительные сведения см. в статье <a href="http://support.microsoft.com/kb/2756725" class="uri">http://support.microsoft.com/kb/2756725</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > По умолчанию максимальный размер файлов журналов транзакций базы данных rtcxds — 16 ГБ. Этого может быть недостаточно для одновременного перемещения большого количества пользователей, особенно если включено зеркальное отображение. Чтобы обойти это ограничение, можно увеличить размер файлов или регулярно создавать резервные копии файлов журналов. Дополнительные сведения см. в статье <a href="http://support.microsoft.com/kb/2756725" class="uri">http://support.microsoft.com/kb/2756725</a>.
 
 8.  Это необязательный шаг. Если требуется интеграция с Exchange 2013 Online, необходимо использовать дополнительный поставщик услуг размещения. Дополнительные сведения см. в статье [Настройка интеграции локальной Lync Server 2013 с Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md).
 

@@ -60,19 +60,8 @@ _**Дата изменения раздела:** 2015-03-09_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Командлет New-CsQoEConfiguration включает дополнительные параметры, недоступны в панели управления Lync Server. Дополнительные сведения см. в разделе справки <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Командлет New-CsQoEConfiguration включает дополнительные параметры, недоступны в панели управления Lync Server. Дополнительные сведения см. в разделе справки <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</a>.
 
 ## Чтобы создать параметры конфигурации качества взаимодействия с помощью панели управления Lync Server
 

@@ -17,19 +17,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Организации с локальными развертыванием сервера Lync Server должны соответствовать перечисленным ниже требованиям для поддержки Магазина Lync Windows.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Если используется сервер Lync Server 2010, выполните на всех серверах накопительное обновление для Lync Server 2010 за февраль 2012 г. (доступно по адресу <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</a>) или новее. Чтобы разрешить пользователям участвовать в собраниях, выполните на серверах накопительное обновление для Lync Server 2010 за октябрь 2012 г. (доступно по адресу <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</a>).</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Если используется сервер Lync Server 2010, выполните на всех серверах накопительное обновление для Lync Server 2010 за февраль 2012 г. (доступно по адресу <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</a>) или новее. Чтобы разрешить пользователям участвовать в собраниях, выполните на серверах накопительное обновление для Lync Server 2010 за октябрь 2012 г. (доступно по адресу <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</a>).
 
   - Включите на сервере автоматическое обнаружение, Lync Web App и службы веб-билетов.
 

@@ -27,19 +27,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - требования к производительности и рекомендации для баз данных архивации.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Сведения о масштабировании и производительности недоступны в этом выпуске Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Сведения о масштабировании и производительности недоступны в этом выпуске Lync Server 2013.
 
 ## Требования к инфраструктуре
 
@@ -71,18 +60,7 @@ Lync Server 2013 упрощает необходимые компоненты д
     
       - Microsoft SQL Server 2012 Standard.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Microsoft SQL Server 2008 R2 Express и Microsoft SQL Server 2012 Express не поддерживаются для архивации. 32-разрядные версии SQL Server не поддерживаются. Дополнительные требования и ограничения SQL Server см. в разделе <a href="lync-server-2013-database-software-support.md">Поддержка программного обеспечения баз данных в Lync Server 2013</a> в документации по планированию или документации по поддержке.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Microsoft SQL Server 2008 R2 Express и Microsoft SQL Server 2012 Express не поддерживаются для архивации. 32-разрядные версии SQL Server не поддерживаются. Дополнительные требования и ограничения SQL Server см. в разделе <a href="lync-server-2013-database-software-support.md">Поддержка программного обеспечения баз данных в Lync Server 2013</a> в документации по планированию или документации по поддержке.    
     Платформы SQL Server необходимо настроить перед развертыванием и включением архивации. Если учетная запись, которую планируется использовать для публикации топологии, имеет соответствующие права и разрешения администратора, базу данных архивации (LcsLog) можно создать при публикации топологии. Базу данных можно создать и позднее в ходе процедуры установки. Дополнительные сведения о SQL Server см. на веб-сайте SQL Server TechCenter по адресу [http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0x419).
 

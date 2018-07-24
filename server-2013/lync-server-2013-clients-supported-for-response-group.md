@@ -27,19 +27,8 @@ _**Дата изменения раздела:** 2014-03-28_
 
   - Lync Phone Edition
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&quot;Группа ответа&quot; не поддерживается для мобильных клиентов Lync.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> &quot;Группа ответа&quot; не поддерживается для мобильных клиентов Lync.
 
 Дополнительные сведения о новых функциях см. в разделе [Новые функции приложения группы ответа в Lync Server 2013](lync-server-2013-new-response-group-application-features.md) документации по началу работы.
 

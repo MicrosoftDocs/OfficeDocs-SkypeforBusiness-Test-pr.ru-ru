@@ -37,26 +37,12 @@ _**Дата изменения раздела:** 2012-10-04_
 
 2.  В командной строке введите следующую команду:
     
-    ```
-          New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-    ```
-    ```  
+        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+    
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
-    ```
-
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>При редактировании реестра может возникнуть ошибка выполнения команды, если раздел реестра уже существует. Эту ошибку можно игнорировать.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    
+    > [!note]  
+    > При редактировании реестра может возникнуть ошибка выполнения команды, если раздел реестра уже существует. Эту ошибку можно игнорировать.
 
 **Настройте основной сервер управления System Center Operations Manager для переопределения потенциального сервера наблюдения централизованного обнаружения.**
 

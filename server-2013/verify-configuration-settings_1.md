@@ -73,77 +73,22 @@ _**Дата изменения раздела:** 2015-03-09_
 
 3.  Чтобы проверить импортированные политики конференц-связи, на левой панели щелкните пункт **Конференц-связь** , щелкните **Политика конференц-связи** , затем проверьте, что все политики конференц-связи в среде Office Communications Server 2007 R2 включены в приведенный список.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Политика <strong>Собрание</strong> из предыдущих версий Office Communications Server не является политикой конференц-связи в Lync Server 2013. Кроме того, параметр <strong>Анонимные участники</strong> в предыдущих версиях Office Communications Server теперь является параметром в политике конференц-связи Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Если в Office Communications Server 2007 R2 политика конференц-связи не задана как <strong>для пользователя</strong> , импортируется только параметры глобальной политики. В этом случае никакие другие политики конференц-связи не импортируются.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Если для <strong>анонимных участников</strong> в политике конференц-связи Office Communications Server 2007 R2 выставлено значение <strong>Применять к пользователю</strong> , при миграции создаются две политики конференц-связи: одна со значением параметра <strong>AllowAnonymousParticipantsInMeetings</strong> равным <strong>True</strong> и вторая со значением параметра <strong>AllowAnonymousParticipantsInMeetings</strong> равным <strong>False</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Политика <strong>Собрание</strong> из предыдущих версий Office Communications Server не является политикой конференц-связи в Lync Server 2013. Кроме того, параметр <strong>Анонимные участники</strong> в предыдущих версиях Office Communications Server теперь является параметром в политике конференц-связи Lync Server 2013.    
+    > [!note]  
+    > Если в Office Communications Server 2007 R2 политика конференц-связи не задана как <strong>для пользователя</strong> , импортируется только параметры глобальной политики. В этом случае никакие другие политики конференц-связи не импортируются.    
+    > [!note]  
+    > Если для <strong>анонимных участников</strong> в политике конференц-связи Office Communications Server 2007 R2 выставлено значение <strong>Применять к пользователю</strong> , при миграции создаются две политики конференц-связи: одна со значением параметра <strong>AllowAnonymousParticipantsInMeetings</strong> равным <strong>True</strong> и вторая со значением параметра <strong>AllowAnonymousParticipantsInMeetings</strong> равным <strong>False</strong> .
 
 4.  Чтобы проверить импортированные абонентские группы, щелкните **Маршрутизация голосовой связи** , щелкните **Абонентская группа** , затем убедитесь, что все абонентские планы из среды Office Communicator 2007 R2 включены в список.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>В Lync Server 2013<strong>профили расположений</strong> теперь называются <strong>абонентскими группами</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > В Lync Server 2013<strong>профили расположений</strong> теперь называются <strong>абонентскими группами</strong> .
 
 5.  Чтобы проверить импортированные политики голосовой связи, щелкните **Маршрутизация голосовой связи** , щелкните **Политика голосовой связи** , затем убедитесь, что все политики голосовой связи из среды Office Communicator 2007 R2 включены в список.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Если в Office Communications Server 2007 R2 политика голосовой связи не задана как <strong>для пользователя</strong> , импортируется только параметры глобальной политики. В этом случае никакие другие политики голосовой связи не импортируются.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Если в Office Communications Server 2007 R2 политика голосовой связи не задана как <strong>для пользователя</strong> , импортируется только параметры глобальной политики. В этом случае никакие другие политики голосовой связи не импортируются.
 
 6.  Чтобы проверить импортированные маршруты голосовой связи, щелкните **Маршрутизация голосовой связи** , щелкните **Маршрут** , затем убедитесь, что все маршруты голосовой связи из среды Office Communicator 2007 R2 включены в список.
 

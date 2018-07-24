@@ -17,19 +17,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Помимо требований к оборудованию и операционным системам серверных платформ, Lync Server 2013 требует установки дополнительного ПО на развертываемых серверах.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Подробные сведения о требованиях к платформе для серверов Lync Server см. в разделах <a href="lync-server-2013-server-hardware-platforms.md">Аппаратные серверные платформы для Lync Server 2013</a> и <a href="lync-server-2013-server-and-tools-operating-system-support.md">Поддержка сервера и средств в операционной системе в Lync Server 2013</a>. Подробные сведения о требованиях к системе для клиентских компьютеров и устройств см. в разделе <a href="lync-server-2013-planning-for-clients-and-devices.md">Планирование клиентов и устройств в Lync Server 2013</a> в документации по планированию. Подробные сведения о требованиях к ПО для средств администрирования см. в разделе <a href="lync-server-2013-administrative-tools-software-requirements.md">Программные требования для средств администрирования в Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Подробные сведения о требованиях к платформе для серверов Lync Server см. в разделах <a href="lync-server-2013-server-hardware-platforms.md">Аппаратные серверные платформы для Lync Server 2013</a> и <a href="lync-server-2013-server-and-tools-operating-system-support.md">Поддержка сервера и средств в операционной системе в Lync Server 2013</a>. Подробные сведения о требованиях к системе для клиентских компьютеров и устройств см. в разделе <a href="lync-server-2013-planning-for-clients-and-devices.md">Планирование клиентов и устройств в Lync Server 2013</a> в документации по планированию. Подробные сведения о требованиях к ПО для средств администрирования см. в разделе <a href="lync-server-2013-administrative-tools-software-requirements.md">Программные требования для средств администрирования в Lync Server 2013</a>.
 
 ## Необходимое программное обеспечение для всех внутренних ролей сервера
 

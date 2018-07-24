@@ -45,19 +45,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - УАТС с временным мультиплексированием с изолированным шлюзом ТСОП.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Функция обхода сервера-посредника взаимодействует не со всеми шлюзами ТСОП, IP-УАТС и SBC. Корпорация Майкрософт протестировала набор ТСОП-шлюзов и SBC с сертифицированными партнерами и провела некоторые тесты для Cisco IP-УАТС. Режим обхода сервера-посредника поддерживается только для продуктов и версий из программы Unified Communications Open Interoperability Program – Lync Server по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Функция обхода сервера-посредника взаимодействует не со всеми шлюзами ТСОП, IP-УАТС и SBC. Корпорация Майкрософт протестировала набор ТСОП-шлюзов и SBC с сертифицированными партнерами и провела некоторые тесты для Cisco IP-УАТС. Режим обхода сервера-посредника поддерживается только для продуктов и версий из программы Unified Communications Open Interoperability Program – Lync Server по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</a>.
 
 Подробные сведения о партнерах, предлагающих решения корпоративной голосовой связи, см. на веб-сайте партнеров объединенных коммуникаций Майкрософт по адресу [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).
 

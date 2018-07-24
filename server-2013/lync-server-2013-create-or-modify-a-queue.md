@@ -21,19 +21,8 @@ _**Дата изменения раздела:** 2013-02-23_
 
 1.  Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Если вы являетесь одним из делегированных менеджеров группы ответа для управляемого рабочего процесса, вы можете создавать или изменять очереди группы ответа и назначать их рабочим процессам, которыми вы управляете.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Если вы являетесь одним из делегированных менеджеров группы ответа для управляемого рабочего процесса, вы можете создавать или изменять очереди группы ответа и назначать их рабочим процессам, которыми вы управляете.
 
 2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
@@ -57,19 +46,8 @@ _**Дата изменения раздела:** 2013-02-23_
     
       - Чтобы изменить порядок поиска агентов, в списке групп агентов выберите группу и нажмите стрелку вверх или стрелку вниз.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>При поиске доступного агента в очереди сервер использует порядковый номер группы, т. е. сначала сервер выбирает первую группу в списке, затем вторую и т. д.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!note]  
+        > При поиске доступного агента в очереди сервер использует порядковый номер группы, т. е. сначала сервер выбирает первую группу в списке, затем вторую и т. д.
 
 8.  Чтобы задать максимальный период ожидания ответа агента (период удержания звонящего), установите флажок **Enable queue time-out** (Включить время ожидания очереди) и затем выполните следующие действия:
     
@@ -115,19 +93,8 @@ _**Дата изменения раздела:** 2013-02-23_
 
 1.  Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Если вы являетесь одним из делегированных диспетчеров группы ответа для управляемого рабочего процесса, вы можете создавать группы агентов и очереди и назначать группы агентов очередям.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Если вы являетесь одним из делегированных диспетчеров группы ответа для управляемого рабочего процесса, вы можете создавать группы агентов и очереди и назначать группы агентов очередям.
 
 2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
@@ -139,37 +106,15 @@ _**Дата изменения раздела:** 2013-02-23_
     
         "All agents are currently busy. Please call back later."
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом <strong>Import-CsRgsAudioFile</strong>. Дополнительные сведения см. в разделе <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом <strong>Import-CsRgsAudioFile</strong>. Дополнительные сведения см. в разделе <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.
 
 4.  Определите действие, которое должно выполняться при достижении порогового времени ожидания очереди, и сохраните его в переменной. В командной строке введите следующую команду.
     
         $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Дополнительные сведения о возможных действиях и их синтаксисе см. в справке по командлету <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Дополнительные сведения о возможных действиях и их синтаксисе см. в справке по командлету <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.    
     Например:
     
         $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
@@ -182,37 +127,15 @@ _**Дата изменения раздела:** 2013-02-23_
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом <strong>Import-CsRgsAudioFile</strong>. Дополнительные сведения см. в разделе <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом <strong>Import-CsRgsAudioFile</strong>. Дополнительные сведения см. в разделе <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.
 
 6.  Определите действие, которое должно выполняться при достижении максимального числа звонков в очереди, и сохраните его в переменной. В командной строке введите следующую команду.
     
         $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Дополнительные сведения о возможных действиях и их синтаксисе см. в справке по командлету <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Дополнительные сведения о возможных действиях и их синтаксисе см. в справке по командлету <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.    
     Например:
     
         $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
@@ -225,19 +148,8 @@ _**Дата изменения раздела:** 2013-02-23_
     
         $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Дополнительные сведения о создании группы агентов см. в разделе <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</a></td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Дополнительные сведения о создании группы агентов см. в разделе <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</a>
 
 9.  Создайте очередь. В командной строке выполните следующую команду.
     

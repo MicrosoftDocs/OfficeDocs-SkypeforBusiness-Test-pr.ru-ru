@@ -19,19 +19,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Используйте подразделы данного раздела, чтобы получить сведения о настройке устройств для конференц-связи и управлении ими.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Дополнительную информацию о поддерживаемых устройствах для проведения конференций в Lync Server 2013 см. на веб-странице <a href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Телефоны и устройства для Microsoft Lync</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Дополнительную информацию о поддерживаемых устройствах для проведения конференций в Lync Server 2013 см. на веб-странице <a href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Телефоны и устройства для Microsoft Lync</a>.
 
 ## Содержание
 

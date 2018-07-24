@@ -25,16 +25,5 @@ _**Дата изменения раздела:** 2012-10-01_
 
 3.  На странице **Выполнение команд** , когда состояние задачи отображается как "Завершено", нажмите кнопку **Готово** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Вы также можете использовать bootstrapper.exe или <strong>Enable-CsComputer</strong> для повторной активации сервера.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Вы также можете использовать bootstrapper.exe или <strong>Enable-CsComputer</strong> для повторной активации сервера.

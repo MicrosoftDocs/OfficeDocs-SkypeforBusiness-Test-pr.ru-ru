@@ -17,35 +17,13 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Для развертывания ответа на звонок в группе и управления им необходимо использовать инструмент SEFAUtil из набора ресурсов. Этот инструмент входит в число инструментов набора ресурсов Lync Server 2013. Перед установкой SEFAUtil вы должны иметь в топологии пул доверенных приложений, указать SEFAUtil как доверенное приложение и включить топологию.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>На всех компьютерах, на которых планируется запускать инструмент SEFAUtil, должен быть установлен Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> На всех компьютерах, на которых планируется запускать инструмент SEFAUtil, должен быть установлен Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK.
 
 Инструмент SEFAUtil можно запускать в любом пуле серверов переднего плана в развертывании.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Дополнительные сведения о запуске SEFAUtil см. в статье блога Technet <a href="http://go.microsoft.com/fwlink/?linkid=278940">How to get SEFAutil running? (Как запустить SEFAutil?)</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Дополнительные сведения о запуске SEFAUtil см. в статье блога Technet <a href="http://go.microsoft.com/fwlink/?linkid=278940">How to get SEFAutil running? (Как запустить SEFAutil?)</a>.
 
 ## Развертывание SEFAUtil
 
@@ -61,19 +39,8 @@ _**Дата изменения раздела:** 2016-12-08_
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>При необходимости можно использовать другой порт.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > При необходимости можно использовать другой порт.
 
 5.  Включите топологию с внесенными изменениями. В командной строке выполните следующую команду:
     
@@ -85,19 +52,8 @@ _**Дата изменения раздела:** 2016-12-08_
     
     1.  Запустите этот инструмент из командной строки Windows с привилегиями администратора, чтобы отобразить параметры переадресации звонков пользователя в текущем развертывании.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Этот инструмент располагается в папке \Program Files\Microsoft Lync Server 2013\Reskit.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!note]  
+        > Этот инструмент располагается в папке \Program Files\Microsoft Lync Server 2013\Reskit.    
     2.  Отобразите параметры переадресации звонков пользователя. В командной строке выполните следующую команду:
         
             SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>

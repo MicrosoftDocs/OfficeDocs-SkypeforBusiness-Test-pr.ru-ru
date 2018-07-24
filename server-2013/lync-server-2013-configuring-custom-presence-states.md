@@ -40,15 +40,11 @@ _**Дата изменения раздела:** 2016-12-08_
 </thead>
 <tbody>
 <tr class="odd">
-<td>Хотя в рабочей среде это не рекомендуется, вы можете протестировать файл конфигурации, расположенный в файловом хранилище без поддержки HTTPS, при помощи параметра реестра EnableSIPHighSecurityMode, отключающего на клиенте режим высокой безопасности SIP. Затем при помощи параметра реестра CustomStateURL задать расположение файла конфигурации без поддержки HTTPS. Обратите внимание, что Lync 2013 учитывает параметры реестра Lync 2010, но раздел реестра обновлен. Параметры реестра можно создать следующим образом.
-<ul>
-<li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</p>
+<td>Хотя в рабочей среде это не рекомендуется, вы можете протестировать файл конфигурации, расположенный в файловом хранилище без поддержки HTTPS, при помощи параметра реестра EnableSIPHighSecurityMode, отключающего на клиенте режим высокой безопасности SIP. Затем при помощи параметра реестра CustomStateURL задать расположение файла конфигурации без поддержки HTTPS. Обратите внимание, что Lync 2013 учитывает параметры реестра Lync 2010, но раздел реестра обновлен. Параметры реестра можно создать следующим образом.<ul><li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</p>
 <p>Тип: DWORD</p>
-<p>Значение: 0</p></li>
-<li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</p>
+<p>Значение: 0</p></li><li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</p>
 <p>Тип: строка (REG_SZ)</p>
-<p>Значение (примеры): file://\\lspool.corp.contoso.com\LSFileShare\ClientConfigFolder\Presence.xml или file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</p></li>
-</ul></td>
+<p>Значение (примеры): file://\\lspool.corp.contoso.com\LSFileShare\ClientConfigFolder\Presence.xml или file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</p></li></ul></td>
 </tr>
 </tbody>
 </table>
@@ -94,22 +90,11 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Дополнительные сведения см. в разделах [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) и [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy) в документации Командная консоль Lync Server.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>По умолчанию Lync Server 2013 обновляет политики и параметры клиентов каждые три часа.</p></li>
-<li><p>Если требуется продолжить использование параметров групповой политики, таких как CustomStateURL, из предыдущих выпусков, Lync 2013 распознает эти параметры, если они будут расположены в новом разделе реестра политик (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync). Но политики клиентов, расположенные на сервере, имеют приоритет.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> <ul>
+> 
+> <li><p>По умолчанию Lync Server 2013 обновляет политики и параметры клиентов каждые три часа.</p></li>
+> 
+> 
+> <li><p>Если требуется продолжить использование параметров групповой политики, таких как CustomStateURL, из предыдущих выпусков, Lync 2013 распознает эти параметры, если они будут расположены в новом разделе реестра политик (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync). Но политики клиентов, расположенные на сервере, имеют приоритет.</p></li></ul>
 

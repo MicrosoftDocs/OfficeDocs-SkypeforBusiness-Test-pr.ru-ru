@@ -17,19 +17,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 В этом разделе приведены общие сведения о программном обеспечении, поддерживаемом Lync 2013 и надстройка собраний по сети для Lync 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Компонент надстройка собраний по сети для Lync 2013, поддерживающий управление собраниями из клиента Outlook для обмена сообщениями и совместной работы, устанавливается автоматически вместе с Lync 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Компонент надстройка собраний по сети для Lync 2013, поддерживающий управление собраниями из клиента Outlook для обмена сообщениями и совместной работы, устанавливается автоматически вместе с Lync 2013.
 
 ### Требования к программному обеспечению для Lync 2013 и надстройка собраний по сети для Lync 2013
 
@@ -52,19 +41,8 @@ _**Дата изменения раздела:** 2016-12-08_
 <p>Операционная система Windows 7</p>
 <p>Windows Server 2008 R2 с последним пакетом обновления</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync 2013 и надстройка собраний по сети для Lync 2013 не поддерживаются в Windows Vista или Windows XP (любой версии).</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Lync 2013 и надстройка собраний по сети для Lync 2013 не поддерживаются в Windows Vista или Windows XP (любой версии).
 </div></td>
 </tr>
 <tr class="even">
@@ -79,36 +57,17 @@ _**Дата изменения раздела:** 2016-12-08_
 <p>Веб-браузер Internet Explorer 7</p>
 <p>Mozilla Firefox</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Если вы используете Lync с Microsoft Exchange Online и в вашей организации развернут прокси-сервер HTTP, выполняющий проверку подлинности, то браузер Internet Explorer 9 или Internet Explorer 8 является обязательным.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Если вы используете Lync с Microsoft Exchange Online и в вашей организации развернут прокси-сервер HTTP, выполняющий проверку подлинности, то браузер Internet Explorer 9 или Internet Explorer 8 является обязательным.
 </div></td>
 </tr>
 <tr class="even">
 <td><p>Интеграция с Microsoft Office</p></td>
-<td><p>Для полного набора возможностей интеграции:</p>
-<ul>
-<li><p>Клиент Outlook 2013 для обмена сообщениями и совместной работы</p></li>
-<li><p>Клиент Outlook 2010 для обмена сообщениями и совместной работы</p></li>
-</ul></td>
+<td><p>Для полного набора возможностей интеграции:</p><ul><li><p>Клиент Outlook 2013 для обмена сообщениями и совместной работы</p></li><li><p>Клиент Outlook 2010 для обмена сообщениями и совместной работы</p></li></ul></td>
 </tr>
 <tr class="odd">
 <td><p>Интеграция с Microsoft Exchange</p></td>
-<td><p>Для полного набора возможностей интеграции:</p>
-<ul>
-<li><p>Microsoft Exchange Server 2013</p></li>
-<li><p>Microsoft Exchange Server 2010</p></li>
-</ul></td>
+<td><p>Для полного набора возможностей интеграции:</p><ul><li><p>Microsoft Exchange Server 2013</p></li><li><p>Microsoft Exchange Server 2010</p></li></ul></td>
 </tr>
 </tbody>
 </table>
