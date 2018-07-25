@@ -3998,7 +3998,7 @@
         href: lync-server-2013-managing-certificates-for-operational-processes.md
         items:
         - name: Этапы сертифицирования AV и OAuth с использованием -Roll in Set-CsCertificate в Lync Server 2013
-          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate
+          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md
       - name: Управление проверкой подлинности между серверами (OAuth) и партнерскими приложениями в Lync Server 2013
         href: lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
         items:
@@ -4837,6 +4837,6 @@
       - name: Изменения, вносимые командлетом Grant-CsOUPermission в Lync Server 2013
         href: lync-server-2013-changes-made-by-grant-csoupermission.md
   - name: Командная консоль Lync Server
-    href: lhttps://docs.microsoft.com/en-us/powershell/module/skype/
+    href: lync-server-2013-lync-server-management-shell.md
   - name: Глоссарий
     href: lync-server-2013-glossary.md
