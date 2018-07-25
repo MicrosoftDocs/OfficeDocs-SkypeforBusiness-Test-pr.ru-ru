@@ -140,7 +140,7 @@ _**Дата изменения раздела:** 2015-03-09_
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Командлеты CsTrunkConfiguration Lync Server поддерживают дополнительные свойства, не отображаемые в панели управления Lync Server. Дополнительные сведения см. в разделе справки по командлету <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</a>.
 
 ## Создание новых параметров конфигурации магистральной линии с помощью панели управления Lync Server

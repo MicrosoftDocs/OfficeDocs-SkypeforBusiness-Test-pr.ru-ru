@@ -17,7 +17,7 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Параметры конфигурации обновления устройств можно создать (только на уровне сайта) с помощью Windows PowerShell и командлета **New-CsDeviceUpdateConfiguration**, а изменить с помощью командлета **Set-CsDeviceUpdateConfiguration**. Для выполнения этих командлетов может использоваться командная консоль Lync Server 2013 или удаленный сеанс Windows PowerShell.
 
-> [!note]  
+> [!NOTE]  
 > Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
 
 

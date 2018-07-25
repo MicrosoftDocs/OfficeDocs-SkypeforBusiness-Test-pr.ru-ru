@@ -17,7 +17,7 @@ _**Дата изменения раздела:** 2013-02-20_
 
 Вы можете просмотреть информацию об устройствах для конференц-связи, настроенных для использования в вашей организации, с помощью Windows PowerShell и командлета **Get-CsMeetingRoom**. Для выполнения командлета **Get-CsMeetingRoom** может использоваться командная консоль Lync Server 2013 или удаленный сеанс Windows PowerShell.
 
-> [!note]  
+> [!NOTE]  
 > Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
 
 Если вы используете командлет **Get-CsMeetingRoom** без параметров, он возвращает информацию обо всех ваших устройствах для конференц-связи. Дополнительные параметры позволяют разными способами фильтровать эту информацию. Дополнительные сведения см. в разделе "Параметры" статьи [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).

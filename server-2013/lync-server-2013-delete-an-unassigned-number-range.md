@@ -45,7 +45,7 @@ _**Дата изменения раздела:** 2012-11-01_
     
         Remove-CsUnassignedNumber -Identity "Unassigned range 1"
     
-    > [!note]  
+    > [!NOTE]  
     > Подробные сведения о дополнительных параметрах см. в разделе <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
 
 ## См. также

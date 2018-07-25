@@ -35,7 +35,7 @@ _**Дата изменения раздела:** 2012-11-01_
     
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
-    > [!note]  
+    > [!NOTE]  
     > Дополнительные сведения о других параметрах см. в статьях <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</a>.
 
 ## См. также

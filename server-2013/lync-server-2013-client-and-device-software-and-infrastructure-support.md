@@ -25,7 +25,7 @@ _**Дата изменения раздела:** 2016-12-08_
 
    [Отображение фотографий пользователей в Lync](how-user-photos-are-displayed-in-lync.md)
 
-> [!note]  
+> [!NOTE]  
 > Lync Phone Edition работает с сервером Lync Server 2013 точно так же, как с Lync Server 2010. Сведения о поддержке программного обеспечения для устройств см. в соответствующих статьях по Lync Server 2010 в библиотеке TechNet:<ul>
 > 
 > <li><p>Необходимые компоненты Lync Server 2010 для устройств <a href="http://go.microsoft.com/fwlink/?linkid=256488%26clcid=0x419" class="uri">http://go.microsoft.com/fwlink/?linkid=256488&amp;clcid=0x419</a></p></li>

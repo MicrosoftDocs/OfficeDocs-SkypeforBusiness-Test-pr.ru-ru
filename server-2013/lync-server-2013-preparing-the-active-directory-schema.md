@@ -29,7 +29,7 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Расширения схемы Lync Server реплицируются на всех доменах, которые влияют на сетевой трафик. Выполняйте подготовку схемы в то время, когда уровень использования сети является низким.
 
-> [!note]  
+> [!NOTE]  
 > Если необходимо добавить поддержку Microsoft® Office Communicator Mobile 2007 R2 для Java и Microsoft® Office Communicator Mobile для мобильных клиентов Nokia 1.0 в развертывание Lync Server 2013, необходимо подготовить схему Active Directory для Microsoft Office Communications Server 2007 R2 в ходе установки Lync Server 2013. Для получения необходимого программного обеспечения и документации посетите веб-сайт <a href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</a>.
 
 ## Редактор ADSI

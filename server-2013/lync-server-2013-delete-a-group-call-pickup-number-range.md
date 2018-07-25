@@ -31,7 +31,7 @@ _**Дата изменения раздела:** 2013-01-30_
     
         Remove-CsCallParkOrbit -Identity "Redmond call pickup"
     
-    > [!note]  
+    > [!NOTE]  
     > Подробные сведения о дополнительных параметрах см. в статье <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
 
 ## См. также

@@ -45,7 +45,7 @@ _**Дата изменения раздела:** 2013-02-20_
     
         Remove-CsCallParkOrbit -Identity "Redmond orbit 1"
     
-    > [!note]  
+    > [!NOTE]  
     > Дополнительные сведения о других параметрах см. в разделе <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
 
 ## См. также

@@ -19,7 +19,7 @@ _**Дата изменения раздела:** 2012-10-02_
 
 1.  Найдите файл Company\_Phone\_Number\_Normalization\_Rules.txt в корне общей папки адресной книги и скопируйте его в корень общей папки адресной книги в пилотном пуле Lync Server 2013.
     
-    > [!note]  
+    > [!NOTE]  
     > Образцы правил нормализации адресной книги установлены в каталоге, содержащем файлы веб-компонента службы адресной книги. Путь – <strong>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</strong>. Этот файл можно скопировать в корневой каталог общей папки адресной книги и переименовать в <strong>Company_Phone_Number_Normalization_Rules.txt</strong>. Например, для общей адресной книги на сервере <strong>$serverX</strong> путь будет иметь следующий вид: <strong>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</strong>.
 
 2.  Откройте файл Company\_Phone\_Number\_Normalization\_Rules.txt с помощью текстового редактора, например Блокнота.

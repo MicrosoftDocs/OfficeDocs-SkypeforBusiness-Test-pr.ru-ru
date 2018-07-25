@@ -31,7 +31,7 @@ _**Дата изменения раздела:** 2012-10-19_
 
 2.  В командной строке введите следующую команду:
     
-    > [!note]  
+    > [!NOTE]  
     > Если параметры приложения парковки вызовов Lync Server 2013 совпадают с ранее настроенными параметрами Lync Server 2010, можно пропустить этот шаг. Если для сред Lync Server 2013 и Lync Server 2010 используются различные параметры приложения парковки вызовов, используйте следующий командлет, чтобы обновить эти изменения.    
         Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
 

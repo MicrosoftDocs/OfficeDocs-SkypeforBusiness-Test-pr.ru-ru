@@ -41,7 +41,7 @@ _**Дата изменения раздела:** 2014-07-02_
 
     New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 
-> [!note]  
+> [!NOTE]  
 > При использовании Office 365 под управлением 21Vianet в Китае замените значение для параметра <strong>ProxyFqdn</strong> (например, exap.um.outlook.com) на полное доменное имя для службы под управлением 21Vianet: «exap.um.partner.outlook.cn».
 
   - Параметр **Identity** определяет строковое значение уникального идентификатора для создаваемого поставщика услуг размещения (например, "Exchange Online"). Значения с пробелами должны заключаться в двойные кавычки.

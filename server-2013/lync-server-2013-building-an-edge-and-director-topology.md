@@ -25,7 +25,7 @@ _**Дата изменения раздела:** 2012-09-08_
 
 Подробнее об этих средствах см. в [Контрольный список развертывания для доступа внешних пользователей в Lync Server 2013](lync-server-2013-deployment-checklist-for-external-user-access.md).
 
-> [!note]  
+> [!NOTE]  
 > Если вам приходилось использовать построитель топологий для определения полной топологии, включая пограничную топологию, то можно пропустить задачи <a href="lync-server-2013-define-your-edge-topology.md">Определение пограничной топологии в Lync Server 2013</a> и <a href="lync-server-2013-publish-your-topology.md">Публикация топологии в Lync Server 2013</a> в этом разделе, но необходимо выполнить задачу <a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Экспорт топологии Lync Server 2013 и ее копирование на внешние носители для установки в пограничной топологии</a>.
 
 ## Содержание

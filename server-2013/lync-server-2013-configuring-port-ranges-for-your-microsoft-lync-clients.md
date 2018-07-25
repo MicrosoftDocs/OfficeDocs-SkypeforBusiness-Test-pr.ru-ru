@@ -111,5 +111,5 @@ _**Дата изменения раздела:** 2015-03-09_
 
 Отдельные пользователи должны выйти из Lync и войти снова, чтобы эти изменения вступили в силу.
 
-> [!note]  
+> [!NOTE]  
 > Вы также можете включить диапазоны портов мультимедиа клиентов, а затем назначить эти диапазоны портов с помощью одной команды. Например:<br /><code>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</code>

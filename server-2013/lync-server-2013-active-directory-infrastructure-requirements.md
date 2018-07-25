@@ -37,7 +37,7 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - Лес, в котором разворачивается Lync Server, будет переведен в режим работы леса Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 или в собственный режим Windows Server 2003.
     
-    > [!note]  
+    > [!NOTE]  
     > Сведения об изменении режима работы домена или леса см. в статье &quot;Повышение режимов работы домена и леса&quot; библиотеки TechNet по адресу <a href="http://go.microsoft.com/fwlink/?linkid=263775" class="uri">http://go.microsoft.com/fwlink/?linkid=263775</a>.
 
   - Глобальный каталог разворачивается во всех доменах, где разворачиваются компьютеры или пользователи Lync Server.

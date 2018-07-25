@@ -17,7 +17,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
 Представление FileTransfers хранит сведения о одноранговых сеансах передачи файлов. Оно впервые появилось в Microsoft Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > Представление FileTransfers содержит все столбцы <a href="lync-server-2013-sessiondetails-view.md">Представление SessionDetails</a>, а также столбцы, указанные ниже.
 
 

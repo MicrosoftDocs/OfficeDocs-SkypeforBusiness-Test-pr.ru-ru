@@ -21,7 +21,7 @@ Lync Server 2013 содержит стандартный интерфейс ве
 
 Дополнительные сведения см. в разделе [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration).
 
-> [!note]  
+> [!NOTE]  
 > На компьютерах, на которых работает клиент Windows 8, MAC-адреса недоступны.
 
 ## Настройка URL-адреса приложения SNMP

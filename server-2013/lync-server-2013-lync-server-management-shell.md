@@ -31,7 +31,7 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - Для запуска комадлетов Lync Server откройте Командная консоль Lync Server.
     
-    > [!warning]  
+    > [!WARNING]  
     > Если открыть окно Windows PowerShell вместо Командная консоль Lync Server, то по умолчанию вы не сможете выполнять командлеты Lync Server. Чтобы запускать командлеты Lync Server в Windows PowerShell, сначала введите следующее в командной строке Windows PowerShell:<br />    Import-Module Lync
 
   - Командная консоль Lync Server автоматически устанавливается на каждом интерфейсном сервере Lync Server Enterprise Edition или сервере Standard Edition.

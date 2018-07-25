@@ -39,7 +39,7 @@ _**Дата изменения раздела:** 2012-10-04_
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool pool02.contoso.net
 
-> [!note]  
+> [!NOTE]  
 > Может возникнуть ошибка, показанная далее, вызванная тем, что для Командная консоль Lync Server требуется обновленный набор разрешений Active Directory. Чтобы устранить ее, закройте текущее окно, откройте новое окно Командная консоль Lync Server и выполните команду еще раз.
 
 ![Вывод ошибок Move-CsConferenceDirectory](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Вывод ошибок Move-CsConferenceDirectory")

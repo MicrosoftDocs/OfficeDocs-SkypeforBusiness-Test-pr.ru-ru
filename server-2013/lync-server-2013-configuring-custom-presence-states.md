@@ -90,7 +90,7 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Дополнительные сведения см. в разделах [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) и [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy) в документации Командная консоль Lync Server.
 
-> [!note]  
+> [!NOTE]  
 > <ul>
 > 
 > <li><p>По умолчанию Lync Server 2013 обновляет политики и параметры клиентов каждые три часа.</p></li>

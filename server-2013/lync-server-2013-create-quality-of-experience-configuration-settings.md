@@ -60,7 +60,7 @@ _**Дата изменения раздела:** 2015-03-09_
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Командлет New-CsQoEConfiguration включает дополнительные параметры, недоступны в панели управления Lync Server. Дополнительные сведения см. в разделе справки <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</a>.
 
 ## Чтобы создать параметры конфигурации качества взаимодействия с помощью панели управления Lync Server

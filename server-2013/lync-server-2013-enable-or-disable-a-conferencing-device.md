@@ -17,7 +17,7 @@ _**Дата изменения раздела:** 2013-02-20_
 
 Для включения и отключения устройства для конференц-связи используйте командлеты **Enable-CsMeetingRoom** и **Disable-CsMeetingRoom**. Эти командлеты можно запустить из командная консоль Lync Server 2013 или из сеанса удаленного подключения к Windows PowerShell.
 
-> [!note]  
+> [!NOTE]  
 > Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
 
 

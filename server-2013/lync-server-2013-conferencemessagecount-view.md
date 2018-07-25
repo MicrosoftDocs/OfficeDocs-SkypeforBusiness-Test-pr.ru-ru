@@ -17,7 +17,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
 В представлении ConferenceMessageCount хранятся сведения о количестве сообщений, отправленных пользователем во время конференции. Это представление было введено в Microsoft Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > Помимо столбцов, перечисленных ниже, представление ConferenceMessageCount содержит все столбцы <a href="lync-server-2013-conferencesessiondetails-view.md">Представление ConferenceSessionDetails</a>.
 
 

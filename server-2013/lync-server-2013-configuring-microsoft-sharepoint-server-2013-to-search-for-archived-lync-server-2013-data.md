@@ -44,7 +44,7 @@ _**Дата изменения раздела:** 2016-12-08_
     $service.AllowOAuthOverHttp = $False
     $service.Update()
 
-> [!note]  
+> [!NOTE]  
 > Обязательно используйте универсальный код ресурса (URI) для службы автоопределения. Не следует использовать образец URI &quot;https://autodiscover.litwareinc.com/autodiscover/metadata/json/1&quot;.
 
 После создания автора маркера и настройки службы маркеров выполните эти команды, заменив URL-адрес своего сайта SharePoint образцом URL-адреса "http://atl-sharepoint-001":
@@ -73,7 +73,7 @@ _**Дата изменения раздела:** 2016-12-08_
     $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
     New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmyer" -Template $Template -Name "Discovery Center"
 
-> [!note]  
+> [!NOTE]  
 > Термин &quot;eDiscovery&quot; используется в качестве краткого варианта для термина &quot;обнаружение электронных данных&quot; и, как правило, относится к процедуре поиска в архивах электронных данных элементов, которые можно &quot;обоснованно вычислить в целях предоставления допустимого доказательства&quot; в суде общей юрисдикции.
 
 После подготовки нового сайта необходимо настроить Exchange 2013 как источник результатов для SharePoint. Для этого можно выполнить следующую процедуру, описание которой представлено на странице Центра администрирования SharePoint 2013:
