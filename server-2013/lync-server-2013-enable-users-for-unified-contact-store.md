@@ -48,34 +48,12 @@ _**Дата изменения раздела:** 2012-10-07_
             New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Вместо отображаемых имен пользователей можно использовать псевдонимы или SIP URI.</td>
-        </tr>
-        </tbody>
-        </table>
-        
+        > [!NOTE]  
+        > Вместо отображаемых имен пользователей можно использовать псевдонимы или SIP URI.        
         Например:
         
             New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>В предыдущем примере первая команда создает новую политику на уровне пользователя с именем <em>UCS Enabled Users</em> и с флагом UcsAllowed, установленным в значение True. Вторая команда назначает эту политику пользователю с отображаемым именем Ken Myer, что означает, что теперь Кену Майеру разрешен доступ к единому хранилищу контактов.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > В предыдущем примере первая команда создает новую политику на уровне пользователя с именем <em>UCS Enabled Users</em> и с флагом UcsAllowed, установленным в значение True. Вторая команда назначает эту политику пользователю с отображаемым именем Ken Myer, что означает, что теперь Кену Майеру разрешен доступ к единому хранилищу контактов.

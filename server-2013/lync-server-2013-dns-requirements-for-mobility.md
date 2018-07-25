@@ -95,35 +95,13 @@ DNS-записи могут быть либо записями CNAME, либо A
 <p>Разрешается в запись узла (A или AAAA) для доступа</p></td>
 <td><p>Для поддержки служба push-уведомлений и Apple Push Notification Service вы создаете одну запись SRV для каждого домена SIP с клиентами Microsoft Lync Mobile.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Это требование применяется только к клиентам Microsoft Lync Mobile на мобильных устройствах Apple и Майкрософт. Устройства Android и Nokia Symbian не используют push-уведомления.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Это требование применяется только к клиентам Microsoft Lync Mobile на мобильных устройствах Apple и Майкрософт. Устройства Android и Nokia Symbian не используют push-уведомления.
 </div></td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lyncdiscover, also known as autodiscover, traffic goes through the reverse proxy. SRV record points to a record that resolves through the доступа.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Lyncdiscover, also known as autodiscover, traffic goes through the reverse proxy. SRV record points to a record that resolves through the доступа.

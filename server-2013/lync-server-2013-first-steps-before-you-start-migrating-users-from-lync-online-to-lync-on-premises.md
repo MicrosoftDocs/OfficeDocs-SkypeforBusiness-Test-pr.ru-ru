@@ -25,13 +25,18 @@ _**Дата изменения раздела:** 2016-12-08_
     
     После установки данного модуля можно запустить удаленный сеанс, введя в Командная консоль Lync Server следующие командлеты:
     
-        Import-Module LyncOnlineConnector
-    
+    ```
+            Import-Module LyncOnlineConnector
+    ```
+    ```
         $cred = Get-Credential
-    
+    ```
+    ```
         $CSSession = New-CsOnlineSession -Credential $cred
-    
+    ```
+    ```
         Import-PSSession $CSSession -AllowClobber
+    ```
     
     Дополнительные сведения о запуске удаленного сеанса PowerShell в Skype для бизнеса Online см. в статье [Подключение к Lync Online с использованием Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     

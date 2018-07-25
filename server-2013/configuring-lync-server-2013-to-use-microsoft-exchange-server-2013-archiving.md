@@ -17,19 +17,8 @@ _**Дата изменения раздела:** 2014-06-24_
 
 Microsoft Lync Server 2013 предоставляет администраторам возможность архивирования сеансов обмена мгновенными сообщениями и расшифровок веб-конференций в почтовом ящике пользователя Microsoft Exchange Server 2013 вместо базы данных SQL Server. Если выбран этот параметр, запись расшифровок выполняется в папку "Удаленные" в почтовом ящике пользователя. Папка "Удаленные" представляет собой скрытую папку, размещенную в папке корзины. Хотя эта папка не отображается для конечных пользователей, она индексируется поисковой системой Exchange и может быть обнаружена с помощью операции поиска по почтовому ящику Exchange и/или Microsoft SharePoint Server 2013. Поскольку данные хранятся в той же папке, которая используется компонентом хранения на месте Exchange (этот компонент отвечает за архивирование сообщений электронной почты и остальной обмен данными Exchange), администраторы могут использовать один инструмент для поиска всех архивированных электронных сообщений пользователя.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для отключения архивации бесед Lync полностью также необходимо отключить журнал бесед Lync. Дополнительные сведения см. в следующих разделах: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Управление архивацией внутренних и внешних коммуникаций в Lync Server 2013</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Для отключения архивации бесед Lync полностью также необходимо отключить журнал бесед Lync. Дополнительные сведения см. в следующих разделах: <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Управление архивацией внутренних и внешних коммуникаций в Lync Server 2013</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</a>.
 
 Для архивирования расшифровок в Exchange 2013 необходимо сначала настроить проверку подлинности "сервер-сервер" для двух серверов. После выполнения проверки подлинности "сервер-сервер" можно выполнять следующие задачи в Microsoft Lync Server 2013 (обратите внимание, что в зависимости от установки и конфигурации может потребоваться выполнить все указанные задачи):
 
@@ -57,19 +46,8 @@ Microsoft Lync Server 2013 предоставляет администратор
 
     Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Если для свойства EnableArchiving установлено значение None, Lync Server не выполняет архивацию расшифровок мгновенных сообщений и веб-конференций. В этом случае сервер просто игнорирует значение, настроенное для EnableExchangeArchiving.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Если для свойства EnableArchiving установлено значение None, Lync Server не выполняет архивацию расшифровок мгновенных сообщений и веб-конференций. В этом случае сервер просто игнорирует значение, настроенное для EnableExchangeArchiving.
 
 Для включения (или отключения) архивации Exchange можно также использовать панель управления Lync Server. Для этого выполните следующую процедуру:
 
@@ -81,19 +59,8 @@ Microsoft Lync Server 2013 предоставляет администратор
 
 4.  После выбора элементов для архивации необходимо установить флажок **Интеграция с Exchange Server** , чтобы включить архивацию Exchange. Чтобы отключить архивацию Exchange, снимите этот флажок.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Флажок <strong>Интеграция с Exchange Server</strong> не отображается, если для параметра <strong>Настройка архивации</strong> установлено значение <strong>Отключить архивацию</strong> . Необходимо сначала включить архивацию, а затем активировать архивацию Exchange.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Флажок <strong>Интеграция с Exchange Server</strong> не отображается, если для параметра <strong>Настройка архивации</strong> установлено значение <strong>Отключить архивацию</strong> . Необходимо сначала включить архивацию, а затем активировать архивацию Exchange.
 
 Если Lync Server 2013 и Exchange 2013 размещены в одном лесу, управление архивацией для отдельных пользователей (или, по крайней мере, для пользователей, имеющих учетные записи электронной почты в Exchange 2013) осуществляется с помощью политик хранения на месте Exchange. При наличии пользователей, размещенных в предыдущей версии Exchange управление архивацией для таких пользователей осуществляется с помощью политик архивации Lync Server. Обратите внимание, что только для пользователей, имеющих учетные записи в Exchange 2013 может выполняться архивация расшифровок Lync в Exchange.
 

@@ -21,19 +21,8 @@ _**Дата изменения раздела:** 2012-10-19_
 
   - Добавить его в сервисные группы единой системы обмена сообщениями.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Чтобы использовать командлеты <strong>Get-CsExUmContact</strong> и <strong>Move-CsExUmContact</strong>, вы должны быть участником группы RTCUniversalUserAdmins и иметь разрешение для подразделения, в котором хранятся контактные объекты. Разрешение для подразделения предоставляется с помощью командлета <strong>Grant-OUPermission</strong>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Чтобы использовать командлеты <strong>Get-CsExUmContact</strong> и <strong>Move-CsExUmContact</strong>, вы должны быть участником группы RTCUniversalUserAdmins и иметь разрешение для подразделения, в котором хранятся контактные объекты. Разрешение для подразделения предоставляется с помощью командлета <strong>Grant-OUPermission</strong>.
 
 ## Перемещение контактных объектов с помощью командной консоли Lync Server
 
@@ -65,16 +54,5 @@ _**Дата изменения раздела:** 2012-10-19_
     
     где *forest FQDN* указывает лес, в котором развертывается Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Обязательно перезапустите службу <strong>Сервер переднего плана Lync Server</strong> (rtcsrv.exe) <em>после</em> выполнения скрипта exchucutil.ps1. Иначе Lync Server 2013 не обнаружит единую систему обмена сообщениями в топологии.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Обязательно перезапустите службу <strong>Сервер переднего плана Lync Server</strong> (rtcsrv.exe) <em>после</em> выполнения скрипта exchucutil.ps1. Иначе Lync Server 2013 не обнаружит единую систему обмена сообщениями в топологии.

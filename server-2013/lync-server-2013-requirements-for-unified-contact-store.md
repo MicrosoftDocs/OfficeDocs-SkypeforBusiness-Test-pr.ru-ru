@@ -25,16 +25,5 @@ _**Дата изменения раздела:** 2012-10-01_
 
   - Между Lync Server 2013 и Exchange 2013 должна быть настроена проверка подлинности "сервер-сервер".
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Дополнительные требования о настройке проверки подлинности между Lync Server 2013 и Exchange 2013 см. в разделе <a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Управление проверкой подлинности между серверами (OAuth) и партнерскими приложениями в Lync Server 2013</a> в документации по эксплуатации.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Дополнительные требования о настройке проверки подлинности между Lync Server 2013 и Exchange 2013 см. в разделе <a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Управление проверкой подлинности между серверами (OAuth) и партнерскими приложениями в Lync Server 2013</a> в документации по эксплуатации.

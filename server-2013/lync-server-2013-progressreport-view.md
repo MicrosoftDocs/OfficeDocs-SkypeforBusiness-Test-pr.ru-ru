@@ -17,19 +17,8 @@ _**Дата изменения раздела:** 2015-03-09_
 
 В представлении ProgressReport хранятся сведения о завершенных сеансах. Отчеты о ходе выполнения записываются только для тех звонков и сеансов, которые Lync Server 2013 определяет как полезные для диагностических целей. Это представление появилось в Microsoft Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Поля ErrorTime, ErrorReportSeq и ProgressReportSeq могут указывать не только на ошибки, но и на сообщения о состоянии звонков или сеансов.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Поля ErrorTime, ErrorReportSeq и ProgressReportSeq могут указывать не только на ошибки, но и на сообщения о состоянии звонков или сеансов.
 
 
 <table>

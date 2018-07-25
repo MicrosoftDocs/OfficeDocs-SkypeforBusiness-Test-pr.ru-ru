@@ -17,19 +17,8 @@ _**Дата изменения раздела:** 2014-10-28_
 
 Выполните одну из двух процедур, описанных в этом разделе, на сайте филиала после успешного выполнения задач, описание которых приведено в разделе [Развертывание устройства или сервера для обеспечения связи в филиалах с помощью Lync Server 2013 — задачи центрального сайта](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Чтобы выполнить эту процедуру, необходимо быть членом группы RTCUniversalSBATechnicians.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Чтобы выполнить эту процедуру, необходимо быть членом группы RTCUniversalSBATechnicians.
 
 ## Развертывание устройства для обеспечения связи в филиалах
 
@@ -39,19 +28,8 @@ _**Дата изменения раздела:** 2014-10-28_
 
   - Установите Microsoft Lync Server 2010 на компьютер, на котором выполняется Windows Server 2008 или Windows Server 2008 R2, таким же образом, как Вы бы установили любую другую роль сервера Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Для получения информации об установке Lync Server см. <a href="lync-server-2013-deploying-lync-server.md">Развертывание Lync Server 2013</a> в документации по развертыванию.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Для получения информации об установке Lync Server см. <a href="lync-server-2013-deploying-lync-server.md">Развертывание Lync Server 2013</a> в документации по развертыванию.
 
 **Дальнейшее действие** : [Настройка пользователей для организации устойчивости на сайтах филиалов в Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
 

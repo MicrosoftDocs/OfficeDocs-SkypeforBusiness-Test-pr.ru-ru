@@ -39,19 +39,8 @@ _**Дата изменения раздела:** 2016-12-08_
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Внимание!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Если вы не замените параметры в резервном пуле и вам не удастся восстановить основной пул, то параметры основного пула будут утеряны. Дополнительные сведения см. в разделе <a href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Планирование аварийного восстановления для группы ответа в Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!Caution]  
+    > Если вы не замените параметры в резервном пуле и вам не удастся восстановить основной пул, то параметры основного пула будут утеряны. Дополнительные сведения см. в разделе <a href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Планирование аварийного восстановления для группы ответа в Lync Server 2013</a>.
 
 4.  Чтобы проверить завершение импорта, просмотрите импортированные группы ответа. Владельцем импортированных групп ответа по-прежнему является основной пул. Выполните следующие действия:
     
@@ -99,19 +88,8 @@ _**Дата изменения раздела:** 2016-12-08_
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Нужно использовать либо параметр –ShowAll, либо параметр –Owner. Если вы не используете ни один из них, группы ответа, импортированные в резервный пул, не будут приведены в возвращаемых командлетами результатах.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Нужно использовать либо параметр –ShowAll, либо параметр –Owner. Если вы не используете ни один из них, группы ответа, импортированные в резервный пул, не будут приведены в возвращаемых командлетами результатах.
 
 5.  Чтобы проверить завершение импорта, совершите звонок импортированной группе ответа и убедитесь, что звонок обрабатывается правильно.
 
@@ -119,19 +97,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 7.  Измените импортированные группы ответа с помощью стандартных процедур.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Когда группы ответа находятся в резервном пуле, для управления ими используйте Командная консоль Lync Server. Использовать панель управления Lync Server для управления группами ответа, импортированными в резервный пул, нельзя.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Когда группы ответа находятся в резервном пуле, для управления ими используйте Командная консоль Lync Server. Использовать панель управления Lync Server для управления группами ответа, импортированными в резервный пул, нельзя.
 
 8.  После того как основной пул будет восстановлен и восстановление размещения завершено, экспортируйте группы ответа основного пула, которые были импортированы в резервный пул. Используйте следующую команду:
     
@@ -145,19 +112,8 @@ _**Дата изменения раздела:** 2016-12-08_
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Если в процессе восстановления вы перестраиваете пул, меняя или не меняя полное доменное имя, необходимо использовать параметр –OverwriteOwner. Как показывает опыт, вы всегда можете использовать параметр –OverwriteOwner при импорте групп ответа обратно в основной пул.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Если в процессе восстановления вы перестраиваете пул, меняя или не меняя полное доменное имя, необходимо использовать параметр –OverwriteOwner. Как показывает опыт, вы всегда можете использовать параметр –OverwriteOwner при импорте групп ответа обратно в основной пул.    
     Если вы развертываете новый пул (с таким же или другим полным доменным именем) для замены основного пула и хотите использовать в новом пуле параметры приложений из резервного пула, добавьте параметр –ReplaceExistingSettings. Используйте следующую команду:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<new primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>" -ReplaceExistingSettings
@@ -166,19 +122,8 @@ _**Дата изменения раздела:** 2016-12-08_
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Если для нового пула вы не хотите использовать параметры приложений и звуковой файл по умолчанию, используемый для воспроизведения музыки на удержании, которые использовались в резервном пуле, в новом пуле будут использоваться параметры приложений по умолчанию.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Если для нового пула вы не хотите использовать параметры приложений и звуковой файл по умолчанию, используемый для воспроизведения музыки на удержании, которые использовались в резервном пуле, в новом пуле будут использоваться параметры приложений по умолчанию.
 
 10. Чтобы проверить импорт в основной пул, просмотрите импортированную конфигурацию группы. Выполните следующие действия:
     
@@ -232,16 +177,5 @@ _**Дата изменения раздела:** 2016-12-08_
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimaryUpdated.zip" -RemoveExportedConfiguration
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Эта команда создает новый файл с экспортированной конфигурацией и затем удаляет файл из резервного пула.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Эта команда создает новый файл с экспортированной конфигурацией и затем удаляет файл из резервного пула.

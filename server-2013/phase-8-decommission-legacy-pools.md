@@ -35,24 +35,17 @@ _**Дата изменения раздела:** 2016-12-08_
 
 ## Содержание
 
-  -   
-    [Обновление записей DNS SRV](update-dns-srv-records.md)
+   [Обновление записей DNS SRV](update-dns-srv-records.md)
 
-  -   
-    [Перемещение центрального сервера управления Lync Server 2010 на Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
+   [Перемещение центрального сервера управления Lync Server 2010 на Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
-  -   
-    [Перемещение каталогов конференций](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
+   [Перемещение каталогов конференций](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
-  -   
-    [Удаление ассоциации сервера архивирования](remove-the-archiving-server-association.md)
+   [Удаление ассоциации сервера архивирования](remove-the-archiving-server-association.md)
 
-  -   
-    [Удаление ассоциации сервера мониторинга](remove-the-monitoring-server-association.md)
+   [Удаление ассоциации сервера мониторинга](remove-the-monitoring-server-association.md)
 
-  -   
-    [Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
+   [Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
-  -   
-    [Удаление экземпляров и баз данных SQL Server на сервере заднего плана](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+   [Удаление экземпляров и баз данных SQL Server на сервере заднего плана](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 

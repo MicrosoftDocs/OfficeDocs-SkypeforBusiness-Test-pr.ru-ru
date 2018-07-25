@@ -53,19 +53,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - современное приложение Windows 8 ([http://go.microsoft.com/fwlink/?LinkId=322110](http://go.microsoft.com/fwlink/p/?linkid=322110)).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Пользователи Lync в Office 365 могут использовать обе версии PCD.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Пользователи Lync в Office 365 могут использовать обе версии PCD.
 
 Если вы хотите использовать предыдущую версию PCD, ознакомьтесь с указанными ниже ресурсами.
 
@@ -75,19 +64,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 ## Требования к системе для установки Lync PCD
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для установки PCD необходимо установить и настроить веб-интерфейс API объединенных коммуникаций (UCWA). Это необходимо для поддержки мобильных клиентов в развернутой среде Lync Server. UCWA устанавливается вместе с Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Для установки PCD необходимо установить и настроить веб-интерфейс API объединенных коммуникаций (UCWA). Это необходимо для поддержки мобильных клиентов в развернутой среде Lync Server. UCWA устанавливается вместе с Lync Server.
 
 ## Требования классического приложения Windows
 

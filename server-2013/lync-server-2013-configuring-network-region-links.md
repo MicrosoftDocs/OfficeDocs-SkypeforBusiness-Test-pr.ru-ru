@@ -29,19 +29,8 @@ _**Дата изменения раздела:** 2012-11-01_
 
 5.  В окне **Создание связи между областями** введите значение в поле **Имя**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Это значение должно быть уникальным в рамках развертывания Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Это значение должно быть уникальным в рамках развертывания Lync Server 2013.
 
 6.  В раскрывающемся списке **Область сети №1** выберите одну из двух областей, которые необходимо связать.
 
@@ -76,7 +65,7 @@ _**Дата изменения раздела:** 2012-11-01_
 #### Другие ресурсы
 
 [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)  
-[Set-CsNetworkRegionLink](href: https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)  
+[Set-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)  
 [Remove-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegionLink)  
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 

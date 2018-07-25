@@ -19,32 +19,10 @@ Lync Server 2013 поддерживает следующие протоколы 
 
   - **Протоколы IP.**    Lync Server 2013 поддерживает IP версии 4 (IPv4) или IP версии 6 (IPv6) для сети сервера.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 может работать в сети с включенным двойным стеком IP.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Lync Server 2013 может работать в сети с включенным двойным стеком IP.
 
   - **Транспортные протоколы SIP.**   SIP может использовать как минимум 3 типа транспортных протоколов: UDP, TCP и TLS. В конфигурации SIP по умолчанию TLS запускается поверх TCP. TLS используется в сети Lync Server 2013. На границе сети Lync Server 2013 может работать поверх TCP. Lync Server 2013 не поддерживает UDP для транспорта SIP, поскольку он не соответствует минимальным требованиям безопасности, надежности и масштабируемости для предприятий. Дополнительные сведения см. в записи блога NextHop «UDP или не UDP — вот в чем вопрос» по адресу [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Содержимое всех блогов и их URL-адреса могут быть изменены без уведомления.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Содержимое всех блогов и их URL-адреса могут быть изменены без уведомления.

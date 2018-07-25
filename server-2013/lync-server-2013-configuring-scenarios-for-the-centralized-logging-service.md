@@ -17,19 +17,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Сценарии определяют область действия (глобальную, узел, пул или компьютер) и то, что поставщики используют в централизованная служба ведения журнала. С помощью сценариев вы включаете и отключаете трассировку поставщиков (например, S4, SIPStack, мгновенных сообщений и сведений о присутствии). Настроив сценарий вы можете сгруппировать все поставщики заданной логической коллекции, которые решают определенную проблему. Если сценарий нужно изменить в соответствии с потребностями устранения неполадок и ведения журналов, средства отладки Lync Server 2013 представляют вам модуль Windows PowerShell с именем *ClsController.psm1*, который содержит функцию *Edit-CsClsScenario*. Предназначение этого модуля — изменение свойств именованного сценария. Средства отладки Lync Server 2013 можно загрузить, перейдя по этой ссылке: [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для любой области действия (глобальной, области узла, пула и компьютера) одновременно можно использовать не больше двух сценариев. Чтобы определить, какие сценарии выполняются в данный момент, используйте командлеты Windows PowerShell и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. С помощью Windows PowerShell и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</a> можно динамически изменять то, как сценарии выполняются. Это можно сделать во время сеанса ведения журнала, чтобы скорректировать собираемые данные и поставщиков, от которых они собираются.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Для любой области действия (глобальной, области узла, пула и компьютера) одновременно можно использовать не больше двух сценариев. Чтобы определить, какие сценарии выполняются в данный момент, используйте командлеты Windows PowerShell и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. С помощью Windows PowerShell и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</a> можно динамически изменять то, как сценарии выполняются. Это можно сделать во время сеанса ведения журнала, чтобы скорректировать собираемые данные и поставщиков, от которых они собираются.
 
 Чтобы выполнять функции централизованная служба ведения журнала с помощью Командная консоль Lync Server необходимо быть участником группы безопасности RBAC CsAdministrator или CsServerAdministrator или настраиваемой роли RBAC, которая содержит одну из этих групп. Чтобы получить список всех ролей управления доступом на основе ролей (RBAC), которым назначен этот командлет (включая все самостоятельно созданные роли RBAC), выполните в командной строке Командная консоль Lync Server или Windows PowerShell следующую команду:
 
@@ -49,19 +38,8 @@ _**Дата изменения раздела:** 2016-12-08_
     
     При необходимости можно использовать параметры –Name и –Parent. Параметр Name задается для уникальной идентификации сценария. Если используется параметр Name, необходимо также использовать параметр Parent, чтобы добавить сценарий в глобальную область или область узла.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Если используются параметры Name и Parent, вы не можете применять параметр <strong>–Identity</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Если используются параметры Name и Parent, вы не можете применять параметр <strong>–Identity</strong>.
 
 ## Создание сценария с помощью командлета New-CsClsScenario
 
@@ -91,19 +69,8 @@ _**Дата изменения раздела:** 2016-12-08_
     
         New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Как это известно в Windows PowerShell, соглашение для создания хэш-таблицы значений с помощью <code>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</code> называется <em>сплаттингом</em>. Дополнительные сведения о сплаттинге в Windows PowerShell см. в статье <a href="http://go.microsoft.com/fwlink/?linkid=267760%26clcid=0x419" class="uri">http://go.microsoft.com/fwlink/?linkid=267760&amp;clcid=0x419</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Как это известно в Windows PowerShell, соглашение для создания хэш-таблицы значений с помощью <code>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</code> называется <em>сплаттингом</em>. Дополнительные сведения о сплаттинге в Windows PowerShell см. в статье <a href="http://go.microsoft.com/fwlink/?linkid=267760%26clcid=0x419" class="uri">http://go.microsoft.com/fwlink/?linkid=267760&amp;clcid=0x419</a>.
 
 ## Изменение существующего сценария с помощью командлета Set-CsClsScenario
 
@@ -147,19 +114,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Модуль ClsController.psm1 предоставляется как отдельная веб-загрузка. Он является частью средств отладки Lync Server 2013. По умолчанию средства отладки устанавливаются в каталог C:\Program Files\Lync Server 2013\Debugging Tools.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Модуль ClsController.psm1 предоставляется как отдельная веб-загрузка. Он является частью средств отладки Lync Server 2013. По умолчанию средства отладки устанавливаются в каталог C:\Program Files\Lync Server 2013\Debugging Tools.
 
 2.  В Windows PowerShell введите:
     

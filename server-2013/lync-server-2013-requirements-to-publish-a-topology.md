@@ -25,19 +25,8 @@ _**Дата изменения раздела:** 2013-02-21_
 
   - Для публикации Enterprise Edition переднего плана фоновый сервер на основе SQL Server должен быть присоединен к домену, в котором вы развертываете серверы, должен быть в сети и на нем должны быть настроены соответствующие правила брандмауэра, чтобы сделать его доступным для удаленных пользователей. Дополнительные сведения об указании исключений брандмауэра см. в разделе [Обзор требований к брандмауэру для SQL Server с Lync Server 2013](lync-server-2013-understanding-firewall-requirements-for-sql-server.md). Другие сведения о настройке SQL Server см. в разделе [Настройка SQL Server для Lync Server 2013](lync-server-2013-configure-sql-server-for-lync-server.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>В Сервер Standard Edition есть совместно размещенная база данных, которые примет опубликованную конфигурацию. Сначала необходимо выполнить задачу <strong>Подготовить первый сервер Standard Edition</strong> в развертывания Lync Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > В Сервер Standard Edition есть совместно размещенная база данных, которые примет опубликованную конфигурацию. Сначала необходимо выполнить задачу <strong>Подготовить первый сервер Standard Edition</strong> в развертывания Lync Server.
 
 ## См. также
 

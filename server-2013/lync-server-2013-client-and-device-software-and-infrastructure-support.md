@@ -19,32 +19,17 @@ _**Дата изменения раздела:** 2016-12-08_
 
 ## Содержание
 
-  -   
-    [Поддержка программного обеспечения клиента Lync в Lync Server 2013](lync-server-2013-lync-client-software-support.md)
+   [Поддержка программного обеспечения клиента Lync в Lync Server 2013](lync-server-2013-lync-client-software-support.md)
 
-  -   
-    [Поддержка подключения к общедоступным службам обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+   [Поддержка подключения к общедоступным службам обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
 
-  -   
-    [Отображение фотографий пользователей в Lync](how-user-photos-are-displayed-in-lync.md)
+   [Отображение фотографий пользователей в Lync](how-user-photos-are-displayed-in-lync.md)
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Phone Edition работает с сервером Lync Server 2013 точно так же, как с Lync Server 2010. Сведения о поддержке программного обеспечения для устройств см. в соответствующих статьях по Lync Server 2010 в библиотеке TechNet:
-<ul>
-<li><p>Необходимые компоненты Lync Server 2010 для устройств <a href="http://go.microsoft.com/fwlink/?linkid=256488%26clcid=0x419" class="uri">http://go.microsoft.com/fwlink/?linkid=256488&amp;clcid=0x419</a></p></li>
-<li><p>Поддержка инфраструктуры и системы устройств <a href="http://go.microsoft.com/fwlink/?linkid=256489%26clcid=0x419" class="uri">http://go.microsoft.com/fwlink/?linkid=256489&amp;clcid=0x419</a></p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Lync Phone Edition работает с сервером Lync Server 2013 точно так же, как с Lync Server 2010. Сведения о поддержке программного обеспечения для устройств см. в соответствующих статьях по Lync Server 2010 в библиотеке TechNet:<ul>
+> 
+> <li><p>Необходимые компоненты Lync Server 2010 для устройств <a href="http://go.microsoft.com/fwlink/?linkid=256488%26clcid=0x419" class="uri">http://go.microsoft.com/fwlink/?linkid=256488&amp;clcid=0x419</a></p></li>
+> 
+> 
+> <li><p>Поддержка инфраструктуры и системы устройств <a href="http://go.microsoft.com/fwlink/?linkid=256489%26clcid=0x419" class="uri">http://go.microsoft.com/fwlink/?linkid=256489&amp;clcid=0x419</a></p></li></ul>
 

@@ -21,19 +21,8 @@ _**Дата изменения раздела:** 2014-02-05_
 
 Помните, что данный командлет дает права только членам группы RTCUniversalServerAdmins; права не могут быть предоставлены другим группам безопасности или отдельным пользователям.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Enable-CsTopology</strong> — это основной командлет, позволяющий разрешить членам группы RTCUniversalServerAdmins установку и и развертывание сервера Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> <strong>Enable-CsTopology</strong> — это основной командлет, позволяющий разрешить членам группы RTCUniversalServerAdmins установку и и развертывание сервера Lync Server 2013.
 
 ## Добавление возможности выполнения командлета Enable-CsTopology группе RTCUniversalServerAdmins
 
@@ -45,19 +34,8 @@ _**Дата изменения раздела:** 2014-02-05_
     
         Grant-CsSetupPermission -ComputerOU <DN of the OU> -Domain <Domain FQDN>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Если подразделение находится не на верхнем уровне, необходимо предоставить полное доменное имя.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Если подразделение находится не на верхнем уровне, необходимо предоставить полное доменное имя.    
     В следующем примере подразделение – это “Lync Servers”, и находится оно в домене contoso.com.
     
         Grant-CsSetupPermission -ComputerOU "OU=Lync Servers" -Domain contoso.com

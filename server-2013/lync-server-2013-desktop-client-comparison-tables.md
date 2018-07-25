@@ -33,39 +33,17 @@ _**Дата изменения раздела:** 2017-05-03_
 
 В этих таблицах представлены возможности, доступные для пользователей Lync при локальном развертывании Lync Server 2013. Те же возможности доступны для пользователей Lync Online и Office 365, если не указано обратное.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>См. <a href="lync-server-2013-mobile-client-comparison-tables.md">Таблицы сравнения мобильных клиентов в Lync Server 2013</a> для получения подробных сведений о доступности функции на мобильных клиентах Lync 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> См. <a href="lync-server-2013-mobile-client-comparison-tables.md">Таблицы сравнения мобильных клиентов в Lync Server 2013</a> для получения подробных сведений о доступности функции на мобильных клиентах Lync 2013.
 
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Дополнительные сведения о планах подписки Lync Online см. в разделе Lync Online Описание службы <a href="http://go.microsoft.com/fwlink/p/?linkid=282430">http://go.microsoft.com/fwlink/p/?LinkId=282430</a>.</p></li>
-<li><p>Lync Server 2013 поддерживает следующие выпущенные ранее клиенты: Lync 2010, Lync 2010 Mobile, Lync Phone Edition и Lync 2010 Attendant. Дополнительные сведения о данных клиентах см. в версии таблицы сравнения клиентов для Lync 2010 в статье <a href="http://go.microsoft.com/fwlink/p/?linkid=213798">http://go.microsoft.com/fwlink/p/?LinkID=213798</a>.</p></li>
-<li><p>Клиент Lync 2013 поддерживает аудио и видео в среде инфраструктуры виртуальных рабочих столов (VDI). Дополнительные сведения о возможностях Lync 2013 в среде VDI см. в статье <a href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Поддерживаемые технологии виртуализации и известные ограничения в Lync Server 2013</a>.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul>
+> <li><p>Дополнительные сведения о планах подписки Lync Online см. в разделе Lync Online Описание службы <a href="http://go.microsoft.com/fwlink/p/?linkid=282430">http://go.microsoft.com/fwlink/p/?LinkId=282430</a>.</p></li>
+> 
+> <li><p>Lync Server 2013 поддерживает следующие выпущенные ранее клиенты: Lync 2010, Lync 2010 Mobile, Lync Phone Edition и Lync 2010 Attendant. Дополнительные сведения о данных клиентах см. в версии таблицы сравнения клиентов для Lync 2010 в статье <a href="http://go.microsoft.com/fwlink/p/?linkid=213798">http://go.microsoft.com/fwlink/p/?LinkID=213798</a>.</p></li>
+> 
+> 
+> <li><p>Клиент Lync 2013 поддерживает аудио и видео в среде инфраструктуры виртуальных рабочих столов (VDI). Дополнительные сведения о возможностях Lync 2013 в среде VDI см. в статье <a href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Поддерживаемые технологии виртуализации и известные ограничения в Lync Server 2013</a>.</p></li></ul>
 
 
 ## Поддержка расширенных возможностей присутствия
@@ -887,25 +865,14 @@ _**Дата изменения раздела:** 2017-05-03_
 
 ## Поддержка конференц-связи
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Возможности собраний Lync недоступны в автономной версии Lync Online с планом 1.</p></li>
-<li><p>В сеансах Lync-Lync пользователь Lync Online с планом 1 может принимать участие в совместном доступе к рабочему столу и общем доступе к приложениям, если его приглашает пользователь, имеющий доступ к возможностям совместного использования.</p></li>
-<li><p>Дополнительные сведения см. в описании службы Lync Online по адресу <a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul>
+> <li><p>Возможности собраний Lync недоступны в автономной версии Lync Online с планом 1.</p></li>
+> 
+> <li><p>В сеансах Lync-Lync пользователь Lync Online с планом 1 может принимать участие в совместном доступе к рабочему столу и общем доступе к приложениям, если его приглашает пользователь, имеющий доступ к возможностям совместного использования.</p></li>
+> 
+> 
+> <li><p>Дополнительные сведения см. в описании службы Lync Online по адресу <a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>.</p></li></ul>
 
 
 
@@ -1397,19 +1364,8 @@ _**Дата изменения раздела:** 2017-05-03_
 
 ## Поддержка телефонной связи
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Возможности голосовой связи Lync доступны лишь в отдельных планах подписки Lync Online. Дополнительные сведения см. в разделе о возможностях голосовой связи Lync в описании службы Lync Online по адресу <a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Возможности голосовой связи Lync доступны лишь в отдельных планах подписки Lync Online. Дополнительные сведения см. в разделе о возможностях голосовой связи Lync в описании службы Lync Online по адресу <a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>.
 
 
 <table style="width:100%;">

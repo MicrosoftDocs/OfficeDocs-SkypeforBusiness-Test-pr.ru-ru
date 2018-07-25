@@ -27,9 +27,7 @@ _**Дата изменения раздела:** 2012-06-18_
 
 ## Содержание
 
-  -   
-    [Новые и измененные параметры для Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
+   [Новые и измененные параметры для Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
 
-  -   
-    [Параметры групповой политики для Lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md)
+   [Параметры групповой политики для Lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md)
 

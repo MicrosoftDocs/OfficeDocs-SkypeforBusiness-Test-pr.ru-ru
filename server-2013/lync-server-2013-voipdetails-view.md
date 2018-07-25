@@ -17,19 +17,8 @@ _**Дата изменения раздела:** 2015-03-09_
 
 В представлении VoIPDetails хранятся сведения о сеансах связи между одноранговыми узлами, где хотя бы один пользователь является пользователем VoIP-связи. Это представление введено в Microsoft Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Представление VoIPDetails содержит все столбцы, представленные в <a href="lync-server-2013-sessiondetails-view.md">Представление SessionDetails</a>, помимо столбцов перечисляемых ниже.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Представление VoIPDetails содержит все столбцы, представленные в <a href="lync-server-2013-sessiondetails-view.md">Представление SessionDetails</a>, помимо столбцов перечисляемых ниже.
 
 
 <table>

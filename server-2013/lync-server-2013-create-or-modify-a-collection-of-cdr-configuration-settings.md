@@ -65,19 +65,8 @@ _**Дата изменения раздела:** 2015-03-09_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>В командлетах New-CsCdrConfiguration и Set-CsCdrConfiguration имеются дополнительные параметры, недоступные в панели управления Lync Server. Дополнительные сведения см. в разделах справки <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> В командлетах New-CsCdrConfiguration и Set-CsCdrConfiguration имеются дополнительные параметры, недоступные в панели управления Lync Server. Дополнительные сведения см. в разделах справки <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</a>.
 
 ## Создание параметров конфигурации CDR с помощью панели управления Lync Server
 

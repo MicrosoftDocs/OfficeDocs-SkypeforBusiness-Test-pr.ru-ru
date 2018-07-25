@@ -35,19 +35,8 @@ _**Дата изменения раздела:** 2012-10-01_
 
   - Значения, установленные в атрибуте msExchUCVoiceMailSettings учетной записи пользователя Алисы, сообщают приложению маршрутизации ExUM, что следует искать детали маршрутизации в политике маршрутизации размещенной голосовой почты.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Значение атрибута msExchUCVoiceMailSettings может устанавливаться либо поставщиком услуг Exchange, либо администратором сервера Lync Server 2013. В примере, показанном на предыдущей схеме, значение (CsHostedVoiceMail=1) было установлено администратором сервера Lync Server 2013, чтобы включить для Алисы размещенную голосовую почту. Дополнительные сведения об этом атрибуте см. в статье <a href="lync-server-2013-hosted-exchange-user-management.md">Управление пользователями размещенной системы Exchange в Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Значение атрибута msExchUCVoiceMailSettings может устанавливаться либо поставщиком услуг Exchange, либо администратором сервера Lync Server 2013. В примере, показанном на предыдущей схеме, значение (CsHostedVoiceMail=1) было установлено администратором сервера Lync Server 2013, чтобы включить для Алисы размещенную голосовую почту. Дополнительные сведения об этом атрибуте см. в статье <a href="lync-server-2013-hosted-exchange-user-management.md">Управление пользователями размещенной системы Exchange в Lync Server 2013</a>.
 
   - Политика маршрутизации размещенной голосовой почты, назначенная учетной записи пользователя Алисы, предоставляет следующие сведения для маршрутизации.
     
@@ -55,31 +44,9 @@ _**Дата изменения раздела:** 2012-10-01_
     
       - Организации идентифицируются по идентификаторам клиентов, которые являются полными доменными именами маршрутизации для SIP-сообщений для клиентов Exchange Server, расположенных в ls.ExUm. *\<размещенный\_ExchangeServer\>* .com (в данном примере corp.contoso.com и corp.litwareinc.com).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Полное доменное имя Exchange Online – exap.um.outlook.com.</td>
-        </tr>
-        </tbody>
-        </table>
-        
+        > [!NOTE]  
+        > Полное доменное имя Exchange Online – exap.um.outlook.com.        
         Подробнее см. [Политики размещенной голосовой почты в Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Если в учетной записи присутствуют как атрибут msExchUCVoiceMailSettings, так и параметры адреса прокси-сервера единой системы обмена сообщениями, то преимущество имеет атрибут msExchUCVoiceMailSettings.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Если в учетной записи присутствуют как атрибут msExchUCVoiceMailSettings, так и параметры адреса прокси-сервера единой системы обмена сообщениями, то преимущество имеет атрибут msExchUCVoiceMailSettings.

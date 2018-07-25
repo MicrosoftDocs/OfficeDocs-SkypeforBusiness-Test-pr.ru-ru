@@ -65,16 +65,5 @@ _**Дата изменения раздела:** 2012-09-28_
     
     ![Выходные данные командлета Get-CsUser с фильтром удостоверений](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Выходные данные командлета Get-CsUser с фильтром удостоверений")  
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Для получения сведений о командлете <strong>Get-CsUser</strong> выполните следующую команду: <strong>Get-Help Get-CsUser –Detailed</strong></td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Для получения сведений о командлете <strong>Get-CsUser</strong> выполните следующую команду: <strong>Get-Help Get-CsUser –Detailed</strong>

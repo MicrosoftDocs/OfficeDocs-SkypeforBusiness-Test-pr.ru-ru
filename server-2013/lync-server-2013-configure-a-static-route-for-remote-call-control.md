@@ -44,19 +44,8 @@ _**Дата изменения раздела:** 2012-09-22_
     
       - Для подключения по протоколу TCP введите в командной строке следующую команду:
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Если указывается полное доменное имя, сначала необходимо настроить запись DNS.</td>
-        </tr>
-        </tbody>
-        </table>
-        
+        > [!NOTE]  
+        > Если указывается полное доменное имя, сначала необходимо настроить запись DNS.        
             $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
         
         Например:

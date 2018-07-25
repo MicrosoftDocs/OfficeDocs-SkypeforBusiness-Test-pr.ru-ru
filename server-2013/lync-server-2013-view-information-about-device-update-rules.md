@@ -17,19 +17,8 @@ _**Дата изменения раздела:** 2013-02-23_
 
 Просмотр сведений о правилах обновления устройств, которые уже были импортированы, включая тип, модель и марку устройств, к которым применяются обновления; версию и тип обновления; а также языковые параметры и пул. Сведения доступны для всех импортированных правил обновления устройств: ожидающих утверждения, развернутых (утвержденных), отозванных (восстановленных) и сброшенных (от использования которых вы отказались). Доступ к этим сведениям можно получить из управления Lync Server или Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Сведения об импорте, утверждении, сбросе, восстановлении и удалении правил см. в статьях раздела <a href="lync-server-2013-device-update-rules.md"> Правила обновления устройств в Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Сведения об импорте, утверждении, сбросе, восстановлении и удалении правил см. в статьях раздела <a href="lync-server-2013-device-update-rules.md"> Правила обновления устройств в Lync Server 2013</a>.
 
 ## Просмотр правил обновления устройств с помощью управления Lync Server
 
@@ -43,19 +32,8 @@ _**Дата изменения раздела:** 2013-02-23_
 
 Подробные сведения обо всех правилах обновления устройств также можно просмотреть с помощью командлетов Windows PowerShell и **Get-CsDeviceUpdateRule**. Эти командлеты можно запустить из командная консоль Lync Server 2013 или из сеанса удаленного подключения Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
 
 ## Просмотр всех правил обновления устройств
 

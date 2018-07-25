@@ -25,20 +25,8 @@ _**Дата изменения раздела:** 2014-02-04_
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows PowerShell предоставляет дополнительные возможности и параметры конфигурации, недоступные при использовании средства CLSController.exe. CLSController предлагает быстрый способ выполнения команд, однако набор этих команд ограничен. Система Windows PowerShell не ограничена командами, доступными командному процессору CLSController, и предоставляет более широкий набор команд и параметров. Например, средство CLSController.exe предоставляет параметры области для компьютеров (–computers) и пулов (–pools). С помощью Windows PowerShell можно указывать компьютеры или пулы в большинстве команд, а при определении новых сценариев (CLSController имеет ограниченное количество сценариев, которые пользователь не может изменить) можно задать область сайта или глобальную область. Эта полезная возможность Windows PowerShell позволяет определить сценарий для области сайта или глобальной области, но ограничить ведение журнала компьютером или пулом.<br />
-Существуют принципиальные различия между командами командной строки, которые можно выполнить в Windows PowerShell, и командами CLSController. Windows PowerShell предоставляет полнофункциональный метод для настройки и определения сценариев, а также для повторного использования этих сценариев и их отладки. Хотя CLSController позволяет быстро и эффективно выполнять команды и получать результаты, набор команд этого средства ограничен командами, доступными из командной строки. В отличие от командлетов Windows PowerShell, CLSController не может определять новые сценарии, управлять областью на уровне сайта и на глобальном уровне, а также имеет другие ограничения конечного набора команд, который не подлежит динамической настройке. Средство CLSController предлагает возможность быстрого выполнения, тогда как система Windows PowerShell позволяет использовать возможности централизованная служба ведения журнала, недоступные при использовании CLSController.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Windows PowerShell предоставляет дополнительные возможности и параметры конфигурации, недоступные при использовании средства CLSController.exe. CLSController предлагает быстрый способ выполнения команд, однако набор этих команд ограничен. Система Windows PowerShell не ограничена командами, доступными командному процессору CLSController, и предоставляет более широкий набор команд и параметров. Например, средство CLSController.exe предоставляет параметры области для компьютеров (–computers) и пулов (–pools). С помощью Windows PowerShell можно указывать компьютеры или пулы в большинстве команд, а при определении новых сценариев (CLSController имеет ограниченное количество сценариев, которые пользователь не может изменить) можно задать область сайта или глобальную область. Эта полезная возможность Windows PowerShell позволяет определить сценарий для области сайта или глобальной области, но ограничить ведение журнала компьютером или пулом.<br />Существуют принципиальные различия между командами командной строки, которые можно выполнить в Windows PowerShell, и командами CLSController. Windows PowerShell предоставляет полнофункциональный метод для настройки и определения сценариев, а также для повторного использования этих сценариев и их отладки. Хотя CLSController позволяет быстро и эффективно выполнять команды и получать результаты, набор команд этого средства ограничен командами, доступными из командной строки. В отличие от командлетов Windows PowerShell, CLSController не может определять новые сценарии, управлять областью на уровне сайта и на глобальном уровне, а также имеет другие ограничения конечного набора команд, который не подлежит динамической настройке. Средство CLSController предлагает возможность быстрого выполнения, тогда как система Windows PowerShell позволяет использовать возможности централизованная служба ведения журнала, недоступные при использовании CLSController.
 
 Область одного компьютера можно определить при выполнении команд [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) и [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) с помощью параметра –Computers. Параметр –Computers принимает разделенный запятой список полных доменных имен для целевого компьютера.
 
@@ -50,19 +38,8 @@ _**Дата изменения раздела:** 2014-02-04_
 
 Область сайта и глобальная область определяются в командлетах **New-**, **Set-** и **Remove-**централизованная служба ведения журнала. В следующих примерах показано, как задать область сайта и глобальную область.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Показанные команды могут содержать параметры и концепции, описанные в других разделах. Команды в примерах предназначены для демонстрации использования параметра <strong>–Identity</strong> для определения области, а другие параметры включены для полноты и для указания области. Дополнительные сведения о командлетах <strong>Set-CsClsConfiguration</strong> см. в описании командлета <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</a> в документации по применению.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Показанные команды могут содержать параметры и концепции, описанные в других разделах. Команды в примерах предназначены для демонстрации использования параметра <strong>–Identity</strong> для определения области, а другие параметры включены для полноты и для указания области. Дополнительные сведения о командлетах <strong>Set-CsClsConfiguration</strong> см. в описании командлета <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</a> в документации по применению.
 
 ## Получение текущей конфигурации централизованная служба ведения журнала
 
@@ -128,19 +105,8 @@ _**Дата изменения раздела:** 2014-02-04_
     
         Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40 -EtlFileFolder "C:\LogFiles\Tracing" 
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Как отмечено в примере, расположением файлов журнала по умолчанию является каталог %TEMP%\Tracing. Однако, так как фактически файл записывает CLSAgent, который выполняется как сетевая служба, переменная %TEMP% расширяется до %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Как отмечено в примере, расположением файлов журнала по умолчанию является каталог %TEMP%\Tracing. Однако, так как фактически файл записывает CLSAgent, который выполняется как сетевая служба, переменная %TEMP% расширяется до %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.
 
 При выполнении этой команды CLSAgent на каждом компьютере и в каждом пуле сайта Redmond задает для размера переключения на новый файл трассировки значение 40 МБ. Эта команда не повлияет на компьютеры и пулы на других сайтах, которые продолжат использовать текущее значение размера переключения на новый журнал трассировки, определенное либо по умолчанию (20 МБ), либо во время запуска сеанса ведения журнала.
 
@@ -152,19 +118,8 @@ _**Дата изменения раздела:** 2014-02-04_
     
         New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Командлет New-CsClsConfiguration предоставляет доступ к большому количеству необязательных параметров конфигурации. Дополнительные сведения о параметрах конфигурации см. в описании командлета <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</a> и в разделе <a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Понимание параметров конфигурации службы централизованного ведения журналов</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Командлет New-CsClsConfiguration предоставляет доступ к большому количеству необязательных параметров конфигурации. Дополнительные сведения о параметрах конфигурации см. в описании командлета <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</a> и в разделе <a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Понимание параметров конфигурации службы централизованного ведения журналов</a>.    
     Например, для создания новой конфигурации, которая определяет сетевую папку для файлов кэша, а также период и размер переключения для файлов журнала, введите следующую команду:
     
         New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
@@ -183,19 +138,8 @@ _**Дата изменения раздела:** 2014-02-04_
     
         Remove-CsClsConfiguration -Identity "site:Redmond"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Это новая конфигурация, которая была создана в процедуре &quot;Создание новой конфигурации централизованная служба ведения журнала&quot;.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Это новая конфигурация, которая была создана в процедуре &quot;Создание новой конфигурации централизованная служба ведения журнала&quot;.
 
 Если удалить конфигурацию уровня сайта, сайт будет использовать глобальные параметры.
 

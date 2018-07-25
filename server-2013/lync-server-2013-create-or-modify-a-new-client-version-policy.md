@@ -25,19 +25,8 @@ _**Дата изменения раздела:** 2013-02-23_
 
 3.  В левой области навигации щелкните элемент **Clients** (Клиенты).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>По умолчанию открывается вкладка <strong>Client Version Policy</strong> (Политика версий клиентов).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > По умолчанию открывается вкладка <strong>Client Version Policy</strong> (Политика версий клиентов).
 
 4.  На странице **Client Version Policy** (Политика версий клиентов) выполните одно из следующих действий.
     

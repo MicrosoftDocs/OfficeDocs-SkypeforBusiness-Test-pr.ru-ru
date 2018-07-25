@@ -59,17 +59,13 @@ _**Дата изменения раздела:** 2015-03-09_
 
 В этом разделе предоставляются рекомендации по настройке следующих параметров сервера маршрутизации исходящих вызовов:
 
-  -   
-    [Абонентские группы и правила нормализации в Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
+   [Абонентские группы и правила нормализации в Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
 
-  -   
-    [Политики голосовой связи в Lync Server 2013](lync-server-2013-voice-policies.md)
+   [Политики голосовой связи в Lync Server 2013](lync-server-2013-voice-policies.md)
 
-  -   
-    [Записи использования ТСОП в Lync Server 2013](lync-server-2013-pstn-usage-records.md)
+   [Записи использования ТСОП в Lync Server 2013](lync-server-2013-pstn-usage-records.md)
 
-  -   
-    [Маршруты голосовых вызовов в Lync Server 2013](lync-server-2013-voice-routes.md)
+   [Маршруты голосовых вызовов в Lync Server 2013](lync-server-2013-voice-routes.md)
 
 ## См. также
 

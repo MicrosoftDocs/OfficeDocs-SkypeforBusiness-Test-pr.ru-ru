@@ -21,9 +21,12 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Федерация позволяет пользователям в локальном развертывании взаимодействовать с пользователями Office 365 в вашей организации. Чтобы настроить федерацию, выполните следующие командлеты:
 
+```
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting
-
+```
+```
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+```
 
 ## Настройка клиента Skype для бизнеса Online \> для использования общедоступного адресного пространства SIP
 
@@ -39,13 +42,18 @@ Move-CsUser : HostedMigration fault: Error=(510), Description=(Клиентск�
 
 После установки модуля можно запустить удаленный сеанс с помощью следующих командлетов:
 
+```
     Import-Module LyncOnlineConnector
-
+```
+```
     $cred = Get-Credential
-
+```
+```
     $CSSession = New-CsOnlineSession -Credential $cred
-
+```
+```
     Import-PSSession $CSSession -AllowClobber
+```
 
 Дополнительные сведения о запуске удаленного сеанса PowerShell в Skype для бизнеса Online см. в статье [Подключение к Lync Online с использованием Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 

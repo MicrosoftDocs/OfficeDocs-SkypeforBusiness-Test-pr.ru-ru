@@ -19,19 +19,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - Пакет управления Component and User Management Pack (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) отслеживает проблемы Lync Server, записанные в журналы событий, зарегистрированные счетчиками производительности или записанные в базы данных регистрации звонков (CDR) или качества взаимодействия (QoE). Для критических проблем System Center Operations Manager можно настроить для незамедлительного уведомления администраторов с помощью электронной почты, мгновенных сообщений и SMS-сообщений. SMS — это технология передачи текстовых сообщений с одного мобильного устройства на другое.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Сведения о настройке уведомления Operations Manager см. в статье &quot;Настройка уведомлений&quot; в библиотеке TechNet по адресу <a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x419" class="uri">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x419</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Сведения о настройке уведомления Operations Manager см. в статье &quot;Настройка уведомлений&quot; в библиотеке TechNet по адресу <a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x419" class="uri">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x419</a>.
 
   - Пакет управления Active Monitoring Management Pack (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) заранее проверяет основные компоненты Lync Server, например вход в систему, обмен мгновенными сообщениями и звонки на телефоны в ТСОП. Эти тесты выполняются с помощью командлетов синтетических транзакций Lync Server. Например, с помощью командлета **Test-CsIM** можно симулировать обмен мгновенными сообщениями между парой тестовых пользователей. При возникновении ошибки в этой симулированной беседе создается предупреждение.
 
@@ -39,19 +28,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Пакет управления Component and User Management Pack используется только для мониторинга Lync Server 2013. Если используется сценария сосуществования (установлены Lync Server 2013 и Lync Server 2010), продолжайте использовать пакеты управления Lync Server 2010 для ваших компьютеров Lync Server 2010.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Пакеты управления для Lync Server 2010 включают в себя пакет управления мониторинга Lync Server 2010 и пакет управления мониторинга группового чата Lync Server 2010.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Пакеты управления для Lync Server 2010 включают в себя пакет управления мониторинга Lync Server 2010 и пакет управления мониторинга группового чата Lync Server 2010.
 
 Для импорта пакетов управления можно использовать следующие средства:
 

@@ -19,19 +19,8 @@ Lync Server 2013 обеспечивает поддержку нового ком
 
 Ниже представлена процедура перемещения групп ответа из одного пула переднего плана в другой пул переднего плана с другим полным доменным именем.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>В среде сосуществования можно перемещать группы ответа только между пулами переднего планаLync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> В среде сосуществования можно перемещать группы ответа только между пулами переднего планаLync Server 2013.
 
 ## Перемещение группы ответа в пул с другими полным доменным именем
 
@@ -59,19 +48,8 @@ Lync Server 2013 обеспечивает поддержку нового ком
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingSettings
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Параметры уровня приложения включают конфигурацию музыки, воспроизводимой при удержании, по умолчанию, аудиофайл для воспроизведения при удержании по умолчанию, длительность периода обратного вызова и контекст вызова. Чтобы просмотреть эти параметры конфигурации, выполните командлет <strong>Get-CsRgsConfiguration</strong>. Для получения более подробных сведений об этом командлете см. <a href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Параметры уровня приложения включают конфигурацию музыки, воспроизводимой при удержании, по умолчанию, аудиофайл для воспроизведения при удержании по умолчанию, длительность периода обратного вызова и контекст вызова. Чтобы просмотреть эти параметры конфигурации, выполните командлет <strong>Get-CsRgsConfiguration</strong>. Для получения более подробных сведений об этом командлете см. <a href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</a>.
 
 4.  Убедитесь, что импорт выполнен успешно, просмотрев импортированную конфигурацию группы ответа. Для этого выполните следующие действия:
     

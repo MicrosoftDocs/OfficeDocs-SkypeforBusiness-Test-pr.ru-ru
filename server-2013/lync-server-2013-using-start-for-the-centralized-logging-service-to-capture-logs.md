@@ -23,19 +23,8 @@ _**Дата изменения раздела:** 2013-02-21_
 
 централизованная служба ведения журнала предлагает два способа выдачи команд. В ряде разделов прямо описано использование Windows PowerShell с помощью Командная консоль Lync Server. Возможность использовать сложные конфигурации и команды стимулирует применение Windows PowerShell для централизованная служба ведения журнала. Так как использование Windows PowerShell с помощью Командная консоль Lync Server распространено практически для всех функций в Lync Server, рассматриваются только команды Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Если решено использовать ограниченный набор команд, доступный из командной строки, справку для CLSController.exe можно вывести на экран, введя <code>ClsController.exe</code>. По умолчанию программа <strong>ClsController.exe</strong> устанавливается в каталог C:\Program Files\Microsoft Lync Server 2013\ClsAgent.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Если решено использовать ограниченный набор команд, доступный из командной строки, справку для CLSController.exe можно вывести на экран, введя <code>ClsController.exe</code>. По умолчанию программа <strong>ClsController.exe</strong> устанавливается в каталог C:\Program Files\Microsoft Lync Server 2013\ClsAgent.
 
 ## Запуск Start-CsClsLogging в Windows PowerShell с помощью базовых команд
 
@@ -49,54 +38,21 @@ _**Дата изменения раздела:** 2013-02-21_
     
         Start-CsClsLogging -Scenario AlwaysOn
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>У сценария AlwaysOn нет длительности по умолчанию. Этот сценарий будет выполняться, пока он не будет явно остановлен с помощью командлета <strong>Stop-CsClsLogging</strong>. Подробные сведения см. в статье <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>. Для всех остальных сценариев длительность по умолчанию составляет 4 часа.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > У сценария AlwaysOn нет длительности по умолчанию. Этот сценарий будет выполняться, пока он не будет явно остановлен с помощью командлета <strong>Stop-CsClsLogging</strong>. Подробные сведения см. в статье <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>. Для всех остальных сценариев длительность по умолчанию составляет 4 часа.
 
 3.  Для выполнения команды нажмите клавишу ВВОД.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Для выполнения команд и возвращения состояния от компьютеров среды может потребоваться некоторое небольшое время (от 30 до 60 секунд).</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Для выполнения команд и возвращения состояния от компьютеров среды может потребоваться некоторое небольшое время (от 30 до 60 секунд).    
     ![Запуск Start-CsClsLogging.](images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "Запуск Start-CsClsLogging.")
 
 4.  Чтобы выполнить другой сценарий, используйте командлет **Start-CsClsLogging** с именем выполняемого дополнительного сценария (например, сценария **Authentication**):
     
         Start-CsClsLogging -Scenario Authentication
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>В любой момент времени на любом конкретном компьютере может работать не более двух сценариев. Если область применения команды является глобальной, этот сценарий или сценарии будут выполняться на всех компьютерах среды. Для запуска третьего сценария необходимо остановить ведение журнала для области применения (компьютер, пул, сайт, глобальная), в которой нужно запустить новый сценарий. Если сценарии запущены в глобальной области применения, можно остановить ведение журнала в одном или обоих сценариях для одного или нескольких компьютеров и пулов. Подробные сведения об управлении выбором выполняемых сценариев см. в статье <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Использование остановки службы централизованного ведения журналов</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > В любой момент времени на любом конкретном компьютере может работать не более двух сценариев. Если область применения команды является глобальной, этот сценарий или сценарии будут выполняться на всех компьютерах среды. Для запуска третьего сценария необходимо остановить ведение журнала для области применения (компьютер, пул, сайт, глобальная), в которой нужно запустить новый сценарий. Если сценарии запущены в глобальной области применения, можно остановить ведение журнала в одном или обоих сценариях для одного или нескольких компьютеров и пулов. Подробные сведения об управлении выбором выполняемых сценариев см. в статье <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Использование остановки службы централизованного ведения журналов</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>.
 
 ## Запуск Start-CsClsLogging в Windows PowerShell с помощью расширенных команд
 

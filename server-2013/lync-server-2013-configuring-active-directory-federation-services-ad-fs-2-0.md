@@ -17,19 +17,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 В данном разделе описана настройка служб федерации Active Directory (AD FS 2.0) для поддержки многофакторной проверки подлинности. Дополнительные сведения по установке AD FS 2.0 см. в пошаговых инструкциях и руководствах по установке AD FS 2.0 в статье [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Во время установки AD FS 2.0 не пытайтесь добавить роль службы федерации Active Directory с помощью диспетчера сервера Windows. Загрузите пакет службы федерации Active Directory 2.0 RTW со страницы <a href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</a> и установите его.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Во время установки AD FS 2.0 не пытайтесь добавить роль службы федерации Active Directory с помощью диспетчера сервера Windows. Загрузите пакет службы федерации Active Directory 2.0 RTW со страницы <a href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</a> и установите его.
 
 
 **Настройка AD FS для двухфакторной проверки подлинности**

@@ -37,25 +37,14 @@ _**Дата изменения раздела:** 2016-12-08_
 
 В этих таблицах показаны функции, которые доступны пользователям Lync в локальном развертывании Lync Server 2013. Те же функции доступны пользователям Skype для бизнеса Online и Microsoft Office 365, если противоположное не указано в примечаниях к таблице.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Веб-справку и ресурсы для конечных пользователей см. в статье &quot;Microsoft Lync 2013 для мобильных клиентов&quot; на странице <a href="http://go.microsoft.com/fwlink/?linkid=286237">http://go.microsoft.com/fwlink/?LinkId=286237</a>.</p></li>
-<li><p>Чтобы сравнить функции, которые доступны в других клиентах Lync 2013, см. раздел <a href="lync-server-2013-desktop-client-comparison-tables.md">Таблица сравнения клиентов в Lync Server 2013</a>.</p></li>
-<li><p>Lync Server 2013 также поддерживает мобильные приложения Lync 2010. Дополнительные сведения см. в разделе &quot;Таблицы сравнения мобильных клиентов&quot; в документации Lync Server 2010 по адресу <a href="http://go.microsoft.com/fwlink/?linkid=234777" class="uri">http://go.microsoft.com/fwlink/?linkid=234777</a>.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul>
+> <li><p>Веб-справку и ресурсы для конечных пользователей см. в статье &quot;Microsoft Lync 2013 для мобильных клиентов&quot; на странице <a href="http://go.microsoft.com/fwlink/?linkid=286237">http://go.microsoft.com/fwlink/?LinkId=286237</a>.</p></li>
+> 
+> <li><p>Чтобы сравнить функции, которые доступны в других клиентах Lync 2013, см. раздел <a href="lync-server-2013-desktop-client-comparison-tables.md">Таблица сравнения клиентов в Lync Server 2013</a>.</p></li>
+> 
+> 
+> <li><p>Lync Server 2013 также поддерживает мобильные приложения Lync 2010. Дополнительные сведения см. в разделе &quot;Таблицы сравнения мобильных клиентов&quot; в документации Lync Server 2010 по адресу <a href="http://go.microsoft.com/fwlink/?linkid=234777" class="uri">http://go.microsoft.com/fwlink/?linkid=234777</a>.</p></li></ul>
 
 
 ## Вход, push-уведомления и общие функциональные возможности
@@ -116,12 +105,10 @@ _**Дата изменения раздела:** 2016-12-08_
 <tr class="odd">
 <td><p>Программа чтения с экрана/голос за кадром</p></td>
 <td><p>●</p></td>
-<td><p>●2<br />
-Только на английском</p></td>
+<td><p>●2<br />Только на английском</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p>●<br />
-Только на английском</p></td>
+<td><p>●<br />Только на английском</p></td>
 </tr>
 <tr class="even">
 <td><p>Использование внешней клавиатуры с Lync</p></td>
@@ -182,12 +169,10 @@ _**Дата изменения раздела:** 2016-12-08_
 <tr class="odd">
 <td><p>Программа чтения с экрана/голос за кадром</p></td>
 <td><p>●</p></td>
-<td><p>●2<br />
-Только на английском</p></td>
+<td><p>●2<br />Только на английском</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p>●<br />
-Только на английском</p></td>
+<td><p>●<br />Только на английском</p></td>
 </tr>
 <tr class="even">
 <td><p>Использование внешней клавиатуры с Lync</p></td>

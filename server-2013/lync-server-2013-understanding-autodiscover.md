@@ -23,33 +23,11 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Чтобы расшифровать сведения в документе отклика автообнаружения, включая порядок передачи веб-службами сведений о компонентах клиентам, необходимо разобрать и определить каждую строку в типичном ответе от веб-службы Lync, содержащем отклик автообнаружения.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>В следующем примере пользователь уже прошел проверку подлинности на почтовом сервере, ответив на запрос проверки подлинности.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> В следующем примере пользователь уже прошел проверку подлинности на почтовом сервере, ответив на запрос проверки подлинности.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Веб-служба автообнаружения Lync определяется в группе <strong>Протоколы Microsoft Office</strong> раздела <strong>Открытые спецификации</strong> библиотеки <strong>Microsoft Developer Network</strong> (MSDN). Дополнительные сведения см. в полной спецификации Lync Autodiscover Web Service Protocol (Протокол веб-службы автообнаружения Lync) по адресу: <a href="http://go.microsoft.com/fwlink/?linkid=273839" class="uri">http://go.microsoft.com/fwlink/?linkid=273839</a>. Дополнительные сведения о проверке подлинности см. в статье OC Authentication Web Service Protocol (Протокол веб-службы проверки подлинности OC) по адресу: <a href="http://go.microsoft.com/fwlink/?linkid=279015" class="uri">http://go.microsoft.com/fwlink/?linkid=279015</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Веб-служба автообнаружения Lync определяется в группе <strong>Протоколы Microsoft Office</strong> раздела <strong>Открытые спецификации</strong> библиотеки <strong>Microsoft Developer Network</strong> (MSDN). Дополнительные сведения см. в полной спецификации Lync Autodiscover Web Service Protocol (Протокол веб-службы автообнаружения Lync) по адресу: <a href="http://go.microsoft.com/fwlink/?linkid=273839" class="uri">http://go.microsoft.com/fwlink/?linkid=273839</a>. Дополнительные сведения о проверке подлинности см. в статье OC Authentication Web Service Protocol (Протокол веб-службы проверки подлинности OC) по адресу: <a href="http://go.microsoft.com/fwlink/?linkid=279015" class="uri">http://go.microsoft.com/fwlink/?linkid=279015</a>.
 
 ## Отклик автообнаружения веб-службы Lync Server
 

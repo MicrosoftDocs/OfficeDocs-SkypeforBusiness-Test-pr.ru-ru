@@ -49,19 +49,8 @@ _**Дата изменения раздела:** 2013-01-30_
 
   - **CsAdministrator** — эта роль администратора позволяет выполнять те же задачи, что и роли CsVoiceAdministrator, CsServerAdministrator и CsUserAdministrator.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Подробные сведения о правах администратора см. в разделе <a href="lync-server-2013-planning-for-role-based-access-control.md">Планирование контроля доступа на основе ролей в Lync Server 2013</a> в документации по планированию.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Подробные сведения о правах администратора см. в разделе <a href="lync-server-2013-planning-for-role-based-access-control.md">Планирование контроля доступа на основе ролей в Lync Server 2013</a> в документации по планированию.
 
 ## См. также
 

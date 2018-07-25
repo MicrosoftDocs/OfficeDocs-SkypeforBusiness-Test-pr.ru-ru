@@ -21,35 +21,13 @@ _**Дата изменения раздела:** 2013-09-25_
 
 1.  С помощью оснастки Active Directory "Компьютеры и пользователи" добавьте объект-пользователь Active Directory роли администратора для развертывания Lync Server 2013 (на котором установлена панель управления Lync Server 2013 ) в группу **CSAdministrator** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Если не добавить необходимых пользователей и группы в группу CsAdministors, при открытии управления Lync Serverна экран будет выведено сообщение об ошибке Unauthorized: Access is denied due to a role-based access control (RBAC) authorization failure (Неавторизованно: в доступе отказано с связи со сбоем авторизации RBAC).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Если не добавить необходимых пользователей и группы в группу CsAdministors, при открытии управления Lync Serverна экран будет выведено сообщение об ошибке Unauthorized: Access is denied due to a role-based access control (RBAC) authorization failure (Неавторизованно: в доступе отказано с связи со сбоем авторизации RBAC).
 
 2.  Если объект-пользователь уже выполнил вход в систему, выйдите из системы, а затем повторите вход, чтобы зарегистрировать назначение новой группы.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Учетная запись пользователя не может быть локальным администратором любого сервера, на котором выполняется Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Учетная запись пользователя не может быть локальным администратором любого сервера, на котором выполняется Lync Server 2013.
 
 3.  Используйте учетную запись администратора, чтобы войти на компьютер, на котором установлен управления Lync Server.
 
