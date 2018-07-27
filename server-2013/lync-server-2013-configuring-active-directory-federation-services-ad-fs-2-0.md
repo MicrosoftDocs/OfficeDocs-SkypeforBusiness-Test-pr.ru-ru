@@ -43,16 +43,22 @@ _**Дата изменения раздела:** 2016-12-08_
 
 8.  С помощью Windows PowerShell и следующих команд создайте и назначьте для отношения доверия с проверяющей стороны правило утверждения авторизации:
     
-        $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
-    
-        Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
-        -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+    ```
+    $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+    ```
+    ```
+    Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
+    -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+    ```
 
 9.  С помощью Windows PowerShell и следующих команд создайте и назначьте для отношения доверия с проверяющей стороны правило утверждения преобразования:
     
-        $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-    
-        Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+    ```
+    $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+    ```
+    ```
+    Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+    ```
 
 10. Щелкните правой кнопкой мыши отношение доверия с проверяющей стороны в консоли управления AD FS 2.0 и выберите команду **Редактировать правила утверждений**.
 

@@ -26,9 +26,12 @@ _**Дата изменения раздела:** 2012-11-01_
 
 Например:
 
-    Update-CsAddressBook
-
-    Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
+```
+Update-CsAddressBook
+```
+```
+Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
+```
 
 Подробное описание команды см. в следующем разделе основных справочных материалов по RTCCmdlets Lync Server Windows PowerShell.
 

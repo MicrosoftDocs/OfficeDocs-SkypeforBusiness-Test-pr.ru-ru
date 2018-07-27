@@ -35,7 +35,10 @@ _**Дата изменения раздела:** 2012-09-24_
     
     > [!NOTE]  
     > В командлете, представленном в предыдущем примере, значение «corp1.litwareinc.com» заменяет любое значение, которое может быть уже представлено в параметре «Организация». Например, если политика уже содержит список организаций с разделителями-запятыми, полный список будет заменен. Если необходимо добавить организацию в список, а не заменять его целиком, выполните команду, аналогичную следующей.    
-        $a = Get-CsHostedVoicemailPolicy
-        $a.Organization += ",corp3.litwareinc.com"
-        Set-CsHostedVoicemailPolicy -Organization $a.Organization
+    
+    ```
+    $a = Get-CsHostedVoicemailPolicy
+    $a.Organization += ",corp3.litwareinc.com"
+    Set-CsHostedVoicemailPolicy -Organization $a.Organization
+    ```
 

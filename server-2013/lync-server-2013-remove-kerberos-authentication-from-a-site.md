@@ -30,15 +30,21 @@ _**Дата изменения раздела:** 2012-01-16_
 
 3.  В командной строке выполните следующие две команды:
     
-        Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
-    
-        Enable-CsTopology
-    
+    ```
+    Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
+    ```
+    ```
+    Enable-CsTopology
+    ```
+
     Например:
     
-        Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
-    
-        Enable-CsTopology
+    ```
+    Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
+    ```
+    ```
+    Enable-CsTopology
+    ```
     
     > [!IMPORTANT]  
     > После внесения любых изменений в систему проверку подлинности Kerberos (например, после добавления или удаления учетной записи) необходимо выполнить <strong>Enable-CsTopology</strong> в командной строке Командная консоль Lync Server.

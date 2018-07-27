@@ -47,7 +47,7 @@ _**Дата изменения раздела:** 2013-02-23_
 
 ## Изменение действия по умолчанию с помощью командлетов Lync Server PowerShell
 
-Действие по умолчанию, которое будет выполняться, когда пользователи попытаются выполнить вход с использованием клиентов, явно не поддерживаемых или даже ограниченных политикой клиентских версий, может также управляться с помощью командной строки Windows PowerShell и командлета **set-csclientversionpolicy**. Этот командлет может быть выполнен в командной строке Lync Server или в удаленном сеансе Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Действие по умолчанию, которое будет выполняться, когда пользователи попытаются выполнить вход с использованием клиентов, явно не поддерживаемых или даже ограниченных политикой клиентских версий, может также управляться с помощью командной строки Windows PowerShell и командлета **Set-CsClientVersionPolicy**. Этот командлет может быть выполнен в командной строке Lync Server или в удаленном сеансе Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## Настройка действия по умолчанию для блокировки доступа
 
@@ -61,7 +61,7 @@ _**Дата изменения раздела:** 2013-02-23_
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -DefaultAction Allow
 
-Дополнительные сведения см. в разделе справки по командлету [set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
+Дополнительные сведения см. в разделе справки по командлету [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
 
 ## См. также
 

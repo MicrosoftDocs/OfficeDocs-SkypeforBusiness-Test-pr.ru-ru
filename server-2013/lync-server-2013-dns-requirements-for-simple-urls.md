@@ -139,13 +139,16 @@ Lync Server поддерживает три следующих простых UR
 
 Для выполнения этой настройки создайте два адреса GeoDNS. Каждый адрес содержит две записи DNS A или CNAME, которые разрешаются в два пула, спаренных в целях аварийного восстановления. Один адрес GeoDNS используется для внутреннего доступа и разрешается в полное доменное имя внутренней веб-службы или IP-адрес балансировщика нагрузки для двух пулов. Другой адрес GeoDNS используется для внешнего доступа и разрешается в полное доменное имя внешней веб-службы или IP-адрес балансировщика нагрузки для двух пулов. Ниже приведен пример простого URL-адреса Meet для полных имен доменов этих пулов.
 
-    Meet-int.geolb.contoso.com
-         Pool1InternalWebFQDN.contoso.com
-         Pool2InternalWebFQDN.contoso.com
-
-    Meet-ext.geolb.contoso.com
-         Pool1ExternalWebFQDN.contoso.com
-         Pool2ExternalWebFQDN.contoso.com
+```
+Meet-int.geolb.contoso.com
+     Pool1InternalWebFQDN.contoso.com
+     Pool2InternalWebFQDN.contoso.com
+```
+```
+Meet-ext.geolb.contoso.com
+     Pool1ExternalWebFQDN.contoso.com
+     Pool2ExternalWebFQDN.contoso.com
+```     
 
 Затем создайте записи CNAME, которые разрешают простой URL-адрес meet (например, meet.contoso.com) в два адреса GeoDNS.
 
