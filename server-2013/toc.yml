@@ -4188,8 +4188,8 @@
         - name: Командлеты Windows PowerShell для управления адресной книгой
           href: lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
           items:
-          - name: Командлет new-csaddressbookconfiguration для управления адресной книгой
-            href: lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md
+          - name: Командлет New-CsAddressBookConfiguration для управления адресной книгой
+            href: lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md
           - name: Командлет Set-CsAddressBookConfiguration для управления адресной книгой
             href: lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
           - name: Командлет Get-CsAddressBookConfiguration для управления адресной книгой
@@ -4208,8 +4208,8 @@
             href: lync-server-2013-set-csclientpolicy-for-address-book-management.md
           - name: Командлет Get-CsService для управления адресной книгой
             href: lync-server-2013-get-csservice-for-address-book-management.md
-          - name: Командлет new-cswebserviceconfiguration для управления адресной книгой
-            href: lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md
+          - name: Командлет New-CsWebServiceConfiguration для управления адресной книгой
+            href: lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md
           - name: Командлет Get-CsWebServiceConfiguration для управления адресной книгой
             href: lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
           - name: Командлет Set-CsWebServiceConfiguration для управления адресной книгой
