@@ -33,16 +33,6 @@ IP-телефоны Lync Phone Edition поддерживают протокол
 
 Дополнительные сведения о настройке аналогового шлюза см. в статье библиотеки TechNet по Lync Server 2010 «Планирование развертывания аналоговых устройств» по адресу [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537). (В Lync Server 2013 аналоговые устройства работают точно так же, как в Lync Server 2010.)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Вы можете настроить коммутатор для службы Enhanced 9-1-1 (E9-1-1), если он поддерживает эту службу.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Вы можете настроить коммутатор для службы Enhanced 9-1-1 (E9-1-1), если он поддерживает эту службу.
 

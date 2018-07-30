@@ -46,18 +46,8 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p><strong>Установка обязательного оборудования и программного обеспечения.</strong></p></td>
 <td><p>Конференц-связь работает на серверах переднего плана в пуле переднего плана и на серверах выпуска Standard. Для нее не существуют дополнительные требования к оборудованию или программному обеспечению помимо требований для установки этих серверов.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 использует веб-приложения Office Web Apps и Сервер Office Web Apps для обработки общего доступа к презентациям PowerPoint и их отрисовки. Сведения об установке и настройке Сервер Office Web Apps см. в разделе <a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Настройка интеграции с сервером Office Web Apps и Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 использует веб-приложения Office Web Apps и Сервер Office Web Apps для обработки общего доступа к презентациям PowerPoint и их отрисовки. Сведения об установке и настройке Сервер Office Web Apps см. в разделе <a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Настройка интеграции с сервером Office Web Apps и Lync Server 2013</a>.
 
 </div></td>
 <td><p>Пользователь домена, являющийся членом локальной группы &quot;Администраторы&quot;</p></td>

@@ -81,18 +81,8 @@ _**Дата изменения раздела:** 2015-03-09_
 </ol></td>
 <td><p>RTCUniversalUserAdmins</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Чтобы создать, изменить или удалить контактные объекты, пользователь, запускающий командлет New-CsExUmContact, Set-CsExUmContact или Remove-CsExUmContact, должен иметь соответствующее разрешение в подразделении Active Directory, где хранятся новые контактные объекты. Это разрешение можно предоставить, выполнив командлет Grant-CsOUPermission. Дополнительные сведения см. в документации  Командная консоль Lync Server.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Чтобы создать, изменить или удалить контактные объекты, пользователь, запускающий командлет New-CsExUmContact, Set-CsExUmContact или Remove-CsExUmContact, должен иметь соответствующее разрешение в подразделении Active Directory, где хранятся новые контактные объекты. Это разрешение можно предоставить, выполнив командлет Grant-CsOUPermission. Дополнительные сведения см. в документации  Командная консоль Lync Server.
 
 </div></td>
 <td><p><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Создание объектов Contact для размещенной единой системы обмена сообщениями Exchange в Lync Server 2013</a></p></td>

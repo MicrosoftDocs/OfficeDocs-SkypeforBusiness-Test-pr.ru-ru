@@ -190,18 +190,8 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Exchange Server 2013</p></td>
 <td><p>Аналогично поддержке Exchange Server 2010 с добавлением универсального хранилища контактов, изображений с высоким разрешением и интеграции службы архивации.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для получения дополнительных сведений см. <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Интеграция Microsoft Lync Server 2013 и Microsoft Exchange Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Для получения дополнительных сведений см. <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Интеграция Microsoft Lync Server 2013 и Microsoft Exchange Server 2013</a>.
 
 </div></td>
 </tr>

@@ -73,18 +73,8 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <td><p>DWORD</p></td>
 <td><p>0 = Исполняемый (по умолчанию)</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Требуется ApplicationInstallPath.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Требуется ApplicationInstallPath.
 
 </div>
 <p>1 = Протокол</p></td>
@@ -94,18 +84,8 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <td><p>REG_SZ</p></td>
 <td><p>Полный путь к исполняемому файлу.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Необходимо указать, если для параметра ApplicationType установлено значение 0 (исполняемый).</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Необходимо указать, если для параметра ApplicationType установлено значение 0 (исполняемый).
 
 </div></td>
 </tr>

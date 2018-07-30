@@ -53,36 +53,16 @@ _**Дата изменения раздела:** 2016-12-08_
 <li><p>Список контактов (из единого хранилища контактов)</p>
 <p>Дополнительные сведения см. в разделе <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Настройка Microsoft Lync Server 2013 для использования единого хранилища контактов</a></p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Требует Exchange 2013.<br />
-Требуется настольный клиент Lync 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Требует Exchange 2013.<br />
+> Требуется настольный клиент Lync 2013.
 
 </div></li>
 <li><p>Фотография контакта с высоким разрешением в клиенте Lync 2013 и Lync Web App.</p>
 <p>Дополнительные сведения см. в разделе <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Настройка использования фотографий высокого разрешения в Microsoft Lync Server 2013</a></p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Требует Exchange 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Требует Exchange 2013.
 
 </div></li>
 <li><p>Делегирование собрания</p>
@@ -91,34 +71,14 @@ _**Дата изменения раздела:** 2016-12-08_
 <li><p>Архивация содержимого (мгновенных сообщений и собраний) в Exchange</p>
 <p>Дополнительные сведения см. в разделе <a href="lync-server-2013-deployment-checklist-for-archiving.md">Контрольный список развертывания для архивации в Lync Server 2013</a></p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Требует Exchange 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Требует Exchange 2013.
 
 </div></li>
 <li><p>Поиск заархивированного содержимого</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Требует Exchange 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Требует Exchange 2013.
 
 </div></li>
 <li><p>Голосовая почта</p>
@@ -137,18 +97,8 @@ _**Дата изменения раздела:** 2016-12-08_
 <li><p>Публикация состояния в соответствии со сведениями о доступности в календаре Outlook</p></li>
 <li><p>Список контактов (из единого хранилища контактов). Дополнительные сведения см. в статье <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Настройка Microsoft Lync Server 2013 для использования единого хранилища контактов</a></p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Только Lync Server 2013. Требуется настольный клиент Lync 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Только Lync Server 2013. Требуется настольный клиент Lync 2013.
 
 </div></li>
 <li><p>Фотография контакта с высоким разрешением в клиенте Lync 2013 и Lync Web App.</p>
@@ -171,18 +121,8 @@ _**Дата изменения раздела:** 2016-12-08_
 <li><p>История пропущенных бесед и журналы звонков записываются в почтовый ящик Exchange пользователя</p></li>
 <li><p>Фотография контакта с высоким разрешением в клиенте Lync 2013.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Требует Microsoft Exchange Server 2013. Не поддерживается в Lync Web App, когда пользователи находятся в Skype для бизнеса Online.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Требует Microsoft Exchange Server 2013. Не поддерживается в Lync Web App, когда пользователи находятся в Skype для бизнеса Online.
 
 </div></li>
 <li><p>Присоединение к собранию по сети в мобильных клиентах</p></li>
@@ -201,18 +141,8 @@ _**Дата изменения раздела:** 2016-12-08_
 <li><p>История пропущенных бесед и журналы звонков записываются в почтовый ящик Exchange пользователя</p></li>
 <li><p>Список контактов (из единого хранилища контактов)</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Требуется клиент Lync Server 2013</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Требуется клиент Lync Server 2013
 
 </div></li>
 <li><p>Фотография контакта с высоким разрешением в клиенте Lync 2013 Lync Web App</p></li>

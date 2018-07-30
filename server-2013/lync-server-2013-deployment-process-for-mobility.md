@@ -96,19 +96,9 @@ _**Дата изменения раздела:** 2015-03-09_
 <li><p>Используйте командлет <strong>Set-CsPushNotificationConfiguration</strong>, чтобы разрешить push-уведомления для Apple Push Notification Service (APNS) и Microsoft Push Notification Service (MPNS). По умолчанию эта возможность отключена.</p></li>
 <li><p>Используйте командлет <strong>Test-CsFederatedPartner</strong> для тестирования конфигурации федерации и командлет <strong>Test-CsMCXPushNotification</strong> для тестирования push-уведомлений.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Push-уведомления используются для клиентов Lync 2010 Mobile на устройствах Apple и Windows Phone<br />
-Push-уведомления требуются только для клиентов Lync 2013 Mobile на Windows Phone</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Push-уведомления используются для клиентов Lync 2010 Mobile на устройствах Apple и Windows Phone<br />
+> Push-уведомления требуются только для клиентов Lync 2013 Mobile на Windows Phone
 
 </div></li>
 </ul></td>

@@ -25,18 +25,8 @@ _**Дата изменения раздела:** 2013-02-21_
 
 2.  В меню **Пуск** выберите панель управления Lync Server или откройте окно браузера и введите URL-адрес страницы администрирования. Дополнительные сведения о различных способах запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Можно также использовать командлеты Windows PowerShell. См. раздел <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Настройка сервера сохраняемого сеанса беседы с помощью командлетов Windows PowerShell</a> в документации по развертыванию.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]
+    > Можно также использовать командлеты Windows PowerShell. См. раздел <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Настройка сервера сохраняемого сеанса беседы с помощью командлетов Windows PowerShell</a> в документации по развертыванию.
 
 
 3.  В левой панели навигации щелкните элемент **сохраняемый сеанс беседы**, затем элемент **Надстройка** .
