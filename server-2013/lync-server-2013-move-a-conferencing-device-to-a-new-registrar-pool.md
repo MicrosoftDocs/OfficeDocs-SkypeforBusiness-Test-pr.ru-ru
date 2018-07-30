@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Дата изменения раздела:** 2013-02-20_
 
-Переместите устройство для конференц-связи из одного пула регистратора в другой с помощью командлета **move-csmeetingroom**. Для выполнения этого командлета может использоваться командная консоль Lync Server 2013 или удаленный сеанс Windows PowerShell.
+Переместите устройство для конференц-связи из одного пула регистратора в другой с помощью командлета **Move-CsMeetingRoom**. Для выполнения этого командлета может использоваться командная консоль Lync Server 2013 или удаленный сеанс Windows PowerShell.
 
 > [!NOTE]  
 > Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
@@ -25,7 +25,7 @@ _**Дата изменения раздела:** 2013-02-20_
 
   - Чтобы переместить устройство для конференц-связи, вам следует указать удостоверение перемещаемой комнаты, а затем задать в параметре Target полное доменное имя пула регистратора, в который перемещается устройство. Например:
     
-        move-csmeetingroom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
+        Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 
-Дополнительные сведения см. в разделе справки по командлету [move-csmeetingroom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom).
+Дополнительные сведения см. в разделе справки по командлету [Move-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom).
 

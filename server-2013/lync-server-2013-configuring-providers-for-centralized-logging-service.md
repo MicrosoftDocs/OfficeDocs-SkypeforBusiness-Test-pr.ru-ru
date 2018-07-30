@@ -129,9 +129,12 @@ _**Дата изменения раздела:** 2014-03-19_
 
 2.  Приведенные командлеты позволяют обновить существующих поставщиков и создать новых. Чтобы удалить поставщика, необходимо использовать директиву Replace для параметра Provider в командлете **Set-CsClsScenario**. Единственным способом полностью удалить поставщика является замена его на переопределенного поставщика того же типа с тем же именем, что выполняется с помощью директивы Update. Например, наш поставщик LyssProvider определен с типом журнала WPP, уровнем "Отладка" и флагами TF\_CONNECTION и TF\_DIAG. Необходимо изменить флаги на All. Чтобы изменить поставщика, выполните следующую команду:
     
-        $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
-    
-        Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+    ```
+    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
+    ```
+    ```
+    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+    ```
 
 3.  Если необходимо полностью удалить сценарий и связанных с ним поставщиков, выполните следующую команду:
     

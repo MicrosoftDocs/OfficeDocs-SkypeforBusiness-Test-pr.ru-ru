@@ -28,9 +28,12 @@ _**Дата изменения раздела:** 2014-12-12_
 
 2.  В командной строке введите следующие команды:
     
-        Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
-    
-        Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+    ```
+    Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
+    ```
+    ```
+    Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+    ```
     
     > [!NOTE]  
     > Этот шаг является обязательным, поскольку Windows Live Messenger не поддерживает шифрование видео и звука. Эта команда задает глобальную политику шифрования вместо требования шифрования видео и аудиоданных. Клиенты, поддерживающие шифрование, будут по-прежнему использовать его (например, клиенты Lync 2013).

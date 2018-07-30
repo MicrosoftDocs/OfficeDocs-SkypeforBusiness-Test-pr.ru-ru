@@ -51,15 +51,21 @@ _**Дата изменения раздела:** 2013-02-21_
 
 10. Выполните принудительную синхронизацию данных о пользователях и конференциях между двумя пулами с помощью следующих командлетов:
     
-        Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-    
-        Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-    
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+    ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+    ```
+
     Синхронизация данных может занять некоторое время. Можно использовать следующие командлеты для проверки состояния. Убедитесь, что для обоих направлений состояние является стационарным.
     
-        Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-    
-        Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+    ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
 
 > [!NOTE]  
 > Параметр <strong>Automatic failover and failback for Voice</strong> (Автоматическая отработка отказа и восстановление размещения для голосовой связи) и связанные с ним временные интервалы в построителе топологий применяются только к компонентам устойчивости голосовых решений, впервые представленным в Lync Server 2010. Выбор данного параметра не подразумевает, что отработка отказа пулом, описанная в настоящем документе, является автоматической. Отработка отказа и восстановление размещения пула всегда требуют от администратора ручного вызова соответствующих командлетов.

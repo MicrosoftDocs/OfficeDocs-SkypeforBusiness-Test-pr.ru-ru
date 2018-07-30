@@ -118,7 +118,10 @@ _**Дата изменения раздела:** 2016-12-08_
     
     > [!IMPORTANT]  
     > Имя автосекретаря не должно содержать пробелов.    
-        New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
+    
+    ```
+    New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
+    ```
     
     Для получения дополнительных сведений см.:
     

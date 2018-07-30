@@ -39,7 +39,7 @@ _**Дата изменения раздела:** 2016-12-08_
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
-    > [!Caution]  
+    > [!CAUTION]  
     > Если вы не замените параметры в резервном пуле и вам не удастся восстановить основной пул, то параметры основного пула будут утеряны. Дополнительные сведения см. в разделе <a href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Планирование аварийного восстановления для группы ответа в Lync Server 2013</a>.
 
 4.  Чтобы проверить завершение импорта, просмотрите импортированные группы ответа. Владельцем импортированных групп ответа по-прежнему является основной пул. Выполните следующие действия:
