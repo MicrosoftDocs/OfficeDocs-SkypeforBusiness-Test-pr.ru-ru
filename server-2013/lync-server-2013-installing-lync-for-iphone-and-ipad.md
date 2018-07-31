@@ -21,9 +21,10 @@ _**Дата изменения раздела:** 2014-03-10_
 
 Вы можете помочь пользователям с установкой Lync 2013 для iPhone и Lync 2013 для iPad, открыв на их устройствах соответствующую страницу магазина App Store. Доступ к магазину App Store на устройстве также можно осуществить через Интернет.
 
-  - Приложение Lync для iPhone доступно в App Store по адресу \< http://www.apple.com/iphone/from-the-app-store/\>
+  - Приложение Lync для iPhone доступно в App Store по адресу < http://www.apple.com/iphone/from-the-app-store/>
 
-  - Приложение Lync для iPad доступно в App Store по адресу \< http://www.apple.com/ipad/from-the-app-store/\>
+  - Приложение Lync для iPad доступно в App Store по адресу < http://www.apple.com/ipad/from-the-app-store/>
+
 
 <table>
 <colgroup>
