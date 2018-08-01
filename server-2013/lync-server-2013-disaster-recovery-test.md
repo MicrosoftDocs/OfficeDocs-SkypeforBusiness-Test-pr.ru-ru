@@ -74,18 +74,8 @@ _**Дата изменения раздела:** 2015-01-26_
 
   - OCSServices.\<домен\>
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Подробные сведения по процедурам администрирования и управления см. в разделе <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">Резервное копирование и восстановление Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Подробные сведения по процедурам администрирования и управления см. в разделе <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">Резервное копирование и восстановление Lync Server 2013</a>.
 
 
 ## См. также

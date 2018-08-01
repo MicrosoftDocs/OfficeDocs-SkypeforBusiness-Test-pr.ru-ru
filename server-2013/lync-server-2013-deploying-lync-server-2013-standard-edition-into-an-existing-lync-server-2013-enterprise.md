@@ -31,16 +31,6 @@ _**Дата изменения раздела:** 2012-10-01_
 
 6.  Настройте и установите сервер Сервер Standard Edition.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Внимание!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Если разворачивается среда только с сервером Сервер Standard Edition, то можно начать процесс установки в мастере развертывания Lync Server, используя ссылку <strong>Подготовка первого сервера Standard Edition</strong> для установки файлов начальной базы данных в новый сервер Сервер Standard Edition. <strong>Не</strong> выполняйте этот процесс при установке сервера Сервер Standard Edition в существующее развертывание сервера Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]
+    > Если разворачивается среда только с сервером Сервер Standard Edition, то можно начать процесс установки в мастере развертывания Lync Server, используя ссылку <strong>Подготовка первого сервера Standard Edition</strong> для установки файлов начальной базы данных в новый сервер Сервер Standard Edition. <strong>Не</strong> выполняйте этот процесс при установке сервера Сервер Standard Edition в существующее развертывание сервера Lync Server 2013.
 

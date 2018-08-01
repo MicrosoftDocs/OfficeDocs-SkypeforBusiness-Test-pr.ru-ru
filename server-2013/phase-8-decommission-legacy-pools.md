@@ -19,18 +19,8 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Чтобы получить наиболее полное понимание процедуры удаления серверов и ролей сервера Lync Server 2010, а также пошаговые инструкции по списанию развертывания Lync Server 2010, см. раздел «Удаление Microsoft Lync Server 2010 и ролей сервера», доступный по адресу [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Информацию о переносе и обновлении приложений Microsoft Unified Communications Managed API (UCMA) перед выводом устаревшей среды из эксплуатации см. в статье <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Информацию о переносе и обновлении приложений Microsoft Unified Communications Managed API (UCMA) перед выводом устаревшей среды из эксплуатации см. в статье <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a>
 
 
 ## Содержание

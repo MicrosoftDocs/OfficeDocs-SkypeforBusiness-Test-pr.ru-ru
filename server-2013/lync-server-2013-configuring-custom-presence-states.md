@@ -29,26 +29,10 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - Параметр CustomStateURL задает расположение файла конфигурации. В Lync 2013 режим высокой безопасности SIP включен по умолчанию, поэтому вам придется сохранить файл конфигурации пользовательских состояний присутствия на веб-сервере с поддержкой HTTPS. В противном случае клиенты Lync 2013 не смогут подключиться к нему. Например, действительный адрес может иметь вид `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Хотя в рабочей среде это не рекомендуется, вы можете протестировать файл конфигурации, расположенный в файловом хранилище без поддержки HTTPS, при помощи параметра реестра EnableSIPHighSecurityMode, отключающего на клиенте режим высокой безопасности SIP. Затем при помощи параметра реестра CustomStateURL задать расположение файла конфигурации без поддержки HTTPS. Обратите внимание, что Lync 2013 учитывает параметры реестра Lync 2010, но раздел реестра обновлен. Параметры реестра можно создать следующим образом.<ul><li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</p>
-<p>Тип: DWORD</p>
-<p>Значение: 0</p></li><li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</p>
-<p>Тип: строка (REG_SZ)</p>
-<p>Значение (примеры): file://\\lspool.corp.contoso.com\LSFileShare\ClientConfigFolder\Presence.xml или file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</p></li></ul></td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Хотя в рабочей среде это не рекомендуется, вы можете протестировать файл конфигурации, расположенный в файловом хранилище без поддержки HTTPS, при помощи параметра реестра EnableSIPHighSecurityMode, отключающего на клиенте режим высокой безопасности SIP. Затем при помощи параметра реестра CustomStateURL задать расположение файла конфигурации без поддержки HTTPS. Обратите внимание, что Lync 2013 учитывает параметры реестра Lync 2010, но раздел реестра обновлен. Параметры реестра можно создать следующим образом.
+> <ul><li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</p><p>Тип: DWORD</p><p>Значение: 0</p></li>
+> <li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</p><p>Тип: строка (REG_SZ)</p><p>Значение (примеры): file://\\lspool.corp.contoso.com\LSFileShare\ClientConfigFolder\Presence.xml или file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</p></li></ul>
 
 Переведите пользовательское состояние присутствия на другие языки, указав одну или несколько схем кодов языка (LCID) в XML-файле конфигурации. Пример ниже показывает локализацию для английского языка США (1033), норвежского языка букмол (1044), французского языка (1036) и турецкого языка (1055). Список кодов LCID см. в списке кодов языка, назначенных Майкрософт, на веб-странице <http://go.microsoft.com/fwlink/?linkid=157331>.
 

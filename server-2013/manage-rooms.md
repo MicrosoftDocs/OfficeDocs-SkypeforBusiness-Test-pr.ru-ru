@@ -19,26 +19,11 @@ _**Дата изменения раздела:** 2013-02-21_
 
     New-CsPersistentChatRoom -Name Foo1 -PersistentChatPoolFqdn client.contoso.com -Category client.contoso.com\Foo [other parameters]
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Параметр -PersistentChatPoolFqdn не требуется, если справедливо одно из следующих условий:
-<ul>
-<li><p>имеется только один пул серверов сохраняемого сеанса беседы;</p></li>
-<li><p>для категории указано полное доменное имя пула;</p></li>
-<li><p>для добавления комнаты указывается полное доменное имя пула.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Параметр -PersistentChatPoolFqdn не требуется, если справедливо одно из следующих условий:
+> <ul><li><p>имеется только один пул серверов сохраняемого сеанса беседы;</p></li>
+> <li><p>для категории указано полное доменное имя пула;</p></li>
+> <li><p>для добавления комнаты указывается полное доменное имя пула.</p></li></ul>
 
 
 Внесение изменений в существующую комнату сохраняемого сеанса беседы

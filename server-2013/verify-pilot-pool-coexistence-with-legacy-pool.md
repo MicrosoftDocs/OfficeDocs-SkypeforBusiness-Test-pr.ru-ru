@@ -35,18 +35,8 @@ _**Дата изменения раздела:** 2012-09-29_
 
 ![Диалоговое окно выбора URL-адресов](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Диалоговое окно выбора URL-адресов")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>В системе Lync Server 2013 перед использованием панели управления Lync Server следует обновить продукт Silverlight до версии 5.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> В системе Lync Server 2013 перед использованием панели управления Lync Server следует обновить продукт Silverlight до версии 5.
 
 
 Теперь данная топология включает в себя роли сервера Lync Server 2010 и системы Lync Server 2013.

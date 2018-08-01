@@ -47,51 +47,24 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для обслуживания пространства имен XMPP contoso.com</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!NOTE]
+> Для обслуживания пространства имен XMPP contoso.com
 
 </div>
 <p>sip.fabrikam.com</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для поддержки пространства имен SIP fabrikam.com</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!NOTE]
+> Для поддержки пространства имен SIP fabrikam.com
 
 </div>
 <p>fabrikam.com</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для поддержки пространства имен XMPP fabrikam.com</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!NOTE]
+> Для поддержки пространства имен XMPP fabrikam.com
 
 </div></td>
 <td><p>Сертификат должен быть выдан общедоступным центром сертификации и иметь расширенное использование ключа &quot;клиент&quot; и &quot;сервер&quot;, если необходимо настроить взаимодействие с общедоступной системой обмена сообщениями AOL. Сертификат назначается внешним интерфейсам сервер:</p>
@@ -100,19 +73,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <li><p>веб-конференций</p></li>
 <li><p>аудио- и видеоконференций</p></li>
 </ul>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Фактически сертификат не назначается пограничному серверу аудио- и видеоданных. Безопасным обменом данных и проверкой подлинности управляет служба Media Relay Authentication Service (MRAS). Служба MRAS использует сертификат, назначенный внутреннему интерфейсу сервер.</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!NOTE]
+> Фактически сертификат не назначается пограничному серверу аудио- и видеоданных. Безопасным обменом данных и проверкой подлинности управляет служба Media Relay Authentication Service (MRAS). Служба MRAS использует сертификат, назначенный внутреннему интерфейсу сервер.
 
 </div>
 <p>Обратите внимание, что альтернативные имена субъектов добавляются в сертификат автоматически на основании ваших определений в построителе топологий. Вы по мере необходимости добавляете записи альтернативных имен субъектов для дополнительных доменов SIP и другие записи, поддержка которых необходима. Имя субъекта реплицируется в альтернативное имя субъекта и должно присутствовать для обеспечения правильной работы.</p></td>

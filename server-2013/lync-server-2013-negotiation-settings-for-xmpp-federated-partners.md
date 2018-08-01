@@ -94,19 +94,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Обязательный?</p></td>
 <td><p>True</p></td>
 <td><p>SASL через TLS</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Обратный вызов не будет работать, если требуется как SASL, так и TLS.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Обратный вызов не будет работать, если требуется как SASL, так и TLS.
 
 </div></td>
 </tr>
@@ -122,19 +113,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Обязательный?</p></td>
 <td><p>True</p></td>
 <td><p>SASL через TLS, обратный вызов TLS, обратный вызов TCP</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.
 
 </div></td>
 </tr>
@@ -143,19 +125,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Обязательный?</p></td>
 <td><p>False</p></td>
 <td><p>SASL через TLS</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.
 
 </div></td>
 </tr>
@@ -164,19 +137,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Обязательный?</p></td>
 <td><p>True</p></td>
 <td><p>Обратный вызов TCP</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.
 
 </div></td>
 </tr>
@@ -184,34 +148,16 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Не поддерживается</p></td>
 <td><p>Обязательный?</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Недопустимая конфигурация</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Недопустимая конфигурация
 
 </div></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Поскольку для SASL требуется TLS, который недоступен, комбинация SASL/TLS не работает. Для обратного вызова TCP устанавливается недопустимое состояние, и данный метод использовать нельзя.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Поскольку для SASL требуется TLS, который недоступен, комбинация SASL/TLS не работает. Для обратного вызова TCP устанавливается недопустимое состояние, и данный метод использовать нельзя.
 
 </div></td>
 </tr>
@@ -234,19 +180,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Необязательный</p></td>
 <td><p>True</p></td>
 <td><p>SASL через TLS, обратный вызов TLS, обратный вызов TCP</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.
 
 </div></td>
 </tr>
@@ -255,19 +192,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Необязательный</p></td>
 <td><p>False</p></td>
 <td><p>SASL через TLS</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.
 
 </div></td>
 </tr>
@@ -276,19 +204,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Необязательный</p></td>
 <td><p>True</p></td>
 <td><p>Обратный вызов TCP</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.
 
 </div></td>
 </tr>
@@ -296,34 +215,16 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Не поддерживается</p></td>
 <td><p>Необязательный</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Недопустимая конфигурация</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Недопустимая конфигурация
 
 </div></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Для SASL требуется TLS. Включение необязательного использования TLS может привести к сбою согласования сеансов.
 
 </div></td>
 </tr>
@@ -339,19 +240,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Не поддерживается</p></td>
 <td><p>False</p></td>
 <td><p>Недопустимая конфигурация</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Необходимо включить SASL или обратный вызов.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Необходимо включить SASL или обратный вызов.
 
 </div></td>
 </tr>
@@ -367,19 +259,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Не поддерживается</p></td>
 <td><p>False</p></td>
 <td><p>Недопустимая конфигурация</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Необходимо включить SASL или обратный вызов.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Необходимо включить SASL или обратный вызов.
 
 </div></td>
 </tr>
@@ -395,19 +278,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Не поддерживается</p></td>
 <td><p>False</p></td>
 <td><p>Недопустимая конфигурация</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Предупреждение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Необходимо включить SASL или обратный вызов.</td>
-</tr>
-</tbody>
-</table>
+<td><div>
+
+> [!WARNING]
+> Необходимо включить SASL или обратный вызов.
 
 </div></td>
 </tr>

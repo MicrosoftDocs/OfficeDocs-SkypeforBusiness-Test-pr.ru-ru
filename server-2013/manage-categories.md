@@ -19,18 +19,8 @@ _**Дата изменения раздела:** 2012-10-06_
 
     New-CsPersistentChatCategory -Name Foo -PersistentChatPoolFqdn client.contoso1b118d91-b4c4-4b2f-b842-b451417ec2c6.com [other parameters]
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>PersistentChatPoolFqdn требуется только при наличии нескольких пулов серверов сохраняемого сеанса беседы.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> PersistentChatPoolFqdn требуется только при наличии нескольких пулов серверов сохраняемого сеанса беседы.
 
 
 Внесение изменений в существующую категорию сервера сохраняемого сеанса беседы

@@ -32,18 +32,8 @@ _**Дата изменения раздела:** 2013-02-20_
     
         New-CsClientPolicy -Identity "NewCommonAreaPhonePolicy" - EnableHotdesking $True
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>После создания этой политики необходимо назначить ее соответствующим телефонам общего пользования. Для получения дополнительных сведений см. <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Назначение политик телефону общего пользования</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> После создания этой политики необходимо назначить ее соответствующим телефонам общего пользования. Для получения дополнительных сведений см. <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Назначение политик телефону общего пользования</a>.
 
 
 ## Отключение использования незакрепленных телефонов

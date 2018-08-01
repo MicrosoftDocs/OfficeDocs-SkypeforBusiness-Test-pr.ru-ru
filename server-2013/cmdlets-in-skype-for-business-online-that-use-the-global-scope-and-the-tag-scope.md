@@ -27,19 +27,9 @@ _**Дата изменения раздела:** 2015-06-22_
 
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>При ссылке на политику пользователя можно указать необязательный тег <strong>prefix</strong>. Синтаксическая конструкция, в которой используется этот префикс, также является действительной:<br />
-Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> При ссылке на политику пользователя можно указать необязательный тег <strong>prefix</strong>. Синтаксическая конструкция, в которой используется этот префикс, также является действительной:<br />
+> Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;
 
 
 Чтобы вернуть все политики, кроме глобальных (то есть все политики для отдельных пользователей), вызовите следующую команду:
@@ -62,18 +52,8 @@ Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;</td>
 
   - [Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Несмотря на название, абонентские группы с функциональной точки зрения являются политиками. Термин <em>абонентская группа</em> используется вместо другого термина (например, &quot;политика вызовов) для сохранения терминологии, которая применялась в предыдущих версиях Lync Server.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Несмотря на название, абонентские группы с функциональной точки зрения являются политиками. Термин <em>абонентская группа</em> используется вместо другого термина (например, &quot;политика вызовов) для сохранения терминологии, которая применялась в предыдущих версиях Lync Server.
 
 
 ## См. также
