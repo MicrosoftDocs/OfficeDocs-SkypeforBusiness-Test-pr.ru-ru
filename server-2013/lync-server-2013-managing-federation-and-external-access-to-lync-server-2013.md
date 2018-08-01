@@ -149,7 +149,8 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Доступ анонимных пользователей к собраниям и конференциям</p></td>
 <td><p></p></td>
 <td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Назначение политик конференции для поддержки анонимных пользователей в Lync Server 2013</a></p>
-<div class="alert">
+<div>
+
 > [!NOTE]
 > Необходимо также проверить следующие параметры конфигурации в разделе политик конференц-связи: <a href="lync-server-2013-create-or-modify-a-conferencing-policy.md">Создание или изменения политики конференц-связи в Lync Server 2013</a> и <a href="lync-server-2013-conferencing-policy-settings-reference.md">Информация о параметрах политики конференц-связи в Lync Server 2013</a>
 

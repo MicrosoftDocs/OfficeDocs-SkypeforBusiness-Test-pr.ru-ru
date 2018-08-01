@@ -47,19 +47,22 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
-<div class="alert">
+<div>
+
 > [!NOTE]
 > Для обслуживания пространства имен XMPP contoso.com
 
 </div>
 <p>sip.fabrikam.com</p>
-<div class="alert">
+<div>
+
 > [!NOTE]
 > Для поддержки пространства имен SIP fabrikam.com
 
 </div>
 <p>fabrikam.com</p>
-<div class="alert">
+<div>
+
 > [!NOTE]
 > Для поддержки пространства имен XMPP fabrikam.com
 
@@ -70,7 +73,8 @@ _**Дата изменения раздела:** 2015-03-09_
 <li><p>веб-конференций</p></li>
 <li><p>аудио- и видеоконференций</p></li>
 </ul>
-<div class="alert">
+<div>
+
 > [!NOTE]
 > Фактически сертификат не назначается пограничному серверу аудио- и видеоданных. Безопасным обменом данных и проверкой подлинности управляет служба Media Relay Authentication Service (MRAS). Служба MRAS использует сертификат, назначенный внутреннему интерфейсу сервер.
 
