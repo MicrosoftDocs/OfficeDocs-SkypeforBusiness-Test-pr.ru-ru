@@ -66,13 +66,10 @@ _**Дата изменения раздела:** 2016-12-08_
 <p>Администратор организации Exchange (если это не первый сервер Exchange Server в организации)</p></td>
 <td><p>Изучите соответствующую документацию для вашей версии Exchange Server:</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>документация по развертыванию Exchange Server 2007 по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=268694">http://go.microsoft.com/fwlink/p/?LinkId=268694</a>.</p>
 </dd>
-<dt><span></span></dt>
 <dd><p>документация по развертыванию Exchange Server 2010 или последнего пакет обновления по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=268695">http://go.microsoft.com/fwlink/p/?LinkId=268695</a>.</p>
 </dd>
-<dt><span></span></dt>
 <dd><p>планирование и развертывание Microsoft Exchange Server 2013 по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=266569">http://go.microsoft.com/fwlink/p/?LinkId=266569</a>.</p>
 </dd>
 </dl></td>
