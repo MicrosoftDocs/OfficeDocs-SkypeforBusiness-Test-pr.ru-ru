@@ -100,18 +100,23 @@ _**Дата изменения раздела:** 2012-12-03_
 ```
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
 ```
+
 ```    
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
 ```
+
 ```    
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
 ```
-```    
-    Включите XMPP-доступ для внешних пользователей, введя следующую команду:
-```
+
+
+Включите XMPP-доступ для внешних пользователей, введя следующую команду:
+
+
 ```    
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
 ```
+
 ```    
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
 ```

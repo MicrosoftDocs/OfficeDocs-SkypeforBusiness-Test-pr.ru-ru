@@ -135,8 +135,11 @@ _**Дата изменения раздела:** 2016-12-08_
     
     > [!NOTE]  
     > В качестве <strong>SIPResourceIdentifier</strong> в следующем примере должен использоваться адрес SIP пользователя Lync Server.    
-        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
     
+    ```
+        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
+    ```
+
     Для получения дополнительных сведений см.:
     
       - Для Exchange 2007 см. "Enable-UMMailbox: справка по Exchange 2007" по адресу [http://go.microsoft.com/fwlink/?linkid=268691\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268691%26clcid=0x419).

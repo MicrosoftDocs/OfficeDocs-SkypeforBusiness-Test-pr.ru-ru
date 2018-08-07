@@ -36,7 +36,11 @@ Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-Appli
     
     > [!NOTE]  
     > Если параметры приложения парковки вызовов Lync Server 2013 совпадают с ранее настроенными параметрами Lync Server 2010, можно пропустить этот шаг. Если для сред Lync Server 2013 и Lync Server 2010 используются различные параметры приложения парковки вызовов, используйте следующий командлет, чтобы обновить эти изменения.    
+        
+    
+    ```    
         Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
+    ```
 
 Чтобы переназначить все диапазоны орбит парковки вызовов из пула Lync Server 2010 на пул Lync Server 2013, можно использовать управления Lync Server или Командная консоль Lync Server.
 

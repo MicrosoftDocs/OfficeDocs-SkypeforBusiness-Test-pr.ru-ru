@@ -17,7 +17,7 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Perform the following tasks as necessary. They are frequently also covered by standard procedures:
 
-  - **Full Security Auditing   **You can perform this audit regularly, in response to an upgrade or redesign of the messaging system, or in response to an attempted (or successful) security breach. The procedure may involve port scans on servers and firewalls, audits of security fixes, and third-party penetration tests.
+  - **Full Security Auditing**   You can perform this audit regularly, in response to an upgrade or redesign of the messaging system, or in response to an attempted (or successful) security breach. The procedure may involve port scans on servers and firewalls, audits of security fixes, and third-party penetration tests.
 
   - **Replace Certificates about to Expire**   Checking Lync Server Certificates is one of regular weekly tasks, and as part of the procedure an administrator should have a record of all certificates’ expiry dates. This record enables an administrator to create a notification when a particular certificate is about to be expired and replaced as needed.
 
