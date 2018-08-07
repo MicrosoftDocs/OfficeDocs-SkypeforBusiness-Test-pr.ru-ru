@@ -127,7 +127,7 @@ _**Дата изменения раздела:** 2013-02-24_
     <table>
     <thead>
     <tr class="header">
-    <th><img src="images/Gg399038.security(OCS.15).gif" title="security" alt="security" />Безопасность Примечание</th>
+    <th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />Безопасность Примечание</th>
     </tr>
     </thead>
     <tbody>
