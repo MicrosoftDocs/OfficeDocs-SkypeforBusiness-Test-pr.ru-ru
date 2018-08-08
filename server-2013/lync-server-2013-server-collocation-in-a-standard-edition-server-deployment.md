@@ -1,5 +1,5 @@
 ﻿---
-title: Выровненное размещение серверов Lync Server 2013 в развертывании сервера Standard Edition
+title: "Выровненное размещ. серв. Lync Server 2013 в разверт. сервера Standard Edition"
 TOCTitle: Выровненное размещение серверов в развертывании сервера Standard Edition
 ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398131(v=OCS.15)

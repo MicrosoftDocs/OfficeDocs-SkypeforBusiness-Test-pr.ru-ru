@@ -1,6 +1,6 @@
 ﻿---
-title: Сопоставление подсетей с сетевыми сайтами для контроля допуска звонков в Lync Server 2013
-TOCTitle: Сопоставление подсетей с сетевыми сайтами для контроля допуска звонков в Lync Server 2013
+title: "Lync Server 2013: сопост. подсетей с сет. сайтами для контроля допуска звонков"
+TOCTitle: "Lync Server 2013: сопост. подсетей с сет. сайтами для контроля допуска звонков"
 ms:assetid: a749c9b3-15f3-4e74-9f43-1507d3c2c940
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412786(v=OCS.15)
 ms:contentKeyID: 49310773

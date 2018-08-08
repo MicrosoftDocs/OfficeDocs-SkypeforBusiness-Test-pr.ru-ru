@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: компоненты и топологии для локальной единой системы обмена сообщениями'
+title: "Lync Server 2013: компон. и топологии для локальной единой сист. обмена сообщ."
 TOCTitle: Компоненты и топологии для локальной единой системы обмена сообщениями
 ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425711(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Требования к пропускной способности сети для трафика мультимедиа в Lync Server 2013
-TOCTitle: Требования к пропускной способности сети для трафика мультимедиа в Lync Server 2013
+title: "Требования к проп. способности сети для трафика мультимедиа в Lync Server 2013"
+TOCTitle: "Требования к проп. способности сети для трафика мультимедиа в Lync Server 2013"
 ms:assetid: 83e83b16-0f0e-4d87-901a-0faa4618cdc2
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688118(v=OCS.15)
 ms:contentKeyID: 49888071

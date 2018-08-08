@@ -1,6 +1,6 @@
 ﻿---
-title: Проведение неофициальных тестов маршрутизации голосовой связи в Lync Server 2013
-TOCTitle: Проведение неофициальных тестов маршрутизации голосовой связи в Lync Server 2013
+title: "Проведение неофиц. тестов маршрутизации голосовой связи в Lync Server 2013"
+TOCTitle: "Проведение неофиц. тестов маршрутизации голосовой связи в Lync Server 2013"
 ms:assetid: ea0e6059-bf04-4b03-b6d3-8f5534b731e2
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg399049(v=OCS.15)
 ms:contentKeyID: 49311543

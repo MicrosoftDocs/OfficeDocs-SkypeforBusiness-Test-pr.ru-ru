@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: поддерживаемые пути миграции и сценарии сосуществования серверов'
+title: "Lync Server 2013: поддержка путей миграции, сценариев сосуществования серверов"
 TOCTitle: Поддерживаемые пути миграции и сценарии сосуществования серверов
 ms:assetid: 2a6a730f-7f80-45f9-9540-3edfdaa265fb
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425764(v=OCS.15)

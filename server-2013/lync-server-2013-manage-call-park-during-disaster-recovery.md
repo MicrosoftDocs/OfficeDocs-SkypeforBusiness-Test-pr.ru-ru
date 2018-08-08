@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: управление парковкой вызовов во время аварийного восстановления'
+title: "Lync Server 2013: управление парковкой вызовов при аварийном восстановлении"
 TOCTitle: Управление парковкой вызовов во время аварийного восстановления
 ms:assetid: 4df96c38-186f-4b0e-b076-bae6236da7db
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688052(v=OCS.15)

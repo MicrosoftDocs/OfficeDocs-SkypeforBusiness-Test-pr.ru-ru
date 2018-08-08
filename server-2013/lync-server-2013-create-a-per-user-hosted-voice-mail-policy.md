@@ -1,6 +1,6 @@
 ﻿---
-title: Создание политики размещенной голосовой почты для отдельных пользователей в Lync Server 2013
-TOCTitle: Создание политики размещенной голосовой почты для отдельных пользователей в Lync Server 2013
+title: "Lync Server 2013: создание политики размещенной голос. почты для отд. польз."
+TOCTitle: "Lync Server 2013: создание политики размещенной голос. почты для отд. польз."
 ms:assetid: 39018a7c-e0c3-46a2-be4e-05604ec67a50
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425867(v=OCS.15)
 ms:contentKeyID: 49309472

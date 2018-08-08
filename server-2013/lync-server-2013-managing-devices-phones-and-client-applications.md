@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: управление устройствами, телефонами и клиентскими приложениями'
+title: "Lync Server 2013: управл. устройствами, телефонами и клиентскими приложениями"
 TOCTitle: Управление устройствами, телефонами и клиентскими приложениями
 ms:assetid: 7c52ecc7-e0f6-4684-9fe8-ba45437a08e0
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg521021(v=OCS.15)

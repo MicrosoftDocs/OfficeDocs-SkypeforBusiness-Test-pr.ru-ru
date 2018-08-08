@@ -1,6 +1,6 @@
 ﻿---
-title: Использование Microsoft SQL Server 2008 R2 в качестве базы данных System Center Operations Manager
-TOCTitle: Использование Microsoft SQL Server 2008 R2 в качестве базы данных System Center Operations Manager
+title: "Lync Server 2013: исп. Microsoft SQL Server 2008 R2 как БД System Center Operations Manager"
+TOCTitle: "Lync Server 2013: исп. Microsoft SQL Server 2008 R2 как БД System Center Operations Manager"
 ms:assetid: 0efe76da-8854-499e-bdc7-3623244a8e85
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ687969(v=OCS.15)
 ms:contentKeyID: 49887868

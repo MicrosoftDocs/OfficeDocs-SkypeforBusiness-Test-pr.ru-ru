@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: установка базы данных с помощью командной консоли Lync Server'
+title: "Lync Server 2013: установка базы данных через командную консоль Lync Server"
 TOCTitle: Установка базы данных с помощью командной консоли Lync Server
 ms:assetid: c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398832(v=OCS.15)

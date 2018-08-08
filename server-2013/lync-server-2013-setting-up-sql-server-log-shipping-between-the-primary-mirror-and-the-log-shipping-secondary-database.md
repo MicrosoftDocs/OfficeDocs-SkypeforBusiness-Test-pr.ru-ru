@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: установка доставки журналов SQL Server между основным зеркалом и базой данных-получателем доставки журналов'
+title: "Lync Server 2013: настр. дост. журн. SQL Server между осн. зеркалом и БД-получателем"
 TOCTitle: Установка доставки журналов SQL Server между основным зеркалом и базой данных-получателем доставки журналов
 ms:assetid: 4e8e9ce9-4301-47f2-a0c3-669afeb53295
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204887(v=OCS.15)

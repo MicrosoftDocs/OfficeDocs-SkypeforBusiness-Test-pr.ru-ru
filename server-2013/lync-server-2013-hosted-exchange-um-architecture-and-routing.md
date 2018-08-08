@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: архитектура и маршрутизация для размещенной единой системы обмена сообщениями Exchange'
+title: "Lync Server 2013: архит. и маршр. для размещ. единой сист. Обм. сообщ. Exchange"
 TOCTitle: Архитектура и маршрутизация для размещенной единой системы обмена сообщениями Exchange
 ms:assetid: 4ea4a2ce-01d9-4209-bf8e-98fa9027fb7a
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398318(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Назначение сертификата проверки подлинности между серверами для Microsoft Lync Server 2013
-TOCTitle: Назначение сертификата проверки подлинности между серверами для Microsoft Lync Server 2013
+title: "Lync Server 2013: назначение сертификата проверки подлинности между серверами"
+TOCTitle: "Lync Server 2013: назначение сертификата проверки подлинности между серверами"
 ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205253(v=OCS.15)
 ms:contentKeyID: 49311137

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: развертывание устройства или сервера обеспечения связи в филиалах'
+title: "Lync Server 2013: разверт. устройства или сервера обеспечения связи в филиалах"
 TOCTitle: Развертывание устройства или сервера обеспечения связи в филиалах
 ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398849(v=OCS.15)

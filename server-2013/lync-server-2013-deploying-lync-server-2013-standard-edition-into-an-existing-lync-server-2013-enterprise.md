@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Развертывание Lync Server 2013 Standard Edition на базе существующего развертывания Lync Server 2013 Enterprise'
+title: "Lync Server 2013: установка Lync Server 2013 Standard Edition на Enterprise"
 TOCTitle: Развертывание Lync Server 2013 Standard Edition на базе существующего развертывания Lync Server 2013 Enterprise
 ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398112(v=OCS.15)

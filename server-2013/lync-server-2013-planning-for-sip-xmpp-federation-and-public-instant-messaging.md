@@ -1,6 +1,6 @@
 ﻿---
-title: Планирование федерации SIP, федерации XMPP и Public Instant Messaging в Lync Server 2013
-TOCTitle: Планирование федерации SIP, федерации XMPP и Public Instant Messaging в Lync Server 2013
+title: "Lync Server 2013: планирование федерации SIP, XMPP и Public Instant Messaging"
+TOCTitle: "Lync Server 2013: планирование федерации SIP, XMPP и Public Instant Messaging"
 ms:assetid: 3b234d92-b9ff-4b1d-910e-084c6f17e751
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204825(v=OCS.15)
 ms:contentKeyID: 49309491

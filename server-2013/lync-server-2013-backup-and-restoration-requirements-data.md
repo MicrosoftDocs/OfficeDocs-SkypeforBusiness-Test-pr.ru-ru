@@ -1,6 +1,6 @@
 ﻿---
-title: 'Требования к резервному копированию и восстановлению в Lync Server 2013: данные'
-TOCTitle: 'Требования к резервному копированию и восстановлению в Lync Server 2013: данные'
+title: "Lync Server 2013: требования резервного копирования и восстановления — данные"
+TOCTitle: "Lync Server 2013: требования резервного копирования и восстановления — данные"
 ms:assetid: ecfb8e4d-cb4f-476d-9772-4486bd683c04
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh202194(v=OCS.15)
 ms:contentKeyID: 52058375

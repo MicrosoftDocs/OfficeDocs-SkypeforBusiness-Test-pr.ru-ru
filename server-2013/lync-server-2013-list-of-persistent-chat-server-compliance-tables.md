@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: список таблиц соблюдения требований для сервера сохраняемого чата'
+title: "Lync Server 2013: список таблиц соблюдения требований для сервера сохран. чата"
 TOCTitle: Список таблиц соблюдения требований для сервера сохраняемого чата
 ms:assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ215878(v=OCS.15)

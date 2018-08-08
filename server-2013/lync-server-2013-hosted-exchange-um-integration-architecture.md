@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: архитектура интеграции размещенной единой системы обмена сообщениями Exchange'
+title: "Lync Server 2013: архит. интеграц. размещ. единой сист. обмена сообщ. Exchange"
 TOCTitle: Архитектура интеграции размещенной единой системы обмена сообщениями Exchange
 ms:assetid: 0094d5dc-1836-441c-b6e2-f88e35203a8d
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398067(v=OCS.15)

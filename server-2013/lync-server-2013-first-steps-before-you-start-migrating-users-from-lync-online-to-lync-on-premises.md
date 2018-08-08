@@ -1,6 +1,6 @@
 ﻿---
-title: Первые действия перед началом переноса пользователей из Lync Online в локальное развертывание Lync
-TOCTitle: Первые действия перед началом переноса пользователей из Lync Online в локальное развертывание Lync
+title: "Lync Server 2013: перед перен. польз. из Lync Online в локальное разверт. Lync"
+TOCTitle: "Lync Server 2013: перед перен. польз. из Lync Online в локальное разверт. Lync"
 ms:assetid: 98245b04-ded4-4186-8da3-ba1c554b5c39
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn689118(v=OCS.15)
 ms:contentKeyID: 62247366

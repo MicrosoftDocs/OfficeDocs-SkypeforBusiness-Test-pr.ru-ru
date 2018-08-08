@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: маршрутизация звонков E9-1-1 с использованием магистралей SIP'
+title: "Lync Server 2013: маршрутизация звонков E9-1-1 с помощью магистралей SIP"
 TOCTitle: Маршрутизация звонков E9-1-1 с использованием магистралей SIP
 ms:assetid: 157753c3-fe74-4e2c-81da-ee06911d4cc2
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204701(v=OCS.15)

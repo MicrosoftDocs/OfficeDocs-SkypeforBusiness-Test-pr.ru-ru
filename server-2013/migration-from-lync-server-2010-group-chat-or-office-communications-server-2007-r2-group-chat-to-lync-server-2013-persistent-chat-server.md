@@ -1,6 +1,6 @@
 ﻿---
-title: Миграция с групповой беседы в Lync Server 2010 или Office Communications Server 2007 R2 на сервер сохраняемого сеанса беседы в Lync Server 2013
-TOCTitle: Миграция с групповой беседы в Lync Server 2010 или Office Communications Server 2007 R2 на сервер сохраняемого сеанса беседы в Lync Server 2013
+title: "Миграция чата групп Lync 2010/Office CS 2007 R2 на сохраняемый в Lync 2013"
+TOCTitle: "Миграция чата групп Lync 2010/Office CS 2007 R2 на сохраняемый в Lync 2013"
 ms:assetid: 5b4d3db1-6eba-4932-b49c-f60bcf9488f9
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg615442(v=OCS.15)
 ms:contentKeyID: 49309883

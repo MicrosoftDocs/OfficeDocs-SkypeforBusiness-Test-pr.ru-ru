@@ -1,6 +1,6 @@
 ﻿---
-title: Изменение голосовой политики и настройка записей использования ТСОП в Lync Server 2013
-TOCTitle: Изменение голосовой политики и настройка записей использования ТСОП в Lync Server 2013
+title: "Lync Server 2013: изменение голосовой политики и настройка записей исп. ТСОП в"
+TOCTitle: "Lync Server 2013: изменение голосовой политики и настройка записей исп. ТСОП в"
 ms:assetid: 6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398511(v=OCS.15)
 ms:contentKeyID: 49310072

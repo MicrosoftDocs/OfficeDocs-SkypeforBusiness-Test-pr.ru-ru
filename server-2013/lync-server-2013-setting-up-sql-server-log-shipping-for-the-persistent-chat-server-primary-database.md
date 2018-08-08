@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: настройка доставки журналов SQL Server для основной базы данных сервера сохраняемого чата'
+title: "Lync Server 2013: настр. дост. журн. SQL Server для осн. БД серв. сохран. чата"
 TOCTitle: Настройка доставки журналов SQL Server для основной базы данных сервера сохраняемого чата
 ms:assetid: 088ea1c2-d592-4a11-b3b8-f1e2f8beae93
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204653(v=OCS.15)

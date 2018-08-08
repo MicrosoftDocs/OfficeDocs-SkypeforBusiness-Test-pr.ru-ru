@@ -1,6 +1,6 @@
 ﻿---
-title: Настройка политик качества обслуживания для клиентов, работающих под управлением Windows 7 или Windows 8
-TOCTitle: Настройка политик качества обслуживания для клиентов, работающих под управлением Windows 7 или Windows 8
+title: "Lync Server 2013: настр. политик качества обслуж. для клиентов, работ. под управл. Windows 7 или 8"
+TOCTitle: "Lync Server 2013: настр. политик качества обслуж. для клиентов, работ. под управл. Windows 7 или 8"
 ms:assetid: efff2b98-b3fb-4183-a4f0-329a9105ce2c
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205371(v=OCS.15)
 ms:contentKeyID: 49311606

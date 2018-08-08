@@ -1,6 +1,6 @@
 ﻿---
-title: Настройка Microsoft SharePoint Server 2013 для поиска архивированных данных Microsoft Lync Server 2013
-TOCTitle: Настройка Microsoft SharePoint Server 2013 для поиска архивированных данных Microsoft Lync Server 2013
+title: "Lync Server 2013: настр. Microsoft SharePoint Server 2013 для поиска архивир. данных"
+TOCTitle: "Lync Server 2013: настр. Microsoft SharePoint Server 2013 для поиска архивир. данных"
 ms:assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ687978(v=OCS.15)
 ms:contentKeyID: 49887881

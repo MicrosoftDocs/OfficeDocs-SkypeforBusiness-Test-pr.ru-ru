@@ -1,6 +1,6 @@
 ﻿---
-title: Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition
-TOCTitle: Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition
+title: "Удаление сервера переднего плана Enterprise Edition или Standard Edition"
+TOCTitle: "Удаление сервера переднего плана Enterprise Edition или Standard Edition"
 ms:assetid: 8cabb187-cff7-44e7-a126-9b25861ef2c8
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688123(v=OCS.15)
 ms:contentKeyID: 49888080

@@ -1,6 +1,6 @@
 ﻿---
-title: Перемещение центрального сервера управления Lync Server 2010 на Lync Server 2013
-TOCTitle: Перемещение центрального сервера управления Lync Server 2010 на Lync Server 2013
+title: "Перемещ. центрального сервера управления Lync Server 2010 на Lync Server 2013"
+TOCTitle: "Перемещ. центрального сервера управления Lync Server 2010 на Lync Server 2013"
 ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688013(v=OCS.15)
 ms:contentKeyID: 49887931

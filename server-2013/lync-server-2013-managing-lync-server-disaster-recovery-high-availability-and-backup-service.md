@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: управление аварийным восстановлением, высокой доступностью и службой резервного копирования Lync Server'
+title: "Lync Server 2013: управл. аварийным восст., выс. доступн. и службой архивации"
 TOCTitle: Управление аварийным восстановлением, высокой доступностью и службой резервного копирования Lync Server 2013
 ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721939(v=OCS.15)

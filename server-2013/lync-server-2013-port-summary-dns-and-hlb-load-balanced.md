@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: сводка по портам — балансировка нагрузки на DNS и аппаратная балансировка нагрузки'
+title: "Lync Server 2013: обзор портов — баланс. нагр. на DNS и аппар. баланс. нагр."
 TOCTitle: Сводка по портам — балансировка нагрузки на DNS и аппаратная балансировка нагрузки
 ms:assetid: b07c37e4-820e-46ee-a678-1da95d1b87af
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205179(v=OCS.15)

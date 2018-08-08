@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: добавление устройства для обеспечения связи в филиалах к Active Directory'
+title: "Lync Server 2013: добавл. устройства для связи в филиалах к Active Directory"
 TOCTitle: Добавление устройства для обеспечения связи в филиалах к Active Directory
 ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425906(v=OCS.15)

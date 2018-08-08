@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: интеграция с размещенной единой системой обмена сообщениями Exchange'
+title: "Lync Server 2013: интеграция с размещ. единой системой обмена сообщ. Exchange"
 TOCTitle: Интеграция с размещенной единой системой обмена сообщениями Exchange
 ms:assetid: f4de0165-da3b-499e-98fc-28ddd0db02d5
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg413027(v=OCS.15)

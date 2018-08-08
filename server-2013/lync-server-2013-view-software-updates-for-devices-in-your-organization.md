@@ -1,6 +1,6 @@
 ﻿---
-title: " Просмотр обновлений программного обеспечения для устройств в организации в Lync Server 2013"
-TOCTitle: " Просмотр обновлений программного обеспечения для устройств в организации в Lync Server 2013"
+title: "Lync Server 2013: просмотр обновлений ПО для устройств в организации"
+TOCTitle: "Lync Server 2013: просмотр обновлений ПО для устройств в организации"
 ms:assetid: d2cca12b-ed43-4e1f-90ab-d14bca8b482c
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182592(v=OCS.15)
 ms:contentKeyID: 49311251

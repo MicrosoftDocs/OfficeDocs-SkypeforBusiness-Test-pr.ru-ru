@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: включение поддержки размещаемой голосовой почты для пользователей'
+title: "Lync Server 2013: подключение пользователям размещаемой голосовой почты"
 TOCTitle: Включение поддержки размещаемой голосовой почты для пользователей
 ms:assetid: fa559f8f-ef99-43a1-b580-9e998b95efb8
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg413062(v=OCS.15)

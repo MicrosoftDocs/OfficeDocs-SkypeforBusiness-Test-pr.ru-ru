@@ -1,6 +1,6 @@
 ﻿---
-title: Авторизация подключения к пограничному серверу Office Communications Server 2007 R2
-TOCTitle: Авторизация подключения к пограничному серверу Office Communications Server 2007 R2
+title: "Авторизация подключения к погран. серверу Office Communications Server 2007 R2"
+TOCTitle: "Авторизация подключения к погран. серверу Office Communications Server 2007 R2"
 ms:assetid: 14f6798a-28d6-4b3d-8734-942192e1bbf5
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204702(v=OCS.15)
 ms:contentKeyID: 49309036

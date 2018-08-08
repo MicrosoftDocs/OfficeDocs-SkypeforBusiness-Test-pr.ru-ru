@@ -1,5 +1,5 @@
 ﻿---
-title: Настройка Lync Server 2013 для использования архивирования Microsoft Exchange Server 2013
+title: "Настройка Lync Server 2013 для исп. архивир. Microsoft Exchange Server 2013"
 TOCTitle: Настройка Lync Server 2013 для использования архивирования Exchange Server 2013
 ms:assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ679896(v=OCS.15)

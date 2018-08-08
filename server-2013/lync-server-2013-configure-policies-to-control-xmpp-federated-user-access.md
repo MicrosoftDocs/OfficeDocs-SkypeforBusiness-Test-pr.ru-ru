@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: настройка политик управления доступом федеративных XMPP-пользователей'
+title: "Lync Server 2013: настройка политик управл. доступом федер. XMPP-пользователей"
 TOCTitle: Настройка политик управления доступом федеративных XMPP-пользователей
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ552446(v=OCS.15)

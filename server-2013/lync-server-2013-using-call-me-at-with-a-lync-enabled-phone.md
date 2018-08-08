@@ -1,6 +1,6 @@
 ﻿---
-title: Использование функции "Позвонить мне номер" с телефоном с поддержкой Lync в Lync Server 2013
-TOCTitle: Использование функции "Позвонить мне номер" с телефоном с поддержкой Lync в Lync Server 2013
+title: "Lync Server 2013: исп. функции "Позвонить мне на номер" на тел. с подд. Lync"
+TOCTitle: "Lync Server 2013: исп. функции "Позвонить мне на номер" на тел. с подд. Lync"
 ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn383570(v=OCS.15)
 ms:contentKeyID: 56558976

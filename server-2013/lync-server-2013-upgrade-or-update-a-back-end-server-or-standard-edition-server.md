@@ -1,6 +1,6 @@
 ﻿---
-title: Обновление сервера заднего плана или стандартного выпуска сервера в Lync Server 2013
-TOCTitle: Обновление сервера заднего плана или стандартного выпуска сервера в Lync Server 2013
+title: "Lync Server 2013: обновление внутреннего сервера или сервера Standard Edition"
+TOCTitle: "Lync Server 2013: обновление внутреннего сервера или сервера Standard Edition"
 ms:assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721942(v=OCS.15)
 ms:contentKeyID: 49888272

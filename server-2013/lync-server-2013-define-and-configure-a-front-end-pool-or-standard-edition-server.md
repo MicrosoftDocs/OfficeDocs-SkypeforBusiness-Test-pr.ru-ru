@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: определение и настройка пула переднего плана или сервера Standard Edition'
+title: "Lync Server 2013: опред. и настр. пула пер. плана или сервера Standard Edition"
 TOCTitle: Определение и настройка пула переднего плана или сервера Standard Edition
 ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398538(v=OCS.15)

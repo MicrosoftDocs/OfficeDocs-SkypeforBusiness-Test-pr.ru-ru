@@ -1,6 +1,6 @@
 ﻿---
-title: Указание клиентских приложений, которые могут использоваться для входа в Lync Server 2013
-TOCTitle: Указание клиентских приложений, которые могут использоваться для входа в Lync Server 2013
+title: "Lync Server 2013: указание клиентских прил., кот. можно использовать для входа"
+TOCTitle: "Lync Server 2013: указание клиентских прил., кот. можно использовать для входа"
 ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182591(v=OCS.15)
 ms:contentKeyID: 49311258
