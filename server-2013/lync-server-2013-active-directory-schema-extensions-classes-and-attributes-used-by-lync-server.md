@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: расширения схемы Active Directory, классы и атрибуты, используемые в Lync Server'
+title: "Lync Server 2013: расширения схем AD, классы и атрибуты в Lync Server"
 TOCTitle: Расширения схемы Active Directory, классы и атрибуты, используемые в Lync Server 2013
 ms:assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398379(v=OCS.15)

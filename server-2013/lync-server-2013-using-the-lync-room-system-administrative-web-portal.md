@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Использование веб-портала администрирования системы комнат Lync'
+title: "Lync Server 2013: использование веб-портала администрир. системы комнат Lync"
 TOCTitle: Использование веб-портала администрирования системы комнат Lync
 ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn743660(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: контрольный список развертывания для контроля допуска звонков'
+title: "Lync Server 2013: контрольный список разв. для контроля допуска звонков"
 TOCTitle: Контрольный список развертывания для контроля допуска звонков
 ms:assetid: 7e56a169-3e63-44ab-bf28-1fdeb52381c8
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398631(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: доступ к сайту предоставления общедоступной службы обмена мгновенными сообщениями Lync Server'
+title: "Lync Server 2013: узел подготовки общедоступных подключений для сообщений Lync"
 TOCTitle: Доступ к сайту предоставления общедоступной службы обмена мгновенными сообщениями Lync Server
 ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn440174(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: настройка автоматического входа клиента для использования директора'
+title: "Lync Server 2013: настройка автом. входа клиента для использования директора"
 TOCTitle: Настройка автоматического входа клиента для использования директора
 ms:assetid: 85369ffc-53ae-43be-8a23-84a094faecff
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398678(v=OCS.15)

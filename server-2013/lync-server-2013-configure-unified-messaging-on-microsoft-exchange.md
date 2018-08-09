@@ -1,6 +1,6 @@
 ﻿---
-title: Настройка единой системы обмена сообщениями на сервере Microsoft Exchange в Lync Server 2013
-TOCTitle: Настройка единой системы обмена сообщениями на сервере Microsoft Exchange в Lync Server 2013
+title: "Lync Server 2013: настр. единой сист. обм. сообщ. на серв. Microsoft Exchange"
+TOCTitle: "Lync Server 2013: настр. единой сист. обм. сообщ. на серв. Microsoft Exchange"
 ms:assetid: 07547968-c59b-4dde-ace4-9fd286933759
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398129(v=OCS.15)
 ms:contentKeyID: 49308839

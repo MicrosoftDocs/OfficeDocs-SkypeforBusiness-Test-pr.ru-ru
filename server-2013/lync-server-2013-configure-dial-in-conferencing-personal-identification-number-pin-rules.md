@@ -1,6 +1,6 @@
 ﻿---
-title: Настройка правил использования PIN-кодов для конференц-связи с телефонным подключением в Lync Server 2013
-TOCTitle: Настройка правил использования PIN-кодов для конференц-связи с телефонным подключением в Lync Server 2013
+title: "Lync Server 2013: настр. прав. исп. ПИН-кодов для конференц-связи с тел. подкл."
+TOCTitle: "Lync Server 2013: настр. прав. исп. ПИН-кодов для конференц-связи с тел. подкл."
 ms:assetid: 27b79fb1-e2dc-4f71-bc82-b6eb61be2b16
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg520967(v=OCS.15)
 ms:contentKeyID: 49309247

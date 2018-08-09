@@ -1,6 +1,6 @@
 ﻿---
-title: Замена адаптера XmlAdapter настраиваемым адаптером совместимости сервера сохраняемого сеанса беседы в Lync Server 2013
-TOCTitle: Замена адаптера XmlAdapter настраиваемым адаптером совместимости сервера сохраняемого сеанса беседы в Lync Server 2013
+title: "Lync Server 2013: замена XmlAdapter спецадаптером сервера сохраняемого чата"
+TOCTitle: "Lync Server 2013: замена XmlAdapter спецадаптером сервера сохраняемого чата"
 ms:assetid: 2cb70db2-663f-40a6-abcf-89ea7d4a8b65
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ680106(v=OCS.15)
 ms:contentKeyID: 49887922

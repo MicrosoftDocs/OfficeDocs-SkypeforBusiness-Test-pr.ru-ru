@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: часто задаваемые вопросы: подготовка сервера Lync Server для подключения Skype'
+title: "Lync Server 2013: часто задав. вопр.: подготовка Lync Server для подкл. Skype"
 TOCTitle: 'Часто задаваемые вопросы: подготовка сервера Lync Server для подключения Skype'
 ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn440172(v=OCS.15)

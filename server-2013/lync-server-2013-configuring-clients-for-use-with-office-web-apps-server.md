@@ -1,5 +1,5 @@
 ﻿---
-title: Настройка клиентов для использования с сервером приложений Office Web Apps в Lync Server 2013
+title: "Lync Server 2013: настройка клиентов для работы с сервером Office Web Apps"
 TOCTitle: Настройка клиентов для использования с сервером приложений Office Web Apps
 ms:assetid: e5eaead7-0b32-42fb-97eb-ca203af59a9d
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205339(v=OCS.15)

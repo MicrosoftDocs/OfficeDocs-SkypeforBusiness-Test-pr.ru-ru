@@ -1,6 +1,6 @@
 ﻿---
-title: Создание голосовой политики и настройка записей использования ТСОП в Lync Server 2013
-TOCTitle: Создание голосовой политики и настройка записей использования ТСОП в Lync Server 2013
+title: "Lync Server 2013: настройка голосовой политики и записей использования ТСОП"
+TOCTitle: "Lync Server 2013: настройка голосовой политики и записей использования ТСОП"
 ms:assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg399027(v=OCS.15)
 ms:contentKeyID: 49311495

@@ -1,6 +1,6 @@
 ﻿---
-title: Настройка функции воспроизведения музыки для режима удержания при парковке вызова в Lync Server 2013
-TOCTitle: Настройка функции воспроизведения музыки для режима удержания при парковке вызова в Lync Server 2013
+title: "Lync Server 2013: настройка музыки при удержании для парковки звонка"
+TOCTitle: "Lync Server 2013: настройка музыки при удержании для парковки звонка"
 ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688031(v=OCS.15)
 ms:contentKeyID: 49887958

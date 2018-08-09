@@ -1,6 +1,6 @@
 ﻿---
-title: Управление проверкой подлинности между серверами (OAuth) и партнерскими приложениями в Lync Server 2013
-TOCTitle: Управление проверкой подлинности между серверами (OAuth) и партнерскими приложениями в Lync Server 2013
+title: "Lync Server 2013: межсерверная аутентификация (OAuth) и партнерские приложения"
+TOCTitle: "Lync Server 2013: межсерверная аутентификация (OAuth) и партнерские приложения"
 ms:assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204817(v=OCS.15)
 ms:contentKeyID: 49309455

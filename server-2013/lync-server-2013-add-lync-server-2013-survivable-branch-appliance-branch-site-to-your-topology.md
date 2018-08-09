@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: добавление сайта филиала Lync Server 2013 Survivable Branch Appliance в топологию'
+title: "Lync Server 2013: ввод в топологию устройства для обеспечения связи в филиалах"
 TOCTitle: Добавление в топологию сайта филиала устройства для обеспечения связи в филиалах Lync Server 2013
 ms:assetid: d3142a37-4606-456d-8ea9-6cc0e51e55f3
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721896(v=OCS.15)

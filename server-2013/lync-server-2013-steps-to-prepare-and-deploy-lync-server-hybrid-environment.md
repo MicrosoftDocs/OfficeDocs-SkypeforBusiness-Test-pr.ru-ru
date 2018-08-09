@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: действия по подготовке и развертыванию гибридной среды Lync Server'
+title: "Lync Server 2013: подготовка и развертывание гибридной среды Lync Server"
 TOCTitle: Действия по подготовке и развертыванию гибридной среды Lync Server 2013
 ms:assetid: a50d4f7b-63f4-4663-af63-56ca87e4e3e7
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205157(v=OCS.15)

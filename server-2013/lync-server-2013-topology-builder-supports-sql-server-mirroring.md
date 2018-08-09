@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: построитель топологий поддерживает зеркальное отображение SQL Server'
+title: "Lync Server 2013: поддержка зеркалирования SQL Server в построителе топологий"
 TOCTitle: Построитель топологий поддерживает зеркальное отображение SQL Server
 ms:assetid: 2c1caa73-c707-4e53-ae3f-a100534373fd
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688007(v=OCS.15)

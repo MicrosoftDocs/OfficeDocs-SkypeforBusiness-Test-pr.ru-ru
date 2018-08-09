@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: отработка отказа для пограничного пула, используемого для федерации Lync Server или федерации XMPP'
+title: "Lync Server 2013: отраб. отказа для погран. пула, исп. для фед. Lync Server или XMPP"
 TOCTitle: Отработка отказа для пограничного пула, используемого для федерации Lync Server или федерации XMPP
 ms:assetid: d40097a1-1bed-44dc-aeb6-0871927ab2b9
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721897(v=OCS.15)

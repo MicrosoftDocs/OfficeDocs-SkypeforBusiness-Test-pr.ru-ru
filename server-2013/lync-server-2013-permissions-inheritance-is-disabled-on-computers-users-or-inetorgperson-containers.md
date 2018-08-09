@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: заблокировано наследование разрешений для компьютеров, пользователей и контейнеров inetOrgPerson'
+title: "Lync Server 2013: отключено наследование прав компьютеров/людей/inetOrgPerson"
 TOCTitle: Заблокировано наследование разрешений для компьютеров, пользователей и контейнеров inetOrgPerson
 ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412970(v=OCS.15)

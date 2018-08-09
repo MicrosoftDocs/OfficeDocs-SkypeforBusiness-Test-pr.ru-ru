@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: создание объектов Contact для размещенной единой системы обмена сообщениями Exchange'
+title: "Lync Server 2013: объекты Contact для размещенной ед. системы сообщ-й Exchange"
 TOCTitle: Создание объектов Contact для размещенной единой системы обмена сообщениями Exchange
 ms:assetid: a39be52f-488a-4523-ad5f-ce1f0d681959
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412765(v=OCS.15)

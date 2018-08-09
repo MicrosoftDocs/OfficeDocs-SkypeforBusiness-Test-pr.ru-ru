@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: процесс развертывания для интеграции размещенной единой системы обмена сообщениями Exchange'
+title: "Lync Server 2013: процесс разверт. для интегр. размещ. единой сист. обм. сообщ. Exchange"
 TOCTitle: Процесс развертывания для интеграции размещенной единой системы обмена сообщениями Exchange с Lync Server
 ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398968(v=OCS.15)

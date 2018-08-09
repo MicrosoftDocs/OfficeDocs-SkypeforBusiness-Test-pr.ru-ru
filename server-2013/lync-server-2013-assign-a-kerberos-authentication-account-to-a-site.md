@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: назначение учетной записи проверки подлинности Kerberos для сайта'
+title: "Lync Server 2013: назначение учетной записи проверки подл. Kerberos для сайта"
 TOCTitle: Назначение учетной записи проверки подлинности Kerberos для сайта
 ms:assetid: 3d9c587c-c8b8-4f81-8ed9-1458a31fc292
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425901(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: установка пароля учетной записи Kerberos для проверки подлинности на сервере'
+title: "Lync Server 2013: устан. пароля уч. записи Kerberos для пров. подл. на сервере"
 TOCTitle: Установка пароля учетной записи Kerberos для проверки подлинности на сервере
 ms:assetid: 902d3292-678d-4512-9248-586053cb638b
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398734(v=OCS.15)

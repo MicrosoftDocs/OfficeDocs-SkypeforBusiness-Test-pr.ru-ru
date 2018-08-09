@@ -1,6 +1,6 @@
 ﻿---
-title: Управление приложениями MSPL (Microsoft SIP Processing Language) в Lync Server 2013
-TOCTitle: Управление приложениями MSPL (Microsoft SIP Processing Language) в Lync Server 2013
+title: "Lync Server 2013: приложения MSPL (Microsoft SIP Processing Language)"
+TOCTitle: "Lync Server 2013: приложения MSPL (Microsoft SIP Processing Language)"
 ms:assetid: 3fb13707-73b5-4f7d-ab0b-a5794ed1be75
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688032(v=OCS.15)
 ms:contentKeyID: 49887959

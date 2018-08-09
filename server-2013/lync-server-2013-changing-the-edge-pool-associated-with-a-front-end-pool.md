@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: изменение пограничного пула, связанного с пулом переднего плана'
+title: "Lync Server 2013: изменение пограничного пула, связанного с внешним пулом"
 TOCTitle: Изменение пограничного пула, связанного с пулом переднего плана
 ms:assetid: 369468c7-2c0b-48cc-bbc3-825dad7b85aa
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688023(v=OCS.15)

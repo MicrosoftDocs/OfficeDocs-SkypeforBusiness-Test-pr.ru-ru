@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: сводка по DNS — единая консолидированная пограничная топология с общедоступными IP-адресами'
+title: "Lync Server 2013: обзор DNS — единая консолидир. граница с общедоступными IP"
 TOCTitle: Сводка по DNS — единая консолидированная пограничная топология с общедоступными IP-адресами
 ms:assetid: 7b83eae4-aa1a-4cc6-8077-42176d56cab5
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205025(v=OCS.15)

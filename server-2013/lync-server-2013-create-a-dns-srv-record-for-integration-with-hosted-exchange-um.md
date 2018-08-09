@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: создание записи DNS SRV для интеграции с размещенной единой системой обмена сообщениями'
+title: "Lync Server 2013: созд. зап. DNS SRV для интегр. с размещ. единой сист. обм. сообщ."
 TOCTitle: Создание записи DNS SRV для интеграции с размещенной единой системой обмена сообщениями
 ms:assetid: 8ea590ae-58ea-4ca5-9853-e0708b3ea760
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh500728(v=OCS.15)

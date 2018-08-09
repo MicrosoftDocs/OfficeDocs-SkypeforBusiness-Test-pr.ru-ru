@@ -1,6 +1,6 @@
 ﻿---
-title: Включение интеграции Exchange 2013 Outlook Web App и службы обмена мгновенными сообщениями
-TOCTitle: Включение интеграции Exchange 2013 Outlook Web App и службы обмена мгновенными сообщениями
+title: "Включение интеграции Exchange 2013 Outlook Web App и службы обмена мгн. сообщ."
+TOCTitle: "Включение интеграции Exchange 2013 Outlook Web App и службы обмена мгн. сообщ."
 ms:assetid: 44d08cf0-b17d-46e1-a4f0-fcc2fe96a958
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204857(v=OCS.15)
 ms:contentKeyID: 49309617

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: изменения Lync Server, затрагивающие планирование пограничного сервера'
+title: "Lync Server 2013: изменения Lync Server, затраг. планирование погран. сервера"
 TOCTitle: Изменения Lync Server 2013, затрагивающие планирование пограничного сервера
 ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204965(v=OCS.15)

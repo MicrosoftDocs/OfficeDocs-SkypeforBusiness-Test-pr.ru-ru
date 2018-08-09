@@ -1,6 +1,6 @@
 ﻿---
-title: Создание новой коллекции параметров конфигурации магистралей в Lync Server 2013
-TOCTitle: Создание новой коллекции параметров конфигурации магистралей в Lync Server 2013
+title: "Lync Server 2013: создание новой коллекции параметров конфигурации магистралей"
+TOCTitle: "Lync Server 2013: создание новой коллекции параметров конфигурации магистралей"
 ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688054(v=OCS.15)
 ms:contentKeyID: 49887987

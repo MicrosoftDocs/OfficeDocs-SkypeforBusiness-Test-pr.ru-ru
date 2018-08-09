@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: настройка федерации SIP, федерации XMPP и общедоступных служб обмена мгновенными сообщениями'
+title: "Lync Server 2013: настр. фед. SIP, фед. XMPP и общед. служб обм. мгн. сообщ."
 TOCTitle: Настройка федерации SIP, федерации XMPP и общедоступных служб обмена мгновенными сообщениями
 ms:assetid: a6d04f0b-5cb8-4084-a3a2-d501938971f9
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205134(v=OCS.15)

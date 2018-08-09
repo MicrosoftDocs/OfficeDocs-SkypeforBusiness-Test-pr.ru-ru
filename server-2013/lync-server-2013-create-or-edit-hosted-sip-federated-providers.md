@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: создание или изменение размещенных федеративных поставщиков SIP'
+title: "Lync Server 2013: создание/изменение размещенных федеративных поставщиков SIP"
 TOCTitle: Создание или изменение размещенных федеративных поставщиков SIP
 ms:assetid: 0dd6dcb6-a88d-46b8-9c96-b35967309bcd
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ552445(v=OCS.15)

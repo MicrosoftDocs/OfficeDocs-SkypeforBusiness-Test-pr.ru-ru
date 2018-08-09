@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: проверка и настройка проверки подлинности и сертификатов для виртуальных каталогов IIS'
+title: "Lync Server 2013: проверка и настройка пров. подл. и серт. для вирт. кат. IIS"
 TOCTitle: Проверка и настройка проверки подлинности и сертификатов для виртуальных каталогов IIS
 ms:assetid: 3ca90be0-1d64-447c-807a-3a2ee3bf625e
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg429702(v=OCS.15)

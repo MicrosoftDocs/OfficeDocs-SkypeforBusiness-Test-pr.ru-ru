@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: включение удаленного управления звонками для пользователей Lync'
+title: "Lync Server 2013: включение удаленного управл. звонками для пользователей Lync"
 TOCTitle: Включение удаленного управления звонками для пользователей Lync
 ms:assetid: f39bc10d-034c-4875-a0b8-554e1109e7e6
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg615048(v=OCS.15)

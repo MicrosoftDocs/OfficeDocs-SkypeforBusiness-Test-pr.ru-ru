@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: пример сбора своих требований организации для контроля допуска звонков'
+title: "Lync Server 2013: прим. сбора своих треб. организ. для контр. допуска звонков"
 TOCTitle: 'Пример: сбор требований организации для контроля допуска звонков'
 ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425827(v=OCS.15)

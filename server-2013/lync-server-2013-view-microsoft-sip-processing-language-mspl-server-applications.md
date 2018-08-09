@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: просмотр серверных приложений Microsoft SIP Processing Language (MSPL)'
+title: "Lync Server 2013: просм. серв. прил. Microsoft SIP Processing Language (MSPL)"
 TOCTitle: Просмотр серверных приложений Microsoft SIP Processing Language (MSPL)
 ms:assetid: b7df1323-b6bd-4925-8fe6-5241c91fe51b
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182575(v=OCS.15)

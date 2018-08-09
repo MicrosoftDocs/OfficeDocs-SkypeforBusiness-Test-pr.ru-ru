@@ -1,6 +1,6 @@
 ﻿---
-title: Этапы сертифицирования AV и OAuth с использованием -Roll in Set-CsCertificate в Lync Server 2013
-TOCTitle: Этапы сертифицирования AV и OAuth с использованием -Roll in Set-CsCertificate в Lync Server 2013
+title: "Lync Server 2013: этапы сертифиц. AV и OAuth с пом. -Roll in Set-CsCertificate"
+TOCTitle: "Lync Server 2013: этапы сертифиц. AV и OAuth с пом. -Roll in Set-CsCertificate"
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ660292(v=OCS.15)
 ms:contentKeyID: 49887901

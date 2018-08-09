@@ -1,6 +1,6 @@
 ﻿---
-title: Настройка единой системы обмена сообщениями Microsoft Exchange Server 2013 для голосовой почты Microsoft Lync Server 2013
-TOCTitle: Настройка единой системы обмена сообщениями Microsoft Exchange Server 2013 для голосовой почты Microsoft Lync Server 2013
+title: "Lync Server 2013: настр. единой сист. обм. сообщ. Microsoft Exchange Server 2013 для голос. почты"
+TOCTitle: "Lync Server 2013: настр. единой сист. обм. сообщ. Microsoft Exchange Server 2013 для голос. почты"
 ms:assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ687983(v=OCS.15)
 ms:contentKeyID: 49887888

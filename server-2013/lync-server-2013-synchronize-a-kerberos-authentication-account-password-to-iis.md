@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: синхронизация пароля учетной записи проверки подлинности Kerberos с IIS'
+title: "Lync Server 2013: синхр. пароля уч. записи проверки подлинности Kerberos с IIS"
 TOCTitle: Синхронизация пароля учетной записи проверки подлинности Kerberos с IIS
 ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398107(v=OCS.15)

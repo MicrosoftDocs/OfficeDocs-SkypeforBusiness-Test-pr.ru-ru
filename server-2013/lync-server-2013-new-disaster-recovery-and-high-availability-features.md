@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: новые возможности высокой доступности и аварийного восстановления'
+title: "Lync Server 2013: новые функции высокой доступности и восстановления"
 TOCTitle: Новые возможности высокой доступности и аварийного восстановления
 ms:assetid: 4fa7cd0f-784b-4d3f-b839-432c2ecaf7c1
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204892(v=OCS.15)

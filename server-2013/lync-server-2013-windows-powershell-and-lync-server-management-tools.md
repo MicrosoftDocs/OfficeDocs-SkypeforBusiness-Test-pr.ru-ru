@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: средства управления для Windows PowerShell и Lync Server 2013'
+title: "Lync Server 2013: средства управления для Windows PowerShell и Lync Server"
 TOCTitle: Средства управления для Windows PowerShell и Lync Server 2013
 ms:assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn481130(v=OCS.15)

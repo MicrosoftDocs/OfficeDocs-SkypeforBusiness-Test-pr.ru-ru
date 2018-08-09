@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: функции, не поддерживаемые маршрутизацией на основе расположения'
+title: "Lync Server 2013: функции, не поддерж. маршрутизацией на основе расположения"
 TOCTitle: Функции, не поддерживаемые маршрутизацией на основе расположения
 ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ994071(v=OCS.15)

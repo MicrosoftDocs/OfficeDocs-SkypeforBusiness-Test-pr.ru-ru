@@ -1,6 +1,6 @@
 ﻿---
-title: Управление параметрами конфигурации службы централизованного ведения журналов с помощью PowerShell
-TOCTitle: Управление параметрами конфигурации службы централизованного ведения журналов с помощью PowerShell
+title: "Lync Server 2013: параметры службы централизованного ведения журналов"
+TOCTitle: "Lync Server 2013: параметры службы централизованного ведения журналов"
 ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721938(v=OCS.15)
 ms:contentKeyID: 49888263

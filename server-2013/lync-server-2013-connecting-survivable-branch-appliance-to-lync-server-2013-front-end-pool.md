@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: подключение Survivable Branch Appliance к пулу переднего плана Lync Server 2013'
+title: "Lync Server 2013: подкл. устр. для обеспеч. связи в филиалах к пулу пер. плана"
 TOCTitle: Подключение Survivable Branch Appliance к пулу переднего плана Lync Server 2013
 ms:assetid: 3c7ca33f-5295-4d82-9152-41d8bc6f35cf
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688026(v=OCS.15)

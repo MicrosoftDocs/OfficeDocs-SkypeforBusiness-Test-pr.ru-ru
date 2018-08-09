@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: настройка брандмауэров и портов для доступа внешних пользователей'
+title: "Lync Server 2013: настр. брандмауэров и портов для доступа внеш. пользователей"
 TOCTitle: Настройка брандмауэров и портов для доступа внешних пользователей
 ms:assetid: cacb3832-f8db-4009-bfcf-6f5c15c236ed
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398848(v=OCS.15)

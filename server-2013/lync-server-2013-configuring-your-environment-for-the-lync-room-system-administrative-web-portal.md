@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: настройка среды для работы с веб-порталом администрирования системы комнат Lync'
+title: "Lync Server 2013: настр. среды для работы с порталом админ. Сист. комнат Lync"
 TOCTitle: Настройка среды для работы с веб-порталом администрирования системы комнат Lync
 ms:assetid: 1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn436325(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Настройка Microsoft Lync Server 2013 для использования единого хранилища контактов
-TOCTitle: Настройка Microsoft Lync Server 2013 для использования единого хранилища контактов
+title: "Lync Server 2013: настройка единого хранилища контактов для Lync Server"
+TOCTitle: "Lync Server 2013: настройка единого хранилища контактов для Lync Server"
 ms:assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688083(v=OCS.15)
 ms:contentKeyID: 49888031
