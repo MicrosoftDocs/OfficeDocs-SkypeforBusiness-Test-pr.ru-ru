@@ -1,6 +1,6 @@
 ﻿---
-title: Доверенные приложения (приложение/компьютер/конечная точка/пул) в Lync Server 2013
-TOCTitle: Доверенные приложения (приложение/компьютер/конечная точка/пул) в Lync Server 2013
+title: "Доверенные прил. (приложение/компьютер/конечная точка/пул) в Lync Server 2013"
+TOCTitle: "Доверенные прил. (приложение/компьютер/конечная точка/пул) в Lync Server 2013"
 ms:assetid: 5ec751df-1697-4739-b9e6-f7e23d8c6d54
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688073(v=OCS.15)
 ms:contentKeyID: 49888013

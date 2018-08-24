@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: рекомендации по интеграции локальной единой системы обмена сообщениями'
+title: "Lync Server 2013: рекомендации по интегр. локальной единой сист. обмена сообщ."
 TOCTitle: Рекомендации по интеграции локальной единой системы обмена сообщениями и Lync Server
 ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398656(v=OCS.15)

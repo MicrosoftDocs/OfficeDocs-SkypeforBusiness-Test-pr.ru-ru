@@ -79,9 +79,12 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Чтобы обойти эту проблему, перезапустите службы Lync Server после изменения конфигурации IP-адреса для этого развертывания. Для этого выполните следующие командлеты в Командная консоль Lync Server:
 
-    Stop-CsWindowsService -graceful
-
-    Start-CsWindowsService
+  ```
+  Stop-CsWindowsService -graceful
+  ```
+  ```
+  Start-CsWindowsService
+  ```
 
 ## Командлет искусственной транзакции конференц-связи с телефонным подключением больше недоступен в пакете управления Lync Server 2013 (3212342)
 
@@ -139,7 +142,7 @@ Lync Server 2013 сохраняет данные конференц-связи �
     
       - Если в вашем развертывании используется сочетание Lync Server 2013 и Lync Server 2010 или Office Communications Server 2007 R2, выполните следующий командлет для каждого пула Lync Server 2013 в топологии.
         
-            new-csaddressbookconfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            new-csAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  Дождитесь окончания репликации CMS на все пулы.
 
@@ -335,9 +338,12 @@ Lync Server 2013 сохраняет данные конференц-связи �
 
 1.  Запустите Windows PowerShell и выполните следующие командлеты:
     
-        New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
-    
-        $a="HKU:\.Default\Control Panel\International"
+    ```
+    New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+    ```
+    ```
+    $a="HKU:\.Default\Control Panel\International"
+    ```
 
 2.  Чтобы просмотреть текущее значение, выполните следующий командлет:
     

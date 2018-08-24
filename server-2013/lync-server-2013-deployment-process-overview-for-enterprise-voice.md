@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: обзор процесса развертывания для корпоративной голосовой связи'
+title: "Lync Server 2013: обзор процесса развертывания корпоративной голосовой связи"
 TOCTitle: Обзор процесса развертывания для корпоративной голосовой связи
 ms:assetid: cf92adbe-aa90-4b05-8e1a-f3794ca68132
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398878(v=OCS.15)

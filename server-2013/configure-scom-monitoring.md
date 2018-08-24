@@ -37,9 +37,12 @@ _**Дата изменения раздела:** 2012-10-04_
 
 2.  В командной строке введите следующую команду:
     
-        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-    
-        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+    ```
+    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+    ```
+    ```
+    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+    ```
     
     > [!NOTE]  
     > При редактировании реестра может возникнуть ошибка выполнения команды, если раздел реестра уже существует. Эту ошибку можно игнорировать.

@@ -315,19 +315,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>msRTCSIP-EnableBestEffortNotify (устаревший)</p></td>
 <td><p>Этот атрибут указывает, создает ли сервер запрос Best Effort NOTIFY (BENOTIFY) вместо запроса NOTIFY в ответ на запрос SUBSCRIBE, полученный от клиента. BENOTIFY — это расширение для подтверждения уведомления о подписке, которое позволяет повысить производительность за счет создания запросов BENOTIFY вместо обычных запросов NOTIFY. Преимущество производительности заключается в том, что запрос BENOTIFY не требует ответа 200 OK от клиента в отличие от запроса NOTIFY.</p>
 <p>Допустимые значения: <strong>TRUE</strong> или <strong>FALSE</strong>.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Live Communications Server 2003 не поддерживает запросы BENOTIFY. Для работы с серверными приложениями, которые написаны с использованием API сервера Live Communications Server 2003 и выполняются на Live Communications Server 2005 и серверах сторонних производителей, можно отключить запросы BENOTIFY, присвоив этому атрибуту значение <strong>FALSE</strong>. В настоящее время запрос BENOTIFY не является частью стандартизации протокола SIP IETF.</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!NOTE]
+> Live Communications Server 2003 не поддерживает запросы BENOTIFY. Для работы с серверными приложениями, которые написаны с использованием API сервера Live Communications Server 2003 и выполняются на Live Communications Server 2005 и серверах сторонних производителей, можно отключить запросы BENOTIFY, присвоив этому атрибуту значение <strong>FALSE</strong>. В настоящее время запрос BENOTIFY не является частью стандартизации протокола SIP IETF.
 
 </div></td>
 <td><p>Новый атрибут в Live Communications Server 2005.</p>
@@ -691,7 +682,7 @@ _**Дата изменения раздела:** 2015-03-09_
 <p>Определение схемы XML (XSD):</p>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;xs:schema id=&quot;instance&quot;  xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
-  &lt;xs:element name=&quot;instance&quot; msdata:IsDataSet=&quot;true&quot;&gt;
+  &lt;xs:element name=&quot;instance&quot; xmlns=&quot;&quot; msdata:IsDataSet=&quot;true&quot;&gt;
     &lt;xs:complexType&gt;
       &lt;xs:choice maxOccurs=&quot;unbounded&quot;&gt;
         &lt;xs:element name=&quot;property&quot; nillable=&quot;true&quot;&gt;

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: поддержка программного обеспечения и инфраструктуры клиентов и устройств'
+title: "Lync Server 2013: поддержка ПО и инфраструктуры клиентов и устройств"
 TOCTitle: Поддержка программного обеспечения и инфраструктуры клиентов и устройств
 ms:assetid: 5dcccc2d-efb0-4e7d-9f14-34435fac8dde
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398412(v=OCS.15)

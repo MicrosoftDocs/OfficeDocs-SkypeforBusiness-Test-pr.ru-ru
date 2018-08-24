@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: выровненное размещение серверов в развертывании пула переднего плана Enterprise Edition'
+title: "Lync Server 2013: выровн. размещ. серверов в разверт. пула пер. плана Enterprise Edition"
 TOCTitle: Выровненное размещение серверов в развертывании пула переднего плана Enterprise Edition
 ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398102(v=OCS.15)

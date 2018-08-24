@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: контроль допуска звонков с помощью стороннего шлюза ТСОП или УАТС'
+title: "Lync Server 2013: контр. допуска звонков с пом. стороннего шлюза ТСОП или УАТС"
 TOCTitle: Контроль допуска звонков с помощью стороннего шлюза ТСОП или УАТС
 ms:assetid: 95dc4ceb-bcad-48ee-86ec-af911727f853
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398762(v=OCS.15)

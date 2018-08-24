@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: назначение учетной записи проверки подлинности Kerberos для сайта'
+title: "Lync Server 2013: назначение учетной записи проверки подл. Kerberos для сайта"
 TOCTitle: Назначение учетной записи проверки подлинности Kerberos для сайта
 ms:assetid: 3d9c587c-c8b8-4f81-8ed9-1458a31fc292
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425901(v=OCS.15)
@@ -27,17 +27,24 @@ _**Дата изменения раздела:** 2017-04-18_
 
 3.  В командной строке выполните следующие две команды:
     
-        New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount" -Identity "site:SiteName"
-    
-        Enable-CsTopology
-    
+    ```
+    New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount" -Identity "site:SiteName"
+    ```
+    ```
+    Enable-CsTopology
+    ```
+
     Например:
     
-        New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth" -Identity "site:redmond"
-    
-        Enable-CsTopology
-    
+    ```
+    New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth" -Identity "site:redmond"
+    ```
+    ```
+    Enable-CsTopology
+    ```
+
     > [!NOTE]  
-    > Вам следует указать параметр UserAccount, используя формат «домен\пользователь». Использование формата «пользователь@домен.расширение» для ссылки на объекты-компьютеры, созданные для проверки подлинности Kerberos, не поддерживается.    
+    > Вам следует указать параметр UserAccount, используя формат «домен\пользователь». Использование формата «пользователь@домен.расширение» для ссылки на объекты-компьютеры, созданные для проверки подлинности Kerberos, не поддерживается. 
+       
     > [!IMPORTANT]  
     > После внесения любых изменений в систему проверку подлинности Kerberos (например, после добавления или удаления учетной записи) необходимо выполнить <strong>Enable-CsTopology</strong> в командной строке Командная консоль Lync Server.

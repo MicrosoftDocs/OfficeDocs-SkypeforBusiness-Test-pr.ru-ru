@@ -75,19 +75,19 @@ _**Дата изменения раздела:** 2012-10-03_
 
    [Развертывание расширенных функций корпоративной голосовой связи в Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
     
-      - [О сетевых областях, сайтах и подсетях в Lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
+  - [О сетевых областях, сайтах и подсетях в Lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
     
-      - [Создание или изменение сетевой области в Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md)
+  - [Создание или изменение сетевой области в Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md)
     
-      - [Создание или изменение сетевого сайта в Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md)
+  - [Создание или изменение сетевого сайта в Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md)
     
-      - [Связь подсети с сетевым сайтом в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [Связь подсети с сетевым сайтом в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
     
-      - [Настройка контроля допуска звонков в Lync Server 2013](lync-server-2013-configure-call-admission-control.md)
+  - [Настройка контроля допуска звонков в Lync Server 2013](lync-server-2013-configure-call-admission-control.md)
     
-      - [Настройка службы Enhanced 9-1-1 в Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md)
+  - [Настройка службы Enhanced 9-1-1 в Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md)
     
-      - [Настройка обхода сервера-посредника в Lync Server 2013](lync-server-2013-configure-media-bypass.md)
+  - [Настройка обхода сервера-посредника в Lync Server 2013](lync-server-2013-configure-media-bypass.md)
 
    [Включение пользователей для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
 

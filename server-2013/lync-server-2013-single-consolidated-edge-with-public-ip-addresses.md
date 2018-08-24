@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: единая консолидированная пограничная топология с общедоступными IP-адресами'
+title: "Lync Server 2013: единая консолид. погран. топология с общедост. IP-адресами"
 TOCTitle: Единая консолидированная пограничная топология с общедоступными IP-адресами
 ms:assetid: a92d1179-6a1f-4efe-908a-f8dfc5024f30
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205148(v=OCS.15)

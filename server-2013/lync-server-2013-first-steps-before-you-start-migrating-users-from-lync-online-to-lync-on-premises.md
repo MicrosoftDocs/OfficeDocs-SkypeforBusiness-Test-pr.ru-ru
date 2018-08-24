@@ -1,6 +1,6 @@
 ﻿---
-title: Первые действия перед началом переноса пользователей из Lync Online в локальное развертывание Lync
-TOCTitle: Первые действия перед началом переноса пользователей из Lync Online в локальное развертывание Lync
+title: "Lync Server 2013: перед перен. польз. из Lync Online в локальное разверт. Lync"
+TOCTitle: "Lync Server 2013: перед перен. польз. из Lync Online в локальное разверт. Lync"
 ms:assetid: 98245b04-ded4-4186-8da3-ba1c554b5c39
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn689118(v=OCS.15)
 ms:contentKeyID: 62247366
@@ -38,9 +38,9 @@ _**Дата изменения раздела:** 2016-12-08_
         Import-PSSession $CSSession -AllowClobber
     ```
     
-    Дополнительные сведения о запуске удаленного сеанса PowerShell в Skype для бизнеса Online см. в статье [Подключение к Lync Online с использованием Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
-    
-    Дополнительные сведения об использовании модуля Skype для бизнеса Online PowerShell см. в статье [Использование Windows PowerShell для управления Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Дополнительные сведения о запуске удаленного сеанса PowerShell в Skype для бизнеса Online см. в статье [Подключение к Lync Online с использованием Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+
+Дополнительные сведения об использовании модуля Skype для бизнеса Online PowerShell см. в статье [Использование Windows PowerShell для управления Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
   - Lync Online должен быть настроен для общедоступного адресного пространства SIP. Для этого сначала запустите удаленный сеанс Powershell с Lync Online. Затем выполните следующий командлет:
     

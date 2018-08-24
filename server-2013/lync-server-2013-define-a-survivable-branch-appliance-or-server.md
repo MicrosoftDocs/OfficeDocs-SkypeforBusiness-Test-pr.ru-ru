@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: определение устройства или сервера для обеспечения связи в филиалах'
+title: "Lync Server 2013: опред. устройства или сервера для обеспеч. связи в филиалах"
 TOCTitle: Определение устройства или сервера для обеспечения связи в филиалах
 ms:assetid: 1f49cfbe-30b3-4600-af15-47cb2f58d18a
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398280(v=OCS.15)

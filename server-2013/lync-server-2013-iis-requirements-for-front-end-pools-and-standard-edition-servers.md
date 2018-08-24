@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: требования IIS для пулов переднего плана и серверов Standard Edition'
+title: "Lync Server 2013: треб. IIS для пулов пер. плана и серверов Standard Edition"
 TOCTitle: Требования IIS для пулов переднего плана и серверов Standard Edition
 ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg399038(v=OCS.15)

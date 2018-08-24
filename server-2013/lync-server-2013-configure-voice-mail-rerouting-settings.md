@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: настройка параметров повторной маршрутизации для голосовой почты'
+title: "Lync Server 2013: настройка параметров повт. маршрутизации для голос. почты"
 TOCTitle: Настройка параметров повторной маршрутизации для голосовой почты
 ms:assetid: 7ab6be28-eabb-4a79-a796-648887d71b83
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398606(v=OCS.15)

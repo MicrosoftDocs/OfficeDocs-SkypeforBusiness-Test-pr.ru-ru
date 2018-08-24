@@ -1,6 +1,6 @@
 ﻿---
-title: Настройка фильтрации передачи файлов и URL-адресов для обмена мгновенными сообщениями в Lync Server 2013
-TOCTitle: Настройка фильтрации передачи файлов и URL-адресов для обмена мгновенными сообщениями в Lync Server 2013
+title: "Lync Server 2013: настр. фильтр. перед. файлов и URL-адресов для обм. мгн. сообщ."
+TOCTitle: "Lync Server 2013: настр. фильтр. перед. файлов и URL-адресов для обм. мгн. сообщ."
 ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg520952(v=OCS.15)
 ms:contentKeyID: 49308980

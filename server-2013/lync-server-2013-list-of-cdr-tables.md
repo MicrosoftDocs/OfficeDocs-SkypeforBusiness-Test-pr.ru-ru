@@ -266,19 +266,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="odd">
 <td><p><a href="lync-server-2013-voipdetails-table.md">Таблица VoipDetails в Lync Server 2013</a></p></td>
 <td><p>Сохранение информации о вызове, включая идентификатор телефона VoIP, используемый шлюз и сторону, прервавшую вызов, для каждого двустороннего вызова VoIP/ТСОП. Ссылается на таблицу <a href="lync-server-2013-sessiondetails-table.md">Таблица SessionDetails в Lync Server 2013</a>, в которой указывается время начала/завершения вызова и код ответа.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Если один участник вызова является пользователем VoIP или при выполнении вызова задействован сервер-посредник, в этой таблице создается соответствующая запись. Информация о вызовах VoIP/VoIP без использования телефона ТСОП (телефонная сеть общего пользования) регистрируется в таблице <a href="lync-server-2013-sessiondetails-table.md">Таблица SessionDetails в Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!NOTE]
+> Если один участник вызова является пользователем VoIP или при выполнении вызова задействован сервер-посредник, в этой таблице создается соответствующая запись. Информация о вызовах VoIP/VoIP без использования телефона ТСОП (телефонная сеть общего пользования) регистрируется в таблице <a href="lync-server-2013-sessiondetails-table.md">Таблица SessionDetails в Lync Server 2013</a>.
 
 </div></td>
 </tr>
@@ -304,19 +295,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="odd">
 <td><p><a href="lync-server-2013-locations-table.md">Таблица Locations в Lync Server 2013</a></p></td>
 <td><p>Сохранение информации о каждом экстренном вызове, например вызове Enhanced 9-1-1 (E9-1-1). Ссылается на таблицу <a href="lync-server-2013-sessiondetails-table.md">Таблица SessionDetails в Lync Server 2013</a>, в которой указывается время начала/завершения вызова и код ответа.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>В этой таблице содержится только большой двоичный объект местоположения для вызова E9-1-1. Ссылается на таблицу SessionDetails, в которой указываются другие подробные сведения о вызове.</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!NOTE]
+> В этой таблице содержится только большой двоичный объект местоположения для вызова E9-1-1. Ссылается на таблицу SessionDetails, в которой указываются другие подробные сведения о вызове.
 
 </div></td>
 </tr>

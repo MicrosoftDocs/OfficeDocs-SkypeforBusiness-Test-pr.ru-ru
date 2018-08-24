@@ -45,19 +45,10 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="odd">
 <td><p><strong>Установка необходимого оборудования и программного обеспечения</strong></p></td>
 <td><p>Функции конференц-связи работают в переднего плана пула переднего плана и выпуска Standard. Дополнительных требований к оборудованию и программному обеспечению, помимо требований для установки этих серверов, нет.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Сервер Lync Server 2013 использует веб-приложения Office Web Apps и сервер Сервер Office Web Apps для обработки общего доступа к презентациям PowerPoint и их отрисовки. Дополнительные сведения об установке и настройке сервера Сервер Office Web Apps см. в статье <a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Настройка интеграции с сервером Office Web Apps и Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+<div>
+
+> [!NOTE]
+> Сервер Lync Server 2013 использует веб-приложения Office Web Apps и сервер Сервер Office Web Apps для обработки общего доступа к презентациям PowerPoint и их отрисовки. Дополнительные сведения об установке и настройке сервера Сервер Office Web Apps см. в статье <a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Настройка интеграции с сервером Office Web Apps и Lync Server 2013</a>.
 
 </div></td>
 <td><p>Доменный пользователь, входящий в локальную группу &quot;Администраторы&quot;</p></td>

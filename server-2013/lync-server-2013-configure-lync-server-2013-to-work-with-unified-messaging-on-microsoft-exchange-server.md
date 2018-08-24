@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: настройка Lync Server 2013 для работы с единой системой обмена сообщениями на Microsoft Exchange Server'
+title: "Lync Server 2013: настр. Lync Server 2013 для работы с единой сист. обм. сообщ. в Microsoft Exchange Server"
 TOCTitle: Настройка Lync Server 2013 для работы с единой системой обмена сообщениями на Microsoft Exchange Server
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398193(v=OCS.15)
@@ -31,28 +31,13 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - Проверяет соответствие имени каждой абонентской группы корпоративной голосовой связи телефонному контексту соответствующей абонентской группы службы унифицированного обмена сообщениями. Это соответствие необходимо только в том случае, если абонентская группа службы унифицированного обмена сообщениями (UM) выполняется на версии Exchange *более ранней,* чем Exchange 2010 с пакетом обновления 1 (SP1).
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Перед запуском средства интеграции Exchange UM убедитесь, что выполнены следующие действия:<ul><li><p>Создайте одну или несколько абонентских групп обмена сообщениями Exchange, как описано в документации Exchange.</p>
-<p>Для Microsoft Exchange Server 2010 см. раздел «Создание абонентской группы единой системы обмена сообщениями» по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>.</p>
-<p>Для Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) см. раздел «Создание абонентской группы URI SIP единой системы обмена сообщениями» по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li><li><p>Создайте одну или несколько соответствующих абонентских групп Lync Server, как описано в разделе <a href="lync-server-2013-create-a-dial-plan.md">Создание абонентской группы в Lync Server 2013</a>.</p>
-<div class="alert">
-> [!IMPORTANT]  
-> Если используется более ранняя версия Exchange, чем Microsoft Exchange Server 2010 SP1, необходимо ввести полное имя домена (FQDN) соответствующей абонентской группы SIP обмена сообщениями Exchange в поле <strong>Простое имя</strong> абонентской группы Lync Server 2013. Если используется Microsoft Exchange Server 2010 SP1 или более поздний пакет обновления, тогда в таком соответствии имен абонентских групп нет необходимости.
-</div></li><li><p>Создайте автосекретаря и убедитесь, что номер абонентского доступа и номера автосекретаря указаны в формате E.164.</p></li></ul></td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]
+> <p>Перед запуском средства интеграции Exchange UM убедитесь, что выполнены следующие действия:<ul><li><p>Создайте одну или несколько абонентских групп обмена сообщениями Exchange, как описано в документации Exchange.</p>
+> <p>Для Microsoft Exchange Server 2010 см. раздел «Создание абонентской группы единой системы обмена сообщениями» по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>.</p>
+> <li><p>Для Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) см. раздел «Создание абонентской группы URI SIP единой системы обмена сообщениями» по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li>
+> <li><p>Создайте одну или несколько соответствующих абонентских групп Lync Server, как описано в разделе <a href="lync-server-2013-create-a-dial-plan.md">Создание абонентской группы в Lync Server 2013</a>.</p></li> 
+> <ul><li>Если используется более ранняя версия Exchange, чем Microsoft Exchange Server 2010 SP1, необходимо ввести полное имя домена (FQDN) соответствующей абонентской группы SIP обмена сообщениями Exchange в поле <strong>Простое имя</strong> абонентской группы Lync Server 2013. Если используется Microsoft Exchange Server 2010 SP1 или более поздний пакет обновления, тогда в таком соответствии имен абонентских групп нет необходимости.</li></ul>
+> <li><p>Создайте автосекретаря и убедитесь, что номер абонентского доступа и номера автосекретаря указаны в формате E.164.</p></li></ul>
 
 ## Запуск средства интеграции Exchange UM
 

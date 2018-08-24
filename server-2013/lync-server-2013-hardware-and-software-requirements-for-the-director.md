@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: требования к оборудованию и программному обеспечению для директора'
+title: "Lync Server 2013: требования к оборудованию и ПО для директора"
 TOCTitle: Требования к оборудованию и программному обеспечению для директора
 ms:assetid: 747b701e-7f97-46fe-91c5-1e8d9addf9f7
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398560(v=OCS.15)

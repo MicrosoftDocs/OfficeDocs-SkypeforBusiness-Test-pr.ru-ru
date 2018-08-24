@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Настройка единой системы обмена сообщениями на сервере Microsoft Exchange Server для работы с Lync Server'
+title: "Lync Server 2013: настр. единой сист. обмена сообщ. на серв. Microsoft Exchange Server для работы с Lync Server"
 TOCTitle: Настройка единой системы обмена сообщениями на сервере Microsoft Exchange Server для работы с Lync Server 2013
 ms:assetid: 058da9c4-23af-4ddb-9f63-70133a8aafc6
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398106(v=OCS.15)

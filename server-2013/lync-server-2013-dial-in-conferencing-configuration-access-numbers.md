@@ -1,6 +1,6 @@
 ﻿---
-title: Конференц-связь с телефонным подключением (конфигурация/номера доступа) в Lync Server 2013
-TOCTitle: Конференц-связь с телефонным подключением (конфигурация/номера доступа) в Lync Server 2013
+title: "Lync Server 2013: конференции с телефонным подключ-ем (конфиг./номера доступа)"
+TOCTitle: "Lync Server 2013: конференции с телефонным подключ-ем (конфиг./номера доступа)"
 ms:assetid: e9b6143a-5ded-4ff8-9c5b-f0a1127e6193
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721923(v=OCS.15)
 ms:contentKeyID: 49888237

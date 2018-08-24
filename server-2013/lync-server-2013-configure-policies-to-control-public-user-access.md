@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: конфигурация политик для управления общим доступом пользователей'
+title: "Lync Server 2013: настройка политик управления общим доступом пользователей"
 TOCTitle: Конфигурация политик для управления общим доступом пользователей
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg520946(v=OCS.15)

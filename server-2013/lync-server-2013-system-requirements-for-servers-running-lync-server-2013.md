@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: системные требования для серверов, на которых работает Lync Server 2013'
+title: "Требования к системе для серверов, на которых работает Lync Server 2013"
 TOCTitle: Системные требования для серверов, на которых работает Lync Server 2013
 ms:assetid: 781d487d-5958-416a-becb-904d9af3cc0a
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398588(v=OCS.15)

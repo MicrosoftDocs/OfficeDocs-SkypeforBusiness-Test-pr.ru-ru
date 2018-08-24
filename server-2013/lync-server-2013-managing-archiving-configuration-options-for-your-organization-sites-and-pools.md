@@ -1,6 +1,6 @@
 ﻿---
-title: Управление параметрами конфигурации архивации для организации, сайтов и пулов в Lync Server 2013
-TOCTitle: Управление параметрами конфигурации архивации для организации, сайтов и пулов в Lync Server 2013
+title: "Lync Server 2013: управл. парам. конфиг. архивации для орган., сайтов и пулов"
+TOCTitle: "Lync Server 2013: управл. парам. конфиг. архивации для орган., сайтов и пулов"
 ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204802(v=OCS.15)
 ms:contentKeyID: 49309444

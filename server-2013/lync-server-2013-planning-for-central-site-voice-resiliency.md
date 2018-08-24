@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: планирование устойчивости голосовой связи для центрального сайта'
+title: "Lync Server 2013: планирование устойчивости голосовой связи центрального сайта"
 TOCTitle: Планирование устойчивости голосовой связи для центрального сайта
 ms:assetid: 52dd0c3e-cd3c-44cf-bef5-8c49ff5e4c7a
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398347(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Настройка партнерских приложений в Microsoft Lync Server 2013 и Microsoft Exchange Server 2013
-TOCTitle: Настройка партнерских приложений в Microsoft Lync Server 2013 и Microsoft Exchange Server 2013
+title: "Lync Server 2013: настр. партн. прил. в Lync Server 2013 и Exchange Server 2013"
+TOCTitle: "Lync Server 2013: настр. партн. прил. в Lync Server 2013 и Exchange Server 2013"
 ms:assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688151(v=OCS.15)
 ms:contentKeyID: 49888111

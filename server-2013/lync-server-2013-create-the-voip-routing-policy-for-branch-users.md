@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: создание политики маршрутизации VoIP для пользователей филиалов'
+title: "Lync Server 2013: политика маршрутизации VoIP для пользователей филиалов"
 TOCTitle: Создание политики маршрутизации VoIP для пользователей филиалов
 ms:assetid: 10deca9f-f870-4a42-b25d-e4fc53108658
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398196(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Просмотр сведений об учетных записях пользователей, разрешенных для Lync Server 2013
-TOCTitle: Просмотр сведений об учетных записях пользователей, разрешенных для Lync Server 2013
+title: "Lync Server 2013: просмотр учетных записей пользователей с Lync Server"
+TOCTitle: "Lync Server 2013: просмотр учетных записей пользователей с Lync Server"
 ms:assetid: 18309dca-b502-44e5-83e2-e314a827d298
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ687980(v=OCS.15)
 ms:contentKeyID: 49887883

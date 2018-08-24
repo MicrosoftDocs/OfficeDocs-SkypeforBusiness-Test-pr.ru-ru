@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: настройка шифрования мультимедиа для общедоступных поставщиков'
+title: "Lync Server 2013: настройка шифр. мультимедиа для общедоступных поставщиков"
 TOCTitle: Настройка шифрования мультимедиа для общедоступных поставщиков
 ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205149(v=OCS.15)
@@ -28,9 +28,12 @@ _**Дата изменения раздела:** 2014-12-12_
 
 2.  В командной строке введите следующие команды:
     
-        Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
-    
-        Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+    ```
+    Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
+    ```
+    ```
+    Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+    ```
     
     > [!NOTE]  
     > Этот шаг является обязательным, поскольку Windows Live Messenger не поддерживает шифрование видео и звука. Эта команда задает глобальную политику шифрования вместо требования шифрования видео и аудиоданных. Клиенты, поддерживающие шифрование, будут по-прежнему использовать его (например, клиенты Lync 2013).

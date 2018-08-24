@@ -19,25 +19,18 @@ _**Дата изменения раздела:** 2014-05-29_
 
 ## Возврат пользователей в локальную среду
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Этот раздел применяется только к учетным записям пользователей, которые были созданы и включены для локального развертывания Lync, а затем перенесены из локального развертывания в Lync Online. Если требуется переместить пользователей, которые были созданы в Lync Online (и никогда не были включены для Lync в локальном развертывании), см. статью <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Перемещение пользователей из Lync Online в локальное развертывание Lync в Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Этот раздел применяется только к учетным записям пользователей, которые были созданы и включены для локального развертывания Lync, а затем перенесены из локального развертывания в Lync Online. Если требуется переместить пользователей, которые были созданы в Lync Online (и никогда не были включены для Lync в локальном развертывании), см. статью <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Перемещение пользователей из Lync Online в локальное развертывание Lync в Lync Server 2013</a>.
 
 
   - Чтобы переместить пользователя из Lync Online обратно в локальное развертывание Lync, выполните следующий командлет:
     
-        $cred=Get-Credential
-    
-        Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
+    ```
+    $cred=Get-Credential
+    ```
+    ```
+    Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
+    ```
 
 URL-адрес, задаваемый для параметра **HostedMigrationOverrideUrl**, должен быть URL-адресом пула, в котором работает размещенная служба миграции, следующего формата:
 

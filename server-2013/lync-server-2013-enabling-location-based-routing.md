@@ -132,23 +132,23 @@ _**Дата изменения раздела:** 2015-03-09_
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-После настройки конфигурации линии связи можно использовать команду Lync ServerWindows PowerShell set-cstrunkconfiguration для включения функции "Маршрутизация на основе расположения" для линий связи, обеспечивающих маршрутизацию. Включите функцию "Маршрутизация на основе расположения" для линий связи, которые обеспечивают маршрутизацию звонков на шлюзы ТСОП, которые маршрутизируют их на номер ТСОП, и связывают сайт сети в месте, где расположен шлюз.
+После настройки конфигурации линии связи можно использовать команду Lync ServerWindows PowerShell Set-CsTrunkConfiguration для включения функции "Маршрутизация на основе расположения" для линий связи, обеспечивающих маршрутизацию. Включите функцию "Маршрутизация на основе расположения" для линий связи, которые обеспечивают маршрутизацию звонков на шлюзы ТСОП, которые маршрутизируют их на номер ТСОП, и связывают сайт сети в месте, где расположен шлюз.
 
-    set-cstrunkconfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
+    Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
 Дополнительные сведения см. в статье [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 В данном примере функция "Маршрутизация на основе расположения" включена для каждой линии связи, связанной с шлюзами ТСОП в Дели и Хайдарабаде:
 
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
 Не включайте эту функцию для линий связи, которые не осуществляют маршрутизацию звонков на номер ТСОП. Но в любом случае свяжите линию связи и сайт сети в том месте, где расположена система, поскольку ограничения функции "Маршрутизация на основе расположения" должны быть обеспечены для звонков на номера ТСОП, достигающих конечных точек, подключенных через данную линию связи. В данном примере функция "Маршрутизация на основе расположения" не включена для каждой линии связи, связанной с системами УАТС в Дели и Хайдарабаде:
 
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
 Конечные точки, подключенные к системам, которые не осуществляют маршрутизацию на номер ТСОП (УАТС), будут иметь такие же ограничения, как конечные точки Lync пользователей с включенной поддержкой функции "Маршрутизация на основе расположения". Это означает, что эти пользователи смогут звонить пользователям Lync и принимать от них звонки независимо от их местонахождения. Кроме того, они смогут звонить и принимать звонки от других систем, которые не осуществляют маршрутизацию звонков в сеть ТСОП (т.е. конечную точку, подключенную к другой УАТС) независимо от сайта сети, с которой связана система. Функция "Маршрутизация на основе расположения" будет действовать для всех входящих и исходящих звонков, случаев перевода или переадресации звонков с использованием конечных точек ТСОП. При подобных звонках должны использоваться только шлюзы ТСОП, признанные локальными для подобных систем.

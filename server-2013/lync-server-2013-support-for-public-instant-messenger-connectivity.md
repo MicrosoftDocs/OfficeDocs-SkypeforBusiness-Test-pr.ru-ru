@@ -1,6 +1,6 @@
 ﻿---
-title: Поддержка подключения к общедоступным службам обмена мгновенными сообщениями в Lync Server 2013
-TOCTitle: Поддержка подключения к общедоступным службам обмена мгновенными сообщениями в Lync Server 2013
+title: "Lync Server 2013: поддержка подкл. к общед. службам обмена мгновенными сообщ."
+TOCTitle: "Lync Server 2013: поддержка подкл. к общед. службам обмена мгновенными сообщ."
 ms:assetid: 9c6eb500-647b-4ccd-a00e-2b8dd7c44a76
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn458579(v=OCS.15)
 ms:contentKeyID: 59373664

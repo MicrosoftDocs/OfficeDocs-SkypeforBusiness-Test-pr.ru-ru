@@ -27,9 +27,12 @@ _**Дата изменения раздела:** 2014-05-29_
 
 Чтобы переместить локального пользователя в клиент Skype для бизнеса Online, запустите в командной консоли Командная консоль Lync Server следующие командлеты, используя для клиента Microsoft Office 365 учетные данные администратора. Замените "username@contoso.com" на информацию о перемещаемом пользователе.
 
-    $creds=Get-Credential
-
-    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
+$creds=Get-Credential
+```
+```
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
 
 URL-адрес, задаваемый для параметра **HostedMigrationOverrideUrl**, должен быть URL-адресом пула, в котором работает размещенная служба миграции, следующего формата: *Https://\<полное доменное имя пула\>/HostedMigration/hostedmigrationService.svc* .
 

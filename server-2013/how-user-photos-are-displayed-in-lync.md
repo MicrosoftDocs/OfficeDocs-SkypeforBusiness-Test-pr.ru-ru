@@ -182,13 +182,18 @@ _**Дата изменения раздела:** 2016-12-08_
 
 В клиентской политике параметр **Отображать изображение с веб-сайта** можно включить, выполнив командлет [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) в Командная консоль Lync Server. В примере ниже показано, как с помощью командлетов настроить данную политику глобально для всех пользователей подразделения:
 
-    $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
-
-    $po=Get-CsClientPolicy -Identity Global
-
-    $po.PolicyEntry.Add($pe)
-
-    Set-CsClientPolicy -Instance $po
+```
+$pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
+```
+```
+$po=Get-CsClientPolicy -Identity Global
+```
+```
+$po.PolicyEntry.Add($pe)
+```
+```
+Set-CsClientPolicy -Instance $po
+```
 
 Когда изображение загружено в почтовый ящик пользователя, Exchange автоматически создает для данного изображения версию с более низким разрешением для использования в клиентских приложениях. Фотография пользователя также обновляется в AD DS.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: установка необходимого программного обеспечения для Lync Server 2013'
+title: "Установка необходимого программного обеспечения для Lync Server 2013"
 TOCTitle: Установка необходимого программного обеспечения для Lync Server 2013
 ms:assetid: 4a3a6a5c-1dc5-4dab-9201-a0df04ba9bfb
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204856(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: настройка статического маршрута для дистанционного управления вызовами'
+title: "Lync Server 2013: настройка статич. маршрута для дистанц. управления вызовами"
 TOCTitle: Настройка статического маршрута для дистанционного управления вызовами
 ms:assetid: f7003023-443d-48ee-989b-71e8b0b0abbd
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg615051(v=OCS.15)
@@ -45,8 +45,11 @@ _**Дата изменения раздела:** 2012-09-22_
       - Для подключения по протоколу TCP введите в командной строке следующую команду:
         
         > [!NOTE]  
-        > Если указывается полное доменное имя, сначала необходимо настроить запись DNS.        
+        > Если указывается полное доменное имя, сначала необходимо настроить запись DNS.   
+
+        ```     
             $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
+        ```
         
         Например:
         
@@ -66,9 +69,12 @@ _**Дата изменения раздела:** 2012-09-22_
 
 4.  Чтобы сохранить созданный маршрут в управления, выполните один из следующих командлетов:
     
-        Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
-    
-        Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+    ```
+    Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
+    ```
+    ```
+    Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+    ```
 
 ## См. также
 

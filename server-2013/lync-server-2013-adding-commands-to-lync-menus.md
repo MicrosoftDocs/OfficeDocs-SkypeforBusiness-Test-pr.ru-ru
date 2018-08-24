@@ -72,42 +72,21 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <td><p>ApplicationType</p></td>
 <td><p>DWORD</p></td>
 <td><p>0 = Исполняемый (по умолчанию)</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Требуется ApplicationInstallPath.</td>
-</tr>
-</tbody>
-</table>
 
-</div>
+> [!NOTE]
+> Требуется ApplicationInstallPath.
+
 <p>1 = Протокол</p></td>
 </tr>
 <tr class="odd">
 <td><p>ApplicationInstallPath</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Полный путь к исполняемому файлу.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398412.note(OCS.15).gif" title="note" alt="note" />Примечание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Необходимо указать, если для параметра ApplicationType установлено значение 0 (исполняемый).</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]
+> Необходимо указать, если для параметра ApplicationType установлено значение 0 (исполняемый).
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Путь</p></td>

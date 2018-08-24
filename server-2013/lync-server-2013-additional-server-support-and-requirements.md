@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: поддержка дополнительных серверов и соответствующие требования'
+title: "Lync Server 2013: поддержка дополнительных серверов и требования"
 TOCTitle: Поддержка дополнительных серверов и соответствующие требования
 ms:assetid: 7622986b-abd6-4f45-8b5b-d5e2368521e8
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398577(v=OCS.15)

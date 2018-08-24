@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: синхронизация пароля учетной записи проверки подлинности Kerberos с IIS'
+title: "Lync Server 2013: синхр. пароля уч. записи проверки подлинности Kerberos с IIS"
 TOCTitle: Синхронизация пароля учетной записи проверки подлинности Kerberos с IIS
 ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398107(v=OCS.15)
@@ -33,29 +33,9 @@ _**Дата изменения раздела:** 2010-11-08_
     
         Set-CsKerberosAccountPassword -FromComputer fe01.contoso.com -ToComputer dir01.contoso.com
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Имена исходного и конечного компьютеров должны быть полными доменными именами (FQDN) сервера. Имя FQDN пула можно использовать только в том случае, если имя пула совпадает с именем компьютера, который используется в качестве исходного или конечного компьютера.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]
+    > Имена исходного и конечного компьютеров должны быть полными доменными именами (FQDN) сервера. Имя FQDN пула можно использовать только в том случае, если имя пула совпадает с именем компьютера, который используется в качестве исходного или конечного компьютера.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>После внесения любых изменений в систему проверку подлинности Kerberos (например, после добавления или удаления учетной записи) необходимо выполнить <strong>Enable-CsTopology</strong> в командной строке Командная консоль Lync Server.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!IMPORTANT]
+    > После внесения любых изменений в систему проверку подлинности Kerberos (например, после добавления или удаления учетной записи) необходимо выполнить <strong>Enable-CsTopology</strong> в командной строке Командная консоль Lync Server.
 

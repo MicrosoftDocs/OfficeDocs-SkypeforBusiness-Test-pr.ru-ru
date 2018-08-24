@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: требования к доменным службам Active Directory, поддержка и топология'
+title: "Lync Server 2013: треб. к дом. службам Active Directory, поддержка и топология"
 TOCTitle: Требования к доменным службам Active Directory, поддержка и топология
 ms:assetid: 95bd160f-bcea-4014-a050-8a3cd2f699c8
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398760(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Удаление существующей коллекции параметров конфигурации магистралей SIP в Lync Server 2013
-TOCTitle: Удаление существующей коллекции параметров конфигурации магистралей SIP в Lync Server 2013
+title: "Lync Server 2013: удаление сущ. коллекции параметров конфиг. магистралей SIP"
+TOCTitle: "Lync Server 2013: удаление сущ. коллекции параметров конфиг. магистралей SIP"
 ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688024(v=OCS.15)
 ms:contentKeyID: 49887949

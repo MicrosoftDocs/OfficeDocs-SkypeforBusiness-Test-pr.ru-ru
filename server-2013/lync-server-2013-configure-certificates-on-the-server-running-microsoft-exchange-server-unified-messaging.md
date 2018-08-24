@@ -1,6 +1,6 @@
 ﻿---
-title: Настройка сертификатов на сервере, на котором работает единая система обмена сообщениями Microsoft Exchange Server
-TOCTitle: Настройка сертификатов на сервере, на котором работает единая система обмена сообщениями Microsoft Exchange Server
+title: "Lync Server 2013: настр. сертиф. на серв., где работ. единая сист. обм. сообщ. Microsoft Exchange Server"
+TOCTitle: "Lync Server 2013: настр. сертиф. на серв., где работ. единая сист. обм. сообщ. Microsoft Exchange Server"
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398564(v=OCS.15)
 ms:contentKeyID: 49310189

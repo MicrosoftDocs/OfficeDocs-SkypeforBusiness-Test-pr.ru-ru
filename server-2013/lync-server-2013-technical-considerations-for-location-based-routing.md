@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: технические рекомендации для маршрутизации на основе расположения'
+title: "Lync Server 2013: техн. рекомендации для маршрутизации на основе расположения"
 TOCTitle: Технические рекомендации для маршрутизации на основе расположения
 ms:assetid: 2e2a9199-7c6f-48d3-9adb-3873fc4f8c4e
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ994027(v=OCS.15)

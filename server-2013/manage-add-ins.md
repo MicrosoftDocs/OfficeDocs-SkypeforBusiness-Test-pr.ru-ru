@@ -25,18 +25,8 @@ _**Дата изменения раздела:** 2012-10-06_
 
     New-CsPersistentChatAddin -PersistentChatPoolFqdn <String> -Name <String> -Url<String>
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ618369.important(OCS.15).gif" title="important" alt="important" />Важно!</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>PersistentChatPoolFqdn &lt;строка&gt; требуется только при наличии двух и более серверов сохраняемого сеанса беседы.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> PersistentChatPoolFqdn &lt;строка&gt; требуется только при наличии двух и более серверов сохраняемого сеанса беседы.
 
 
 Получение надстройки

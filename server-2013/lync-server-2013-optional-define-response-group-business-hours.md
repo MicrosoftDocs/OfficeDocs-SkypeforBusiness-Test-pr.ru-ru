@@ -39,7 +39,7 @@ _**Дата изменения раздела:** 2012-11-01_
 
 3.  Для каждого уникального определяемого диапазона рабочих часов выполните команду:
     
-        $x = new-csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     Чтобы создать коллекцию рабочих часов, использующую заданные диапазоны, выполните команду:
     
@@ -61,6 +61,6 @@ _**Дата изменения раздела:** 2012-11-01_
 
 #### Другие ресурсы
 
-[new-csrgstimerange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsTimeRange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
 [New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 

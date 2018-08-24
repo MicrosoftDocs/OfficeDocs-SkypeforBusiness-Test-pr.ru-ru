@@ -1,6 +1,6 @@
 ﻿---
-title: Предварительные условия для интеграции Microsoft Lync Server 2013 и Microsoft Exchange Server 2013
-TOCTitle: Предварительные условия для интеграции Microsoft Lync Server 2013 и Microsoft Exchange Server 2013
+title: "Предварительные условия для интеграции Lync Server 2013 и Exchange Server 2013"
+TOCTitle: "Предварительные условия для интеграции Lync Server 2013 и Exchange Server 2013"
 ms:assetid: ea22beb9-c02e-47cb-836d-97a556969052
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721919(v=OCS.15)
 ms:contentKeyID: 49888242

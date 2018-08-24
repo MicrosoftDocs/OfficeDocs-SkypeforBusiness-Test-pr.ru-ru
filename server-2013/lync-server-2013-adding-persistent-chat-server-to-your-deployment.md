@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: добавление сервера сохраняемого сеанса беседы в развертывание'
+title: "Lync Server 2013: добавление сервера сохраняемого чата в развертывание"
 TOCTitle: Добавление сервера сохраняемого сеанса беседы в развертывание
 ms:assetid: 9ddbbcf9-60bf-4b04-92b9-af7ca66e2362
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205116(v=OCS.15)

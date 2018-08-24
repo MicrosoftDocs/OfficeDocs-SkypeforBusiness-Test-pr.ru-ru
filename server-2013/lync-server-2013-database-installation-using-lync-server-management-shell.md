@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: установка базы данных с помощью командной консоли Lync Server'
+title: "Lync Server 2013: установка базы данных через командную консоль Lync Server"
 TOCTitle: Установка базы данных с помощью командной консоли Lync Server
 ms:assetid: c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398832(v=OCS.15)
@@ -43,11 +43,15 @@ _**Дата изменения раздела:** 2016-12-08_
 
 3.  Используйте командлет **Install-CsDatabase** для установки управления.
     
-        Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
-        -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
-        -Report <path to report file>
+    ```
+    Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
+    -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
+    -Report <path to report file>
+    ```
     
-        Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
+    ```
+    Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
+    ```
     
 
     > [!TIP]
@@ -76,12 +80,14 @@ _**Дата изменения раздела:** 2016-12-08_
 
 4.  Используйте командлет **Install-CsDatabase** для установки баз данных, настроенных топологий.
     
-        Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
-         -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
-    
-        Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
-        -Report "C:\Logs\InstallDatabases.html"
-    
+    ```
+    Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
+    -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
+    ```
+    ```
+    Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
+    -Report "C:\Logs\InstallDatabases.html"
+    ```
 
     > [!TIP]
     > Параметр Report является необязательным, но он полезен в том случае, если вы документируете процесс установки.

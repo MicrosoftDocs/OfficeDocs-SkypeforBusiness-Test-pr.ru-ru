@@ -1,6 +1,6 @@
 ﻿---
-title: Перемещение пользователей из Lync Online в локальное развертывание Lync в Lync Server 2013
-TOCTitle: Перемещение пользователей из Lync Online в локальное развертывание Lync в Lync Server 2013
+title: "Lync Server 2013: перемещение польз. из Lync Online в локальное развертывание"
+TOCTitle: "Lync Server 2013: перемещение польз. из Lync Online в локальное развертывание"
 ms:assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn689117(v=OCS.15)
 ms:contentKeyID: 62247365

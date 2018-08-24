@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: сводка по DNS — масштабируемый пул директоров, аппаратный балансировщик нагрузки'
+title: "Lync Server 2013: обзор DNS — масшт. пул директоров, апп. балансировщик нагр."
 TOCTitle: Сводка по DNS — масштабируемый пул директоров, аппаратный балансировщик нагрузки
 ms:assetid: 08ba48e6-bfa1-4ab0-bc89-d58ddb9c20af
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204655(v=OCS.15)

@@ -40,10 +40,11 @@ _**Дата изменения раздела:** 2016-12-08_
 <p>Windows 8</p>
 <p>Операционная система Windows 7</p>
 <p>Windows Server 2008 R2 с последним пакетом обновления</p>
-<div class="alert">
+
 > [!NOTE]  
 > Lync 2013 и надстройка собраний по сети для Lync 2013 не поддерживаются в Windows Vista или Windows XP (любой версии).
-</div></td>
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Установка и обновление</p></td>
@@ -56,10 +57,11 @@ _**Дата изменения раздела:** 2016-12-08_
 <p>Веб-браузер Internet Explorer 8</p>
 <p>Веб-браузер Internet Explorer 7</p>
 <p>Mozilla Firefox</p>
-<div class="alert">
+
 > [!NOTE]  
 > Если вы используете Lync с Microsoft Exchange Online и в вашей организации развернут прокси-сервер HTTP, выполняющий проверку подлинности, то браузер Internet Explorer 9 или Internet Explorer 8 является обязательным.
-</div></td>
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Интеграция с Microsoft Office</p></td>

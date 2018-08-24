@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: сводка по DNS — балансировка нагрузки на DNS и аппаратная балансировка нагрузки'
+title: "Lync Server 2013: обзор DNS — баланс. нагр. на DNS и аппаратная баланс. нагр."
 TOCTitle: Сводка по DNS — балансировка нагрузки на DNS и аппаратная балансировка нагрузки
 ms:assetid: d2132695-1956-4190-a98e-cd7255cbded6
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205273(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: необходимые условия для включения проверки подлинности Kerberos'
+title: "Lync Server 2013: необх. условия для включения проверки подлинности Kerberos"
 TOCTitle: Необходимые условия для включения проверки подлинности Kerberos
 ms:assetid: 3f276a21-7476-4bc0-9fd1-59e844d2e9c1
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425909(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: развертывание локальной единой системы обмена сообщениями Exchange для предоставления голосовой почты Lync Server 2013'
+title: "Lync Server 2013: разверт. локальной единой сист. обм. сообщ. Exchange для предост. голос. почты"
 TOCTitle: Развертывание локальной единой системы обмена сообщениями Exchange для предоставления голосовой почты Lync Server 2013
 ms:assetid: 9673bd73-a3a3-425d-870f-04d801c6d0d5
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398768(v=OCS.15)

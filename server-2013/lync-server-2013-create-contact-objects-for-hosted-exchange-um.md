@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: создание объектов Contact для размещенной единой системы обмена сообщениями Exchange'
+title: "Lync Server 2013: объекты Contact для размещенной ед. системы сообщ-й Exchange"
 TOCTitle: Создание объектов Contact для размещенной единой системы обмена сообщениями Exchange
 ms:assetid: a39be52f-488a-4523-ad5f-ce1f0d681959
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412765(v=OCS.15)
@@ -34,9 +34,12 @@ _**Дата изменения раздела:** 2012-09-24_
 
 2.  Чтобы создать любой контактный объект, необходимо выполнить командлет New-CsExUmContact. Например, для создания контактного объекта автосекретаря и абонентского доступа выполните следующие командлеты:
     
-        New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
-    
-        New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
+    ```
+    New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
+    ```
+    ```
+    New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
+    ```
     
     В этих примерах используются следующие параметры:
     

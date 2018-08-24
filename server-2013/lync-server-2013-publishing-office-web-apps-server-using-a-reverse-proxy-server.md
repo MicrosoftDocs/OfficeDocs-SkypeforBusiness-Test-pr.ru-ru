@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: публикация сервера приложений Office Web Apps с помощью обратного прокси-сервера'
+title: "Lync Server 2013: публ. серв. Office Web Apps с пом. обратного прокси-сервера"
 TOCTitle: Публикация сервера приложений Office Web Apps с помощью обратного прокси-сервера
 ms:assetid: 0babe39f-c4b9-46f0-995a-33dc99c2be03
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204665(v=OCS.15)

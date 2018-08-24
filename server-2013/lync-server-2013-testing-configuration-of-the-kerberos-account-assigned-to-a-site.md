@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Testing configuration of the Kerberos account assigned to a site'
+title: "Lync Server 2013: Testing configuration of the Kerberos account assigned to a site"
 TOCTitle: Testing configuration of the Kerberos account assigned to a site
 ms:assetid: a087d77e-c59e-44f5-9caa-ccfd41be7276
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn743837(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: настройка локального развертывания для гибридной работы с Lync Online'
+title: "Lync Server 2013: настройка локальной среды для гибридной работы с Lync Online"
 TOCTitle: Настройка локального развертывания для гибридной работы с Lync Online
 ms:assetid: c26addb0-2936-4eea-9071-3ab95825154b
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205237(v=OCS.15)

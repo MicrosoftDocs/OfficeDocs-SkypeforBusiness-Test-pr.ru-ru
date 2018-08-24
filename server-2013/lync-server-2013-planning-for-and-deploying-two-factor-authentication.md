@@ -1,6 +1,6 @@
 ﻿---
-title: Планирование и развертывание двухфакторной проверки подлинности в Lync Server 2013
-TOCTitle: Планирование и развертывание двухфакторной проверки подлинности в Lync Server 2013
+title: "Lync Server 2013: планирование и развертывание двухфакторной проверки подл."
+TOCTitle: "Lync Server 2013: планирование и развертывание двухфакторной проверки подл."
 ms:assetid: 442a88df-ebc2-4335-9c59-0ce1adc1471e
 ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn308563(v=OCS.15)
 ms:contentKeyID: 56270542
