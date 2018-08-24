@@ -45,8 +45,9 @@ _**Дата изменения раздела:** 2012-10-01_
       - Организации идентифицируются по идентификаторам клиентов, которые являются полными доменными именами маршрутизации для SIP-сообщений для клиентов Exchange Server, расположенных в ls.ExUm. *\<размещенный\_ExchangeServer\>* .com (в данном примере corp.contoso.com и corp.litwareinc.com).
         
         > [!NOTE]  
-        > Полное доменное имя Exchange Online – exap.um.outlook.com.        
-        Подробнее см. [Политики размещенной голосовой почты в Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
+        > Полное доменное имя Exchange Online – exap.um.outlook.com.   
+
+    Подробнее см. [Политики размещенной голосовой почты в Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
 
 > [!NOTE]  
 > Если в учетной записи присутствуют как атрибут msExchUCVoiceMailSettings, так и параметры адреса прокси-сервера единой системы обмена сообщениями, то преимущество имеет атрибут msExchUCVoiceMailSettings.

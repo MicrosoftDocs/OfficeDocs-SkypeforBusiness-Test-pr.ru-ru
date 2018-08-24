@@ -35,7 +35,8 @@ _**Дата изменения раздела:** 2014-02-05_
         Grant-CsSetupPermission -ComputerOU <DN of the OU> -Domain <Domain FQDN>
     
     > [!NOTE]  
-    > Если подразделение находится не на верхнем уровне, необходимо предоставить полное доменное имя.    
+    > Если подразделение находится не на верхнем уровне, необходимо предоставить полное доменное имя.  
+      
     В следующем примере подразделение – это “Lync Servers”, и находится оно в домене contoso.com.
     
         Grant-CsSetupPermission -ComputerOU "OU=Lync Servers" -Domain contoso.com
